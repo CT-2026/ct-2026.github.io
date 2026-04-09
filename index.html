@@ -218,13 +218,20 @@ html,body{
 .ts>*{position:relative}
 .ttop{margin-top:10px;margin-bottom:10px;gap:10px}
 .ttag,.ptsbadge,.mbadge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  min-height:30px;
   border-radius:999px;
   padding:6px 10px;
   border:1px solid transparent;
   box-shadow:inset 0 1px 0 rgba(255,255,255,.05);
+  white-space:nowrap;
+  line-height:1;
 }
 .ttag{background:rgba(56,189,248,.14);border-color:rgba(125,211,252,.16);color:#93c5fd}
-.ptsbadge{background:rgba(245,158,11,.14);border-color:rgba(251,191,36,.16);color:#fcd34d}
+.ptsbadge{min-width:68px;background:rgba(245,158,11,.14);border-color:rgba(251,191,36,.16);color:#fcd34d;font-variant-numeric:tabular-nums}
 .mbadge{background:rgba(244,114,182,.12);border-color:rgba(244,114,182,.24);color:#f9a8d4}
 .tnum{font-size:32px;margin-bottom:14px;letter-spacing:-.02em}
 .tstem{font-size:16px;line-height:1.62;color:#d9e6f2;margin-bottom:22px;max-width:32ch}
@@ -407,6 +414,21 @@ html,body{
       <span class="tctr" id="tc">1 / 40</span>
     </div>
     <div class="pt"><div class="pf" id="pf" style="width:2.5%"></div></div>
+    <div class="sessionbar">
+      <div class="sessiontop">
+        <div class="roundstack">
+          <span class="roundpill" id="round-pill">Alle Aufgaben</span>
+          <span class="sessionchip" id="session-chip">Prüfungsmodus</span>
+        </div>
+        <div class="sessiontitle" id="session-title">40 mobile Lernfragen mit Sofortfeedback</div>
+        <div class="roundhint" id="round-hint">Nach deiner Rückmeldung siehst du direkt Lösung, Merksatz, Abgrenzung, Fachbezug und bei Bedarf Rechenweg oder Lernkarte.</div>
+      </div>
+    </div>
+    <div id="toast" aria-live="polite"></div>
+    <div id="undo-toast" class="undo-toast" aria-live="polite" aria-atomic="true">
+      <div class="undo-copy" id="undo-copy"></div>
+      <button type="button" class="undo-btn" id="undo-btn">Rückgängig</button>
+    </div>
   </div>
 
   <div id="main">
@@ -1397,7 +1419,6 @@ function enhanceA11y(){document.querySelectorAll('.cc').forEach(c=>{const l=c.qu
 function sanitizeAnswer(id,a){if(a==null)return null;if(MMAX[id]){if(!Array.isArray(a))return null;const allow=new Set(origOrder[id]||[]),out=[];a.map(String).forEach(v=>{if(allow.has(v)&&!out.includes(v)&&out.length<MMAX[id])out.push(v)});return out.length?out:null}if(TT.has(id)){const time=canonTime(a);return time||null}if(LT.has(id)){if(!isObj(a))return null;const out={},used=new Set();Object.keys(COR[id]).forEach(k=>{const v=String(a[k]??'');if(origLaw[k].includes(v)&&!used.has(v)){out[k]=v;used.add(v)}});return Object.keys(out).length?out:null}const v=String(a);return(origOrder[id]||[]).includes(v)?v:null}
 function cacheDom(){document.querySelectorAll('.ts').forEach(ts=>{const id=ts.dataset.task,list=ts.querySelector('.cl');tags[id]=ts.querySelector('.ttag')?.textContent.trim()||('Aufgabe '+id);if(list){origOrder[id]=[...list.querySelectorAll('.cc')].map(c=>{const l=c.querySelector('.ci').dataset.label;optText[id+':'+l]=c.querySelector('.ct').textContent.trim();return l})}ts.querySelectorAll('.tseg').forEach(i=>i.value='')});['a','b'].forEach(k=>{const g=document.getElementById('lg-25-'+k);if(!g)return;[...g.children].forEach((c,i)=>{c.dataset.val=String(i+1);optText['25:'+k+':'+c.dataset.val]=c.textContent.trim()})})}
 function mountUi(){
-if(!document.getElementById('round-pill'))document.getElementById('hdr').insertAdjacentHTML('beforeend','<div class="sessionbar"><div class="sessiontop"><div class="roundstack"><span class="roundpill" id="round-pill">Alle Aufgaben</span><span class="sessionchip" id="session-chip">Prüfungsmodus</span></div><div class="sessiontitle" id="session-title">40 mobile Lernfragen mit Sofortfeedback</div><div class="roundhint" id="round-hint"></div></div></div><div id="toast" aria-live="polite"></div><div id="undo-toast" class="undo-toast" aria-live="polite" aria-atomic="true"><div class="undo-copy" id="undo-copy"></div><button type="button" class="undo-btn" id="undo-btn">Rückgängig</button></div>');
 document.getElementById('ovp').innerHTML='<div class="panelhero"><div class="paneleyebrow">Navigation</div><div class="ptitle" id="ov-title">Aufgabenliste</div><div class="psub" id="ov-sub">Wähle eine Aufgabe aus, wenn du direkt dorthin springen möchtest.</div></div><div class="ovstats" id="ov-stats"></div><div class="ogrid" id="og"></div><div class="oleg"><div class="oli"><div class="od a"></div> Beantwortet</div><div class="oli"><div class="od m"></div> Gemerkt</div><div class="oli"><div class="od o"></div> Offen</div></div><button class="bwb" onclick="hideOv()">Zurück zu den Aufgaben</button><button class="bws" id="ov-submit" onclick="submitTest()">Auswertung ansehen</button>';
 document.getElementById('rsp').innerHTML='<div class="result-hero"><div class="result-kicker" id="result-kicker">Gesamtauswertung</div><div class="rscore" id="rs">0</div><div class="rmax" id="rm">von 100 Punkten</div><div class="rbar"><div class="rfill" id="rf" style="width:0%"></div></div><div class="result-sub" id="result-sub"></div><div class="rstatrow" id="rstats"></div></div><div class="result-actions" id="result-actions"></div><div class="result-section"><div class="sectiontitle">Lernbereiche</div><div class="theme-list" id="theme-list"></div></div><div class="result-section"><div class="sectiontitle">Gut zum Wiederholen</div><div class="recommend-list" id="recommend-list"></div></div><div class="result-section"><div class="sectiontitle">Deine Aufgaben</div><div class="rlist" id="rl"></div></div><div class="result-section"><div class="sectiontitle">Bisherige Durchgänge</div><div class="history-list" id="history-list"></div></div><button class="brst" onclick="openResetPanel()">Fortschritt zurücksetzen…</button>';
 if(!document.getElementById('tcp')){const p=document.createElement('div');p.id='tcp';p.className='panel';p.innerHTML='<div class="topic-shell"><div class="topic-hero"><div class="topic-eyebrow" id="topic-eyebrow">Lernkarte</div><div class="topic-title" id="topic-title"></div><div class="topic-text" id="topic-text"></div></div><div class="topic-list" id="topic-lines"></div><div class="topic-actions"><button class="bwb" onclick="hidePanel(\'tcp\')">Später ansehen</button><button class="bws" onclick="hidePanel(\'tcp\')">Weiterlernen</button></div></div>';document.getElementById('app').appendChild(p)}
