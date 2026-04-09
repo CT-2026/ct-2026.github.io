@@ -1,1 +1,1 @@
-# dieterdaniel82.github.io
+# .github.io
