@@ -1,0 +1,1977 @@
+{
+  "schema_version": "azubi_linkcluster_v1",
+  "generated_on": "2026-04-11",
+  "output_type": "merged_and_clustered_link_index",
+  "integration_scope": {
+    "merged_source_files": [
+      {
+        "file_name": "Azubi App links.pdf",
+        "file_type": "pdf",
+        "source_mentions_detected": 39
+      },
+      {
+        "file_name": "Linkliste für Azubis_ Recht & Arbeit.md",
+        "file_type": "markdown",
+        "source_mentions_detected": 96,
+        "curated_cluster_mentions_detected": 20,
+        "reference_mentions_detected": 76
+      }
+    ],
+    "deduplication_key": "normalized_url",
+    "total_source_mentions": 74,
+    "unique_links_after_merge": 58,
+    "duplicate_mentions_merged": 16
+  },
+  "clustering_principles": {
+    "goal": "Links thematisch passend zu typischen WiSo-Prüfungsfragen zusammenführen und direkt nutzbar machen.",
+    "primary_assignment_rule": "Jeder Link erhält genau einen Hauptcluster.",
+    "duplicate_handling": "Mehrfachnennungen aus PDF und Markdown werden über normalisierte URL zusammengeführt.",
+    "ordering_rule": "Zuerst direkt prüfungsnahe Cluster, danach unterstützende Cluster und Randthemen."
+  },
+  "implementierungsbewertung_skala": {
+    "3": "unbedingt implementieren",
+    "2": "gut geeignet",
+    "1": "nur nachrangig",
+    "–": "inhaltlich nicht prüfbar"
+  },
+  "cluster_order": [
+    "ausbildung_allgemein_ausbildungsvertrag_rechte_pflichten",
+    "jugendarbeitsschutz_und_arbeitszeit",
+    "pruefung_freistellung_und_berufsschule",
+    "arbeitsverhaeltnis_bewerbung_und_kuendigung",
+    "tarifvertrag_tarifautonomie_und_tarifbindung",
+    "betriebsrat_jav_und_mitbestimmung",
+    "sozialversicherung_entgelt_und_vorsorge",
+    "kaufrecht_gewaehrleistung_und_widerruf",
+    "lernen_ausbildungspraxis_und_unterstuetzung",
+    "orientierung_und_randthemen",
+    "no_test"
+  ],
+  "clusters": [
+    {
+      "id": "ausbildung_allgemein_ausbildungsvertrag_rechte_pflichten",
+      "label": "Ausbildung allgemein, Ausbildungsvertrag, Rechte und Pflichten",
+      "description": "Grundlagen zum Ausbildungsverhältnis, zum Vertrag und zu den wechselseitigen Pflichten.",
+      "question_fields": [
+        "Ausbildungsvertrag",
+        "Rechte und Pflichten",
+        "BBiG",
+        "Berichtsheft",
+        "Ausbildungsalltag"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "AUS_004",
+          "title": "Berichtsheft führen leicht gemacht",
+          "url": "https://www.aubi-plus.de/ausbildung/berichtsheft/",
+          "normalized_url": "https://www.aubi-plus.de/ausbildung/berichtsheft",
+          "domain": "aubi-plus.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Arbeitsverhältnis"
+          ],
+          "passung_hinweise": [
+            "Tipps für eine wichtige Azubi-Pflicht."
+          ],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "markdown_curated_cluster"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 14,
+              "title_as_listed": "Berichtsheft führen leicht gemacht",
+              "curated_cluster": "Arbeitsverhältnis",
+              "passung": "Tipps für eine wichtige Azubi-Pflicht."
+            }
+          ]
+        },
+        {
+          "id": "AUS_001",
+          "title": "10 Dinge, die Du als Azubi wissen musst - AusbildungsAtlas.de",
+          "url": "https://www.ausbildungsatlas.de/ratgeber/azubi-alltag/",
+          "normalized_url": "https://www.ausbildungsatlas.de/ratgeber/azubi-alltag",
+          "domain": "ausbildungsatlas.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 33,
+              "title_as_listed": "10 Dinge, die Du als Azubi wissen musst - AusbildungsAtlas.de"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "AUS_006",
+          "title": "Deine Rechte & Pflichten als Azubi",
+          "url": "https://www.ausbildung.de/ratgeber/rechte-pflichten-azubi/",
+          "normalized_url": "https://www.ausbildung.de/ratgeber/rechte-pflichten-azubi",
+          "domain": "ausbildung.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Arbeitsverhältnis"
+          ],
+          "passung_hinweise": [
+            "Übersichtliche Liste der wichtigsten Regeln."
+          ],
+          "title_variants": [
+            "Rechte und Pflichten als Azubi: Alle Infos - Ausbildung.de"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 11,
+              "title_as_listed": "Deine Rechte & Pflichten als Azubi",
+              "curated_cluster": "Arbeitsverhältnis",
+              "passung": "Übersichtliche Liste der wichtigsten Regeln."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 30,
+              "title_as_listed": "Rechte und Pflichten als Azubi: Alle Infos - Ausbildung.de"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "AUS_010",
+          "title": "Rechte und Pflichten in der Ausbildung - AUBI-plus",
+          "url": "https://www.aubi-plus.de/ausbildung/rechte-und-pflichten/",
+          "normalized_url": "https://www.aubi-plus.de/ausbildung/rechte-und-pflichten",
+          "domain": "aubi-plus.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 36,
+              "title_as_listed": "Rechte und Pflichten in der Ausbildung - AUBI-plus"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "AUS_011",
+          "title": "Rechte und Pflichten von Auszubildenden - IHK Region Stuttgart",
+          "url": "https://www.ihk.de/stuttgart/fuer-unternehmen/fachkraefte-und-ausbildung/ausbildung/waehrend-der-ausbildung/rechte-pflichten-ausbildungsbetrieb-4233116",
+          "normalized_url": "https://www.ihk.de/stuttgart/fuer-unternehmen/fachkraefte-und-ausbildung/ausbildung/waehrend-der-ausbildung/rechte-pflichten-ausbildungsbetrieb-4233116",
+          "domain": "ihk.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 34,
+              "title_as_listed": "Rechte und Pflichten von Auszubildenden - IHK Region Stuttgart"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        }
+      ]
+    },
+    {
+      "id": "jugendarbeitsschutz_und_arbeitszeit",
+      "label": "Jugendarbeitsschutz und Arbeitszeit",
+      "description": "Material zu Schutzvorschriften, Pausen und Arbeitszeiten für minderjährige Auszubildende.",
+      "question_fields": [
+        "Jugendarbeitsschutzgesetz",
+        "Arbeitszeit",
+        "Pausen",
+        "Minderjährige"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 7,
+      "items": [
+        {
+          "id": "JAS_005",
+          "title": "Das Jugendarbeitsschutzgesetz (JArbSchG) - Azubiyo",
+          "url": "https://www.azubiyo.de/azubi-wissen/jugendarbeitsschutzgesetz/",
+          "normalized_url": "https://www.azubiyo.de/azubi-wissen/jugendarbeitsschutzgesetz",
+          "domain": "azubiyo.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 19,
+              "title_as_listed": "Das Jugendarbeitsschutzgesetz (JArbSchG) - Azubiyo"
+            }
+          ]
+        },
+        {
+          "id": "JAS_007",
+          "title": "Info-Broschüre zum Jugend-Arbeits-Schutz-Gesetz - saarland.de",
+          "url": "https://www.saarland.de/masfg/DE/portale/arbeitsschutz/service/publikationen/pub_jugendarbeitsschutz_muv_leichte_sprache.pdf?__blob=publicationFile&v=2",
+          "normalized_url": "https://www.saarland.de/masfg/DE/portale/arbeitsschutz/service/publikationen/pub_jugendarbeitsschutz_muv_leichte_sprache.pdf?__blob=publicationFile&v=2",
+          "domain": "saarland.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 35,
+              "title_as_listed": "Info-Broschüre zum Jugend-Arbeits-Schutz-Gesetz - saarland.de"
+            }
+          ]
+        },
+        {
+          "id": "JAS_008",
+          "title": "Jugendarbeitsschutzgesetz (JArbSchG - YouTube",
+          "url": "https://www.youtube.com/watch?v=TKcGHn7WnZw",
+          "normalized_url": "https://www.youtube.com/watch?v=TKcGHn7WnZw",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 25,
+              "title_as_listed": "Jugendarbeitsschutzgesetz (JArbSchG - YouTube"
+            }
+          ]
+        },
+        {
+          "id": "JAS_009",
+          "title": "Jugendarbeitsschutzgesetz Kernpunkte - YouTube",
+          "url": "https://www.youtube.com/watch?v=fGslOBo5bmg",
+          "normalized_url": "https://www.youtube.com/watch?v=fGslOBo5bmg",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 20,
+              "title_as_listed": "Jugendarbeitsschutzgesetz Kernpunkte - YouTube"
+            }
+          ]
+        },
+        {
+          "id": "JAS_011",
+          "title": "Jugendarbeitsschutzgesetz: Das sind die Grundregeln",
+          "url": "https://www.arbeitszeit-klug-gestalten.de/alles-zu-arbeitszeitgestaltung/arbeitszeitrecht/regelungen-fuer-jugendliche",
+          "normalized_url": "https://www.arbeitszeit-klug-gestalten.de/alles-zu-arbeitszeitgestaltung/arbeitszeitrecht/regelungen-fuer-jugendliche",
+          "domain": "arbeitszeit-klug-gestalten.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 21,
+              "title_as_listed": "Jugendarbeitsschutzgesetz: Das sind die Grundregeln"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "JAS_012",
+          "title": "Jugendarbeitsschutzgesetz: U-18 am Arbeitsplatz - Lexware",
+          "url": "https://www.lexware.de/wissen/unternehmerlexikon/jugendarbeitsschutzgesetz/",
+          "normalized_url": "https://www.lexware.de/wissen/unternehmerlexikon/jugendarbeitsschutzgesetz",
+          "domain": "lexware.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 11,
+              "title_as_listed": "Jugendarbeitsschutzgesetz: U-18 am Arbeitsplatz - Lexware"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "JAS_014",
+          "title": "Was regelt das Jugendarbeitsschutzgesetz? (Tim erklärt Wirtschaft 9) - YouTube",
+          "url": "https://www.youtube.com/watch?v=FUEbZ22ej50",
+          "normalized_url": "https://www.youtube.com/watch?v=FUEbZ22ej50",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 27,
+              "title_as_listed": "Was regelt das Jugendarbeitsschutzgesetz? (Tim erklärt Wirtschaft 9) - YouTube"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pruefung_freistellung_und_berufsschule",
+      "label": "Prüfung, Freistellung und Berufsschule",
+      "description": "Hinweise zur Freistellung vor und während Prüfungen und zu schulbezogenen Pflichten.",
+      "question_fields": [
+        "Prüfungsfreistellung",
+        "Teil 1",
+        "Zwischenprüfung",
+        "schriftliche Prüfung"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "PRF_001",
+          "title": "Freistellung bei Teil 1 Prüfung - Dr. Azubi",
+          "url": "https://jugend.dgb.de/ausbildung/beratung/dr-azubi/index.html?fp.l=t&fp.d=126441",
+          "normalized_url": "https://jugend.dgb.de/ausbildung/beratung/dr-azubi/index.html?fp.d=126441&fp.l=t",
+          "domain": "jugend.dgb.de",
+          "content_format": "beratungsportal",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "3",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 9,
+              "title_as_listed": "Freistellung bei Teil 1 Prüfung - Dr. Azubi"
+            }
+          ]
+        },
+        {
+          "id": "PRF_002",
+          "title": "Freistellung vor und nach Zwischenprüfung? - Dr. Azubi",
+          "url": "https://jugend.dgb.de/ausbildung/beratung/dr-azubi?fp.l=t&fp.d=129902",
+          "normalized_url": "https://jugend.dgb.de/ausbildung/beratung/dr-azubi?fp.d=129902&fp.l=t",
+          "domain": "jugend.dgb.de",
+          "content_format": "beratungsportal",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "implementierungsbewertung": "2",
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 10,
+              "title_as_listed": "Freistellung vor und nach Zwischenprüfung? - Dr. Azubi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbeitsverhaeltnis_bewerbung_und_kuendigung",
+      "label": "Arbeitsverhältnis, Bewerbung und Kündigung",
+      "description": "Fragen zum Beginn, Verlauf und Ende des Arbeitsverhältnisses sowie zum Bewerbungsverfahren.",
+      "question_fields": [
+        "Kündigung",
+        "Probezeit",
+        "Vorstellungsgespräch",
+        "Urlaub",
+        "Krankheit"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 7,
+      "items": [
+        {
+          "id": "ARB_002",
+          "title": "Ausbildung kündigen - Infos & Muster",
+          "url": "https://www.ausbildung.de/ratgeber/ausbildung-kuendigen/",
+          "normalized_url": "https://www.ausbildung.de/ratgeber/ausbildung-kuendigen",
+          "domain": "ausbildung.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 74,
+              "title_as_listed": "Ausbildung kündigen - Infos & Muster"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_004",
+          "title": "Ausbildungsvertrag: Inhalte, Rechte, Pflichten & Kündigung - Azubiyo",
+          "url": "https://www.azubiyo.de/azubi-wissen/ausbildungsvertrag/",
+          "normalized_url": "https://www.azubiyo.de/azubi-wissen/ausbildungsvertrag",
+          "domain": "azubiyo.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 32,
+              "title_as_listed": "Ausbildungsvertrag: Inhalte, Rechte, Pflichten & Kündigung - Azubiyo"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_006",
+          "title": "Krankheit und Urlaub in der Ausbildung",
+          "url": "https://www.azubister.de/magazin/artikel/arbeitsrecht-fuer-azubis",
+          "normalized_url": "https://www.azubister.de/magazin/artikel/arbeitsrecht-fuer-azubis",
+          "domain": "azubister.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Arbeitsverhältnis"
+          ],
+          "passung_hinweise": [
+            "Klare Regeln zu Fehlzeiten und Erholung."
+          ],
+          "title_variants": [
+            "Arbeitsrecht bei Azubis – Die wichtigsten Punkte im Überblick - azubister"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 15,
+              "title_as_listed": "Krankheit und Urlaub in der Ausbildung",
+              "curated_cluster": "Arbeitsverhältnis",
+              "passung": "Klare Regeln zu Fehlzeiten und Erholung."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 37,
+              "title_as_listed": "Arbeitsrecht bei Azubis – Die wichtigsten Punkte im Überblick - azubister"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_007",
+          "title": "Kündigung des Ausbildungsverhältnisses - Oldenburgische IHK",
+          "url": "https://www.ihk.de/oldenburg/geschaeftsfelder/ausbildungweiterbildung/ausbildung/tipps-zur-ausbildung/kuendigung-von-auszubildenden-3346924",
+          "normalized_url": "https://www.ihk.de/oldenburg/geschaeftsfelder/ausbildungweiterbildung/ausbildung/tipps-zur-ausbildung/kuendigung-von-auszubildenden-3346924",
+          "domain": "ihk.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 38,
+              "title_as_listed": "Kündigung des Ausbildungsverhältnisses - Oldenburgische IHK"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_008",
+          "title": "Kündigung in der Ausbildung: Was gilt?",
+          "url": "https://www.aubi-plus.de/ausbildung/kuendigung/",
+          "normalized_url": "https://www.aubi-plus.de/ausbildung/kuendigung",
+          "domain": "aubi-plus.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Arbeitsverhältnis"
+          ],
+          "passung_hinweise": [
+            "Erklärt Fristen und Gründe für Azubis."
+          ],
+          "title_variants": [
+            "Kündigung in der Ausbildung - Das solltest du wissen! - AUBI-plus"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 12,
+              "title_as_listed": "Kündigung in der Ausbildung: Was gilt?",
+              "curated_cluster": "Arbeitsverhältnis",
+              "passung": "Erklärt Fristen und Gründe für Azubis."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 43,
+              "title_as_listed": "Kündigung in der Ausbildung - Das solltest du wissen! - AUBI-plus"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_013",
+          "title": "Vorstellungsgespräch Fragen: Vorbereitung & Arten von Fragen - Azubiyo",
+          "url": "https://www.azubiyo.de/bewerbung/vorstellungsgespraech/fragen/",
+          "normalized_url": "https://www.azubiyo.de/bewerbung/vorstellungsgespraech/fragen",
+          "domain": "azubiyo.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 71,
+              "title_as_listed": "Vorstellungsgespräch Fragen: Vorbereitung & Arten von Fragen - Azubiyo"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "ARB_001",
+          "title": "Ausbildung abbrechen? Das musst du wissen",
+          "url": "https://www.campusjaeger.de/karriereguide/arbeitsrecht/ausbildung-abbrechen",
+          "normalized_url": "https://www.campusjaeger.de/karriereguide/arbeitsrecht/ausbildung-abbrechen",
+          "domain": "campusjaeger.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Arbeitsverhältnis"
+          ],
+          "passung_hinweise": [
+            "Hilfreiche Tipps für die Neuorientierung."
+          ],
+          "title_variants": [
+            "Ausbildung abbrechen – In und nach der Probezeit - Campusjäger by Workwise"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 13,
+              "title_as_listed": "Ausbildung abbrechen? Das musst du wissen",
+              "curated_cluster": "Arbeitsverhältnis",
+              "passung": "Hilfreiche Tipps für die Neuorientierung."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 41,
+              "title_as_listed": "Ausbildung abbrechen – In und nach der Probezeit - Campusjäger by Workwise"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        }
+      ]
+    },
+    {
+      "id": "tarifvertrag_tarifautonomie_und_tarifbindung",
+      "label": "Tarifvertrag, Tarifautonomie und Tarifbindung",
+      "description": "Ergänzungen zu Tarifvertrag, Tarifautonomie, Tarifparteien und tariflicher Wirkung.",
+      "question_fields": [
+        "Tarifvertrag",
+        "Tarifautonomie",
+        "Tarifbindung",
+        "Günstigkeitsprinzip",
+        "Gewerkschaft"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "TAR_001",
+          "title": "Alles Wichtige zum Thema Tarifvertrag",
+          "url": "https://www.studysmarter.de/magazine/tarifvertrag-einfach-erklaert-alles-was-du-wissen-musst/",
+          "normalized_url": "https://www.studysmarter.de/magazine/tarifvertrag-einfach-erklaert-alles-was-du-wissen-musst",
+          "domain": "studysmarter.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Tarifvertrag"
+          ],
+          "passung_hinweise": [
+            "Strukturierte Übersicht für Schüler und Azubis."
+          ],
+          "title_variants": [
+            "Tarifvertrag einfach erklärt: Alles, was du wissen musst - StudySmarter"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 5,
+              "title_as_listed": "Alles Wichtige zum Thema Tarifvertrag",
+              "curated_cluster": "Tarifvertrag",
+              "passung": "Strukturierte Übersicht für Schüler und Azubis."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 12,
+              "title_as_listed": "Tarifvertrag einfach erklärt: Alles, was du wissen musst - StudySmarter"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "TAR_004",
+          "title": "Tarifautonomie • Definition, Erklärung und Beispiele · [mit Video] - Studyflix",
+          "url": "https://studyflix.de/wirtschaft/tarifautonomie-6651",
+          "normalized_url": "https://studyflix.de/wirtschaft/tarifautonomie-6651",
+          "domain": "studyflix.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 2,
+              "title_as_listed": "Tarifautonomie • Definition, Erklärung und Beispiele · [mit Video] - Studyflix"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "TAR_005",
+          "title": "Tarifbindung und deine Rechte",
+          "url": "https://www.arbeitnehmerkammer.de/bam-magazin/artikel/tarifbindung-kurz-erklaert/",
+          "normalized_url": "https://www.arbeitnehmerkammer.de/bam-magazin/artikel/tarifbindung-kurz-erklaert",
+          "domain": "arbeitnehmerkammer.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Tarifvertrag"
+          ],
+          "passung_hinweise": [
+            "Einfache Fakten zu Transparenz und Lohngerechtigkeit."
+          ],
+          "title_variants": [
+            "Tarifbindung kurz erklärt - Arbeitnehmerkammer Bremen"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 3,
+              "title_as_listed": "Tarifbindung und deine Rechte",
+              "curated_cluster": "Tarifvertrag",
+              "passung": "Einfache Fakten zu Transparenz und Lohngerechtigkeit."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 5,
+              "title_as_listed": "Tarifbindung kurz erklärt - Arbeitnehmerkammer Bremen"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "TAR_010",
+          "title": "Tarifvertrag | Politik für Kinder, einfach erklärt - HanisauLand.de",
+          "url": "https://www.hanisauland.de/wissen/lexikon/grosses-lexikon/t/tarifvertrag.html",
+          "normalized_url": "https://www.hanisauland.de/wissen/lexikon/grosses-lexikon/t/tarifvertrag.html",
+          "domain": "hanisauland.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 3,
+              "title_as_listed": "Tarifvertrag | Politik für Kinder, einfach erklärt - HanisauLand.de"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        }
+      ]
+    },
+    {
+      "id": "betriebsrat_jav_und_mitbestimmung",
+      "label": "Betriebsrat, JAV und Mitbestimmung",
+      "description": "Ressourcen zu betrieblicher Mitbestimmung, Betriebsrat und Jugend- und Auszubildendenvertretung.",
+      "question_fields": [
+        "Betriebsrat",
+        "JAV",
+        "Mitbestimmung",
+        "BetrVG",
+        "Interessenvertretung"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "MIT_003",
+          "title": "Betriebsrat oder Gewerkschaft? Einfach erklärt - t-online.jobs",
+          "url": "https://www.t-online.jobs/karriere-insights/betriebsrat-oder-gewerkschaft-einfach-erklaert/",
+          "normalized_url": "https://www.t-online.jobs/karriere-insights/betriebsrat-oder-gewerkschaft-einfach-erklaert",
+          "domain": "t-online.jobs",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 18,
+              "title_as_listed": "Betriebsrat oder Gewerkschaft? Einfach erklärt - t-online.jobs"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "MIT_004",
+          "title": "Betriebsrat: Aufgaben, Rechte & Pflichten - Azubiyo",
+          "url": "https://www.azubiyo.de/azubi-wissen/betriebsrat/",
+          "normalized_url": "https://www.azubiyo.de/azubi-wissen/betriebsrat",
+          "domain": "azubiyo.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 25,
+              "title_as_listed": "Betriebsrat: Aufgaben, Rechte & Pflichten - Azubiyo"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "MIT_008",
+          "title": "JAV & Betriebsrat: Ein starkes Team",
+          "url": "https://www.azubister.de/magazin/artikel/jugend-und-auszubildendenvertretung",
+          "normalized_url": "https://www.azubister.de/magazin/artikel/jugend-und-auszubildendenvertretung",
+          "domain": "azubister.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Betriebsrat & JAV"
+          ],
+          "passung_hinweise": [
+            "Praxisbeispiele für Hilfe bei Konflikten."
+          ],
+          "title_variants": [
+            "Was ist die Jugend- und Auszubildendenvertretung (JAV)? Einfach erklärt - azubister"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 8,
+              "title_as_listed": "JAV & Betriebsrat: Ein starkes Team",
+              "curated_cluster": "Betriebsrat & JAV",
+              "passung": "Praxisbeispiele für Hilfe bei Konflikten."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 20,
+              "title_as_listed": "Was ist die Jugend- und Auszubildendenvertretung (JAV)? Einfach erklärt - azubister"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "MIT_012",
+          "title": "Mitbestimmung: Warum sie dir nützt",
+          "url": "https://www.hanisauland.de/wissen/lexikon/grosses-lexikon/b/betriebsrat.html",
+          "normalized_url": "https://www.hanisauland.de/wissen/lexikon/grosses-lexikon/b/betriebsrat.html",
+          "domain": "hanisauland.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Betriebsrat & JAV"
+          ],
+          "passung_hinweise": [
+            "Extrem leicht verständlich, ideal für Einsteiger."
+          ],
+          "title_variants": [
+            "Betriebsrat | Politik für Kinder, einfach erklärt - HanisauLand.de"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 9,
+              "title_as_listed": "Mitbestimmung: Warum sie dir nützt",
+              "curated_cluster": "Betriebsrat & JAV",
+              "passung": "Extrem leicht verständlich, ideal für Einsteiger."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 16,
+              "title_as_listed": "Betriebsrat | Politik für Kinder, einfach erklärt - HanisauLand.de"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        }
+      ]
+    },
+    {
+      "id": "sozialversicherung_entgelt_und_vorsorge",
+      "label": "Sozialversicherung, Entgelt und Vorsorge",
+      "description": "Material zu Entgeltabrechnung, Versicherungszweigen und ergänzenden Finanzthemen.",
+      "question_fields": [
+        "Lohnabrechnung",
+        "Sozialversicherung",
+        "Pflegeversicherung",
+        "vermögenswirksame Leistungen",
+        "Altersvorsorge"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "SOZ_002",
+          "title": "Ausbildungsvergütung: Alle Infos zum Azubi-Gehalt - Ausbildung.de",
+          "url": "https://www.ausbildung.de/ratgeber/gehalt/",
+          "normalized_url": "https://www.ausbildung.de/ratgeber/gehalt",
+          "domain": "ausbildung.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 6,
+              "title_as_listed": "Ausbildungsvergütung: Alle Infos zum Azubi-Gehalt - Ausbildung.de"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "SOZ_008",
+          "title": "Lohnabrechnung verstehen – Deine Gehaltsabrechnung Schritt für ...",
+          "url": "https://www.studysmarter.de/magazine/lohnabrechnung-verstehen-deine-gehaltsabrechnung-schritt-fuer-schritt-erklaert/",
+          "normalized_url": "https://www.studysmarter.de/magazine/lohnabrechnung-verstehen-deine-gehaltsabrechnung-schritt-fuer-schritt-erklaert",
+          "domain": "studysmarter.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 28,
+              "title_as_listed": "Lohnabrechnung verstehen – Deine Gehaltsabrechnung Schritt für ..."
+            }
+          ],
+          "implementierungsbewertung": "2"
+        }
+      ]
+    },
+    {
+      "id": "kaufrecht_gewaehrleistung_und_widerruf",
+      "label": "Kaufrecht, Gewährleistung und Widerruf",
+      "description": "Ergänzende Ressourcen zum Kaufrecht und zu typischen Verbraucherfragen.",
+      "question_fields": [
+        "Kaufvertrag",
+        "Gewährleistung",
+        "Garantie",
+        "Widerruf",
+        "Sachmangel"
+      ],
+      "default_pruefungsnaehe": "hoch",
+      "item_count": 6,
+      "items": [
+        {
+          "id": "KAU_002",
+          "title": "Deine Rechte bei der Reklamation (mit Video) - Verbraucherzentrale Brandenburg",
+          "url": "https://www.verbraucherzentrale-brandenburg.de/digi-tools/deine-rechte-bei-der-reklamation-38189",
+          "normalized_url": "https://www.verbraucherzentrale-brandenburg.de/digi-tools/deine-rechte-bei-der-reklamation-38189",
+          "domain": "verbraucherzentrale-brandenburg.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 51,
+              "title_as_listed": "Deine Rechte bei der Reklamation (mit Video) - Verbraucherzentrale Brandenburg"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_008",
+          "title": "MB_02_45 | Gewährleistung, Umtausch & Garantie beim Kauf | IHK zu Leipzig",
+          "url": "https://www.leipzig.ihk.de/mb-02-45/",
+          "normalized_url": "https://www.leipzig.ihk.de/mb-02-45",
+          "domain": "leipzig.ihk.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 49,
+              "title_as_listed": "MB_02_45 | Gewährleistung, Umtausch & Garantie beim Kauf | IHK zu Leipzig"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "KAU_009",
+          "title": "Mängel an der Ware: Was tun?",
+          "url": "https://simpleclub.com/lessons/kaufmann-frau-im-einzelhandel-verkauferin-gewahrleistung-garantie-und-kulanz",
+          "normalized_url": "https://simpleclub.com/lessons/kaufmann-frau-im-einzelhandel-verkauferin-gewahrleistung-garantie-und-kulanz",
+          "domain": "simpleclub.com",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Kaufrecht"
+          ],
+          "passung_hinweise": [
+            "Lernvideo zu Reklamation und Nacherfüllung."
+          ],
+          "title_variants": [
+            "Gewährleistung, Garantie und Kulanz einfach erklärt - simpleclub"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 17,
+              "title_as_listed": "Mängel an der Ware: Was tun?",
+              "curated_cluster": "Kaufrecht",
+              "passung": "Lernvideo zu Reklamation und Nacherfüllung."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 47,
+              "title_as_listed": "Gewährleistung, Garantie und Kulanz einfach erklärt - simpleclub"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "KAU_014",
+          "title": "Tipps für den erfolgreichen Widerruf (mit Video) | Verbraucherzentrale Brandenburg",
+          "url": "https://www.verbraucherzentrale-brandenburg.de/infothek/tipps-fuer-den-erfolgreichen-widerruf-38008",
+          "normalized_url": "https://www.verbraucherzentrale-brandenburg.de/infothek/tipps-fuer-den-erfolgreichen-widerruf-38008",
+          "domain": "verbraucherzentrale-brandenburg.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 59,
+              "title_as_listed": "Tipps für den erfolgreichen Widerruf (mit Video) | Verbraucherzentrale Brandenburg"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_015",
+          "title": "Umtausch und Rückgabe – welche Rechte habe ich? - Verbraucherzentrale Hamburg",
+          "url": "https://www.vzhh.de/themen/einkauf-reise-freizeit/einkauf-online-shopping/umtausch-rueckgabe-welche-rechte-habe-ich",
+          "normalized_url": "https://www.vzhh.de/themen/einkauf-reise-freizeit/einkauf-online-shopping/umtausch-rueckgabe-welche-rechte-habe-ich",
+          "domain": "vzhh.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 56,
+              "title_as_listed": "Umtausch und Rückgabe – welche Rechte habe ich? - Verbraucherzentrale Hamburg"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_017",
+          "title": "Widerruf im Internet - Verbraucherzentrale Berlin",
+          "url": "https://www.verbraucherzentrale-berlin.de/digitale-welt/widerruf-im-internet-99695",
+          "normalized_url": "https://www.verbraucherzentrale-berlin.de/digitale-welt/widerruf-im-internet-99695",
+          "domain": "verbraucherzentrale-berlin.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 57,
+              "title_as_listed": "Widerruf im Internet - Verbraucherzentrale Berlin"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        }
+      ]
+    },
+    {
+      "id": "lernen_ausbildungspraxis_und_unterstuetzung",
+      "label": "Lernen, Ausbildungspraxis und Unterstützung",
+      "description": "Unterstützende Materialien zur Ausbildungspraxis und zu didaktischen Hilfen.",
+      "question_fields": [
+        "Lernunterstützung",
+        "AEVO",
+        "Kommunikation",
+        "Lernmethoden"
+      ],
+      "default_pruefungsnaehe": "mittel",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "id": "orientierung_und_randthemen",
+      "label": "Orientierung und Randthemen",
+      "description": "Randständige oder nur indirekt prüfungsrelevante Links, die im Upload enthalten sind.",
+      "question_fields": [
+        "allgemeine Orientierung",
+        "Hintergrundmaterial",
+        "Randthemen"
+      ],
+      "default_pruefungsnaehe": "niedrig",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "id": "no_test",
+      "label": "no-test",
+      "description": "Abgesetzte Inhalte, die nicht für den Test vorgesehen sind.",
+      "question_fields": [
+        "no-test"
+      ],
+      "default_pruefungsnaehe": "mittel",
+      "item_count": 21,
+      "items": [
+        {
+          "id": "AUS_007",
+          "title": "Der Ausbildungsvertrag Rechte und Pflichten - YouTube",
+          "url": "https://www.youtube.com/watch?v=xhh-p2gF0sw",
+          "normalized_url": "https://www.youtube.com/watch?v=xhh-p2gF0sw",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 2,
+              "title_as_listed": "Der Ausbildungsvertrag Rechte und Pflichten - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "AUS_012",
+          "title": "Vocational training contract explained simply - YouTube",
+          "url": "https://www.youtube.com/watch?v=fNPj8eGKRJ4",
+          "normalized_url": "https://www.youtube.com/watch?v=fNPj8eGKRJ4",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "en",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 3,
+              "title_as_listed": "Vocational training contract explained simply - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "JAS_003",
+          "title": "Arbeitszeiten in der Ausbildung - YouTube",
+          "url": "https://www.youtube.com/watch?v=Zz9c7YkgDD8",
+          "normalized_url": "https://www.youtube.com/watch?v=Zz9c7YkgDD8",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "pdf_linklist"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Azubi App links.pdf",
+              "source_type": "pdf_linklist",
+              "source_index": 7,
+              "title_as_listed": "Arbeitszeiten in der Ausbildung - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "ARB_011",
+          "title": "Permissible and impermissible questions in a job interview - YouTube",
+          "url": "https://www.youtube.com/watch?v=99t6VqumfZo",
+          "normalized_url": "https://www.youtube.com/watch?v=99t6VqumfZo",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "en",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 70,
+              "title_as_listed": "Permissible and impermissible questions in a job interview - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "ARB_012",
+          "title": "Unzulässige Fragen - DAS darf man dich NICHT fragen! - YouTube",
+          "url": "https://www.youtube.com/watch?v=3fuA_nkNfNo",
+          "normalized_url": "https://www.youtube.com/watch?v=3fuA_nkNfNo",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 69,
+              "title_as_listed": "Unzulässige Fragen - DAS darf man dich NICHT fragen! - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "TAR_002",
+          "title": "Gemeinsam mehr erreichen: Tarifvertrag Basics",
+          "url": "https://www.youtube.com/watch?v=VuBNBngpXPM",
+          "normalized_url": "https://www.youtube.com/watch?v=VuBNBngpXPM",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Tarifvertrag"
+          ],
+          "passung_hinweise": [
+            "Kurze Übersicht über Vorteile und Gewerkschaften."
+          ],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_curated_cluster"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 2,
+              "title_as_listed": "Gemeinsam mehr erreichen: Tarifvertrag Basics",
+              "curated_cluster": "Tarifvertrag",
+              "passung": "Kurze Übersicht über Vorteile und Gewerkschaften."
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "TAR_008",
+          "title": "Tarifvertrag einfach erklärt für Azubis",
+          "url": "https://www.youtube.com/watch?v=0AjrbLKrR1I",
+          "normalized_url": "https://www.youtube.com/watch?v=0AjrbLKrR1I",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Tarifvertrag"
+          ],
+          "passung_hinweise": [
+            "Video erklärt Gehälter und Entgelttabellen verständlich."
+          ],
+          "title_variants": [
+            "Was ist ein Tarifvertrag? - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 1,
+              "title_as_listed": "Tarifvertrag einfach erklärt für Azubis",
+              "curated_cluster": "Tarifvertrag",
+              "passung": "Video erklärt Gehälter und Entgelttabellen verständlich."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 13,
+              "title_as_listed": "Was ist ein Tarifvertrag? - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "TAR_009",
+          "title": "Tarifvertrag vs. Arbeitsvertrag: Der Unterschied",
+          "url": "https://www.youtube.com/watch?v=sWff6RhaHtM",
+          "normalized_url": "https://www.youtube.com/watch?v=sWff6RhaHtM",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Tarifvertrag"
+          ],
+          "passung_hinweise": [
+            "Erklärt das Günstigkeitsprinzip ohne schwere Fachsprache."
+          ],
+          "title_variants": [
+            "Was wird in einem Tarifvertrag geregelt? - Tarifvertrag - einfach erklärt - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 4,
+              "title_as_listed": "Tarifvertrag vs. Arbeitsvertrag: Der Unterschied",
+              "curated_cluster": "Tarifvertrag",
+              "passung": "Erklärt das Günstigkeitsprinzip ohne schwere Fachsprache."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 11,
+              "title_as_listed": "Was wird in einem Tarifvertrag geregelt? - Tarifvertrag - einfach erklärt - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "MIT_001",
+          "title": "4 fundamentale Aufgaben eines Betriebsrats | Betriebsrats-Arbeit Podcast - YouTube",
+          "url": "https://www.youtube.com/watch?v=CLThXaC0icI",
+          "normalized_url": "https://www.youtube.com/watch?v=CLThXaC0icI",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 8,
+              "title_as_listed": "4 fundamentale Aufgaben eines Betriebsrats | Betriebsrats-Arbeit Podcast - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "MIT_006",
+          "title": "Das ABC zum Betriebsrat - Ver.di",
+          "url": "https://www.verdi.de/arbeit-recht/mitbestimmung/abc-zum-betriebsrat",
+          "normalized_url": "https://www.verdi.de/arbeit-recht/mitbestimmung/abc-zum-betriebsrat",
+          "domain": "verdi.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 10,
+              "title_as_listed": "Das ABC zum Betriebsrat - Ver.di"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "MIT_007",
+          "title": "Der Betriebsrat: Mitwirkung und Mitbestimmung - YouTube",
+          "url": "https://www.youtube.com/watch?v=PMVq-ZbqVpM",
+          "normalized_url": "https://www.youtube.com/watch?v=PMVq-ZbqVpM",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 28,
+              "title_as_listed": "Der Betriebsrat: Mitwirkung und Mitbestimmung - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "MIT_009",
+          "title": "JAV einfach erklärt: Deine Stimme",
+          "url": "https://www.youtube.com/watch?v=vVr2_w3srm4",
+          "normalized_url": "https://www.youtube.com/watch?v=vVr2_w3srm4",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Betriebsrat & JAV"
+          ],
+          "passung_hinweise": [
+            "Fokus auf Schutzrechte und Übernahme-Ansprüche."
+          ],
+          "title_variants": [
+            "Youth and Trainee Representation (JAV) – simply explained - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 7,
+              "title_as_listed": "JAV einfach erklärt: Deine Stimme",
+              "curated_cluster": "Betriebsrat & JAV",
+              "passung": "Fokus auf Schutzrechte und Übernahme-Ansprüche."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 29,
+              "title_as_listed": "Youth and Trainee Representation (JAV) – simply explained - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "MIT_017",
+          "title": "Was macht ein Betriebsrat?",
+          "url": "https://www.youtube.com/watch?v=RIVh9a9lYyM",
+          "normalized_url": "https://www.youtube.com/watch?v=RIVh9a9lYyM",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Betriebsrat & JAV"
+          ],
+          "passung_hinweise": [
+            "Einfache Erklärung der Aufgaben und Rechte."
+          ],
+          "title_variants": [
+            "Betriebsrat – einfach erklärt - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 6,
+              "title_as_listed": "Was macht ein Betriebsrat?",
+              "curated_cluster": "Betriebsrat & JAV",
+              "passung": "Einfache Erklärung der Aufgaben und Rechte."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 15,
+              "title_as_listed": "Betriebsrat – einfach erklärt - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_001",
+          "title": "#gewusstwie - Was sind Garantie und Gewährleistung? - YouTube",
+          "url": "https://www.youtube.com/watch?v=lbsCQs29CvE",
+          "normalized_url": "https://www.youtube.com/watch?v=lbsCQs29CvE",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 50,
+              "title_as_listed": "#gewusstwie - Was sind Garantie und Gewährleistung? - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_004",
+          "title": "Gewährleistung vs. Garantie: Der Check",
+          "url": "https://www.youtube.com/watch?v=srFld6xmrdY",
+          "normalized_url": "https://www.youtube.com/watch?v=srFld6xmrdY",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Kaufrecht"
+          ],
+          "passung_hinweise": [
+            "Erklärt den Unterschied kurz und knackig."
+          ],
+          "title_variants": [
+            "Garantie und Gewährleistung | Das sind die Unterschiede - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 16,
+              "title_as_listed": "Gewährleistung vs. Garantie: Der Check",
+              "curated_cluster": "Kaufrecht",
+              "passung": "Erklärt den Unterschied kurz und knackig."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 45,
+              "title_as_listed": "Garantie und Gewährleistung | Das sind die Unterschiede - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_005",
+          "title": "Gewährleistungsrechte - Rechte des Käufers einfach erklärt - Beschaffung, Kaufverträge - Verbraucher - YouTube",
+          "url": "https://www.youtube.com/watch?v=VnQ97-L0BZ8",
+          "normalized_url": "https://www.youtube.com/watch?v=VnQ97-L0BZ8",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 52,
+              "title_as_listed": "Gewährleistungsrechte - Rechte des Käufers einfach erklärt - Beschaffung, Kaufverträge - Verbraucher - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_010",
+          "title": "Rechte beim Sachmangel - YouTube",
+          "url": "https://www.youtube.com/watch?v=m9EJ--yVyBs",
+          "normalized_url": "https://www.youtube.com/watch?v=m9EJ--yVyBs",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 53,
+              "title_as_listed": "Rechte beim Sachmangel - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "KAU_011",
+          "title": "Sachmangel (§ 434 BGB) einfach erklärt (NEUES KAUFRECHT) - YouTube",
+          "url": "https://www.youtube.com/watch?v=Z3S99N_KMoI",
+          "normalized_url": "https://www.youtube.com/watch?v=Z3S99N_KMoI",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 48,
+              "title_as_listed": "Sachmangel (§ 434 BGB) einfach erklärt (NEUES KAUFRECHT) - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "KAU_013",
+          "title": "Sicher online shoppen: Deine Rechte",
+          "url": "https://www.youtube.com/watch?v=Iq1xBgoiW84",
+          "normalized_url": "https://www.youtube.com/watch?v=Iq1xBgoiW84",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Kaufrecht"
+          ],
+          "passung_hinweise": [
+            "Fokus auf Widerruf ohne Angabe von Gründen."
+          ],
+          "title_variants": [
+            "Widerruf erklärt – was du wissen musst! - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 19,
+              "title_as_listed": "Sicher online shoppen: Deine Rechte",
+              "curated_cluster": "Kaufrecht",
+              "passung": "Fokus auf Widerruf ohne Angabe von Gründen."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 58,
+              "title_as_listed": "Widerruf erklärt – was du wissen musst! - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        },
+        {
+          "id": "KAU_016",
+          "title": "Widerruf bei Online-Käufen erklärt",
+          "url": "https://www.youtube.com/watch?v=cvSTp2MQ7u8",
+          "normalized_url": "https://www.youtube.com/watch?v=cvSTp2MQ7u8",
+          "domain": "youtube.com",
+          "content_format": "video",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [
+            "Kaufrecht"
+          ],
+          "passung_hinweise": [
+            "Tipps zur 14-Tage-Frist und Rücksendung."
+          ],
+          "title_variants": [
+            "Was ist das Widerrufsrecht? | Glossar | W2 - YouTube"
+          ],
+          "source_groups": [
+            "markdown_curated_cluster",
+            "markdown_reference"
+          ],
+          "source_mention_count": 2,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_curated_cluster",
+              "source_index": 18,
+              "title_as_listed": "Widerruf bei Online-Käufen erklärt",
+              "curated_cluster": "Kaufrecht",
+              "passung": "Tipps zur 14-Tage-Frist und Rücksendung."
+            },
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 62,
+              "title_as_listed": "Was ist das Widerrufsrecht? | Glossar | W2 - YouTube"
+            }
+          ],
+          "implementierungsbewertung": "2"
+        },
+        {
+          "id": "KAU_019",
+          "title": "Widerrufsrecht - Widerruf von Verträgen - BMJV",
+          "url": "https://www.bmjv.de/DE/themen/kaufen_reisen_wohnen/widerruf/widerruf_artikel.html",
+          "normalized_url": "https://www.bmjv.de/DE/themen/kaufen_reisen_wohnen/widerruf/widerruf_artikel.html",
+          "domain": "bmjv.de",
+          "content_format": "artikel",
+          "language_hint": "de",
+          "pruefungsnaehe": "hoch",
+          "curated_cluster_labels": [],
+          "passung_hinweise": [],
+          "title_variants": [],
+          "source_groups": [
+            "markdown_reference"
+          ],
+          "source_mention_count": 1,
+          "source_mentions": [
+            {
+              "source_file": "Linkliste für Azubis_ Recht & Arbeit.md",
+              "source_type": "markdown_reference",
+              "source_index": 61,
+              "title_as_listed": "Widerrufsrecht - Widerruf von Verträgen - BMJV"
+            }
+          ],
+          "implementierungsbewertung": "3"
+        }
+      ]
+    }
+  ]
+}
