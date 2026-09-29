@@ -1,0 +1,60 @@
+{
+  "id": "mat-verkaufsaktion",
+  "revision": 1,
+  "title": "Fall: Auswertung einer Verkaufsaktion",
+  "kind": "table",
+  "table": {
+    "columns": [
+      {
+        "label": "Kennzahl",
+        "align": "left"
+      },
+      {
+        "label": "Vergleichswoche",
+        "align": "left"
+      },
+      {
+        "label": "Aktionswoche",
+        "align": "left"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Besuche im Geschäft",
+          "200",
+          "240"
+        ]
+      },
+      {
+        "cells": [
+          "Käufe",
+          "40",
+          "60"
+        ]
+      },
+      {
+        "cells": [
+          "Umsatz",
+          "800,00 €",
+          "1.080,00 €"
+        ]
+      },
+      {
+        "cells": [
+          "Zusätzliche Werbung",
+          "keine",
+          "100,00 €"
+        ]
+      }
+    ]
+  },
+  "note": "Je Kauf gibt es einen Kassenbon; je Besuch wird höchstens ein Kauf gezählt. Beide Wochen haben gleich viele Öffnungstage. Waren- und übrige Betriebskosten sind nicht angegeben. Umsatzwerte werden auf derselben Preisbasis verglichen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

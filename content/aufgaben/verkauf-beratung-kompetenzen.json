@@ -1,0 +1,14 @@
+{
+  "id": "verkauf-beratung-kompetenzen",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Kompetenzen des Verkaufspersonals",
+  "materials": [],
+  "help": "Welche Kompetenz braucht man vor allem, wenn man Mitarbeitende anleitet – und nicht, wenn man Kunden berät?",
+  "short_explanation": "Im Verkauf sind Fach-, Methoden-, Sozial- und Medienkompetenz erforderlich. Führungskompetenz ist nur für Vorgesetzte zwingend, die Mitarbeitende anleiten.",
+  "detailed_explanation": "Kompetenzen im Verkauf:\n- **Fachkompetenz:** Warenkenntnis, etwa Inhaltsstoffe und Anwendung von Drogerieartikeln.\n- **Methodenkompetenz:** Arbeitstechniken, etwa Gesprächsführung und Warenvorlage.\n- **Sozialkompetenz:** Freundlichkeit, Einfühlungsvermögen, Teamfähigkeit.\n- **Medienkompetenz:** Umgang mit Kassensystem, Warenwirtschaftssystem und digitalen Informationen.\n\nFührungskompetenz – Mitarbeitende anleiten, motivieren und kontrollieren – ist Aufgabe von Vorgesetzten. Für die Arbeit im Verkauf ist sie nicht zwingend erforderlich.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

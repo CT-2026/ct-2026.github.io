@@ -1,0 +1,97 @@
+{
+  "id": "mat-wareneingangsschein-trikots",
+  "revision": 2,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-4db277e3-0c9f-5900-8805-acaf9d843699",
+    "excerpt": "wwk-warenannahme-eingangsschein"
+  },
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Lauf 5: Achtspaltiges Formular in eine zweispaltige Tabelle mit Feldnamen als Zeilenüberschriften übertragen; alle Belegangaben erhalten."
+    ]
+  },
+  "overrides": {
+    "table": {
+      "columns": [
+        {
+          "label": "Feld",
+          "align": "left"
+        },
+        {
+          "label": "Angabe",
+          "align": "left"
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Datum",
+            "5. April 2022"
+          ]
+        },
+        {
+          "cells": [
+            "Beleg-Nr.",
+            "6548"
+          ]
+        },
+        {
+          "cells": [
+            "Lieferer",
+            "Freizeitartikel OHG, 99089 Erfurt"
+          ]
+        },
+        {
+          "cells": [
+            "Bestell-Nr.",
+            "256"
+          ]
+        },
+        {
+          "cells": [
+            "Bestellmenge",
+            "50 Stück"
+          ]
+        },
+        {
+          "cells": [
+            "Versandart",
+            "DHL"
+          ]
+        },
+        {
+          "cells": [
+            "Verpackungsart",
+            "Pakete"
+          ]
+        },
+        {
+          "cells": [
+            "Liefermenge",
+            "45 Stück"
+          ]
+        },
+        {
+          "cells": [
+            "Lieferschein-Nr.",
+            "3452"
+          ]
+        },
+        {
+          "cells": [
+            "Warenart",
+            "Trikots"
+          ]
+        },
+        {
+          "cells": [
+            "Art.-Nr.",
+            "0648"
+          ]
+        }
+      ]
+    }
+  }
+}

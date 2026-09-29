@@ -1,0 +1,54 @@
+{
+  "id": "verkauf-aktion-aussage",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "aktion",
+  "variant_group": "verkauf.aktion",
+  "title": "Ergebnisse sachlich einordnen",
+  "stem": "Welche zwei Aussagen sind durch die angegebenen Daten gedeckt?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Der Umsatz ist um 280,00 € gestiegen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Werbung hat nachweislich jeden zusätzlichen Kauf verursacht."
+      },
+      {
+        "id": "choice-3",
+        "text": "Die genaue Gewinnänderung ist ohne Waren- und weitere Kosten nicht bestimmbar."
+      },
+      {
+        "id": "choice-4",
+        "text": "Der Gewinn ist sicher um 280,00 € gestiegen."
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-verkaufsaktion",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Trenne Umsatz, Gewinn und den Nachweis einer Ursache.",
+  "short_explanation": "1.080 € − 800 € = 280 € mehr Umsatz. Für die Gewinnänderung fehlen Kostendaten.",
+  "detailed_explanation": "Auch nach Abzug der 100 € Werbung sind 180 € noch kein belegter Mehrgewinn, da insbesondere zusätzliche Warenkosten fehlen. Zwei Wochen allein beweisen zudem keine Werbeursache.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

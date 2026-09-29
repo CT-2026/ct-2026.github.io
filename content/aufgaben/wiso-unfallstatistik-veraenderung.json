@@ -1,0 +1,52 @@
+{
+  "id": "wiso-unfallstatistik-veraenderung",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "schutz",
+  "variant_group": "wiso.arbeitsschutz-statistik",
+  "title": "Veränderung in der Statistik",
+  "stem": "Um wie viele Fälle ist die Zahl der tödlichen Wegeunfälle vom Vorjahr zum aktuellen Jahr gestiegen?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "6 Fälle"
+      },
+      {
+        "id": "choice-2",
+        "text": "21 Fälle"
+      },
+      {
+        "id": "choice-3",
+        "text": "27 Fälle"
+      },
+      {
+        "id": "choice-4",
+        "text": "394 Fälle"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-unfallstatistik-uv",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Lies die Zeile „Tödliche Wegeunfälle“. Ziehe den Vorjahreswert vom aktuellen Wert ab.",
+  "short_explanation": "394 − 367 = 27. Die Zahl der tödlichen Wegeunfälle ist um 27 Fälle gestiegen.",
+  "detailed_explanation": "Die Frage betrifft die absolute Veränderung, nicht die Gesamtzahl und nicht den Prozentwert. Der aktuelle Wert beträgt 394, der Vorjahreswert 367. Die Differenz ist 27. Die Tabelle gehört zu einer historischen Übung und beschreibt keine aktuelle Unfallentwicklung.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

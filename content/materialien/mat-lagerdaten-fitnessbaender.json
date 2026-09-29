@@ -1,0 +1,13 @@
+{
+  "id": "mat-lagerdaten-fitnessbaender",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-d5038b27-6857-57d1-bd4e-e69bf08b8c6f",
+    "excerpt": "wwk-artikeldaten-falschbuchung"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

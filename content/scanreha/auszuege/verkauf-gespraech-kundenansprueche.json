@@ -1,0 +1,223 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-gespraech-kundenansprueche",
+  "item": {
+    "id": "itm-zp19-vk-15",
+    "revision": 2,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Kundenansprüche zuordnen",
+    "stem_md": "Sie müssen während eines Verkaufsgesprächs auf Erwartungen und Wünsche der Kunden eingehen. Ordnen Sie zu, indem Sie die Kennziffern der 4 Kundenansprüche den Fragen zuordnen!",
+    "response": {
+      "type": "matching",
+      "required_answers": 5,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Preis"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Umwelt"
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Service"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Gebrauchsnutzen"
+        }
+      ],
+      "entries": [],
+      "targets": [
+        {
+          "id": "target-1",
+          "text_md": "„Nehmen Sie die verbrauchten Batterien zurück?“"
+        },
+        {
+          "id": "target-2",
+          "text_md": "„Welche Materialien kann ich mit diesem Kleber verarbeiten?“"
+        },
+        {
+          "id": "target-3",
+          "text_md": "„Kann ich den Pullover umtauschen, wenn er nicht gefällt?“"
+        },
+        {
+          "id": "target-4",
+          "text_md": "„Warum ist diese Waschmaschine bei Ihnen so teuer?“"
+        },
+        {
+          "id": "target-5",
+          "text_md": "„Liefern Sie diese Ware auch ins Haus?“"
+        }
+      ],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp19-vk-01",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.bedarf"
+      ],
+      "primary_topic_id": "topic.verkauf.bedarf",
+      "methods": [],
+      "competencies": [
+        "match"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/14",
+        "original_label": "15",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0026.tif",
+        "printed_page": 5,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "15",
+          "parent_label": null,
+          "scan_file": "Page 5",
+          "printed_page": 5
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0026.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Mechanik für Lösungsbogen aus dem Aufgabentext entfernt.",
+      "required_answers von 4 auf 5 korrigiert; die fünf Zuordnungsziele verlangen fünf Eintragungen."
+    ],
+    "source_key": "ZP-H2019-7300-VK:15"
+  },
+  "document": {
+    "id": "ZP-H2019-7300-VK",
+    "revision": 1,
+    "title": "Zwischenprüfung Herbst 2019",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2019,
+    "year_end": 2019,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Vollständige Erfassung aus den Originalscans ZP_Herbst2019_VK-AO2017-7300 - 0022.tif bis 0033.tif.",
+      "Vor der Integration wurden die 45 Aufgaben, die 17 Materialien und ihre Seitenzuordnung gegen die bereitgestellten TIFF-Originale abgeglichen.",
+      "Belegte Übertragungsfehler bei Aufgabe 15, Aufgabe 32 sowie den Bildbeschreibungen der Kundenumfrage und der Stehleitern wurden korrigiert.",
+      "Sieben bildabhängige Materialien erhalten Originalausschnitte als PNG-Assets."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-7fe2d5d2-73b1-55c0-a67d-b9a2402b5a4b",
+      "revision": 1,
+      "item_id": "itm-zp19-vk-15",
+      "item_revision": 2,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "2;4;3;1;3",
+      "answer": {
+        "matches": [
+          {
+            "target_id": "target-1",
+            "choice_id": "choice-2"
+          },
+          {
+            "target_id": "target-2",
+            "choice_id": "choice-4"
+          },
+          {
+            "target_id": "target-3",
+            "choice_id": "choice-3"
+          },
+          {
+            "target_id": "target-4",
+            "choice_id": "choice-1"
+          },
+          {
+            "target_id": "target-5",
+            "choice_id": "choice-3"
+          }
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/14",
+        "original_label": "15",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0026.tif",
+        "printed_page": 5,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "15",
+          "parent_label": null,
+          "scan_file": "Page 5",
+          "printed_page": 5
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0026.tif"
+      },
+      "content_topic_ids": [
+        "topic.verkauf.bedarf"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Fachliche Herleitung: Batterierücknahme betrifft Umwelt, Kleber-Einsatz den Gebrauchsnutzen, Umtausch und Lieferung den Service, die Preisfrage den Preis."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-7fe2d5d2-73b1-55c0-a67d-b9a2402b5a4b",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp19-vk-01",
+      "title": "Unternehmensbeschreibung Merlin GmbH",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+    }
+  ],
+  "prerequisites": []
+}

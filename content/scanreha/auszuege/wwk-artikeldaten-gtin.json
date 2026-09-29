@@ -1,0 +1,286 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-artikeldaten-gtin",
+  "item": {
+    "id": "itm-390ce12d-d488-5490-87b3-9bed31d89dc2",
+    "revision": 3,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Vorteil der GTIN für das Warenhaus",
+    "stem_md": "Die meisten Artikel in Ihrem Sortiment sind mit dem GTIN-Code gekennzeichnet. Welchen Vorteil bringt dieser Code Ihrem Warenhaus?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1.",
+          "text_md": "Aus dem GTIN-Code ist der Einkaufspreis ablesbar."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2.",
+          "text_md": "Der GTIN-Code macht die Preisauszeichnung für alle Artikel überflüssig."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3.",
+          "text_md": "Der GTIN-Code an der Ware ersetzt die Fachberatung."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4.",
+          "text_md": "Der GTIN-Code ermöglicht eine sichere und schnelle Datenerfassung."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5.",
+          "text_md": "Eine Auszeichnung der Ware mit dem GTIN-Code führt zu einer Verringerung der Kassiervorgänge."
+        }
+      ],
+      "entries": [],
+      "targets": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-7d4477e1-cb5d-5521-b5f8-f91d34e5fadf",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "OCR-Materialverweis und fachliche Erforderlichkeit im Fragestamm"
+      },
+      {
+        "material_id": "mat-21cf0f73-6b87-51fc-892b-1491b36c1be6",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "OCR-Materialverweis und fachliche Erforderlichkeit im Fragestamm"
+      }
+    ],
+    "classification": {
+      "topic_ids": [],
+      "primary_topic_id": null,
+      "methods": [],
+      "competencies": [],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-23"
+    },
+    "sources": [
+      {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/item_candidates.jsonl",
+        "source_line": 212,
+        "json_pointer": "/scan_sources/0",
+        "original_label": "4. Aufgabe",
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_141.png",
+        "printed_page": 3,
+        "original_source": {
+          "page_id": "page-0141",
+          "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_141.png",
+          "working_scan_copy": "../input/seite_141.png",
+          "visible_printed_page": "3",
+          "page_type": "task_page",
+          "document_marker": "S22 VK WK 3",
+          "document_boundary_before": false,
+          "source_region": {
+            "page_id": "page-0141",
+            "box_2d": [
+              116,
+              51,
+              219,
+              848
+            ]
+          }
+        },
+        "candidate_id": "block-0024-p0139-p0144/task-004",
+        "occurrence_keys": [
+          "block-0024-p0139-p0144/task-004"
+        ]
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Poolrevision 19: Aufgabentitel formal entnummeriert und als Stichwortfolge gefasst; Fragestamm unverändert.",
+      "Poolrevision 20: Stichwortfolge durch einen aus dem vorhandenen Aufgabenstamm gefassten Sachtitel ersetzt; Fragestamm unverändert."
+    ],
+    "source_key": "OCR2-PREPARATION-2026-09-23:block-0024-p0139-p0144/task-004",
+    "import_metadata": {
+      "candidate_id": "block-0024-p0139-p0144/task-004",
+      "occurrence_keys": [
+        "block-0024-p0139-p0144/task-004"
+      ],
+      "match_basis": {
+        "same_stem_pool_ids": [],
+        "similar_stem_pool_comparisons": [],
+        "full_answer_structure_matches": [],
+        "decision": "vollständige Antwortstruktur und erforderliche Materialien abgeglichen; kein identischer Pooltreffer"
+      },
+      "issues": [],
+      "ready_for_integration": true,
+      "source_additions": [],
+      "solution_status": "structured"
+    }
+  },
+  "document": {
+    "id": "OCR2-PREPARATION-2026-09-23",
+    "revision": 2,
+    "title": "Gemischte Aufgabensammlung",
+    "role": "unknown",
+    "exam_kind": "unknown",
+    "year_start": null,
+    "year_end": null,
+    "season": null,
+    "source_subject": "Verkauf, Warenwirtschaft und Wirtschafts- und Sozialkunde",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "imports/ocr2-preparation-2026-09-23/preparation.zip",
+    "upstream_file": null,
+    "source_notes": [
+      "Herkunftscontainer der gemischten Scan-Sammlung, kein behauptetes einzelnes Prüfungsdokument.",
+      "Prüfungsmarker und sämtliche Scanvorkommen bleiben an den Entitäten erhalten. Prüfungsart und Jahr werden nicht allein aus Kennungen abgeleitet.",
+      "Importierte Prüfvermerke sind Angaben der Vorbereitung; keine erneute Prüfung der Originalscans oder fachlichen Lösungsgültigkeit.",
+      "Poolrevision 19: lesbare Anzeige von Sammlung und Fächern; ZIP-Dateiname bleibt ausschließlich Importherkunft."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-390ce12d-d488-5490-87b3-9bed31d89dc2",
+      "revision": 3,
+      "item_id": "itm-390ce12d-d488-5490-87b3-9bed31d89dc2",
+      "item_revision": 3,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "4",
+      "answer": {
+        "choice_ids": [
+          "choice-4"
+        ]
+      },
+      "source": {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/item_candidates.jsonl",
+        "source_line": 212,
+        "json_pointer": "/solution",
+        "original_label": "4. Aufgabe",
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_157.png",
+        "printed_page": null,
+        "original_source": {
+          "scan_references": [
+            "C:\\Users\\SYSTEM-C\\Desktop\\gpt\\google-drive\\ChatGPT - Codex\\input\\seite_157.png"
+          ],
+          "exam": "S22_WWK",
+          "provenance": "official_printed_explanation"
+        }
+      },
+      "content_topic_ids": [],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Als gedruckte offizielle Lösung in der Vorbereitung überliefert; keine neue Prüfung am Originalscan oder fachliche Neubewertung."
+      ],
+      "import_metadata": {
+        "status": "structured",
+        "kind": "answer_key",
+        "provenance": "official_printed_explanation",
+        "content_md": "4",
+        "answer": {
+          "choice_ids": [
+            "choice-4"
+          ]
+        },
+        "exam": "S22_WWK",
+        "source": [
+          "C:\\Users\\SYSTEM-C\\Desktop\\gpt\\google-drive\\ChatGPT - Codex\\input\\seite_157.png"
+        ]
+      }
+    }
+  ],
+  "answer_solution_id": "sol-390ce12d-d488-5490-87b3-9bed31d89dc2",
+  "materials": [
+    {
+      "id": "mat-21cf0f73-6b87-51fc-892b-1491b36c1be6",
+      "revision": 1,
+      "title": "Die Maxikauf GmbH arbeitet mit einem Warenwirtschaftssystem (WWS).",
+      "kind": "scenario",
+      "content_md": "Die Maxikauf GmbH arbeitet mit einem Warenwirtschaftssystem (WWS).",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/material_candidates.jsonl",
+        "source_line": 67,
+        "json_pointer": "/scan_sources/0",
+        "original_label": null,
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_139.png",
+        "printed_page": 2,
+        "original_source": {
+          "page_id": "page-0139",
+          "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_139.png",
+          "working_scan_copy": "../input/seite_139.png",
+          "visible_printed_page": "2",
+          "page_type": "task_page",
+          "document_marker": "S22 VK WK 2",
+          "document_boundary_before": false,
+          "source_region": {
+            "page_id": "page-0139",
+            "box_2d": [
+              780,
+              72,
+              809,
+              503
+            ]
+          }
+        },
+        "candidate_id": "block-0024-p0139-p0144/mat-003",
+        "occurrence_keys": [
+          "block-0024-p0139-p0144/mat-003"
+        ]
+      },
+      "additional_sources": [],
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [],
+      "import_metadata": {
+        "candidate_id": "block-0024-p0139-p0144/mat-003",
+        "occurrence_keys": [
+          "block-0024-p0139-p0144/mat-003"
+        ],
+        "kind": "scenario",
+        "visual_decision": "text_sufficient",
+        "issues": [],
+        "ready_for_integration": true
+      }
+    }
+  ],
+  "other_materials": [
+    {
+      "material_id": "mat-7d4477e1-cb5d-5521-b5f8-f91d34e5fadf",
+      "title": "Sie sind Mitarbeiter/Mitarbeiterin im nachfolgend beschriebenen Warenhaus Maxikauf GmbH in Frankfurt am Main.",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "OCR-Materialverweis und fachliche Erforderlichkeit im Fragestamm"
+    }
+  ],
+  "prerequisites": []
+}

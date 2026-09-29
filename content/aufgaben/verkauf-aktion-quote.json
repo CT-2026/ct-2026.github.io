@@ -1,0 +1,52 @@
+{
+  "id": "verkauf-aktion-quote",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "aktion",
+  "variant_group": "verkauf.aktion",
+  "title": "Die Kaufquote berechnen",
+  "stem": "Wie hoch ist der Anteil der Besuche, die in der Aktionswoche zu einem Kauf führen?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "20 %"
+      },
+      {
+        "id": "choice-2",
+        "text": "25 %"
+      },
+      {
+        "id": "choice-3",
+        "text": "40 %"
+      },
+      {
+        "id": "choice-4",
+        "text": "60 %"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-verkaufsaktion",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Teile Käufe durch Besuche derselben Woche und multipliziere mit 100.",
+  "short_explanation": "60 ÷ 240 × 100 = 25 %.",
+  "detailed_explanation": "Die Vergleichswoche liegt bei 40 ÷ 200 × 100 = 20 %. Die Quote ist um 5 Prozentpunkte gestiegen. Besuche und Käufe sind unterschiedliche Größen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

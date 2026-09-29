@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2869",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kosten",
+  "variant_group": "wwk.kosten",
+  "title": "Bilanzveränderung erkennen",
+  "stem": "Welcher Geschäftsfall führt in einer Bilanz zu einer Aktiv-Passiv-Mehrung?",
+  "materials": [],
+  "requires": [],
+  "help": "Fragen: Was kommt hinzu und wie wird es finanziert?",
+  "short_explanation": "Ein Firmenwagen auf Ziel erhöht das Vermögen und gleichzeitig die Verbindlichkeiten.",
+  "detailed_explanation": "Der Wagen kommt auf der Aktivseite hinzu. Weil noch nicht bezahlt wurde, entsteht eine Schuld auf der Passivseite. Die Bilanzsumme wächst auf beiden Seiten. Eine Zahlung einer vorhandenen Kundenforderung ist dagegen ein Aktivtausch.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2869",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2869",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Ein Kunde bezahlt eine Rechnung per Banküberweisung."
+      },
+      {
+        "id": "choice-2",
+        "text": "Ein Tintendrucker wird gegen Barzahlung gekauft."
+      },
+      {
+        "id": "choice-3",
+        "text": "Ein Kauf eines Firmenwagens auf Ziel."
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine Hypothek wird durch Banküberweisung getilgt."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

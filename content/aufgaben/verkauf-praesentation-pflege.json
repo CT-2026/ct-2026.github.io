@@ -1,0 +1,49 @@
+{
+  "id": "verkauf-praesentation-pflege",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Eine Warenfläche pflegen",
+  "stem": "Welche zwei Maßnahmen erleichtern die Orientierung an einem Warenregal?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Artikel und zugehörige Preisinformation eindeutig zusammenstellen"
+      },
+      {
+        "id": "choice-2",
+        "text": "Leere Verpackungen vor den Produkten stehen lassen"
+      },
+      {
+        "id": "choice-3",
+        "text": "Artikel geordnet, sauber und gut erkennbar präsentieren"
+      },
+      {
+        "id": "choice-4",
+        "text": "Mehrere widersprüchliche Preisschilder ohne Zuordnung aufhängen"
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Kunden sollen Ware und zugehörige Informationen klar erkennen können.",
+  "short_explanation": "Eindeutige Zuordnung und eine geordnete Fläche erleichtern den Überblick.",
+  "detailed_explanation": "Unklare Beschriftung und verdeckte Produkte erschweren die Kaufentscheidung. Hier geht es um die praktische Gestaltung, nicht um einzelne rechtliche Kennzeichnungspflichten.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

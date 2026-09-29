@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2868",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kosten",
+  "variant_group": "wwk.kosten",
+  "title": "Miete über den Jahreswechsel",
+  "stem": "Ein Unternehmen vermietet Equipment für Konferenzräume. Welcher Geschäftsfall wird auf dem Konto Sonstige Forderungen gebucht?",
+  "materials": [],
+  "requires": [],
+  "help": "Leistungszeitraum und Zahlungszeitpunkt getrennt betrachten.",
+  "short_explanation": "Der Dezemberanteil einer erst im Januar gezahlten Miete gehört als Ertrag noch in das alte Jahr und wird als sonstige Forderung erfasst.",
+  "detailed_explanation": "Die zeitliche Zuordnung des Ertrags richtet sich nach dem Leistungszeitraum. Beim Jahresabschluss ist der Dezemberanteil bereits verdient, aber noch nicht eingegangen. Der Januaranteil gehört in das neue Jahr.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2868",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2868",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Das Unternehmen erhält die Miete für Dezember und Januar schon Anfang Dezember."
+      },
+      {
+        "id": "choice-2",
+        "text": "Das Unternehmen erhält die Miete für Januar und Februar erst Ende Januar."
+      },
+      {
+        "id": "choice-3",
+        "text": "Das Unternehmen zahlt die Dezember- und Januarmiete für seine Geschäftsräume schon im Dezember."
+      },
+      {
+        "id": "choice-4",
+        "text": "Das Unternehmen erhält die Miete für Dezember und Januar erst im Januar."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-4"
+    ]
+  }
+}

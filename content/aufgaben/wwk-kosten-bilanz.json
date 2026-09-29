@@ -1,0 +1,37 @@
+{
+  "id": "wwk-kosten-bilanz",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Bilanzgleichung erkennen",
+  "materials": [
+    {
+      "id": "mat-bilanz-maxikauf",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Die Aktivseite zeigt, wofür das Kapital verwendet wird. Die Passivseite zeigt, woher es stammt. Beide Seiten sind gleich groß.",
+  "short_explanation": "Die Passivseite zeigt die Herkunft des Kapitals: Eigenkapital und Fremdkapital. Hier gilt 292.500 € + 607.500 € = 900.000 €. Deshalb ist Passiva = Eigenkapital + Fremdkapital.",
+  "detailed_explanation": "Die Bilanz hat zwei Seiten mit derselben Summe:\n- **Aktiva (Mittelverwendung):** Anlagevermögen + Umlaufvermögen = 360.000 € + 540.000 € = 900.000 €\n- **Passiva (Mittelherkunft):** Eigenkapital + Fremdkapital = 292.500 € + 607.500 € = 900.000 €\n\nBilanzgleichungen:\n- Aktiva = Passiva\n- Vermögen = Eigenkapital + Fremdkapital\n- Eigenkapital = Vermögen − Fremdkapital\n\nAnlage- und Umlaufvermögen stehen auf der Aktivseite. Sie gehören deshalb nicht in eine Gleichung für die Passiva.",
+  "error_paths": [
+    {
+      "id": "seiten-vermischt",
+      "choice_ids": [
+        "choice-2",
+        "choice-4"
+      ],
+      "text": "Anlage- und Umlaufvermögen stehen auf der Aktivseite. Die Passivseite besteht aus Eigen- und Fremdkapital."
+    },
+    {
+      "id": "falsch-subtrahiert",
+      "choice_ids": [
+        "choice-1",
+        "choice-5"
+      ],
+      "text": "Rechne mit der Tabelle nach: Diese Gleichung ergibt nicht die Bilanzsumme von 900.000 €."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

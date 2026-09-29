@@ -1,0 +1,56 @@
+{
+  "id": "incoming-probe-4-1",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Sortimentsbreite",
+  "stem": "Die gutMarkt GmbH verfügt über ein breites Sortiment. Welche Erklärung trifft zu?",
+  "materials": [],
+  "requires": [],
+  "help": "An die Anzahl verschiedener Warengruppen denken.",
+  "short_explanation": "Ein breites Sortiment umfasst viele unterschiedliche Warengruppen.",
+  "detailed_explanation": "Lebensmittel, Kleidung und Elektronik sind Beispiele für unterschiedliche Warengruppen. Die Variantenanzahl innerhalb einer Warengruppe beschreibt dagegen die Sortimentstiefe. Lagermenge und Verpackungsmaße sind andere Größen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-4.1",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-4.1",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Das Sortiment umfasst viele verschiedene Warengruppen."
+      },
+      {
+        "id": "choice-2",
+        "text": "In einer einzigen Warengruppe gibt es besonders viele Varianten."
+      },
+      {
+        "id": "choice-3",
+        "text": "Jeder Artikel ist besonders breit verpackt."
+      },
+      {
+        "id": "choice-4",
+        "text": "Alle Artikel werden in großen Stückzahlen gelagert."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

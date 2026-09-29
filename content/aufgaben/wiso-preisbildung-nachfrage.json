@@ -1,0 +1,48 @@
+{
+  "id": "wiso-preisbildung-nachfrage",
+  "revision": 2,
+  "source": "wiso-web",
+  "title": "Steigende Nachfrage",
+  "materials": [],
+  "help": "Ausgangspunkt sind mehr Kaufinteressierte bei unveränderter Warenmenge.",
+  "short_explanation": "Höhere Nachfrage bei gleichem Angebot erzeugt unter sonst gleichen Bedingungen tendenziell Preisdruck nach oben.",
+  "detailed_explanation": "Das ist eine vereinfachte Marktaussage, keine sichere Vorhersage für einzelne Preise. Verträge und weitere Marktbedingungen können ebenfalls Einfluss nehmen.",
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Für die geschlossene Web-Fassung präzisiert; Änderungen stehen in overrides."
+    ],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  },
+  "overrides": {
+    "stem": "Welche Aussage beschreibt unter sonst gleichen Bedingungen die übliche Tendenz von Angebot, Nachfrage und Preis?",
+    "response": {
+      "type": "single_choice",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Mehr Nachfrage bei unverändertem Angebot wirkt eher preissteigernd."
+        },
+        {
+          "id": "choice-2",
+          "text": "Mehr Angebot bei unveränderter Nachfrage wirkt eher preissteigernd."
+        },
+        {
+          "id": "choice-3",
+          "text": "Weniger Nachfrage bei unverändertem Angebot wirkt eher preissteigernd."
+        },
+        {
+          "id": "choice-4",
+          "text": "Angebot und Nachfrage haben grundsätzlich keinen Einfluss."
+        }
+      ]
+    },
+    "solution": {
+      "choice_ids": [
+        "choice-1"
+      ]
+    }
+  }
+}

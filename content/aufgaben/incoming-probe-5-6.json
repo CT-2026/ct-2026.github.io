@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-5-6",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "aktion",
+  "variant_group": "verkauf.aktion",
+  "title": "Erfolg einer Werbekampagne",
+  "stem": "Eine Werbekampagne kostet 160.000,00 EUR. In der Folge steigt der Umsatz von zuvor 1.400.000,00 EUR um 15 %.\nWelche Berechnung und Beurteilung ist zutreffend?",
+  "materials": [],
+  "requires": [],
+  "help": "Zunächst den Mehrumsatz berechnen; Umsatz und Gewinn unterscheiden.",
+  "short_explanation": "1.400.000 × 0,15 = 210.000 EUR Mehrumsatz. Mehrumsatz minus Werbung sind 50.000 EUR, aber noch kein nachgewiesener Gewinn.",
+  "detailed_explanation": "Neuer Umsatz: 1.400.000 + 210.000 = 1.610.000 EUR. Zusätzliche Verkäufe verursachen regelmäßig Warenkosten und möglicherweise weitere Kosten. Für eine Rentabilitätsaussage wird der zusätzliche Deckungsbeitrag mit den Werbekosten verglichen. Der zeitliche Zusammenhang allein beweist auch nicht, dass der gesamte Zuwachs durch die Werbung entstand.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.6",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.6",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Mehrumsatz: 210.000 EUR; neuer Umsatz: 1.610.000 EUR. Der Mehrumsatz liegt 50.000 EUR über den Werbekosten; ob sich die Aktion wirtschaftlich gelohnt hat, lässt sich ohne die zusätzlichen Waren- und sonstigen Kosten nicht sicher beurteilen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Mehrumsatz: 210.000 EUR; daher ist ein zusätzlicher Gewinn von genau 50.000 EUR sicher."
+      },
+      {
+        "id": "choice-3",
+        "text": "Neuer Umsatz: 210.000 EUR; die Kampagne führt sicher zu einem Verlust von 1.190.000 EUR."
+      },
+      {
+        "id": "choice-4",
+        "text": "Mehrumsatz: 15.000 EUR; die Kampagne erzielt einen Gewinn von 145.000 EUR."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "checks": [
+    {
+      "kind": "arithmetic",
+      "date": "2026-09-26",
+      "text": "1.400.000 EUR × 0,15 = 210.000 EUR Mehrumsatz; neuer Umsatz 1.610.000 EUR."
+    }
+  ]
+}

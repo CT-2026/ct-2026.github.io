@@ -1,0 +1,18 @@
+{
+  "id": "mat-lieferbeleg-hemden",
+  "revision": 3,
+  "title": "Lieferbeleg für Hemden",
+  "kind": "image",
+  "image": {
+    "src": "assets/materialien/lieferzettel.svg",
+    "alt": "Fiktiver Lieferschein mit Angaben zu Kartons und Hemden; vollständige Textfassung direkt darunter.",
+    "description": "Empfänger: Kaufhaus Marktstraße. Artikel: Hemden H-42. Laut Lieferschein: 4 Kartons mit jeweils 6 Hemden, insgesamt 24 Hemden. Bei der Anlieferung gezählt: 3 Kartons."
+  },
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigener fiktiver Übungsbeleg; keine Original-Prüfungsunterlage."
+    ]
+  }
+}

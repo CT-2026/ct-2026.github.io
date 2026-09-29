@@ -1,0 +1,49 @@
+{
+  "id": "verkauf-teamarbeit-engpass",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "zusammenarbeit",
+  "variant_group": "verkauf.zusammenarbeit",
+  "title": "Einen Engpass gemeinsam lösen",
+  "stem": "Eine Kollegin wird mit dem Aufbau einer Verkaufsaktion nicht rechtzeitig fertig. Welche zwei Reaktionen helfen dem Team?",
+  "response": {
+    "type": "multiple_choice",
+    "required_answers": 2,
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Gemeinsam klären, welche Aufgaben bis zum Start erledigt sein müssen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Unterstützung und Zuständigkeiten mit den Beteiligten absprechen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Den Rückstand verschweigen, bis die Aktion beginnt."
+      },
+      {
+        "id": "choice-4",
+        "text": "Die Kollegin vor Kundinnen und Kunden beschuldigen."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Das Team braucht rechtzeitig Informationen und eine klare Absprache über die verbleibende Arbeit.",
+  "short_explanation": "Prioritäten und abgestimmte Unterstützung helfen, den Engpass zu lösen. Verschweigen und öffentliche Vorwürfe erschweren die Zusammenarbeit.",
+  "detailed_explanation": "Zuerst wird der tatsächliche Arbeitsstand geklärt. Danach entscheidet das Team, was Vorrang hat und wer welche Aufgabe übernimmt. So bleiben Verantwortlichkeiten klar und die Hilfe passt zum Bedarf.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

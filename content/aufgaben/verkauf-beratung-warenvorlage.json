@@ -1,0 +1,38 @@
+{
+  "id": "verkauf-beratung-warenvorlage",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Grundregeln beim Vorlegen der Ware",
+  "materials": [],
+  "help": "Wer zuerst die teuerste oder billigste Ware zeigt, legt den Kunden früh auf eine Preisrichtung fest. Wo lässt sich am besten in beide Richtungen weitergehen?",
+  "short_explanation": "Bei unbekannter Preisvorstellung dient Ware der mittleren Preislage als Ausgangspunkt. Je nach Reaktion kommen anschließend günstigere oder hochwertigere Artikel infrage.",
+  "detailed_explanation": "Die mittlere Preislage ist ein guter Ausgangspunkt:\n- Der Kunde fühlt sich weder überfordert (zu teuer) noch unterschätzt (zu billig).\n- Seine Reaktion zeigt, ob er mehr Qualität oder einen günstigeren Preis sucht.\n\nDer Preis wird nach der Erklärung des Nutzens genannt. Preisschilder zu verstecken, wäre dagegen unehrlich und wirkt unseriös. Sind Preisvorstellung und Bedarf schon bekannt, wird gleich passende Ware vorgelegt.",
+  "error_paths": [
+    {
+      "id": "preis-zuerst",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Wer immer zuerst den Preis nennt, lenkt den Blick vom Nutzen weg. Der Preis folgt, nachdem die Vorteile der Ware deutlich geworden sind."
+    },
+    {
+      "id": "preis-verstecken",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Preise zu verbergen, ist unehrlich und schafft Misstrauen. Kunden müssen den Preis erkennen können."
+    },
+    {
+      "id": "extreme-preislage",
+      "choice_ids": [
+        "choice-3",
+        "choice-5"
+      ],
+      "text": "Die niedrigste oder höchste Preislage legt den Kunden zu früh fest. Die mittlere Preislage lässt beide Richtungen offen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

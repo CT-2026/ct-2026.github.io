@@ -1,0 +1,43 @@
+{
+  "id": "wwk-artikeldaten-falschbuchung",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Falsche Wareneingangsbuchung",
+  "materials": [
+    {
+      "id": "mat-lagerdaten-fitnessbaender",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Ein Artikel erhält eine Buchung, die ihm nicht gehört, dem anderen fehlt sie. Wie stehen Soll- und Ist-Bestand danach bei beiden Artikeln?",
+  "short_explanation": "Die 80 Fitnessbänder fehlen im Soll-Bestand der Fitnessbänder und stehen zusätzlich im Soll-Bestand der Fitnessmatten. Bei beiden Artikeln weicht der gebuchte Soll-Bestand deshalb vom tatsächlichen Ist-Bestand ab.",
+  "detailed_explanation": "Folgen der Fehlbuchung:\n- **Fitnessbänder:** Im System sind 80 Stück zu wenig gebucht. Der Soll-Bestand ist zu niedrig, womöglich wird unnötig nachbestellt.\n- **Fitnessmatten:** Im System sind 80 Stück zu viel gebucht. Der Soll-Bestand ist zu hoch, eine nötige Nachbestellung kann ausbleiben.\n\nPreise ändern sich durch eine Fehlbuchung nicht. Auch der Mindestbestand ist eine feste Vorgabe und bleibt gleich. Die Buchung muss berichtigt werden.",
+  "error_paths": [
+    {
+      "id": "nur-ein-artikel",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Bei den Fitnessmatten ist der Soll-Bestand zu hoch, nicht zu niedrig – ihnen wurden 80 Stück zusätzlich gebucht."
+    },
+    {
+      "id": "preise-geaendert",
+      "choice_ids": [
+        "choice-1",
+        "choice-3"
+      ],
+      "text": "Eine falsche Mengenbuchung ändert keine Preise. Betroffen sind die gebuchten Bestände."
+    },
+    {
+      "id": "mindestbestand",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Der Mindestbestand ist eine feste Sicherheitsreserve. Er ändert sich durch eine Fehlbuchung nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

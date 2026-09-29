@@ -1,0 +1,52 @@
+{
+  "id": "wwk-warenannahme-lieferbeleg",
+  "revision": 3,
+  "area": "wwk",
+  "subtopic": "warenannahme",
+  "variant_group": "wwk.warenannahme",
+  "title": "Lieferung mit Beleg vergleichen",
+  "stem": "Vergleiche die gezählten Packstücke mit dem Lieferschein. Welche Abweichung liegt vor, wenn alle Kartons den angegebenen Inhalt haben?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Es fehlt 1 Karton mit 6 Hemden."
+      },
+      {
+        "id": "choice-2",
+        "text": "Es fehlen 3 Kartons mit 18 Hemden."
+      },
+      {
+        "id": "choice-3",
+        "text": "Es fehlt 1 Hemd."
+      },
+      {
+        "id": "choice-4",
+        "text": "Die Lieferung ist vollständig."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-lieferbeleg-hemden",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Vergleiche zuerst die Zahl der Kartons. Rechne danach mit dem Inhalt je Karton.",
+  "short_explanation": "Laut Beleg sind 4 Kartons vorgesehen, gezählt wurden 3. Es fehlt 1 Karton; bei 6 Hemden je Karton fehlen 6 Hemden.",
+  "detailed_explanation": "Soll: 4 × 6 = 24 Hemden. Ist: 3 × 6 = 18 Hemden. Die Differenz beträgt 6 Hemden. Die Aufgabe setzt voraus, dass jeder vorhandene Karton genau den angegebenen Inhalt hat.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

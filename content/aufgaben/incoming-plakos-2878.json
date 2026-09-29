@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2878",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestand",
+  "variant_group": "wwk.bestand",
+  "title": "Steuerung und Kontrolle",
+  "stem": "Bei welcher der folgenden Tätigkeiten handelt es sich um kaufmännische Steuerung und Kontrolle?",
+  "materials": [],
+  "requires": [],
+  "help": "Nach Auswertung und Entscheidungsgrundlage suchen.",
+  "short_explanation": "Die Auswertung der Inventur gehört zur kaufmännischen Steuerung und Kontrolle.",
+  "detailed_explanation": "Sie macht Bestände und Abweichungen sichtbar und ermöglicht Entscheidungen über Nachbestellung, Bestandskorrekturen und Abläufe. Die bloße Erfassung einer Bestellung ist dagegen zunächst ein operativer Geschäftsvorgang.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2878",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2878",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Erfassung einer Kundenbestellung"
+      },
+      {
+        "id": "choice-2",
+        "text": "Auswertung der Inventur"
+      },
+      {
+        "id": "choice-3",
+        "text": "Bearbeitung einer Kundenreklamation"
+      },
+      {
+        "id": "choice-4",
+        "text": "Unterbreitung eines Angebots an einen Kunden"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  }
+}

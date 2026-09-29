@@ -1,0 +1,31 @@
+{
+  "id": "wwk-lagerkennzahlen-umschlag-ursache",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Umschlagshäufigkeit erklären",
+  "materials": [],
+  "help": "Umschlagshäufigkeit = Absatz (oder Wareneinsatz) ÷ durchschnittlicher Lagerbestand. Wie ändert sich das Ergebnis, wenn der Nenner kleiner wird?",
+  "short_explanation": "Die Umschlagshäufigkeit ist das Verhältnis von Absatz beziehungsweise Wareneinsatz zum durchschnittlichen Lagerbestand. Wird bei gleichem Absatz weniger Ware auf Lager gehalten, steigt die Umschlagshäufigkeit – hier von 30 auf 33.",
+  "detailed_explanation": "Formel: Umschlagshäufigkeit = Wareneinsatz ÷ durchschnittlicher Lagerbestand (beide zu Einstandspreisen) oder Absatz ÷ durchschnittlicher Lagerbestand (in Stück).\n\nDie Umschlagshäufigkeit steigt,\n- wenn der durchschnittliche Lagerbestand sinkt und der Absatz gleich bleibt oder\n- wenn der Absatz steigt und der Lagerbestand gleich bleibt.\n\nSie sinkt dagegen, wenn der Absatz zurückgeht oder mehr Ware auf Lager liegt. Höhere Einstandspreise wirken auf Wareneinsatz und Lagerbestand gleichermaßen und erklären die Veränderung nicht.",
+  "error_paths": [
+    {
+      "id": "weniger-absatz",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Sinkt der Absatz oder Umsatz, während der Lagerbestand gleich bleibt, verringert sich die Umschlagshäufigkeit."
+    },
+    {
+      "id": "mehr-bestand",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Ein höherer durchschnittlicher Lagerbestand vergrößert den Nenner der Formel. Die Umschlagshäufigkeit sinkt dadurch."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

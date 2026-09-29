@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2860",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.gueter",
+  "title": "Güterpaare unterscheiden",
+  "stem": "Bei welchen der folgenden Güterarten handelt es sich um Substitutionsgüter?",
+  "materials": [],
+  "requires": [],
+  "help": "Nach einem gemeinsamen Verwendungszweck suchen.",
+  "short_explanation": "Süßstoff und Zucker können sich beim Süßen ersetzen.",
+  "detailed_explanation": "Substitutionsgüter erfüllen einen ähnlichen Zweck und sind austauschbar. Komplementärgüter ergänzen sich bei einer Nutzung, beispielsweise ein Fahrzeug und sein Kraftstoff.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2860",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2860",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Süßstoff und Zucker"
+      },
+      {
+        "id": "choice-2",
+        "text": "Auto und Benzin"
+      },
+      {
+        "id": "choice-3",
+        "text": "Kühlschrank und Strom"
+      },
+      {
+        "id": "choice-4",
+        "text": "Kartoffeln und Salz"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

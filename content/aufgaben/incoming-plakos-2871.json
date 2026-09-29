@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2871",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.konjunktur",
+  "title": "Preisniveau im Konjunkturverlauf",
+  "stem": "In welcher konjunkturellen Phase ist mit einem hohen Preisniveau zu rechnen?",
+  "materials": [],
+  "requires": [],
+  "help": "Auf hohe Auslastung und starke Nachfrage achten.",
+  "short_explanation": "Im typischen Phasenmodell steht die Hochkonjunktur für starke Nachfrage und ein hohes Preisniveau.",
+  "detailed_explanation": "Im Boom sind Kapazitäten stark ausgelastet. Treffen weitere Aufträge auf begrenzte Produktionsmöglichkeiten, kann Preisdruck entstehen. Einzelne Preise erlauben trotzdem keine sichere Einordnung der gesamten Wirtschaft.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2871",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2871",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Abschwung (Rezession)"
+      },
+      {
+        "id": "choice-2",
+        "text": "Aufschwung (Expansion)"
+      },
+      {
+        "id": "choice-3",
+        "text": "Hochkonjunktur (Boom)"
+      },
+      {
+        "id": "choice-4",
+        "text": "Tiefstand (Depression)"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

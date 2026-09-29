@@ -1,0 +1,58 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-ergebnis-gewinn",
+  "revision": "sha256:c9bdae0c5d087b8b",
+  "task": {
+    "id": "40",
+    "tag": "Gewinnermittlung",
+    "stem": "Herr Frey erzielt im 1. Geschäftsjahr 180.860,00 € Erlöse aus Speisen und 125.030,00 € Erlöse aus Getränken. Materialkosten, Personalkosten und sonstige Kosten betragen zusammen 266.800,00 €. Wie hoch ist der Gewinn?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "29.090,00 €"
+      },
+      {
+        "id": "B",
+        "text": "39.090,00 €"
+      },
+      {
+        "id": "C",
+        "text": "49.090,00 €"
+      },
+      {
+        "id": "D",
+        "text": "66.800,00 €"
+      },
+      {
+        "id": "E",
+        "text": "72.000,00 €"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "B, 39.090,00 €",
+      "explanation": "Die Gesamterlöse betragen 305.890,00 €. Zieht man davon die Gesamtkosten von 266.800,00 € ab, ergibt sich ein Gewinn von 39.090,00 €.",
+      "merksatz": "Gewinnermittlung: erst alle Erlöse addieren, dann alle Kosten abziehen.",
+      "wrong": "Wer einzelne Erlös- oder Kostenarten vergisst oder die Summen verwechselt, kommt auf falsche Werte.",
+      "detailTitle": "Rechenweg",
+      "detail": [
+        "Erlöse: 180.860,00 € + 125.030,00 € = 305.890,00 €.",
+        "Kosten: 98.500,00 € + 72.000,00 € + 96.300,00 € = 266.800,00 €.",
+        "Gewinn: 305.890,00 € - 266.800,00 € = 39.090,00 €."
+      ],
+      "topic": "wirtschaft",
+      "ref": "Betriebswirtschaft: Gewinn = Erlöse minus Kosten."
+    },
+    "tags": [
+      "wirtschaftsleistung"
+    ]
+  }
+}

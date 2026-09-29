@@ -1,0 +1,37 @@
+{
+  "id": "wwk-lagerkennzahlen-grossmenge",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Folgen einer erhöhten Bestellmenge",
+  "materials": [],
+  "help": "Statt 100 kommen 500 Kartons auf einmal. Was bedeutet das für Platz, Kapital und Umschlag?",
+  "short_explanation": "Wer statt der üblichen 100 plötzlich 500 Geschenkkartons annimmt, braucht fünfmal so viel Lagerplatz. Es kann passieren, dass die Lagerkapazität nicht ausreicht.",
+  "detailed_explanation": "Ein günstiger Großeinkauf senkt zwar den Stückpreis, hat aber Folgen für das Lager:\n- **Platzbedarf:** Die Menge ist fünfmal so groß wie üblich – der vorhandene Lagerraum reicht womöglich nicht.\n- **Kapitalbindung:** Mehr Ware bindet mehr Geld; sie steigt, statt zu sinken.\n- **Umschlagshäufigkeit:** Der durchschnittliche Lagerbestand steigt, die Umschlagshäufigkeit sinkt.\n\nDer Mindestbestand ist eine Sicherheitsreserve gegen Lieferstörungen und ändert sich durch eine einmalige Großbestellung nicht. Einen Grund, die Annahme zu verweigern, gibt es nicht – die Menge wurde ja so bestellt.",
+  "error_paths": [
+    {
+      "id": "umschlag-steigt",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Mehr Ware auf Lager erhöht den durchschnittlichen Lagerbestand. Die Umschlagshäufigkeit sinkt dadurch."
+    },
+    {
+      "id": "kapitalbindung-sinkt",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "500 Kartons binden mehr Kapital als 100. Die Kapitalbindung nimmt zu."
+    },
+    {
+      "id": "mindestbestand",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Der Mindestbestand ist eine Sicherheitsreserve gegen Lieferstörungen. Eine einmalige Großbestellung ändert daran nichts."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

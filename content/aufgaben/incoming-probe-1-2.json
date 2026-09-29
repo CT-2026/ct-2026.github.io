@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-1-2",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "gespraech",
+  "variant_group": "verkauf.gespraech",
+  "title": "Störung am Bezahlterminal",
+  "stem": "Der Bezahlterminal fällt aus. Daraufhin beschwert sich der Kunde lautstark, woraufhin auch andere Kunden auf die Situation aufmerksam werden.\nWählen Sie drei angemessene Maßnahmen.",
+  "materials": [],
+  "requires": [],
+  "help": "Zuhören, Lösung anbieten und Unterstützung organisieren.",
+  "short_explanation": "Ruhige Ansprache, eine konkrete Alternative und Unterstützung helfen, die Situation zu klären.",
+  "detailed_explanation": "Zum Beispiel: „Es tut mir leid, unser Terminal funktioniert gerade nicht. Ich kläre, welche andere Kasse verfügbar ist.“ Eine konkrete nächste Handlung gibt Orientierung. Schuldzuweisungen oder nicht gesicherte Zusagen verschärfen den Konflikt.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.2",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.2",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Ruhig zuhören, die Unannehmlichkeit anerkennen und sich dafür entschuldigen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Störung sachlich erklären und verfügbare Zahlungsalternativen anbieten."
+      },
+      {
+        "id": "choice-3",
+        "text": "Bei Bedarf eine zuständige Kollegin oder einen Kollegen zur Unterstützung holen."
+      },
+      {
+        "id": "choice-4",
+        "text": "Den Kunden vor den anderen Kunden zurechtweisen."
+      },
+      {
+        "id": "choice-5",
+        "text": "Eine sofortige Reparatur versprechen, obwohl deren Dauer unbekannt ist."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

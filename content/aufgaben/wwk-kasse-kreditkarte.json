@@ -1,0 +1,38 @@
+{
+  "id": "wwk-kasse-kreditkarte",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Nachteil von Kreditkarten",
+  "materials": [],
+  "help": "Kreditkartenunternehmen und Zahlungsdienstleister arbeiten nicht umsonst. Wer bezahlt sie?",
+  "short_explanation": "Für Kreditkartenzahlungen berechnen Kartenunternehmen und Zahlungsdienstleister dem Händler Gebühren, meist einen Prozentsatz vom Umsatz. Das sind zusätzliche Kosten für das Warenhaus.",
+  "detailed_explanation": "Vorteile der Kartenzahlung für den Händler: Zahlungssicherheit, weniger Bargeld in der Kasse und oft höhere Einkaufsbeträge, weil Kunden nicht durch ihr Bargeld begrenzt sind.\n\nNachteil: Für jede Zahlung fallen Entgelte an, zum Beispiel ein Prozentsatz vom Umsatz, Transaktionsgebühren und die Miete für das Terminal.\n\nDie übrigen Antworten treffen nicht zu: Es gibt keine allgemeine Mindestgrenze von 50 €, und eine feste Garantiegrenze der „bezogenen Bank“ gibt es bei Kreditkarten nicht – den Begriff kennt man vom Scheck. Das Geld wird in der Regel innerhalb weniger Tage gutgeschrieben. Der Umsatz je Kunde sinkt nicht, sondern steigt eher.",
+  "error_paths": [
+    {
+      "id": "feste-grenzen",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Solche festen Betragsgrenzen gelten für Kreditkartenzahlungen nicht. Von einer „bezogenen Bank“ spricht man beim Scheck, nicht bei der Kreditkarte."
+    },
+    {
+      "id": "gutschrift",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Der Betrag wird dem Händler in der Regel nach wenigen Tagen gutgeschrieben, nicht erst nach einem halben Jahr."
+    },
+    {
+      "id": "umsatz",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Mit Karte kaufen Kunden eher mehr, weil ihr Bargeld sie nicht begrenzt. Der Umsatz je Kunde sinkt nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

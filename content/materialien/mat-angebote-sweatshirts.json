@@ -1,0 +1,13 @@
+{
+  "id": "mat-angebote-sweatshirts",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-07d9cfd8-80ae-455b-a97e-334994e71af4",
+    "excerpt": "wwk-bezugspreis-rabatt-skonto"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

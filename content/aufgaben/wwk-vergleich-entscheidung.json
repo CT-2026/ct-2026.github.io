@@ -1,0 +1,52 @@
+{
+  "id": "wwk-vergleich-entscheidung",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "vergleich",
+  "variant_group": "wwk.vergleich",
+  "title": "Eine Beschaffungsentscheidung begründen",
+  "stem": "Welches Angebot ist für genau 24 Stück einschließlich Versand günstiger und um wie viel?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "A ist um 6,00 € günstiger."
+      },
+      {
+        "id": "choice-2",
+        "text": "B ist um 6,00 € günstiger."
+      },
+      {
+        "id": "choice-3",
+        "text": "B ist um 12,00 € günstiger."
+      },
+      {
+        "id": "choice-4",
+        "text": "Beide kosten gleich viel."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-angebotsvergleich",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Berechne beide vollständigen Bestellungen mit den jeweiligen Packungsgrößen.",
+  "short_explanation": "A: 4 × 54 + 6 = 222 €. B: 3 × 68 + 12 = 216 €. B ist um 6 € günstiger.",
+  "detailed_explanation": "Alle übrigen Bedingungen sind ausdrücklich gleich. Deshalb genügt hier der Vergleich der vollständigen Nettobeträge. Versand und Verpackungseinheiten gehören dazu.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

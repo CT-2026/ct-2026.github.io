@@ -1,0 +1,205 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-kasse-bargeld",
+  "item": {
+    "id": "itm-zp19-vk-28",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Ablauf Bargeld kassieren",
+    "stem_md": "Bringen Sie die folgenden Tätigkeiten der „Kassieranweisung für das Kassieren von Bargeld“ in die richtige Reihenfolge!",
+    "response": {
+      "type": "ordering",
+      "required_answers": 7,
+      "choices": [],
+      "entries": [
+        {
+          "id": "entry-1",
+          "text_md": "Das Rückgeld wird der Kasse entnommen und dem Kunden laut vorgezählt."
+        },
+        {
+          "id": "entry-2",
+          "text_md": "Der zu zahlende Betrag wird laut und deutlich genannt."
+        },
+        {
+          "id": "entry-3",
+          "text_md": "Preiserfassung an der Geschäftskasse"
+        },
+        {
+          "id": "entry-4",
+          "text_md": "Die Ware und der Bon werden dem Kunden übergeben."
+        },
+        {
+          "id": "entry-5",
+          "text_md": "Das Bargeld wird entgegengenommen und die empfangene Summe laut genannt."
+        },
+        {
+          "id": "entry-6",
+          "text_md": "Der Geldbetrag des Kunden wird in die Kasse gelegt und diese verschlossen."
+        },
+        {
+          "id": "entry-7",
+          "text_md": "Geldscheine werden auf ihre Echtheit überprüft."
+        }
+      ],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp19-vk-01",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.kassieren"
+      ],
+      "primary_topic_id": "topic.verkauf.kassieren",
+      "methods": [],
+      "competencies": [
+        "order"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/27",
+        "original_label": "28",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0029.tif",
+        "printed_page": 8,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "28",
+          "parent_label": null,
+          "scan_file": "Page 8",
+          "printed_page": 8
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0029.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Mechanik für Lösungsbogen entfernt."
+    ],
+    "source_key": "ZP-H2019-7300-VK:28"
+  },
+  "document": {
+    "id": "ZP-H2019-7300-VK",
+    "revision": 1,
+    "title": "Zwischenprüfung Herbst 2019",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2019,
+    "year_end": 2019,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Vollständige Erfassung aus den Originalscans ZP_Herbst2019_VK-AO2017-7300 - 0022.tif bis 0033.tif.",
+      "Vor der Integration wurden die 45 Aufgaben, die 17 Materialien und ihre Seitenzuordnung gegen die bereitgestellten TIFF-Originale abgeglichen.",
+      "Belegte Übertragungsfehler bei Aufgabe 15, Aufgabe 32 sowie den Bildbeschreibungen der Kundenumfrage und der Stehleitern wurden korrigiert.",
+      "Sieben bildabhängige Materialien erhalten Originalausschnitte als PNG-Assets."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-48b83823-bd16-5e82-9003-34a6c8332f09",
+      "revision": 1,
+      "item_id": "itm-zp19-vk-28",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "`ordered_entry_ids`: entry-3, entry-2, entry-5, entry-7, entry-1, entry-6, entry-4\n\n| Schritt | Tätigkeit |\n|---:|---|\n| 1 | Preiserfassung an der Geschäftskasse |\n| 2 | Der zu zahlende Betrag wird laut und deutlich genannt. |\n| 3 | Das Bargeld wird entgegengenommen und die empfangene Summe laut genannt. |\n| 4 | Geldscheine werden auf ihre Echtheit überprüft. |\n| 5 | Das Rückgeld wird der Kasse entnommen und dem Kunden laut vorgezählt. |\n| 6 | Der Geldbetrag des Kunden wird in die Kasse gelegt und diese verschlossen. |\n| 7 | Die Ware und der Bon werden dem Kunden übergeben. |\n\nMerkregel: Das Kundengeld bleibt sichtbar außerhalb der Kassenlade liegen, bis das\nRückgeld vorgezählt ist — erst danach wird es eingelegt. Das verhindert Streit über den\ngegebenen Betrag.",
+      "answer": {
+        "ordered_entry_ids": [
+          "entry-3",
+          "entry-2",
+          "entry-5",
+          "entry-7",
+          "entry-1",
+          "entry-6",
+          "entry-4"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../loesungsvorschlaege-offene-aufgaben.md",
+        "json_pointer": null,
+        "original_label": "28",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 235,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+          "json_pointer": "/items/27",
+          "original_label": "28",
+          "parent_label": null,
+          "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0029.tif",
+          "printed_page": 8,
+          "original_source": {
+            "document_id": "ZP-H2019-7300-VK",
+            "source_file": "scan",
+            "json_pointer": null,
+            "original_label": "28",
+            "parent_label": null,
+            "scan_file": "Page 8",
+            "printed_page": 8
+          },
+          "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0029.tif"
+        }
+      },
+      "content_topic_ids": [
+        "topic.verkauf.kassieren"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 20.09.2026 fachlich geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Vollständige Reihenfolge gegen sämtliche entry_ids der aktuellen Aufgabenrevision geprüft; Vorschlagszeile 235."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-48b83823-bd16-5e82-9003-34a6c8332f09",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp19-vk-01",
+      "title": "Unternehmensbeschreibung Merlin GmbH",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+    }
+  ],
+  "prerequisites": []
+}

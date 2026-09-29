@@ -1,0 +1,192 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-kosten-bilanz",
+  "item": {
+    "id": "itm-a89c8b3e-1221-5fe1-931b-f81ab3cd07ab",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Bilanzgleichung erkennen",
+    "stem_md": "Welche der nachstehenden Bilanzgleichungen ist richtig?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Aktiva = Anlagevermögen − Umlaufvermögen"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Passiva = Eigenkapital + Anlagevermögen"
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Passiva = Eigenkapital + Fremdkapital"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Passiva = Eigenkapital + Anlagevermögen + Umlaufvermögen"
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Aktiva = Passiva − Eigenkapital"
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-3cb4e8aa-7ee7-5d87-aa8c-fc57af32324d",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Für die Bearbeitung benötigte Angaben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.rechnungswesen.bilanz"
+      ],
+      "primary_topic_id": "topic.rechnungswesen.bilanz",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/16",
+        "original_label": "17",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift und reine Scanmarker aus der Pooldarstellung entfernt."
+    ],
+    "source_key": "AP-WS2023-7300-WWK:17"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Warenwirtschaft und Verkäufer / Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Semantisch bereinigte Arbeitsfassung für die Weiterverarbeitung.",
+      "Layoutartefakte, Scanränder und rein typografische Elemente wurden nicht übernommen.",
+      "Offensichtliche OCR-Fehler wurden nur dort korrigiert, wo die Seitenabbildung die Korrektur eindeutig belegt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-cd4170b1-106e-5470-8b29-9a98b3f7cd76",
+      "revision": 1,
+      "item_id": "itm-a89c8b3e-1221-5fe1-931b-f81ab3cd07ab",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "3",
+      "answer": {
+        "choice_ids": [
+          "choice-3"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/16",
+        "original_label": "17",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "content_topic_ids": [
+        "topic.rechnungswesen.bilanz"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-cd4170b1-106e-5470-8b29-9a98b3f7cd76",
+  "materials": [
+    {
+      "id": "mat-3cb4e8aa-7ee7-5d87-aa8c-fc57af32324d",
+      "revision": 1,
+      "title": "Bilanz der Maxikauf GmbH",
+      "kind": "data_table",
+      "content_md": "Ihnen liegt die folgende Bilanz vor:\n\n| Aktiva | Betrag | Passiva | Betrag |\n|---|---:|---|---:|\n| Anlagevermögen | 360.000,00 € | Eigenkapital | 292.500,00 € |\n| Umlaufvermögen | 540.000,00 € | Fremdkapital | 607.500,00 € |\n| **Summe** | **900.000,00 €** | **Summe** | **900.000,00 €** |",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/contexts/5",
+        "original_label": "C16_17",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ],
+  "other_materials": [
+    {
+      "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+      "title": "Unternehmen Maxikauf",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": []
+}

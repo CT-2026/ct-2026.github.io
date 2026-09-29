@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-3-3",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "zusammenarbeit",
+  "variant_group": "verkauf.zusammenarbeit",
+  "title": "Konfliktursachen im Team",
+  "stem": "Im Team der gutMarkt-Filiale in Worpswede ist ein Konflikt entstanden. Wählen Sie drei Beispiele für mögliche Konfliktursachen.",
+  "materials": [],
+  "requires": [],
+  "help": "Auf Erwartungen, Verteilung und Umgangston achten.",
+  "short_explanation": "Unklare Zuständigkeiten, als unfair erlebte Verteilung und abwertende Kommunikation können Konflikte auslösen.",
+  "detailed_explanation": "Bei unklaren Aufgaben bleiben Erwartungen unerfüllt. Unbegründete Ungleichbehandlung kann Vertrauen schwächen. Öffentliche Abwertung betrifft zusätzlich die Beziehungsebene. Klare Absprachen und sachliches Feedback wirken solchen Ursachen entgegen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-3.3",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-3.3",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Zwei Beschäftigte gehen jeweils davon aus, dass der andere die Warenverräumung erledigt."
+      },
+      {
+        "id": "choice-2",
+        "text": "Schichten werden ohne nachvollziehbare Begründung immer zum Nachteil derselben Person verteilt."
+      },
+      {
+        "id": "choice-3",
+        "text": "Kritik wird abwertend vor Kunden geäußert."
+      },
+      {
+        "id": "choice-4",
+        "text": "Zuständigkeiten werden gemeinsam verbindlich geklärt."
+      },
+      {
+        "id": "choice-5",
+        "text": "Beschäftigte geben einander sachliche Rückmeldungen."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

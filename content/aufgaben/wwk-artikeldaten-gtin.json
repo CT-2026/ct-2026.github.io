@@ -1,0 +1,35 @@
+{
+  "id": "wwk-artikeldaten-gtin",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Vorteil der GTIN für das Warenhaus",
+  "materials": [
+    {
+      "id": "mat-wws-maxikauf",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Die GTIN ist eine weltweit eindeutige Artikelnummer, die als Strichcode gescannt wird.",
+  "short_explanation": "Die GTIN (früher EAN) identifiziert jeden Artikel eindeutig und wird als Strichcode gescannt. So lassen sich Artikel an der Kasse, beim Wareneingang und bei der Inventur schnell und fehlerfrei erfassen.",
+  "detailed_explanation": "GTIN steht für Global Trade Item Number. Sie enthält ein Länder- bzw. Organisationspräfix, eine Unternehmensnummer, eine Artikelnummer und eine Prüfziffer. Einen Preis enthält sie nicht.\n\nVorteile für das Warenhaus:\n- schnelle, sichere Datenerfassung durch Scannen statt Eintippen,\n- artikelgenaue Verkaufs- und Bestandsdaten im Warenwirtschaftssystem.\n\nDie Preisauszeichnung für die Kundschaft bleibt trotzdem nötig. Fachberatung ersetzt ein Code ebenso wenig. Wie oft kassiert wird, hängt von der Kundenzahl ab, nicht vom Code.",
+  "error_paths": [
+    {
+      "id": "preis-im-code",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die GTIN enthält keinen Preis. Einkaufs- und Verkaufspreise sind im Warenwirtschaftssystem gespeichert."
+    },
+    {
+      "id": "preisauszeichnung",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Kundinnen und Kunden müssen den Preis erkennen können. Der Strichcode ist für sie nicht lesbar und ersetzt die Preisauszeichnung nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

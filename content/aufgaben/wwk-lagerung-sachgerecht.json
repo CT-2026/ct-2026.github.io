@@ -1,0 +1,32 @@
+{
+  "id": "wwk-lagerung-sachgerecht",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Sachgerechte Lagerung",
+  "materials": [],
+  "help": "Prüfe jede Ware: Temperatur, Feuchtigkeit, Witterung und Gewicht. Wo passt alles zusammen?",
+  "short_explanation": "Schwere Kartons mit Kopierpapier gehören in die unteren Regalfächer (Bückzone). Dort können sie nicht herabfallen, und das Regal bleibt standsicher.",
+  "detailed_explanation": "Sachgerechte Lagerung richtet sich nach den Eigenschaften der Ware:\n- **Schwere Ware** unten lagern: Das verhindert Unfälle durch herabfallende Ware und sichert die Standfestigkeit. Beim Herausnehmen auf rückenschonendes Heben achten.\n- **Frisches Obst** wie Süßkirschen kühl, aber nicht gefroren lagern; bei −25 °C wird es beschädigt.\n- **Tiefkühlware** muss dauerhaft bei höchstens −18 °C bleiben; +12 °C unterbricht die Kühlkette.\n- **Leder** braucht trockene, luftige Räume, sonst bildet sich Schimmel.\n- **Kartons** vor Nässe und Witterung schützen.",
+  "error_paths": [
+    {
+      "id": "temperatur-falsch",
+      "choice_ids": [
+        "choice-1",
+        "choice-2"
+      ],
+      "text": "Die Temperatur passt nicht zur Ware: Frisches Obst gefriert bei −25 °C, und Tiefkühlware taut bei +12 °C auf."
+    },
+    {
+      "id": "feuchtigkeit",
+      "choice_ids": [
+        "choice-3",
+        "choice-5"
+      ],
+      "text": "Feuchtigkeit und Witterung schaden Leder und Karton. Beides muss trocken gelagert werden."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

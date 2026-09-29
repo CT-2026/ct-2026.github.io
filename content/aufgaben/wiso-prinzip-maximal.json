@@ -1,0 +1,47 @@
+{
+  "id": "wiso-prinzip-maximal",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.prinzip",
+  "title": "Das Maximalprinzip",
+  "stem": "Für eine Werbeaktion stehen fest 300 € zur Verfügung. Welche Zielsetzung entspricht dem Maximalprinzip?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Genau 100 Karten möglichst günstig drucken."
+      },
+      {
+        "id": "choice-2",
+        "text": "Mit 300 € möglichst viele passende Interessierte erreichen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Mittel und Ergebnis ohne Vorgabe möglichst klein halten."
+      },
+      {
+        "id": "choice-4",
+        "text": "Unabhängig vom Ergebnis möglichst viel ausgeben."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Beim Maximalprinzip sind die Mittel vorgegeben.",
+  "short_explanation": "Mit dem festen Budget soll die größtmögliche passende Reichweite erzielt werden.",
+  "detailed_explanation": "Beim Minimalprinzip wäre ein bestimmtes Ergebnis vorgegeben und der Aufwand zu minimieren. Hier sind 300 € der feste Ausgangspunkt.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

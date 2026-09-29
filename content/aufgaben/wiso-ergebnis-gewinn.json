@@ -1,0 +1,17 @@
+{
+  "id": "wiso-ergebnis-gewinn",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Gewinn aus Erlösen und Kosten",
+  "materials": [],
+  "help": "Addiere beide Erlösarten und ziehe dann die gesamten Kosten ab.",
+  "short_explanation": "180.860 € + 125.030 € − 266.800 € = 39.090 € Gewinn.",
+  "detailed_explanation": "Erlöse allein sind noch kein Gewinn. Erst nach Abzug sämtlicher genannter Kosten ergibt sich das Ergebnis.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

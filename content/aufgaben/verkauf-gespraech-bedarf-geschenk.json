@@ -1,0 +1,43 @@
+{
+  "id": "verkauf-gespraech-bedarf-geschenk",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Bedarfsermittlung Formulierungen",
+  "materials": [
+    {
+      "id": "mat-geschenkkauf-bild",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Bei der Bedarfsermittlung werden die Wünsche erfragt, bevor Ware gezeigt wird. Welche Fragen sind offen und liefern verwertbare Informationen?",
+  "short_explanation": "Die Fragen nach der Wohnungseinrichtung und nach der Größe klären, welches Bild zu den Eltern passt. Es sind offene Fragen, die die nötigen Informationen für eine gezielte Auswahl liefern.",
+  "detailed_explanation": "Gute Fragen zur Bedarfsermittlung sind offen und beziehen sich auf den Verwendungszweck: Wo soll das Bild hängen? Wie groß darf es sein? Welcher Stil gefällt?\n\nWeniger geeignet sind:\n- die Frage nach der Preisklasse gleich zu Beginn – sie wirkt schnell unangenehm und rückt den Preis vor den Nutzen,\n- die Frage nach der Meinung zu einem bestimmten Bild – damit wird schon Ware gezeigt, bevor der Bedarf klar ist,\n- geschlossene Fragen wie „Haben Sie sich schon …?“ oder „Soll es ein Ölbild sein?“, die nur Ja oder Nein zulassen.",
+  "error_paths": [
+    {
+      "id": "preis-zuerst",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Preisfrage gleich zu Beginn stellt den Preis vor den Nutzen. Zuerst werden Zweck und Wünsche geklärt."
+    },
+    {
+      "id": "ware-zeigen",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Hier wird schon ein bestimmtes Bild vorgelegt. Die Bedarfsermittlung kommt vor der Warenvorlage."
+    },
+    {
+      "id": "geschlossen",
+      "choice_ids": [
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Diese Frage lässt nur Ja oder Nein zu und liefert kaum Informationen über den Bedarf."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

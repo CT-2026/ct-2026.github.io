@@ -1,0 +1,38 @@
+{
+  "id": "wwk-wws-viren",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Schutz vor Computerviren",
+  "materials": [],
+  "help": "Welche Maßnahme hält den Schutz gegen neue Viren auf dem aktuellen Stand?",
+  "short_explanation": "Ständig kommen neue Schadprogramme hinzu. Nur eine regelmäßig aktualisierte Antivirensoftware erkennt sie. Laufende Updates sind deshalb ein wirksamer Schutz.",
+  "detailed_explanation": "Schutz vor Schadsoftware:\n- Antivirensoftware und Betriebssystem laufend aktualisieren,\n- Firewall einsetzen,\n- vorsichtig mit E-Mail-Anhängen, Links und fremden Datenträgern umgehen,\n- regelmäßig Datensicherungen anlegen.\n\nDie DSGVO regelt den Schutz personenbezogener Daten, nicht die Abwehr von Viren. Tägliche Passwortwechsel führen eher zu unsicheren, leicht zu merkenden Passwörtern. Das Intranet einzuschränken oder auf MDE-Geräte zu verzichten, behindert die Arbeit, ohne gezielt vor Viren zu schützen.",
+  "error_paths": [
+    {
+      "id": "datenschutz",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die DSGVO betrifft den Umgang mit personenbezogenen Daten. Vor Computerviren schützt technische Sicherheit wie aktuelle Virenschutzprogramme."
+    },
+    {
+      "id": "passwort",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Häufige Passwortwechsel verleiten zu einfachen Passwörtern. Viren halten sie nicht auf."
+    },
+    {
+      "id": "arbeit-behindern",
+      "choice_ids": [
+        "choice-2",
+        "choice-5"
+      ],
+      "text": "Diese Maßnahme erschwert die Arbeit, schützt aber nicht gezielt vor Schadsoftware."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

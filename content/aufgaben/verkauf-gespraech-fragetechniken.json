@@ -1,0 +1,46 @@
+{
+  "id": "verkauf-gespraech-fragetechniken",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Fragetechniken zuordnen",
+  "reuse_choices": false,
+  "materials": [],
+  "help": "Achte auf den Anfang und die Form der Frage: W-Wort, Ja-Nein-Antwort oder eine vorgegebene Meinung?",
+  "short_explanation": "„Wie gefällt Ihnen …?“ ist eine offene Frage, weil sie mit einem W-Wort beginnt und eine eigene Antwort verlangt. „Sind Sie … zufrieden?“ ist geschlossen, denn sie lässt nur Ja oder Nein zu. „… doch sicher …?“ legt die Antwort nahe und ist deshalb suggestiv.",
+  "detailed_explanation": "Fragetechniken im Überblick:\n- **Offene Frage:** beginnt mit einem W-Wort (wie, was, wofür) und lädt zu einer ausführlichen Antwort ein.\n- **Geschlossene Frage:** lässt nur Ja oder Nein zu.\n- **Alternativfrage:** bietet zwei Möglichkeiten zur Wahl („lieber A oder B?“).\n- **Suggestivfrage:** drängt eine Antwort auf („doch sicher“, „nicht wahr“).\n- **Gegenfrage:** beantwortet eine Frage mit einer Frage.\n\nFür eine ehrliche Kundenbefragung sind Suggestivfragen ungeeignet, weil sie die Antworten verfälschen.",
+  "error_paths": [
+    {
+      "id": "offen-geschlossen",
+      "matches": [
+        {
+          "target_id": "target-1",
+          "choice_id": "choice-2"
+        },
+        {
+          "target_id": "target-2",
+          "choice_id": "choice-1"
+        }
+      ],
+      "text": "Offene Fragen beginnen mit einem W-Wort und verlangen eine eigene Antwort. Geschlossene Fragen lassen nur Ja oder Nein zu."
+    },
+    {
+      "id": "suggestiv",
+      "matches": [
+        {
+          "target_id": "target-3",
+          "choice_id": "choice-2"
+        }
+      ],
+      "text": "„Ihnen gefällt doch sicher …?“ legt die Antwort bereits nahe. Das kennzeichnet eine Suggestivfrage."
+    }
+  ],
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Lauf 5: Kennziffern-Verweis durch eine zur digitalen Zuordnung passende Arbeitsanweisung ersetzt; Antwortalternativen und Lösung unverändert."
+    ]
+  },
+  "overrides": {
+    "stem": "Nach Eröffnung der neuen Drogerieabteilung sollen Sie eine Kundenbefragung durchführen. Sie sollen dazu einen Fragebogen erstellen. Ordnen Sie jedem Beispiel die passende Fragetechnik zu. Verwenden Sie **3** der insgesamt 5 Fragetechniken jeweils einmal."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "wwk-artikeldaten-artikelnummer",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Textil-Farben im Warenwirtschaftssystem erfassen",
+  "materials": [
+    {
+      "id": "mat-messebesuch-artikelnummer",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Der Artikel bleibt derselbe, nur seine Nummer ändert sich. Wo im Warenwirtschaftssystem sind solche festen Artikelangaben gespeichert?",
+  "short_explanation": "Die Textil-Farben bleiben im Sortiment, tragen aber künftig die Artikelnummer 14959. Die Artikelnummer gehört zu den Stammdaten des Artikels und muss dort geändert werden, damit Wareneingang, Bestand und Verkauf richtig zugeordnet werden.",
+  "detailed_explanation": "**Stammdaten** sind Angaben, die sich selten ändern – beim Artikel etwa Artikelnummer, Bezeichnung, GTIN, Lieferer und Verkaufspreis. Ändert der Lieferer die Artikelnummer, muss sie in den Artikelstammdaten angepasst werden. Sonst passen Bestellungen, Lieferscheine und Rechnungen nicht mehr zum gespeicherten Artikel.\n\nDie übrigen Maßnahmen sind nicht nötig: Die Farben werden weiterhin bei der Farben-Welt GmbH bestellt, vorhandene Ware bleibt verkaufsfähig, und eine einmalige Messebestellung ändert weder den Meldebestand noch die dauerhaften Einkaufskonditionen.",
+  "error_paths": [
+    {
+      "id": "ware-aussortieren",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Die Ware selbst ändert sich nicht, nur ihre Nummer. Ältere Packungen bleiben verkaufsfähig."
+    },
+    {
+      "id": "einmalige-bestellung",
+      "choice_ids": [
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Eine einmalige Messebestellung ändert weder den Meldebestand noch die dauerhaften Einkaufskonditionen im System."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

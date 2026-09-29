@@ -1,0 +1,44 @@
+{
+  "id": "wwk-warenannahme-fahrer",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Prüfung bei der Warenannahme",
+  "materials": [],
+  "help": "In Anwesenheit des Fahrers wird geprüft, was sofort von außen erkennbar ist, ohne die Packstücke zu öffnen.",
+  "short_explanation": "Bei der Übergabe wird geprüft, was von außen erkennbar ist: ob die Sendung an den empfangenden Betrieb adressiert ist, ob die Zahl der Versandstücke stimmt und ob die Verpackung beschädigt ist. Die Ware selbst wird erst nach dem Auspacken geprüft.",
+  "detailed_explanation": "Die Warenannahme läuft in zwei Schritten ab.\n\n**Sofort bei der Übergabe, in Anwesenheit des Fahrers:**\n- Empfängeranschrift prüfen: Ist die Sendung für den empfangenden Betrieb bestimmt?\n- Anzahl der Versandstücke mit den Begleitpapieren vergleichen.\n- Äußere Beschaffenheit der Verpackung prüfen.\n\nÄußerlich erkennbare Schäden werden vom Fahrer schriftlich bestätigt, zum Beispiel auf dem Lieferschein.\n\n**Danach, ohne den Fahrer:** Die Ware wird ausgepackt und nach Art, Menge und Beschaffenheit geprüft.",
+  "error_paths": [
+    {
+      "id": "lieferer-statt-empfaenger",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Wichtig ist, ob die Sendung an den empfangenden Betrieb gerichtet ist, also die Empfängeranschrift – nicht die Adresse des Lieferers. Außerdem werden bei der Übergabe die Versandstücke und nicht die einzelnen Geräte gezählt."
+    },
+    {
+      "id": "geraete-statt-versandstuecke",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Die Geräte und ihre Verkaufsverpackungen stecken meist in Versandkartons. Bei der Übergabe werden deshalb die Versandstücke gezählt und ihre äußeren Verpackungen geprüft."
+    },
+    {
+      "id": "ware-zu-frueh-geprueft",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Die Beschaffenheit der Geräte wird erst nach dem Auspacken geprüft, also nicht in Anwesenheit des Fahrers."
+    },
+    {
+      "id": "rechnung-zu-frueh-geprueft",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Die Empfängeranschrift gehört dazu, die Rechnung nicht: Sie wird später mit Bestellung und Lieferschein abgeglichen. Außerdem fehlen die Zahl der Versandstücke und der Zustand der Verpackung."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

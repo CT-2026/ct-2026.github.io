@@ -1,0 +1,38 @@
+{
+  "id": "wwk-warenannahme-mengenmangel",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Mengenmangel bei einer Lieferung erkennen",
+  "materials": [],
+  "help": "Rechne bei jeder Antwort nach, ob die Stückzahl stimmt. Nur bei einem Mengenmangel weicht die Anzahl ab.",
+  "short_explanation": "Bestellt wurden 8 × 10 = 80 Pullover, geliefert 12 × 6 = 72 Pullover. Es fehlen 8 Stück – ein Mangel in der Menge.",
+  "detailed_explanation": "Beim Wareneingang werden verschiedene Abweichungen unterschieden:\n- **Mangel in der Menge:** Es wird mehr oder weniger geliefert als bestellt – hier 72 statt 80 Pullover.\n- **Mangel in der Art:** Es wird eine andere Ware geliefert, etwa V-Ausschnitt statt Rollkragen.\n- **Mangel in der Beschaffenheit (Güte):** Die Ware hat Fehler oder nicht die vereinbarte Qualität, etwa ein Webfehler oder ein zu geringer Baumwollanteil.\n- **Verspätete Lieferung:** Die Ware kommt später als vereinbart. Das ist kein Mangel der Ware, sondern eine Frage der Lieferzeit.\n\nVerpackungseinheiten beachten: Die Zahl der Kartons allein sagt nichts aus, entscheidend ist die Gesamtzahl der Stücke.",
+  "error_paths": [
+    {
+      "id": "guete-statt-menge",
+      "choice_ids": [
+        "choice-1",
+        "choice-2"
+      ],
+      "text": "Webfehler und zu geringer Baumwollanteil betreffen die Beschaffenheit der Ware, nicht ihre Menge."
+    },
+    {
+      "id": "art-statt-menge",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Hier stimmt die Stückzahl. Geliefert wurde aber ein anderes Modell – das ist ein Mangel in der Art."
+    },
+    {
+      "id": "verspaetung-statt-menge",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Eine späte Lieferung betrifft den Liefertermin. Über die gelieferte Menge sagt sie nichts aus."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

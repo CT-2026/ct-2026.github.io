@@ -1,0 +1,19 @@
+{
+  "id": "wwk-wws-abrufbar",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Abrufbare Angaben im Warenwirtschaftssystem",
+  "materials": [
+    {
+      "id": "mat-wws-planung",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Das System liefert gespeicherte oder berechnete Zahlen. Welche Antwort ist keine Zahl, sondern eine Einschätzung?",
+  "short_explanation": "Melde-, Mindest- und Soll-Bestand sowie der Bestellzeitpunkt sind Zahlen, die das Warenwirtschaftssystem speichert oder berechnet. Die Risiken der Lagerhaltung dagegen sind eine betriebswirtschaftliche Beurteilung, die das System nicht liefert.",
+  "detailed_explanation": "Ein Warenwirtschaftssystem verwaltet Artikel- und Bewegungsdaten und rechnet damit:\n- **Mindestbestand** und **Meldebestand** sind gespeicherte Vorgaben je Artikel.\n- Der **Soll-Bestand** ergibt sich aus Zugängen und Abgängen.\n- Der **Bestellzeitpunkt** folgt daraus, wann der Meldebestand erreicht wird.\n\nRisiken der Lagerhaltung – etwa Veralterung, Verderb, Diebstahl oder Kapitalbindung – muss dagegen der Mensch beurteilen. Die Daten des Systems können dabei helfen, die Bewertung selbst nimmt es nicht vor.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

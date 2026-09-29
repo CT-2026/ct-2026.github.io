@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#152d27">
+    <text x="40" y="60" font-size="30" font-weight="bold">Lieferschein · Übungsbeleg</text>
+    <text x="40" y="105" font-size="21">Empfänger: Kaufhaus Marktstraße</text>
+    <text x="40" y="140" font-size="21">Lieferung: Hemden, Artikel H-42</text>
+    <path d="M40 175H760 M40 235H760 M40 310H760" stroke="#526c62" fill="none"/>
+    <text x="40" y="215" font-size="21" font-weight="bold">Packstücke</text>
+    <text x="280" y="215" font-size="21" font-weight="bold">Inhalt je Karton</text>
+    <text x="550" y="215" font-size="21" font-weight="bold">Gesamtmenge</text>
+    <text x="40" y="280" font-size="24">4 Kartons</text>
+    <text x="280" y="280" font-size="24">6 Hemden</text>
+    <text x="550" y="280" font-size="24">24 Hemden</text>
+    <text x="40" y="365" font-size="21">Bei der Anlieferung gezählt: 3 Kartons.</text>
+
+  </g>
+</svg>

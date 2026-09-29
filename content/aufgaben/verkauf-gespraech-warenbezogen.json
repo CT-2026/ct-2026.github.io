@@ -1,0 +1,38 @@
+{
+  "id": "verkauf-gespraech-warenbezogen",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Verkaufsgespräch einleiten",
+  "materials": [],
+  "help": "Die Kundin zeigt schon Interesse an einer bestimmten Tasche. Welche Ansprache knüpft direkt daran an?",
+  "short_explanation": "Die Kundin betrachtet bereits eine bestimmte Tasche. Eine warenbezogene Ansprache greift ihr Interesse auf und nennt einen Vorteil der betrachteten Ware.",
+  "detailed_explanation": "Bei der Kontaktaufnahme unterscheidet man:\n- **Warenbezogene Ansprache:** Die Kundin betrachtet eine Ware; die Ansprache nennt einen Vorteil dieser Ware. Das passt zur beschriebenen Situation.\n- **Offene Frage:** Wenn die Kundin noch nichts Bestimmtes ansieht, etwa „Wofür suchen Sie eine Tasche?“.\n\nUngünstig sind geschlossene Fragen wie „Darf ich Ihnen etwas zeigen?“ oder „Suchen Sie etwas Bestimmtes?“, die leicht mit „Nein, danke“ enden. „Soll es diese Tasche sein?“ drängt zu früh zur Entscheidung. Der Hinweis auf ein anderes Regal lenkt vom Interesse der Kundin ab.",
+  "error_paths": [
+    {
+      "id": "ja-nein-frage",
+      "choice_ids": [
+        "choice-1",
+        "choice-5"
+      ],
+      "text": "Diese Frage lässt sich mit „Nein, danke“ beantworten. Damit endet das Gespräch, bevor es begonnen hat."
+    },
+    {
+      "id": "zu-frueh",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Die Frage drängt zur Kaufentscheidung, bevor die Kundin die Vorteile kennt."
+    },
+    {
+      "id": "ablenken",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Der Hinweis auf andere Taschen lenkt die Kundin von dem Artikel ab, der sie gerade interessiert."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

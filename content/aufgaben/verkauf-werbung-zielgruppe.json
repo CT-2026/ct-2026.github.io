@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-werbung-zielgruppe",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "werbung",
+  "variant_group": "verkauf.werbung",
+  "title": "Eine Zielgruppe ansprechen",
+  "stem": "Ein Geschäft plant einen Aktionstag für Schulrucksäcke. Welche Maßnahme passt am besten zum genannten Angebot?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Informationen zu Passform und Tragekomfort für Familien mit Schulkindern"
+      },
+      {
+        "id": "choice-2",
+        "text": "Ausschließlich Fachinformationen zu Industriemaschinen"
+      },
+      {
+        "id": "choice-3",
+        "text": "Eine Botschaft ohne jeden Bezug zum Produkt"
+      },
+      {
+        "id": "choice-4",
+        "text": "Werbung nur für Reparaturen von Heizungsanlagen"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Angebot und Interessen der angesprochenen Menschen sollen zusammenpassen.",
+  "short_explanation": "Familien mit Schulkindern haben einen erkennbaren Bezug zu Schulrucksäcken.",
+  "detailed_explanation": "Eine Zielgruppe wird nach einem sachlichen Bedarf ausgewählt. Die Information sollte das angebotene Produkt und relevante Nutzungseigenschaften erklären.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "verkauf-teamarbeit-zuordnen",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "zusammenarbeit",
+  "variant_group": "verkauf.zusammenarbeit",
+  "title": "Verhalten im Team zuordnen",
+  "stem": "Ordne jeder Situation die Eigenschaft zu, die besonders deutlich wird.",
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Eine Kollegin hält einen zugesagten Termin ein."
+      },
+      {
+        "id": "target-2",
+        "text": "Ein Kollege fragt nach, ob er einen Hinweis richtig verstanden hat."
+      },
+      {
+        "id": "target-3",
+        "text": "Eine Kollegin unterstützt nach Absprache einen überlasteten Kollegen."
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Zuverlässigkeit"
+      },
+      {
+        "id": "choice-2",
+        "text": "Aktives Zuhören"
+      },
+      {
+        "id": "choice-3",
+        "text": "Kooperationsbereitschaft"
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      }
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Achte auf die jeweilige Handlung: Zusage einhalten, Verständnis klären oder Unterstützung anbieten.",
+  "short_explanation": "Termine einzuhalten zeigt Zuverlässigkeit. Rückfragen sichern das Verständnis. Abgesprochene Unterstützung zeigt Kooperationsbereitschaft.",
+  "detailed_explanation": "Mehrere Eigenschaften können im Alltag zusammenwirken. Diese drei Situationen betonen jeweils einen Aspekt. Eine Zuordnung richtet sich hier danach, welche Handlung ausdrücklich beschrieben wird.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

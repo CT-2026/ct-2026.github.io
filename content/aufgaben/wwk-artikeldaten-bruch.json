@@ -1,0 +1,24 @@
+{
+  "id": "wwk-artikeldaten-bruch",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Bestand nach beschädigter Ware berichtigen",
+  "materials": [],
+  "help": "Die Massagerolle ist nicht mehr verkaufsfähig. Welche Zahl im System stimmt jetzt nicht mehr?",
+  "short_explanation": "Die beschädigte Massagerolle kann nicht mehr verkauft werden. Sie muss als Abgang gebucht werden, damit der Soll-Bestand im System wieder dem tatsächlichen verkaufsfähigen Bestand entspricht.",
+  "detailed_explanation": "Der Soll-Bestand ist der gebuchte Bestand: Anfangsbestand + Zugänge − Abgänge. Nicht nur Verkäufe sind Abgänge, sondern auch Bruch, Verderb oder Diebstahl – soweit sie bekannt sind.\n\nWird der Bruch nicht gebucht, zeigt das System einen Artikel zu viel an. Das kann Nachbestellungen verzögern und führt bei der Inventur zu einer Differenz.\n\nMelde- und Mindestbestand sind feste Planungswerte. Bestellte und reservierte Mengen betreffen offene Bestellungen und Kundenreservierungen, nicht den vorhandenen Bestand.",
+  "error_paths": [
+    {
+      "id": "planungswerte",
+      "choice_ids": [
+        "choice-1",
+        "choice-2"
+      ],
+      "text": "Melde- und Mindestbestand sind feste Planungswerte des Artikels. Ein einzelner Bruch ändert sie nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

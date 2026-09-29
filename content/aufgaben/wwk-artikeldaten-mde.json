@@ -1,0 +1,37 @@
+{
+  "id": "wwk-artikeldaten-mde",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Mobile Datenerfassung",
+  "materials": [],
+  "help": "Ein MDE-Gerät ist ein tragbarer Scanner mit Speicher. Wofür wird er im Lager eingesetzt?",
+  "short_explanation": "Mit dem MDE-Gerät werden beim Wareneingang oder bei der Inventur die Artikel gescannt und die Mengen erfasst. Die Daten werden an das Warenwirtschaftssystem übertragen; das manuelle Abschreiben entfällt.",
+  "detailed_explanation": "MDE steht für mobile Datenerfassung. Einsatzbereiche:\n- Wareneingang: Liefermengen erfassen,\n- Inventur: gezählte Bestände erfassen,\n- Regalkontrolle: Nachbestellungen auslösen oder Preise prüfen.\n\nGrenzen des Geräts: Versteckte Mängel zeigen sich erst bei Gebrauch der Ware, nicht beim Scannen. Diebstahl und damit Inventurdifferenzen verhindert das Gerät nicht. Mit Kassendifferenzen hat es nichts zu tun, denn es wird im Lager eingesetzt, nicht beim Kassieren.",
+  "error_paths": [
+    {
+      "id": "versteckte-maengel",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Versteckte Mängel sind beim Wareneingang nicht erkennbar – auch nicht mit einem Scanner."
+    },
+    {
+      "id": "keine-differenzen",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Das Gerät erfasst Mengen genauer, verhindert aber keinen Diebstahl oder Bruch. Inventurdifferenzen bleiben möglich."
+    },
+    {
+      "id": "diebstahlsicherung",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Diebstahl verhindern Warensicherungsetiketten und Kontrollen. Ein MDE-Gerät dient der Datenerfassung."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

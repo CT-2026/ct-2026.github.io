@@ -1,0 +1,45 @@
+{
+  "id": "wwk-bezugskalkulation-ordnen",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "rabatt-skonto",
+  "variant_group": "wwk.rabatt-skonto",
+  "title": "Schritte der Bezugskalkulation",
+  "stem": "Du startest beim Listeneinkaufspreis. Ordne die drei Rechenschritte bis zum Bezugspreis.",
+  "response": {
+    "type": "ordering",
+    "entries": [
+      {
+        "id": "entry-1",
+        "text": "Liefererrabatt vom Listeneinkaufspreis abziehen."
+      },
+      {
+        "id": "entry-2",
+        "text": "Liefererskonto vom Zieleinkaufspreis abziehen."
+      },
+      {
+        "id": "entry-3",
+        "text": "Bezugskosten zum Bareinkaufspreis addieren."
+      }
+    ]
+  },
+  "solution": {
+    "ordered_entry_ids": [
+      "entry-1",
+      "entry-2",
+      "entry-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Rabatt und Skonto haben unterschiedliche Bezugsgrößen. Die Bezugskosten kommen erst am Ende dazu.",
+  "short_explanation": "Erst Rabatt, dann Skonto, danach Bezugskosten: So entsteht aus dem Listeneinkaufspreis der Bezugspreis.",
+  "detailed_explanation": "Listeneinkaufspreis minus Liefererrabatt ergibt den Zieleinkaufspreis. Davon wird der Liefererskonto abgezogen. Zum Bareinkaufspreis werden die Bezugskosten addiert. Rabatt und Skonto werden daher nicht einfach zu einem Prozentsatz zusammengezählt.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

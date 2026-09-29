@@ -1,0 +1,17 @@
+{
+  "id": "wiso-preisbildung-rueckgang",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Sinkende Nachfrage",
+  "materials": [],
+  "help": "Achte auf ein Angebot, das im Verhältnis zur Nachfrage groß bleibt.",
+  "short_explanation": "Sinkt die Nachfrage stärker als das Angebot, entsteht tendenziell Preisdruck nach unten.",
+  "detailed_explanation": "Weniger Kaufinteressierte treffen auf vergleichsweise viele Waren. Niedrigere Preise können den Absatz anregen. Das ist eine Tendenz, keine automatische Preisänderung.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

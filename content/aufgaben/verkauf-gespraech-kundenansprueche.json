@@ -1,0 +1,46 @@
+{
+  "id": "verkauf-gespraech-kundenansprueche",
+  "revision": 3,
+  "source": "scanreha",
+  "title": "Kundenansprüche zuordnen",
+  "reuse_choices": true,
+  "materials": [],
+  "help": "Bei jeder Kundenfrage ist das Anliegen entscheidend: Geht es der Kundin oder dem Kunden – um Geld, Umwelt, eine Dienstleistung des Geschäfts oder den Nutzen der Ware?",
+  "short_explanation": "Die Rücknahme verbrauchter Batterien betrifft die Umwelt. Die Frage, welche Materialien der Kleber verbindet, zielt auf den Gebrauchsnutzen. Umtausch und Lieferung ins Haus sind Serviceleistungen, und die Frage nach dem hohen Preis betrifft den Preis.",
+  "detailed_explanation": "Kundenansprüche erkennen hilft, gezielt zu argumentieren:\n- **Preis:** „Warum ist das so teuer?“ → Nutzen und Qualität begründen.\n- **Umwelt:** Rücknahme, Recycling, umweltfreundliche Herstellung.\n- **Service:** Umtausch, Lieferung, Reparatur, Beratung.\n- **Gebrauchsnutzen:** Was kann ich damit machen, wofür eignet es sich?\n\nDer Anspruch „Service“ kommt zweimal vor.",
+  "error_paths": [
+    {
+      "id": "umwelt-service",
+      "matches": [
+        {
+          "target_id": "target-1",
+          "choice_id": "choice-3"
+        }
+      ],
+      "text": "Hinter der Frage nach der Batterierücknahme steht der Umweltgedanke: Altbatterien sollen richtig entsorgt werden."
+    },
+    {
+      "id": "service-nutzen",
+      "matches": [
+        {
+          "target_id": "target-2",
+          "choice_id": "choice-3"
+        },
+        {
+          "target_id": "target-5",
+          "choice_id": "choice-4"
+        }
+      ],
+      "text": "Was der Kleber verbinden kann, betrifft den Gebrauchsnutzen der Ware. Die Lieferung ins Haus ist eine Serviceleistung des Geschäfts."
+    }
+  ],
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Lauf 5: Kennziffern-Verweis durch eine zur digitalen Zuordnung passende Arbeitsanweisung ersetzt; Antwortalternativen und Lösung unverändert."
+    ]
+  },
+  "overrides": {
+    "stem": "Sie müssen während eines Verkaufsgesprächs auf Erwartungen und Wünsche der Kunden eingehen. Ordnen Sie jeder Frage den passenden Kundenanspruch zu. Ein Kundenanspruch kann mehrmals verwendet werden."
+  }
+}

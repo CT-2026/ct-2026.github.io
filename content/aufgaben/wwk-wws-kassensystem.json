@@ -1,0 +1,30 @@
+{
+  "id": "wwk-wws-kassensystem",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Nutzen eines Kassensystems",
+  "materials": [],
+  "help": "Ein computergestütztes Kassensystem erfasst jeden Verkauf artikelgenau. Wofür lassen sich diese Daten nutzen?",
+  "short_explanation": "Ein modernes Kassensystem erfasst jeden Verkauf artikelgenau. Diese Daten zeigen, was wann wie oft verkauft wird – eine wertvolle Grundlage für Einkauf, Sortimentsgestaltung und Personaleinsatz.",
+  "detailed_explanation": "Computergestützte Kassensysteme sind mit dem Warenwirtschaftssystem verbunden. Sie liefern zum Beispiel:\n- Verkaufszahlen je Artikel, Tag und Uhrzeit,\n- Grundlagen für Bestellvorschläge und Sortimentsentscheidungen,\n- Daten zur Wirkung von Werbe- und Preisaktionen.\n\nDie anderen Gründe tragen nicht: Die Anschaffungskosten spielen immer eine Rolle, Inventurdifferenzen durch Diebstahl verhindert ein Kassensystem nicht „garantiert“, und die Preisauszeichnung an der Ware oder am Regal bleibt vorgeschrieben. Dass andere Warenhäuser ein System besitzen, ist allein kein betriebswirtschaftlicher Grund.",
+  "error_paths": [
+    {
+      "id": "inventurdifferenz-garantiert",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Ein Kassensystem kann Diebstahl nicht verhindern. Inventurdifferenzen lassen sich damit nicht garantiert verringern."
+    },
+    {
+      "id": "preisauszeichnung-entfaellt",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Kundinnen und Kunden müssen den Preis vor dem Kauf erkennen können. Die Preisauszeichnung am Artikel oder Regal bleibt deshalb nötig."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

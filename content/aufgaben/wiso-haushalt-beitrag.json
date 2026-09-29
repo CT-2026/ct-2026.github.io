@@ -1,0 +1,62 @@
+{
+  "id": "wiso-haushalt-beitrag",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Einen vorgegebenen Abzug berechnen",
+  "materials": [],
+  "help": "9,3 % entsprechen dem Faktor 0,093.",
+  "short_explanation": "1.920,00 € × 0,093 = 178,56 €.",
+  "detailed_explanation": "Der Prozentsatz ist für die Übungsabrechnung vorgegeben. Der errechnete Betrag ist der Abzug, nicht der verbleibende Nettolohn. Weitere Abzüge sind hier unerheblich.",
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Für die geschlossene Web-Fassung präzisiert; Änderungen stehen in overrides."
+    ],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  },
+  "overrides": {
+    "stem": "In einer Übungsabrechnung beträgt die vorgegebene Beitragsgrundlage 1.920,00 €. Der Arbeitnehmeranteil zur Rentenversicherung wird hier mit 9,3 % berechnet. Welcher Betrag wird dafür abgezogen?",
+    "response": {
+      "type": "single_choice",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "17,86 €"
+        },
+        {
+          "id": "choice-2",
+          "text": "178,56 €"
+        },
+        {
+          "id": "choice-3",
+          "text": "192,00 €"
+        },
+        {
+          "id": "choice-4",
+          "text": "1.741,44 €"
+        }
+      ],
+      "shuffle": false
+    },
+    "solution": {
+      "choice_ids": [
+        "choice-2"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "kind": "content",
+      "date": "2026-09-26",
+      "text": "Vorgegebener Arbeitnehmeranteil mit DRV-Angaben abgeglichen; 192000 Cent × 93 / 1000 = 17856 Cent.",
+      "sources": [
+        {
+          "title": "Deutsche Rentenversicherung – Beiträge",
+          "url": "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/Services"
+        }
+      ]
+    }
+  ]
+}

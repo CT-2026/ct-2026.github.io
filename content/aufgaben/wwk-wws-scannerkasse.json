@@ -1,0 +1,14 @@
+{
+  "id": "wwk-wws-scannerkasse",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Aufgabenbereich Scannerkasse",
+  "materials": [],
+  "help": "Die Scannerkasse erfasst nur, was tatsächlich über das Band geht und bezahlt wird.",
+  "short_explanation": "Eine Scannerkasse erfasst nur bezahlte Verkäufe. Wie viel Ware gestohlen wird, erkennt sie nicht – Diebstahl zeigt sich erst bei der Inventur als Differenz zwischen Soll- und Ist-Bestand.",
+  "detailed_explanation": "Die Scannerkasse ist mit dem Warenwirtschaftssystem verbunden. Damit lassen sich\n- Abgänge artikelgenau erfassen,\n- Bestände einzelner Artikel jederzeit abrufen (als Soll-Bestand),\n- notwendige Nachbestellungen anzeigen,\n- die Wirkung von Werbemaßnahmen über die Verkaufszahlen annähernd beurteilen.\n\nDiebstahl dagegen wird nirgends gebucht. Er fällt erst auf, wenn der tatsächlich gezählte Bestand (Ist-Bestand) vom gebuchten Soll-Bestand abweicht. Eine tägliche Diebstahlquote liefert die Kasse deshalb nicht.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

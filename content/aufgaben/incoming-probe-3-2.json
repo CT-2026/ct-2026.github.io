@@ -1,0 +1,69 @@
+{
+  "id": "incoming-probe-3-2",
+  "revision": 2,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ressourcen",
+  "title": "DPG-Kennzeichen zuordnen",
+  "stem": "Welche Zuordnung von Getränken und Pfandhöhe passt zum beschriebenen DPG-Kennzeichen?",
+  "materials": [
+    {
+      "id": "mat-incoming-probe-3-2",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Das Kennzeichen bezeichnet ein Verpackungssystem.",
+  "short_explanation": "Das DPG-Kennzeichen kennzeichnet pfandpflichtige Einweggetränkeverpackungen des Systems; der Pfandbetrag beträgt 25 Cent.",
+  "detailed_explanation": "Das Zeichen mit Flasche, Dose und Pfeil gehört zum Einwegpfandsystem. Es ist kein Mehrwegzeichen. Entscheidend ist die gekennzeichnete Verpackung; dieselbe Getränkeart kann in verschiedenen Verpackungssystemen angeboten werden.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-3.2",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-3.2",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal_waiver",
+      "date": "2026-09-26",
+      "text": "Rechtsabgleich auf ausdrückliche Nutzeranweisung vom 26.09.2026 ausgesetzt; keine abgeschlossene Rechtsprüfung behauptet."
+    }
+  ],
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Getränke in pfandpflichtigen Einwegverpackungen des DPG-Systems, beispielsweise Wasser in einer entsprechenden PET-Einwegflasche: 0,25 EUR je Verpackung."
+      },
+      {
+        "id": "choice-2",
+        "text": "Alle Getränke in Mehrwegflaschen: immer 0,25 EUR."
+      },
+      {
+        "id": "choice-3",
+        "text": "Nur Getränke in Getränkekartons: 0,15 EUR."
+      },
+      {
+        "id": "choice-4",
+        "text": "Ausschließlich Bier in Mehrwegflaschen: 0,08 EUR."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

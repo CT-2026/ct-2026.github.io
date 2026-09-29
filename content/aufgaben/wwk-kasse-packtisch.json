@@ -1,0 +1,14 @@
+{
+  "id": "wwk-kasse-packtisch",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Arbeitsablauf am Packtisch",
+  "materials": [],
+  "help": "Am Packtisch wird zuerst der Nachweis geprüft, dann die Ware. Erst danach wird verpackt und übergeben.",
+  "short_explanation": "Zuerst wird der Kassenbon vorgelegt und die Ware herausgesucht. Danach wird die Ware mit dem Bon verglichen, sachgerecht eingepackt und mit dem Bon übergeben. Den Abschluss bildet die Verabschiedung des Kunden.",
+  "detailed_explanation": "Richtige Reihenfolge am Packtisch:\n1. Kassenbon vorlegen lassen – er belegt, dass bezahlt wurde.\n2. Ware heraussuchen.\n3. Ware mit den Angaben auf dem Kassenbon vergleichen.\n4. Ware sachgerecht einpacken.\n5. Ware mit dem Kassenbon übergeben.\n6. Für den Einkauf bedanken und verabschieden.\n\nDer Vergleich kommt vor dem Einpacken. So fallen Verwechslungen auf, bevor die Ware verpackt ist.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

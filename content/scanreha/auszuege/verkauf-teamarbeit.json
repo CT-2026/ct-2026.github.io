@@ -1,0 +1,193 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-teamarbeit",
+  "item": {
+    "id": "itm-59e01e72-fd1d-5e22-9760-08be98e2050b",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Voraussetzungen erfolgreicher Teamarbeit",
+    "stem_md": "Nennen und erläutern Sie 2 Voraussetzungen, die die einzelnen Teammitglieder für eine erfolgreiche Zusammenarbeit mitbringen sollten!",
+    "response": {
+      "type": "short_text",
+      "required_answers": 2,
+      "choices": [],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-d4ca0070-443c-567b-8acd-dd8dd7bea9d3",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-e326766a-2812-5392-865b-589dbc325e4f",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Hilfreicher Ursprungskontext."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.werbung.plan"
+      ],
+      "primary_topic_id": "topic.werbung.plan",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_verified_scan_transcription",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-VW",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/tasks/26",
+        "original_label": "1.1",
+        "parent_label": "1",
+        "scan_file": "../../AP-WS2024-7300-WWK - 0014.tif",
+        "printed_page": 2
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "temporal_sensitivity": "stable_for_historical_exercise",
+    "difficulty": {
+      "level": null,
+      "basis": "unrated"
+    },
+    "estimated_minutes": null,
+    "points": 4,
+    "duplicate_family_id": null,
+    "scenario_group_id": "scenario-AP-WS2023-7300-VW-1",
+    "editorial_changes": [
+      "Aufgaben- und Punkteüberschriften aus dem Aufgabenstamm entfernt; die Teilaufgabenpunkte sind separat erhalten."
+    ],
+    "source_key": "AP-WS2023-7300-VW:1.1"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-VW",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Verkauf und Werbemaßnahmen",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "verkauf_werbemassnahmen",
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../check-and-integrate-in-canonical.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Übernommen wurden die im bereitgestellten Stand vollständig sichtbaren Teilaufgaben 1.1 bis 2.3.",
+      "Die Titelseite und die zugehörigen Prüfungsseiten 2 bis 4 wurden mit den TIFF-Scans abgeglichen.",
+      "Übergeordnete Punkt- und Zeitangaben wurden nicht auf einzelne Teilaufgaben verteilt; vorhandene Teilaufgabenpunkte blieben erhalten.",
+      "Weitere Prüfungsseiten dieses Prüfungsteils liegen im bereitgestellten Stand nicht vor."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-0a80ae90-363d-5004-af39-b130c6146b97",
+      "revision": 1,
+      "item_id": "itm-59e01e72-fd1d-5e22-9760-08be98e2050b",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "- **Teamfähigkeit und Kooperationsbereitschaft:** Jedes Mitglied muss bereit sein, eigene Interessen hinter das gemeinsame Ziel zu stellen, Aufgaben zu übernehmen und andere zu unterstützen. Ohne diese Bereitschaft entstehen Einzelleistungen nebeneinander statt eines gemeinsamen Ergebnisses.\n- **Kommunikations- und Kritikfähigkeit:** Jedes Mitglied muss seine Vorschläge sachlich vortragen, den anderen zuhören und Kritik annehmen können, ohne sie persönlich zu nehmen. Nur so werden Informationen vollständig weitergegeben und Meinungsverschiedenheiten geklärt, bevor sie die Arbeit blockieren.\n\n*Ebenfalls anerkennbar:* Zuverlässigkeit und Pünktlichkeit, Fachwissen, Eigeninitiative, Toleranz und Respekt, Kompromissbereitschaft.",
+      "answer": null,
+      "source": {
+        "document_id": "AP-WS2023-7300-VW",
+        "source_file": "../versand/LOESUNGSENTWURF-39.md",
+        "json_pointer": null,
+        "original_label": "1.1",
+        "parent_label": "1",
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 41,
+        "original_source": {
+          "document_id": "AP-WS2023-7300-VW",
+          "source_file": "../check-and-integrate-in-canonical.json",
+          "json_pointer": "/tasks/26",
+          "original_label": "1.1",
+          "parent_label": "1",
+          "scan_file": "../../AP-WS2024-7300-WWK - 0014.tif",
+          "printed_page": 2
+        }
+      },
+      "content_topic_ids": [
+        "topic.werbung.plan"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 22.09.2026 fachlich durchgesehen; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-0a80ae90-363d-5004-af39-b130c6146b97",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-d4ca0070-443c-567b-8acd-dd8dd7bea9d3",
+      "title": "Unternehmensbeschreibung",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-e326766a-2812-5392-865b-589dbc325e4f",
+      "title": "Jubiläumsaktionen der Maxikauf GmbH",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Hilfreicher Ursprungskontext."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-e326766a-2812-5392-865b-589dbc325e4f",
+      "revision": 2,
+      "title": "Jubiläumsaktionen der Maxikauf GmbH",
+      "kind": "scenario",
+      "content_md": "Die Maxikauf GmbH besteht im kommenden Frühjahr seit 25 Jahren. Aus diesem Anlass plant die Maxikauf GmbH verschiedene Veranstaltungen und Sonderverkäufe. Zur Vorbereitung wird ein Team gebildet.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-VW",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/materials/10",
+        "original_label": "Situation zur 1. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../../AP-WS2024-7300-WWK - 0014.tif",
+        "printed_page": 2
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ]
+}

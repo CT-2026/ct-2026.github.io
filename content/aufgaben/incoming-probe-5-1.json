@@ -1,0 +1,102 @@
+{
+  "id": "incoming-probe-5-1",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "werbung",
+  "variant_group": "verkauf.werbung",
+  "title": "Werbeplan für Schulartikel",
+  "stem": "Die gutMarkt GmbH plant zum neuen Schuljahr eine Werbekampagne für Schulartikel. Ordnen Sie den Fragen den passenden Teil des Werbeplans mit einem Beispiel zu. Das Budget beträgt maximal 180.000,00 EUR.",
+  "materials": [],
+  "requires": [],
+  "help": "Jede W-Frage beschreibt einen eigenen Planungsbereich.",
+  "short_explanation": "Ein Werbeplan legt Zielgruppe, Gebiet, Zeitraum, Werbemittel und Budget zusammenhängend fest.",
+  "detailed_explanation": "Eltern und Schulkinder sind eine mögliche Zielgruppe. Das Einzugsgebiet der Filialen beschreibt das Wo, die Wochen vor Schulbeginn das Wann. Prospekte und Anzeigen sind mögliche Mittel. Die Obergrenze von 180.000 EUR begrenzt die geplanten Ausgaben.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.1",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.1",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offenen Werbeplan einschließlich fehlender Budgetfrage als Zuordnung mit Beispielantworten umgesetzt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Wer soll umworben werden?"
+      },
+      {
+        "id": "target-2",
+        "text": "Wo soll die Werbung erfolgen?"
+      },
+      {
+        "id": "target-3",
+        "text": "Wann soll die Werbung durchgeführt werden?"
+      },
+      {
+        "id": "target-4",
+        "text": "Wie soll geworben werden?"
+      },
+      {
+        "id": "target-5",
+        "text": "Wie viel darf die Werbung kosten?"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Zielgruppe: Eltern und Schulkinder."
+      },
+      {
+        "id": "choice-2",
+        "text": "Werbegebiet: Einzugsgebiet der Filialen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Werbezeitraum: Wochen vor Schulbeginn."
+      },
+      {
+        "id": "choice-4",
+        "text": "Werbemittel und Werbeträger: Schulstartprospekt und Anzeigen in regionalen Medien."
+      },
+      {
+        "id": "choice-5",
+        "text": "Werbeetat: maximal 180.000,00 EUR."
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-4"
+      },
+      {
+        "target_id": "target-5",
+        "choice_id": "choice-5"
+      }
+    ]
+  }
+}

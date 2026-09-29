@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2870",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kosten",
+  "variant_group": "wwk.kosten",
+  "title": "Bilanzgleichungen beurteilen",
+  "stem": "Welche der folgenden Bilanzgleichungen ist falsch?",
+  "materials": [],
+  "requires": [],
+  "help": "Die Summen beider Bilanzseiten vergleichen.",
+  "short_explanation": "Die Gleichung mit den Differenzen von Anlage- und Umlaufvermögen sowie Eigen- und Fremdkapital ist falsch.",
+  "detailed_explanation": "Im vereinfachten Bilanzmodell gilt: Anlagevermögen + Umlaufvermögen = Eigenkapital + Fremdkapital. Beide Summen ergeben dieselbe Bilanzsumme. Aus dieser Grundgleichung lassen sich die anderen genannten Gleichungen umstellen.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2870",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2870",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Summe Aktiva = Summe Passiva"
+      },
+      {
+        "id": "choice-2",
+        "text": "Anlagevermögen – Umlaufvermögen = Eigenkapital – Fremdkapital"
+      },
+      {
+        "id": "choice-3",
+        "text": "Bilanzsumme Aktiva – Anlagevermögen = Umlaufvermögen"
+      },
+      {
+        "id": "choice-4",
+        "text": "Bilanzsumme – Eigenkapital = Fremdkapital"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "description": "Ausdrücklich ausgewählte Aufgaben aus dem bisherigen Web-Bestand (wiso.html). Nur diese Aufgaben gelangen über den Übernahmeweg in die neue Fassung. source_revision ist die Prüfsumme des ausgelesenen Aufgabeninhalts.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "entries": [
+    {
+      "web_id": "wiso-wegeunfall-heilkosten",
+      "source_id": "46",
+      "source_revision": "sha256:857dfed250490d51",
+      "area": "wiso",
+      "subtopic": "sozial",
+      "variant_group": "wiso.arbeitsschutz-statistik"
+    },
+    {
+      "web_id": "wiso-haushalt-sparanteil",
+      "source_id": "33",
+      "source_revision": "sha256:7b77759588a1738d",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.haushalt"
+    },
+    {
+      "web_id": "wiso-haushalt-beitrag",
+      "source_id": "106",
+      "source_revision": "sha256:d320bdd91237717f",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.haushalt"
+    },
+    {
+      "web_id": "wiso-ergebnis-gewinn",
+      "source_id": "40",
+      "source_revision": "sha256:c9bdae0c5d087b8b",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.ergebnis"
+    },
+    {
+      "web_id": "wiso-preisbildung-nachfrage",
+      "source_id": "39",
+      "source_revision": "sha256:9c2b299a13ba43ca",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.preisbildung"
+    },
+    {
+      "web_id": "wiso-preisbildung-rueckgang",
+      "source_id": "67",
+      "source_revision": "sha256:404be5d473b14343",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.preisbildung"
+    },
+    {
+      "web_id": "wiso-prinzip-minimal",
+      "source_id": "59",
+      "source_revision": "sha256:9f159b0eac4fb9f5",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.prinzip"
+    },
+    {
+      "web_id": "wiso-ziele-zuordnen",
+      "source_id": "60",
+      "source_revision": "sha256:d3360b15f366171d",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.ziele"
+    },
+    {
+      "web_id": "wiso-ressourcen-recycling",
+      "source_id": "79",
+      "source_revision": "sha256:208af1b511f28801",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.ressourcen"
+    },
+    {
+      "web_id": "wiso-ressourcen-informieren",
+      "source_id": "110",
+      "source_revision": "sha256:bcf8ff6cee7ed625",
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.ressourcen"
+    },
+    {
+      "web_id": "wwk-kasse-rechnung",
+      "source_id": "36",
+      "source_revision": "sha256:1c0597f87bdb779e",
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    }
+  ]
+}

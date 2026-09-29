@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2866",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.gueter",
+  "title": "Bedürfnis verstehen",
+  "stem": "Was ist ein Bedürfnis?",
+  "materials": [],
+  "requires": [],
+  "help": "Vom empfundenen Mangel ausgehen.",
+  "short_explanation": "Ein Bedürfnis ist ein empfundenes Defizit mit dem Wunsch, es zu beseitigen.",
+  "detailed_explanation": "Durst ist ein einfaches Beispiel. Aus einem Bedürfnis kann ein konkreter, durch Kaufkraft gedeckter Bedarf werden. Nachfrage zeigt sich, wenn dieser am Markt wirksam wird.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2866",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2866",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "ein Mangel an Bedarf"
+      },
+      {
+        "id": "choice-2",
+        "text": "der Bedarf eines Menschen"
+      },
+      {
+        "id": "choice-3",
+        "text": "ein Mangel an Nachfrage"
+      },
+      {
+        "id": "choice-4",
+        "text": "ein Mangelempfinden, das es zu überwinden gilt"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-4"
+    ]
+  }
+}

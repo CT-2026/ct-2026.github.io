@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-nutzen-einwand",
+  "revision": 2,
+  "area": "verkauf",
+  "subtopic": "nutzen",
+  "variant_group": "verkauf.nutzen",
+  "title": "Einen Preiseinwand klären",
+  "stem": "Der Kunde sagt: „Das ist mir zu teuer.“ Welche Reaktion klärt den Einwand sachlich?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Dann können Sie sich das wohl nicht leisten."
+      },
+      {
+        "id": "choice-2",
+        "text": "Welche Preisvorstellung haben Sie, und welche Eigenschaften sind Ihnen besonders wichtig?"
+      },
+      {
+        "id": "choice-3",
+        "text": "Teuer ist immer besser."
+      },
+      {
+        "id": "choice-4",
+        "text": "Ich verspreche sofort einen Rabatt, obwohl ich dazu nicht berechtigt bin."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Budget und Prioritäten klären, bevor eine Lösung vorgeschlagen wird.",
+  "short_explanation": "Die Rückfrage macht Preisrahmen und benötigte Eigenschaften deutlich.",
+  "detailed_explanation": "Danach kann ein passendes günstigeres Modell oder der Mehrnutzen verglichen werden. Abwertungen und unbefugte Rabattzusagen helfen nicht.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

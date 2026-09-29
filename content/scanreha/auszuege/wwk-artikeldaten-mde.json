@@ -1,0 +1,215 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-artikeldaten-mde",
+  "item": {
+    "id": "itm-017d14ad-680f-59b5-843a-f2f8a088b34d",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Mobile Datenerfassung",
+    "stem_md": "Geben Sie an, welche Beschreibung zur Arbeit mit dem MDE-Gerät (Mobile Datenerfassung) richtig ist!",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Versteckte Mängel werden mithilfe des MDE-Gerätes erfasst und an den Hauptrechner übermittelt."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Durch den Einsatz des MDE-Gerätes können keine Inventurdifferenzen mehr auftreten."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Mithilfe des MDE-Gerätes werden Artikel gesichert, sodass Diebstahl verhindert wird."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Die Menge der gelieferten Ware wird mithilfe des MDE-Gerätes erfasst und an den Hauptrechner übermittelt."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Durch den Einsatz des MDE-Gerätes gibt es weniger Kassendifferenzen."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-d4539240-a754-592a-992a-fb8b82ef876f",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-c0e66a9f-d36b-5118-8983-197cccd107a4",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Hilfreicher Ursprungskontext."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.wws"
+      ],
+      "primary_topic_id": "topic.lager.wws",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_verified_scan_transcription",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/tasks/2",
+        "original_label": "3",
+        "parent_label": null,
+        "scan_file": "../../AP-WS-2024--7300-WWK - 0007.tif",
+        "printed_page": 2
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift entfernt."
+    ],
+    "source_key": "AP-WS2024-7300-WWK:3"
+  },
+  "document": {
+    "id": "AP-WS2024-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2024/25 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2024,
+    "year_end": 2025,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../check-and-integrate-in-canonical.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Die Aufgaben 1 bis 22 wurden mit den im bereitgestellten TIFF-Ordner vorhandenen Prüfungsseiten 2 bis 5 abgeglichen.",
+      "Die Aufgaben 23 bis 26 sind vollständig in der bereitgestellten OCR-Datei enthalten; die zugehörige Prüfungsseite ist im derzeit eingebundenen TIFF-Ordner nicht vorhanden.",
+      "Handschriftliche Eintragungen auf den Scans wurden nicht als Aufgabeninhalt oder Lösung übernommen.",
+      "Lösungsbogenanweisungen wurden in der Pooldarstellung entfernt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-3bfe174c-9121-531a-892e-523d868a56f7",
+      "revision": 1,
+      "item_id": "itm-017d14ad-680f-59b5-843a-f2f8a088b34d",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "**Antwort 4:** Das MDE-Gerät erfasst Mengen über den Barcode und überträgt sie an den Hauptrechner. Versteckte Mängel sind per Definition nicht erkennbar; Diebstahlsicherung, Inventur- und Kassendifferenzen sind andere Themen.",
+      "answer": {
+        "choice_ids": [
+          "choice-4"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../loesungsvorschlaege-offene-aufgaben.md",
+        "json_pointer": null,
+        "original_label": "3",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 65,
+        "original_source": {
+          "document_id": "AP-WS2024-7300-WWK",
+          "source_file": "../check-and-integrate-in-canonical.json",
+          "json_pointer": "/tasks/2",
+          "original_label": "3",
+          "parent_label": null,
+          "scan_file": "../../AP-WS-2024--7300-WWK - 0007.tif",
+          "printed_page": 2
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.wws"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 20.09.2026 fachlich geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Auswahl-ID und Begründung gegen die aktuelle Aufgabenrevision geprüft; Vorschlagszeile 65."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-3bfe174c-9121-531a-892e-523d868a56f7",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-d4539240-a754-592a-992a-fb8b82ef876f",
+      "title": "Unternehmensbeschreibung",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-c0e66a9f-d36b-5118-8983-197cccd107a4",
+      "title": "Warenwirtschaftssystem der Maxikauf GmbH",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Hilfreicher Ursprungskontext."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-c0e66a9f-d36b-5118-8983-197cccd107a4",
+      "revision": 2,
+      "title": "Warenwirtschaftssystem der Maxikauf GmbH",
+      "kind": "scenario",
+      "content_md": "Die Maxikauf GmbH arbeitet mit einem Warenwirtschaftssystem. Das Warenwirtschaftssystem liefert Ihnen unter anderem auch Daten für die betriebliche Planung.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/materials/1",
+        "original_label": "Situation zur 1. bis 3. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../../AP-WS-2024--7300-WWK - 0007.tif",
+        "printed_page": 2
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ]
+}

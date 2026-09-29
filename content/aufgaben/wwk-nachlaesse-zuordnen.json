@@ -1,0 +1,15 @@
+{
+  "id": "wwk-nachlaesse-zuordnen",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Nachlassarten zuordnen",
+  "reuse_choices": false,
+  "materials": [],
+  "help": "Überlege bei jedem Nachlass, wofür er gewährt wird: für schnelle Zahlung, für eine große Menge oder für einen erreichten Umsatz.",
+  "short_explanation": "Ein Bonus wird nachträglich gewährt, wenn eine vereinbarte Umsatzhöhe erreicht ist. Skonto gibt es für die Bezahlung innerhalb einer Frist. Ein Mengenrabatt belohnt die Bestellung größerer Stückzahlen.",
+  "detailed_explanation": "Nachlassarten und ihr Anlass:\n- **Bonus:** nachträglich, meist am Jahresende, wenn ein vereinbarter Umsatz erreicht ist.\n- **Skonto:** bei Zahlung der Rechnung innerhalb der Skontofrist.\n- **Mengenrabatt:** bei Abnahme großer Mengen.\n\nDie übrigen Erklärungen passen nicht: Ein Nachlass für langjährige Geschäftsbeziehungen ist ein Treuerabatt. Nachlässe für Teilmengen auf Abruf oder für umweltfreundliche Produkte sind keine der drei gesuchten Arten.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

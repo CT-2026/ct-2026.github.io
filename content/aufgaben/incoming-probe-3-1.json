@@ -1,0 +1,58 @@
+{
+  "id": "incoming-probe-3-1",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ressourcen",
+  "title": "Vorteile des Pfandsystems",
+  "stem": "In den Filialen der gutMarkt GmbH können Kunden leere Ein- und Mehrweg-Getränkeflaschen zurückgeben und erhalten ihr Pfand zurück.\nWählen Sie zwei Vorteile dieses Pfandsystems.",
+  "materials": [],
+  "requires": [],
+  "help": "Rückgabeanreiz und weiteren Verpackungsweg unterscheiden.",
+  "short_explanation": "Pfand fördert die Rückgabe. Mehrweg kann erneut genutzt, Einwegmaterial getrennt gesammelt und verwertet werden.",
+  "detailed_explanation": "Die Rückzahlung motiviert zum Zurückbringen. Der weitere Weg hängt von der Verpackung ab: Mehrwegflaschen werden zur Wiederbefüllung aufbereitet; Einwegverpackungen dienen als Material für Recycling. Pfand allein beseitigt nicht alle Umweltbelastungen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-3.1",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-3.1",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Das Pfand schafft einen Anreiz, leere Verpackungen zurückzugeben."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die getrennte Rückgabe unterstützt die Wiederverwendung von Mehrwegflaschen und das Recycling von Einwegverpackungen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Jede Pfandflasche wird nach der Rückgabe erneut befüllt."
+      },
+      {
+        "id": "choice-4",
+        "text": "Durch Pfand entsteht bei der Herstellung und beim Transport kein Ressourcenverbrauch."
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2"
+    ]
+  }
+}

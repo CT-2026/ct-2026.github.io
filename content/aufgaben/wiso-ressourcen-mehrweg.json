@@ -1,0 +1,47 @@
+{
+  "id": "wiso-ressourcen-mehrweg",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ressourcen",
+  "title": "Wiederverwenden oder recyceln",
+  "stem": "Eine Flasche wird zurückgenommen, gereinigt und erneut befüllt. Wie heißt dieser Vorgang?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Wiederverwendung"
+      },
+      {
+        "id": "choice-2",
+        "text": "Einschmelzen"
+      },
+      {
+        "id": "choice-3",
+        "text": "Stoffliche Herstellung einer neuen Flasche"
+      },
+      {
+        "id": "choice-4",
+        "text": "Endgültige Beseitigung"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Bleibt dieselbe Flasche erhalten?",
+  "short_explanation": "Dieselbe Flasche wird erneut genutzt: Das ist Wiederverwendung.",
+  "detailed_explanation": "Beim Glasrecycling wird Glas eingeschmolzen und zu neuen Produkten verarbeitet. Hier bleibt die vorhandene Flasche erhalten.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

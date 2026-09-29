@@ -1,0 +1,38 @@
+{
+  "id": "wwk-warenannahme-kontrolle",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Wareneingangskontrolle durchführen",
+  "materials": [],
+  "help": "Die Wareneingangskontrolle vergleicht die gelieferte Ware selbst mit der Bestellung – nicht nur die Papiere.",
+  "short_explanation": "Bei der Wareneingangskontrolle wird geprüft, ob Menge, Art und Beschaffenheit der gelieferten Ware mit der Bestellung übereinstimmen. Nur so fallen Fehlmengen, Falschlieferungen und beschädigte Ware auf.",
+  "detailed_explanation": "Nach der Annahme wird die Ware ausgepackt und geprüft:\n- **Menge:** Stimmt die gelieferte Stückzahl?\n- **Art:** Wurde der bestellte Artikel geliefert (Modell, Farbe, Größe)?\n- **Beschaffenheit:** Ist die Ware unbeschädigt und einwandfrei?\n\nNur Lieferschein und Bestellung zu vergleichen reicht nicht, denn der Lieferschein kann stimmen, obwohl die Ware falsch oder beschädigt ist. Festgestellte Abweichungen werden dokumentiert und beim Lieferer beanstandet. Mindest- und Meldebestand sind feste Planungsgrößen im Warenwirtschaftssystem; eine Lieferung wird als Zugang erfasst, nicht als eine dieser Größen.",
+  "error_paths": [
+    {
+      "id": "nur-papiere-verglichen",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Lieferschein und Bestellung zu vergleichen, prüft nur die Papiere. Die gelieferte Ware selbst muss kontrolliert werden."
+    },
+    {
+      "id": "abweichung-nicht-geruegt",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Festgestellte Abweichungen müssen dem Lieferer mitgeteilt werden. Wer sie nur notiert, riskiert, seine Rechte gegenüber dem Lieferer zu verlieren."
+    },
+    {
+      "id": "planungsgroessen-verwechselt",
+      "choice_ids": [
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Mindest- und Meldebestand sind feste Planungswerte eines Artikels. Die Lieferung wird als Zugang gebucht und erhöht den Bestand."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

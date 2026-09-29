@@ -1,0 +1,31 @@
+{
+  "id": "wwk-beschaffung-bedarf",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Bedarf für den Einkauf ermitteln",
+  "materials": [],
+  "help": "Bedarfsermittlung klärt, welche Waren in welcher Menge gebraucht werden. Welche Informationen helfen dabei?",
+  "short_explanation": "Zur Bedarfsermittlung werden Marktberichte und die eigenen Verkaufsdaten ausgewertet. Daraus ergibt sich, welche Artikel in welcher Menge gebraucht werden.",
+  "detailed_explanation": "Bei der Bedarfsermittlung werden innere und äußere Informationsquellen genutzt:\n- **Betriebliche Daten:** Verkaufs- und Absatzzahlen aus dem Warenwirtschaftssystem, Lagerbestände, Kundenwünsche.\n- **Marktinformationen:** Marktberichte, Trends, Messen, Fachzeitschriften, Angebote der Lieferer.\n\nMessen und Fachzeitschriften allein genügen nicht, weil die eigenen Verkaufsdaten fehlen. Außenstände und offene Rechnungen betreffen die Zahlungsabwicklung; die Warenpräsentation ist Aufgabe des Verkaufs.",
+  "error_paths": [
+    {
+      "id": "nur-externe-quellen",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Messen und Fachzeitschriften liefern Anregungen. Ohne die eigenen Verkaufsdaten lässt sich der Bedarf aber nicht zuverlässig bestimmen – das Wort „ausschließlich“ macht die Aussage falsch."
+    },
+    {
+      "id": "zahlungsverkehr-statt-bedarf",
+      "choice_ids": [
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Außenstände und offene Rechnungen gehören zum Zahlungsverkehr. Über den Warenbedarf sagen sie nichts aus."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

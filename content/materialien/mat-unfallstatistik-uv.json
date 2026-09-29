@@ -1,0 +1,18 @@
+{
+  "id": "mat-unfallstatistik-uv",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-8ce5e08b-32d9-5b61-8b7c-7446cb5266ba",
+    "excerpt": "wiso-unfallstatistik-auswerten"
+  },
+  "overrides": {
+    "note": "Der mit ? markierte Wert wird für diese Aufgabe nicht benötigt."
+  },
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Hinweis ergänzt, dass der mit ? markierte Wert für diese Aufgabe nicht benötigt wird. Tabellenwerte, Einleitung und Quellenangabe sind unverändert."
+    ]
+  }
+}

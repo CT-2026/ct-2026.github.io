@@ -1,0 +1,30 @@
+{
+  "id": "wwk-wws-sollbestand",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Artikelgenaue Lagerverwaltung",
+  "materials": [],
+  "help": "Das Warenwirtschaftssystem bucht jeden Zugang und jeden Verkauf einzeln. Welche Zahl kann es dadurch jederzeit anzeigen?",
+  "short_explanation": "Weil jeder Wareneingang und jeder Verkauf artikelgenau gebucht wird, kann das Warenwirtschaftssystem den Soll-Bestand jedes Artikels jederzeit anzeigen.",
+  "detailed_explanation": "Artikelgenaue Erfassung bedeutet: Jeder Artikel hat eine eigene Nummer, und jede Bewegung wird ihm zugeordnet – Zugänge beim Wareneingang, Abgänge beim Verkauf an der Kasse.\n\nDaraus ergibt sich der **Soll-Bestand** (Buchbestand): Anfangsbestand + Zugänge − Abgänge. Er ist jederzeit abrufbar und Grundlage für Bestellvorschläge.\n\nDer Soll-Bestand ist aber nicht zwingend der tatsächliche Bestand. Diebstahl, Bruch oder Erfassungsfehler verursachen Inventurdifferenzen, die erst beim Zählen auffallen. Die Güte der Ware und die Arbeitszeiten der Mitarbeitenden erfasst das System nicht.",
+  "error_paths": [
+    {
+      "id": "inventur-ueberfluessig",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Das System kennt nur den gebuchten Bestand. Diebstahl, Bruch oder Fehlbuchungen bemerkt es nicht – Inventurdifferenzen entstehen trotzdem."
+    },
+    {
+      "id": "guete-geprueft",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Qualität der Ware kann nur ein Mensch bei der Kontrolle prüfen. Das Warenwirtschaftssystem erfasst Mengen und Werte."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-lagerkennzahlen-grossmenge",
+  "item": {
+    "id": "itm-72eecaac-73e2-5506-b792-426dd59813ef",
+    "revision": 2,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Folgen einer erhöhten Bestellmenge",
+    "stem_md": "In Ihrem Unternehmen werden häufig Geschenkkartons benötigt. Von einem Lieferer erhalten Sie ein günstiges Angebot über 500 Geschenkkartons. Die übliche Bestellmenge Ihres Unternehmens beträgt 100 Stück solcher Kartons. Welche Auswirkung kann sich durch die Annahme des Sonderangebotes ergeben?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Der Mindestbestand kann gesenkt werden."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Die Annahme der Ware muss verweigert werden."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die Lagerkapazität reicht nicht aus."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Die Umschlagshäufigkeit wird sich erhöhen."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Die Kapitalbindung wird sich vermindern."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-41a57cd3-3288-54a4-ba83-6983f830249a",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.lagerkennzahlen"
+      ],
+      "primary_topic_id": "topic.lager.lagerkennzahlen",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2020-7300-WWK",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/items/27/sources/0",
+        "original_label": "3",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": 2,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=32",
+        "original_source": {
+          "document_id": "AP-WS2020-7300-WWK",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "3",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": 2,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=32",
+          "original_source": {
+            "document_id": "AP-WS2020-7300-WWK",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "3",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": 2
+          }
+        }
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Reine Lösungsbogenmechanik entfernt; fachliche Angaben, Zahlen, Bedingungen und Antwortalternativen erhalten.",
+      "Offensichtliche OCR-Artefakte wurden nur bei eindeutiger Lesbarkeit der bereitgestellten PDF-Seite bereinigt.",
+      "Poolrevision 20: generische Fach-/Aufgabennummer-Überschrift durch einen Sachtitel ersetzt; Fragestamm unverändert."
+    ],
+    "source_key": "AP-WS2020-7300-WWK:3"
+  },
+  "document": {
+    "id": "AP-WS2020-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2020/21 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2020,
+    "year_end": 2021,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin (AO 2017)",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../sammlung-ro-check-kanonisch.json",
+    "original_import_file": "sammlung-to_check.pdf",
+    "upstream_file": "sammlung-ro-check",
+    "source_notes": [
+      "Herkunft: sammlung-ro-check, PDF-Seiten 31–38.",
+      "Nur vollständig lesbare Originalaufgaben werden als Items übernommen.",
+      "Integriert aus sammlung-ro-check-kanonisch.json; PDF-Angaben sind übernommene Herkunft, keine erneute Prüfung."
+    ],
+    "supplied_import_file": "../sammlung-ro-check.pdf",
+    "import_json_pointer": "/documents/3"
+  },
+  "solutions": [
+    {
+      "id": "sol-72eecaac-73e2-5506-b792-426dd59813ef",
+      "revision": 2,
+      "item_id": "itm-72eecaac-73e2-5506-b792-426dd59813ef",
+      "item_revision": 2,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "3",
+      "answer": {
+        "choice_ids": [
+          "choice-3"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2020-7300-LOESUNGEN",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/solutions/56/source",
+        "original_label": "WWK 3",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": null,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=21",
+        "original_source": {
+          "document_id": "AP-WS2020-7300-LOESUNGEN",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "WWK 3",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": null,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=21",
+          "original_source": {
+            "document_id": "AP-WS2020-7300-LOESUNGEN",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "WWK 3",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": null
+          }
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.lagerkennzahlen"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Aus dem offiziellen Lösungsschlüssel der bereitgestellten PDF transkribiert."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-72eecaac-73e2-5506-b792-426dd59813ef",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-41a57cd3-3288-54a4-ba83-6983f830249a",
+      "title": "Unternehmensbeschreibung",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": []
+}

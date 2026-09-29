@@ -1,0 +1,64 @@
+{
+  "id": "incoming-probe-1-5",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Unterschiedliche Preisangaben",
+  "stem": "Eine Kundin wundert sich, dass Sie Ihr Produkt an der Kasse eingescannt haben und 8,80 EUR abrechnen. Laut Preisschild im Regal beträgt der Preis 7,95 EUR, da es sich um ein Sonderangebot handelt.\nWelche Antwort zu Preis und Begründung trifft zu?",
+  "materials": [],
+  "requires": [],
+  "help": "Eine Preisangabe und die Einigung beim Kauf unterscheiden.",
+  "short_explanation": "Entscheidend ist die Einigung über den Kaufpreis. Die Kundin kann einen Kauf zum höheren Preis ablehnen.",
+  "detailed_explanation": "Die Preisabweichung wird zunächst sachlich geklärt. Das Regalangebot kann im Betrieb bestätigt und an der Kasse berücksichtigt werden. Eine bloße Erfassung an der Kasse verpflichtet die Kundin nicht zum Kauf.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.5",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.5",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal_waiver",
+      "date": "2026-09-26",
+      "text": "Rechtsabgleich auf ausdrückliche Nutzeranweisung vom 26.09.2026 ausgesetzt; keine abgeschlossene Rechtsprüfung behauptet."
+    }
+  ],
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Der vereinbarte Preis gilt. Besteht der Händler auf 8,80 EUR, kann die Kundin den Kauf ablehnen; das Regalschild allein erzwingt keinen Verkauf für 7,95 EUR."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Kundin muss den Artikel für 8,80 EUR kaufen, sobald er eingescannt wurde."
+      },
+      {
+        "id": "choice-3",
+        "text": "Der Händler muss allein wegen des Regalschildes immer für 7,95 EUR verkaufen."
+      },
+      {
+        "id": "choice-4",
+        "text": "Es gilt automatisch der Mittelwert von 8,80 EUR und 7,95 EUR."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

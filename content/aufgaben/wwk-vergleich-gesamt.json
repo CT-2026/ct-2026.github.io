@@ -1,0 +1,52 @@
+{
+  "id": "wwk-vergleich-gesamt",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "vergleich",
+  "variant_group": "wwk.vergleich",
+  "title": "Den Gesamtbezug berechnen",
+  "stem": "Wie hoch ist der gesamte Nettobetrag bei Anbieter B für die benötigten 24 Stück einschließlich Versand?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "80,00 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "204,00 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "216,00 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "228,00 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-angebotsvergleich",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "24 Stück benötigen drei Packungen; Versand fällt einmal je Bestellung an.",
+  "short_explanation": "3 × 68,00 € + 12,00 € = 216,00 €.",
+  "detailed_explanation": "Die 12,00 € Versand werden weder weggelassen noch pro Packung berechnet. Drei Packungen liefern genau die benötigten 24 Stück.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

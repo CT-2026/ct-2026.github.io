@@ -1,0 +1,37 @@
+{
+  "id": "wwk-artikeldaten-eingabefehler",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Folgen eines falsch erfassten Wareneingangs",
+  "materials": [],
+  "help": "Das System glaubt, es seien 360 Packungen mehr vorhanden, als tatsächlich im Lager liegen. Wann würde es eine Nachbestellung vorschlagen?",
+  "short_explanation": "Durch die Eingabe von 510 statt 150 Stück zeigt das System einen viel zu hohen Bestand. Der Meldebestand wird rechnerisch erst sehr spät erreicht. Die Farben können deshalb ausverkauft sein, bevor das System eine Nachbestellung anzeigt.",
+  "detailed_explanation": "Das Warenwirtschaftssystem rechnet mit dem gebuchten Soll-Bestand. Nach der Fehleingabe liegt er um 360 Stück über dem tatsächlichen Bestand. Die Folgen:\n- Der Meldebestand wird rechnerisch zu spät erreicht.\n- Die Nachbestellung wird zu spät ausgelöst.\n- Die Ware geht aus, und Kunden finden sie nicht mehr – es kommt zu Verkaufsstockungen.\n\nDas System erkennt den Fehler nicht selbst. Soll- und Ist-Bestand werden erst bei der Inventur oder einer Stichprobenzählung verglichen. Der Mindestbestand ist eine feste Vorgabe und ändert sich durch eine Buchung nicht. Tatsächlich geliefert wurden nur 150 Stück; der Lagerplatz ist davon nicht betroffen.",
+  "error_paths": [
+    {
+      "id": "automatische-kontrolle",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Das System kennt nur gebuchte Zahlen. Ob der Bestand tatsächlich vorhanden ist, zeigt erst eine Zählung, etwa bei der Inventur."
+    },
+    {
+      "id": "genug-ware",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Die 510 Stück gibt es nur im System. Im Lager liegen tatsächlich 150 Stück – die Ware kann also früher ausgehen, als das System erwartet."
+    },
+    {
+      "id": "lagerplatz",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Geliefert und eingelagert wurden nur 150 Stück. Der Fehler steckt allein in der Buchung, nicht im Lager."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

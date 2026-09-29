@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2859",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.gueter",
+  "title": "Dienstleistungen als Güter",
+  "stem": "Zu welchen Güterarten zählen Dienstleistungen?",
+  "materials": [],
+  "requires": [],
+  "help": "Körperliche Gegenstände und Leistungen unterscheiden.",
+  "short_explanation": "Dienstleistungen gehören zu den immateriellen Gütern.",
+  "detailed_explanation": "Die Einteilung in materielle und immaterielle Güter fragt nach der körperlichen Beschaffenheit. Eine Beratung oder Beförderung ist eine Leistung. Ob sie privat oder betrieblich genutzt wird, ist ein anderes Einteilungsmerkmal.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2859",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2859",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Produktionsgüter"
+      },
+      {
+        "id": "choice-2",
+        "text": "immaterielle Güter"
+      },
+      {
+        "id": "choice-3",
+        "text": "freie Güter"
+      },
+      {
+        "id": "choice-4",
+        "text": "Konsumgüter"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  }
+}

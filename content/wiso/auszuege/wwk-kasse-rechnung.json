@@ -1,0 +1,58 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wwk-kasse-rechnung",
+  "revision": "sha256:1c0597f87bdb779e",
+  "task": {
+    "id": "36",
+    "tag": "Onlinekauf",
+    "stem": "Frau Zeppa bestellt 6 Flaschen Shampoo zu je 4,99 €. Ab 25,00 € erfolgt der Versand kostenlos. Alle Preise sind inklusive Umsatzsteuer. Wie hoch ist der Brutto-Rechnungsbetrag?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "23,89 €"
+      },
+      {
+        "id": "B",
+        "text": "27,89 €"
+      },
+      {
+        "id": "C",
+        "text": "29,94 €"
+      },
+      {
+        "id": "D",
+        "text": "33,89 €"
+      },
+      {
+        "id": "E",
+        "text": "35,94 €"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "C, 29,94 €",
+      "explanation": "6 Flaschen zu je 4,99 € ergeben 29,94 €. Da der Bestellwert über 25,00 € liegt, fallen keine Versandkosten an. Die Preise sind bereits inklusive Umsatzsteuer angegeben.",
+      "merksatz": "Bruttopreis schon enthalten und Versand frei: nur die Stückzahl mit dem Einzelpreis multiplizieren.",
+      "wrong": "Wer Versandkosten trotz Freigrenze hinzurechnet oder noch einmal Umsatzsteuer aufschlägt, rechnet zu hoch.",
+      "detailTitle": "Rechenweg",
+      "detail": [
+        "6 × 4,99 € = 29,94 €.",
+        "Versandkosten entfallen ab 25,00 €.",
+        "Brutto-Rechnungsbetrag: 29,94 €."
+      ],
+      "topic": "wirtschaft",
+      "ref": "Verbraucherrecht: Ist der angegebene Preis bereits brutto und die Versandfreigrenze erreicht, entspricht der Rechnungsbetrag dem Produktpreis."
+    },
+    "tags": [
+      "verbrauchsgueterkauf"
+    ]
+  }
+}

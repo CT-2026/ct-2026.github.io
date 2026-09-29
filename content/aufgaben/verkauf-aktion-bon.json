@@ -1,0 +1,52 @@
+{
+  "id": "verkauf-aktion-bon",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "aktion",
+  "variant_group": "verkauf.aktion",
+  "title": "Den Durchschnittsbon bestimmen",
+  "stem": "Wie hoch ist der durchschnittliche Umsatz je Kauf in der Aktionswoche?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "4,50 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "18,00 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "20,00 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "24,00 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-verkaufsaktion",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Teile den Umsatz durch die Zahl der Käufe, nicht durch alle Besuche.",
+  "short_explanation": "1.080,00 € ÷ 60 = 18,00 € je Kauf.",
+  "detailed_explanation": "In der Vergleichswoche waren es 800 € ÷ 40 = 20 €. Mehr Käufe und höherer Gesamtumsatz können gleichzeitig mit einem niedrigeren Durchschnittsbon auftreten.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

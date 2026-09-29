@@ -1,0 +1,66 @@
+{
+  "id": "incoming-probe-5-5",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Renner und Penner",
+  "stem": "Ordnen Sie den Begriffen Renner-Artikel und Penner-Artikel die passende Erklärung zu.",
+  "materials": [],
+  "requires": [],
+  "help": "Die Begriffe beziehen sich auf die Verkaufshäufigkeit.",
+  "short_explanation": "Renner verkaufen sich im betrachteten Zeitraum gut; Penner haben einen schwachen Absatz.",
+  "detailed_explanation": "Die Einordnung erfolgt anhand von Verkaufsdaten für einen passenden Zeitraum. Ein Saisonartikel kann außerhalb seiner Saison wenig Absatz haben. Hoher Absatz allein beweist keinen hohen Gewinn; Einkaufspreis und Marge spielen ebenfalls eine Rolle.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.5",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.5",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Begriffserklärung durch Zuordnung ersetzt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Renner-Artikel"
+      },
+      {
+        "id": "target-2",
+        "text": "Penner-Artikel"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Artikel mit vergleichsweise hohem Absatz."
+      },
+      {
+        "id": "choice-2",
+        "text": "Artikel mit vergleichsweise niedrigem Absatz."
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-haushalt-beitrag",
+  "revision": "sha256:d320bdd91237717f",
+  "task": {
+    "id": "106",
+    "tag": "Rentenbeitrag",
+    "stem": "Ein Gesamtbrutto von 1.920,00 € liegt einer Entgeltabrechnung zugrunde.\n\nVon diesem Gesamtbrutto werden monatlich 9,3 % als Arbeitnehmerbeitrag zur gesetzlichen Rentenversicherung abgezogen. Ermitteln Sie den Beitrag in €.",
+    "type": "amount",
+    "choices": [],
+    "correct": "178,56",
+    "topic": "sozial",
+    "content": {
+      "solution": "178,56 €",
+      "explanation": "9,3 % von 1.920,00 € ergeben 178,56 €. Das ist der monatliche Arbeitnehmerbeitrag zur gesetzlichen Rentenversicherung.",
+      "merksatz": "Bei prozentualen Abzügen immer den Prozentsatz auf die angegebene Bruttobasis anwenden.",
+      "wrong": "Falsche Ergebnisse entstehen meist, wenn versehentlich 9,3 statt 9,3 % gerechnet oder die falsche Bemessungsgrundlage verwendet wird.",
+      "detailTitle": "Rechenweg",
+      "detail": [
+        "Gesamtbrutto: 1.920,00 €.",
+        "Rechnung: 1.920,00 € × 0,093 = 178,56 €.",
+        "Gespeichert wird der Betrag im deutschen Format mit Komma."
+      ],
+      "topic": "sozial",
+      "ref": "Gesetzliche Rentenversicherung: Der Arbeitnehmeranteil wird prozentual vom rentenversicherungspflichtigen Brutto berechnet."
+    },
+    "tags": [
+      "lohnabrechnung",
+      "abgaben",
+      "sozialversicherung"
+    ]
+  }
+}

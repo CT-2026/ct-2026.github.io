@@ -1,0 +1,678 @@
+{
+  "description": "Ausdrücklich ausgewählte Aufgaben aus dem ScanReha-Pool. Nur diese Aufgaben werden übernommen; source_revision ist die verwendete Aufgabenrevision.",
+  "entries": [
+    {
+      "web_id": "wiso-unfallstatistik-auswerten",
+      "source_id": "itm-e747bd67-39ca-5d67-ab68-228cc77763b4",
+      "source_revision": 1,
+      "area": "wiso",
+      "subtopic": "schutz",
+      "variant_group": "wiso.arbeitsschutz-statistik"
+    },
+    {
+      "web_id": "wwk-warenannahme-fahrer",
+      "source_id": "itm-ab00d163-3d9b-5aa1-a226-420ba9ea25f8",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "wwk-bezugspreis-rabatt-skonto",
+      "source_id": "itm-636759c2-bb90-4fa3-913f-c2efafe3ac6a",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "rabatt-skonto",
+      "variant_group": "wwk.rabatt-skonto"
+    },
+    {
+      "web_id": "verkauf-kaufentscheidung",
+      "source_id": "itm-zp18-vk-04",
+      "source_revision": 2,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-sandwich-methode",
+      "source_id": "itm-zp19-vk-20",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "wiso-wirtschaftsbereiche",
+      "source_id": "itm-f1e2d3c4-0001-4000-8000-000000000001",
+      "source_revision": 4,
+      "area": "wiso",
+      "subtopic": "wirtschaft",
+      "variant_group": "wiso.wirtschaftsbereiche"
+    },
+    {
+      "web_id": "wwk-warenannahme-ordnen",
+      "source_id": "itm-46e9a390-4f06-56ec-bc44-f01a3fbd26fc",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "verkauf-teamarbeit",
+      "source_id": "itm-59e01e72-fd1d-5e22-9760-08be98e2050b",
+      "source_revision": 1,
+      "editorial_solution_id": "sol-0a80ae90-363d-5004-af39-b130c6146b97",
+      "area": "verkauf",
+      "subtopic": "zusammenarbeit",
+      "variant_group": "verkauf.zusammenarbeit"
+    },
+    {
+      "web_id": "wwk-warenannahme-rechnung-pruefen",
+      "source_id": "itm-43c01f88-5238-5286-88b1-de965e70485b",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "wwk-warenannahme-kontrolle",
+      "source_id": "itm-431bac98-3df0-5861-b7ef-8554af474887",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "wwk-warenannahme-mengenmangel",
+      "source_id": "itm-e7665f0c-8674-5d91-9079-c1e0700acf36",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "wwk-warenannahme-eingangsschein",
+      "source_id": "itm-2a2eaa61-589c-559e-adfb-41aa8b61b1ec",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "warenannahme",
+      "variant_group": "wwk.warenannahme"
+    },
+    {
+      "web_id": "wwk-beschaffung-liefertermine",
+      "source_id": "itm-27b963ca-5f08-525e-a3f0-4001b18c519f",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "beschaffung",
+      "variant_group": "wwk.beschaffung"
+    },
+    {
+      "web_id": "wwk-beschaffung-aufgaben-zuordnen",
+      "source_id": "itm-30d75bed-9aad-5763-af4e-dd156ad457ab",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "beschaffung",
+      "variant_group": "wwk.beschaffung"
+    },
+    {
+      "web_id": "wwk-beschaffung-statistik",
+      "source_id": "itm-7baf6fd6-cb4c-5978-957c-0b4cda2a5b76",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "beschaffung",
+      "variant_group": "wwk.beschaffung"
+    },
+    {
+      "web_id": "wwk-beschaffung-bedarf",
+      "source_id": "itm-0992b849-9702-58f8-bde6-edc0d1ed5086",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "beschaffung",
+      "variant_group": "wwk.beschaffung"
+    },
+    {
+      "web_id": "wwk-beschaffung-fachmesse",
+      "source_id": "itm-zp19-vk-04",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "beschaffung",
+      "variant_group": "wwk.beschaffung"
+    },
+    {
+      "web_id": "wwk-lagerkennzahlen-lagerdauer-begriff",
+      "source_id": "itm-5beb958d-3a82-58e8-9d5f-e56900e0a5af",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "lagerkennzahlen",
+      "variant_group": "wwk.lagerkennzahlen"
+    },
+    {
+      "web_id": "wwk-lagerkennzahlen-lagerkosten",
+      "source_id": "itm-5244cebd-32bd-5c45-849c-4acd379e6ce5",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "lagerkennzahlen",
+      "variant_group": "wwk.lagerkennzahlen"
+    },
+    {
+      "web_id": "wwk-lagerkennzahlen-umschlag-ursache",
+      "source_id": "itm-831d67f4-0743-5b24-8ebf-903fdbcdda4e",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "lagerkennzahlen",
+      "variant_group": "wwk.lagerkennzahlen"
+    },
+    {
+      "web_id": "wwk-lagerkennzahlen-grossmenge",
+      "source_id": "itm-72eecaac-73e2-5506-b792-426dd59813ef",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "lagerkennzahlen",
+      "variant_group": "wwk.lagerkennzahlen"
+    },
+    {
+      "web_id": "wwk-lagerkennzahlen-kostenanstieg",
+      "source_id": "itm-c4a5e62a-3540-5536-9e2e-e150e9443159",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "lagerkennzahlen",
+      "variant_group": "wwk.lagerkennzahlen"
+    },
+    {
+      "web_id": "wwk-skonto-begriff",
+      "source_id": "itm-67c229e0-09ee-5ee5-9633-dccb69c1e8d8",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "rabatt-skonto",
+      "variant_group": "wwk.rabatt-skonto"
+    },
+    {
+      "web_id": "wwk-nachlaesse-zuordnen",
+      "source_id": "itm-ba07f738-42df-5290-b08e-123c5fbefa7c",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "rabatt-skonto",
+      "variant_group": "wwk.rabatt-skonto"
+    },
+    {
+      "web_id": "wwk-wws-sollbestand",
+      "source_id": "itm-cd35fec0-f3e7-546d-abe1-d276d2a71b4e",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-abrufbar",
+      "source_id": "itm-b82b9c23-8c93-5704-aa38-79d19dd8f51c",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-zugriff",
+      "source_id": "itm-40e3ee4b-eb13-50d8-a226-93fc004d8e02",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-kassensystem",
+      "source_id": "itm-zp18-vk-26",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-scannerkasse",
+      "source_id": "itm-zp18-vk-27",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-renner-penner",
+      "source_id": "itm-b1954cfc-1aa8-5145-b801-389444d4329c",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-leeres-regal",
+      "source_id": "itm-cb310e4d-b844-5d8a-b3ea-a2f57441ebf9",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-umsatzentwicklung",
+      "source_id": "itm-12e66021-009e-5a12-bc67-f52bff9ea671",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-wws-absatzdaten",
+      "source_id": "itm-7d0c7586-e462-5c0c-8c12-54b12468cc60",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    },
+    {
+      "web_id": "wwk-artikeldaten-artikelnummer",
+      "source_id": "itm-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-stammdaten",
+      "source_id": "itm-a807133e-1ed1-5810-ba2f-d1de1f6ac956",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-eingabefehler",
+      "source_id": "itm-95e0731b-7cde-5c61-83d2-4ccc868d6803",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-sonderpreis",
+      "source_id": "itm-dc73cc6b-a668-5d44-9c9e-f5433536f9ca",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-mde",
+      "source_id": "itm-017d14ad-680f-59b5-843a-f2f8a088b34d",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-gtin",
+      "source_id": "itm-390ce12d-d488-5490-87b3-9bed31d89dc2",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-balkencode",
+      "source_id": "itm-zp18-vk-13",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-falschbuchung",
+      "source_id": "itm-23daaf74-c05a-5026-8b65-048bc349c6b5",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-artikeldaten-bruch",
+      "source_id": "itm-1fe7a63f-b39c-5f08-b67b-0c405ebd3e1f",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.artikeldaten"
+    },
+    {
+      "web_id": "wwk-bestand-inventurdifferenz",
+      "source_id": "itm-860cf93e-d887-5fd3-915c-edca4684aeba",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "bestand",
+      "variant_group": "wwk.bestand"
+    },
+    {
+      "web_id": "wwk-bestand-fehlbestand",
+      "source_id": "itm-9ea6703a-0187-539a-9686-6d134810bb44",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "bestand",
+      "variant_group": "wwk.bestand"
+    },
+    {
+      "web_id": "wwk-bestellen-bestellpunkt",
+      "source_id": "itm-6531e8c1-a4e6-5af4-8542-a84ec107d150",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "bestellen",
+      "variant_group": "wwk.bestellen"
+    },
+    {
+      "web_id": "wwk-bestellen-mindestbestand",
+      "source_id": "itm-b8266ba2-cfc6-5411-9217-2d31c539b483",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "bestellen",
+      "variant_group": "wwk.bestellen"
+    },
+    {
+      "web_id": "wwk-bestellen-lieferzeit-laenger",
+      "source_id": "itm-fe4b0ea9-2f16-5848-a350-a46334ba1d0c",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "bestellen",
+      "variant_group": "wwk.bestellen"
+    },
+    {
+      "web_id": "wwk-bestellen-lieferzeit-kuerzer",
+      "source_id": "itm-b29d5beb-4776-5c9e-a93f-0ba068264862",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "bestellen",
+      "variant_group": "wwk.bestellen"
+    },
+    {
+      "web_id": "wwk-lagerung-farbabweichung",
+      "source_id": "itm-3d58e9fa-58e7-5bb7-b902-2acab7c6555b",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "lagerung",
+      "variant_group": "wwk.lagerung"
+    },
+    {
+      "web_id": "wwk-lagerung-warenpflege",
+      "source_id": "itm-e866000a-80c6-5b43-a92c-6b5b92c06336",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "lagerung",
+      "variant_group": "wwk.lagerung"
+    },
+    {
+      "web_id": "wwk-lagerung-sachgerecht",
+      "source_id": "itm-6b89bb8b-46d6-50a6-8215-a14cb51cceb8",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "lagerung",
+      "variant_group": "wwk.lagerung"
+    },
+    {
+      "web_id": "wwk-lagerung-unfallverhuetung",
+      "source_id": "itm-5c29f683-6d03-5675-9bcd-3afba2e0a320",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "lagerung",
+      "variant_group": "wwk.lagerung"
+    },
+    {
+      "web_id": "wwk-kosten-handlungskosten-senken",
+      "source_id": "itm-207969b2-71fe-562a-97f7-05274a8754d5",
+      "source_revision": 2,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-lagerkosten",
+      "source_id": "itm-7b56444f-0521-5844-9ea4-aae37a479fa4",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-handlungskosten-begriff",
+      "source_id": "itm-ebd2b26d-e895-5bfb-a97c-f76a3f49517d",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-bezugskosten",
+      "source_id": "itm-797cfd49-5118-547b-9f5d-040139fed0e3",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-umsatzsteuer",
+      "source_id": "itm-45e26aee-9231-5bc4-a36d-ecb1a82c8452",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-preisuntergrenze",
+      "source_id": "itm-d8a92a6b-9979-5257-b5f7-23c749da5c29",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kosten-bilanz",
+      "source_id": "itm-a89c8b3e-1221-5fe1-931b-f81ab3cd07ab",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kosten",
+      "variant_group": "wwk.kosten"
+    },
+    {
+      "web_id": "wwk-kasse-kreditkarte",
+      "source_id": "itm-zp18-vk-24",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    },
+    {
+      "web_id": "wwk-kasse-differenz",
+      "source_id": "itm-zp18-vk-28",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    },
+    {
+      "web_id": "wwk-kasse-preisaenderung",
+      "source_id": "itm-zp18-vk-29",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    },
+    {
+      "web_id": "wwk-kasse-packtisch",
+      "source_id": "itm-zp19-vk-22",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    },
+    {
+      "web_id": "wwk-kasse-bargeld",
+      "source_id": "itm-zp19-vk-28",
+      "source_revision": 1,
+      "area": "wwk",
+      "subtopic": "kasse",
+      "variant_group": "wwk.kasse"
+    },
+    {
+      "web_id": "verkauf-beratung-auskunft",
+      "source_id": "itm-d4a74388-9b35-5031-b551-94cc0ce21c1b",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-kompetenzen",
+      "source_id": "itm-zp18-vk-10",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-warenvorlage",
+      "source_id": "itm-zp18-vk-14",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-anforderungen",
+      "source_id": "itm-zp18-vk-19",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-aeltere",
+      "source_id": "itm-zp18-vk-20",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-abschluss",
+      "source_id": "itm-zp19-vk-10",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-kundenorientierung-massnahmen",
+      "source_id": "itm-zp19-vk-11",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-kundenorientiert",
+      "source_id": "itm-zp19-vk-12",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-beratung-zusatzverkauf",
+      "source_id": "itm-zp19-vk-23",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "beratung",
+      "variant_group": "verkauf.beratung"
+    },
+    {
+      "web_id": "verkauf-gespraech-fragetechniken",
+      "source_id": "itm-zp18-vk-11",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-bedarf-geschenk",
+      "source_id": "itm-zp18-vk-21",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-rechthaberisch",
+      "source_id": "itm-zp18-vk-22",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-warenbezogen",
+      "source_id": "itm-zp19-vk-08",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-kundenansprueche",
+      "source_id": "itm-zp19-vk-15",
+      "source_revision": 2,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-fachbegriffe",
+      "source_id": "itm-zp19-vk-16",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-gespraech-ladenschluss",
+      "source_id": "itm-zp19-vk-17",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "gespraech",
+      "variant_group": "verkauf.gespraech"
+    },
+    {
+      "web_id": "verkauf-service-geschenkverpackung",
+      "source_id": "itm-zp18-vk-23",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "service",
+      "variant_group": "verkauf.service"
+    },
+    {
+      "web_id": "verkauf-service-zahlung",
+      "source_id": "itm-zp19-vk-13",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "service",
+      "variant_group": "verkauf.service"
+    },
+    {
+      "web_id": "verkauf-service-selbstbedienung",
+      "source_id": "itm-zp19-vk-18",
+      "source_revision": 1,
+      "area": "verkauf",
+      "subtopic": "service",
+      "variant_group": "verkauf.service"
+    },
+    {
+      "web_id": "wwk-wws-viren",
+      "source_id": "itm-b2dc12e9-19ed-58c9-8a7f-50de1078d57f",
+      "source_revision": 3,
+      "area": "wwk",
+      "subtopic": "wws",
+      "variant_group": "wwk.wws"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "verkauf-reklamation-dokumentieren",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "reklamation",
+  "variant_group": "verkauf.reklamation",
+  "title": "Eine Reklamation dokumentieren",
+  "stem": "Welche zwei Angaben helfen unmittelbar, eine konkrete Reklamation nachzuvollziehen?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Artikelbezeichnung und Kaufnachweis beziehungsweise Kaufdaten"
+      },
+      {
+        "id": "choice-2",
+        "text": "Eine unbelegte Vermutung über die Schuld der Kundin"
+      },
+      {
+        "id": "choice-3",
+        "text": "Eine genaue Beschreibung des beanstandeten Fehlers"
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine persönliche Bewertung des Auftretens der Kundin"
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Dokumentiere überprüfbare Angaben zum Produkt und zum Vorgang.",
+  "short_explanation": "Artikel, Kaufdaten und Fehlerbeschreibung ermöglichen eine sachliche Zuordnung und Prüfung.",
+  "detailed_explanation": "Persönliche Wertungen und Schuldvermutungen ersetzen keine Fakten. Erfasse nur die für den Vorgang benötigten Angaben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

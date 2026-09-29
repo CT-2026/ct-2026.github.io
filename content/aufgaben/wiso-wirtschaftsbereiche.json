@@ -1,0 +1,15 @@
+{
+  "revision": 1,
+  "source": "scanreha",
+  "materials": [],
+  "id": "wiso-wirtschaftsbereiche",
+  "title": "Wirtschaftsbereiche",
+  "reuse_choices": false,
+  "help": "Unterscheide: Rohstoffe gewinnen, Rohstoffe verarbeiten und fertige Waren verkaufen.",
+  "short_explanation": "Der Landwirt gewinnt Naturprodukte (Urproduktion). Der Bäcker verarbeitet Rohstoffe zu Brot (Verarbeitung). Der Juwelier verkauft fertige Waren (Güterverteilung).",
+  "detailed_explanation": "Hier werden drei konkrete Tätigkeiten gesucht:\n- Urproduktion: Gemüse ernten.\n- Verarbeitung: Brot und Brötchen backen.\n- Güterverteilung: Ein Armband verkaufen.\n\nAllgemeine Dienstleistungen wie ein Hotelaufenthalt sind in dieser Aufgabe keine der drei gesuchten Tätigkeiten.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

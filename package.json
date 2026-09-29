@@ -1,0 +1,17 @@
+{
+  "name": "aydinreha",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Verkäufer-Prüfungstrainer mit kurzen Übungsrunden und geschlossenen Antworten (statische Website).",
+  "scripts": {
+    "build": "node tools/build-data.js",
+    "check": "node tools/build-data.js --check && node tools/wiso-auszug.js --check",
+    "test": "node --test",
+    "auszug:scanreha": "node tools/scanreha-auszug.js",
+    "auszug:wiso": "node tools/wiso-auszug.js",
+    "browserpruefung": "node tools/browserpruefung.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

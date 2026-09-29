@@ -1,0 +1,25 @@
+{
+  "id": "wwk-kasse-preisaenderung",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Preisänderung beim Kassieren",
+  "materials": [],
+  "help": "Die Preisänderung ist bereits im Artikelstamm gespeichert. Woher holt die Scannerkasse den Preis?",
+  "short_explanation": "Die Scannerkasse liest die GTIN und holt den Preis aus dem Artikelstamm. Weil der reduzierte Preis dort schon gespeichert ist, wird er beim Scannen automatisch registriert – zusätzliche Eingaben sind nicht nötig.",
+  "detailed_explanation": "Scannerkassen sind mit dem Warenwirtschaftssystem verbunden (Price-Look-up-Verfahren): Der Strichcode enthält nur die Artikelnummer, der Preis kommt aus dem System.\n\nDaraus folgt:\n- Ist der Aktionspreis im Artikelstamm hinterlegt, wird er automatisch berechnet.\n- Zusätzliche Tasten oder Preiseingaben würden den Rabatt womöglich doppelt abziehen oder Fehler verursachen.\n- Eine Bestätigung des Kunden ist nicht erforderlich.",
+  "error_paths": [
+    {
+      "id": "zusatzeingabe",
+      "choice_ids": [
+        "choice-3",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Der Aktionspreis ist bereits im Artikelstamm gespeichert. Eine zusätzliche Eingabe ist überflüssig und kann zu falschen Beträgen führen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

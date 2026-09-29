@@ -1,0 +1,47 @@
+{
+  "id": "wiso-haushalt-budget",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.haushalt",
+  "title": "Ein Budget einhalten",
+  "stem": "Du hast monatlich 1.850 € zur Verfügung. Feste Ausgaben: 1.050 €, weitere geplante Ausgaben: 520 €, Rücklage: 180 €. Wie viel bleibt für zusätzliche Ausgaben?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "100 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "180 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "280 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "800 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Ziehe alle drei geplanten Beträge von den Einnahmen ab.",
+  "short_explanation": "1.850 − 1.050 − 520 − 180 = 100 €.",
+  "detailed_explanation": "Die Rücklage ist bereits verplant. Ohne ihren Abzug wären es 280 €; dieser Betrag stünde aber nicht vollständig für zusätzliche Ausgaben bereit.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

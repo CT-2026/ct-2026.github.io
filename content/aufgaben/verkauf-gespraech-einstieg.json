@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-gespraech-einstieg",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "gespraech",
+  "variant_group": "verkauf.gespraech",
+  "title": "Ein Gespräch eröffnen",
+  "stem": "Eine Kundin betrachtet mehrere Rucksäcke. Welche Frage eröffnet die Bedarfsermittlung am besten?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Sie nehmen doch bestimmt diesen teuren Rucksack?"
+      },
+      {
+        "id": "choice-2",
+        "text": "Wofür möchten Sie den Rucksack hauptsächlich nutzen?"
+      },
+      {
+        "id": "choice-3",
+        "text": "Möchten Sie jetzt sofort bezahlen?"
+      },
+      {
+        "id": "choice-4",
+        "text": "Warum haben Sie sich noch nicht entschieden?"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Eine offene Frage lässt die Kundin ihre Nutzung beschreiben.",
+  "short_explanation": "Die Frage nach dem Einsatzzweck liefert Informationen für eine passende Auswahl.",
+  "detailed_explanation": "Preis oder Abschluss stehen noch nicht fest. Eine drängende oder suggestive Frage kann wichtige Bedürfnisse verdecken.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

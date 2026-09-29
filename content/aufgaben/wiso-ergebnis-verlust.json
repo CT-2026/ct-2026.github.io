@@ -1,0 +1,47 @@
+{
+  "id": "wiso-ergebnis-verlust",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ergebnis",
+  "title": "Ein negatives Ergebnis erkennen",
+  "stem": "Ein Geschäft erzielt 48.000 € Erlöse. Seine gesamten Kosten betragen 51.500 €. Welches Ergebnis liegt vor?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "3.500 € Gewinn"
+      },
+      {
+        "id": "choice-2",
+        "text": "3.500 € Verlust"
+      },
+      {
+        "id": "choice-3",
+        "text": "48.000 € Gewinn"
+      },
+      {
+        "id": "choice-4",
+        "text": "99.500 € Verlust"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Vergleiche zunächst Erlöse und Kosten.",
+  "short_explanation": "48.000 € − 51.500 € = −3.500 €: Das Geschäft macht Verlust.",
+  "detailed_explanation": "Ein negativer Saldo bedeutet Verlust. Erlöse und Kosten werden nicht addiert; gesucht ist ihre Differenz.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

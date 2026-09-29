@@ -1,0 +1,14 @@
+{
+  "revision": 2,
+  "source": "scanreha",
+  "materials": [],
+  "id": "wwk-warenannahme-ordnen",
+  "title": "Warenannahme ordnen",
+  "help": "Zuerst prüfen, ob die Lieferung für den Betrieb bestimmt ist. Die Packstücke vor der Empfangsbestätigung kontrollieren.",
+  "short_explanation": "Zuerst Empfängeranschrift prüfen, dann Anzahl und äußeren Zustand der Packstücke kontrollieren. Danach folgen Unterschrift, Erfassung im Warenwirtschaftssystem und Einlagerung.",
+  "detailed_explanation": "Die Reihenfolge dieser Aufgabe ist:\n- Empfängeranschrift prüfen.\n- Anzahl und äußere Beschaffenheit der Packstücke prüfen.\n- Warenbegleitpapiere unterschreiben.\n- Wareneingang im Warenwirtschaftssystem erfassen.\n- Hemden einlagern.\n\nDie Kontrolle steht vor der Empfangsbestätigung. Die Erfassung schafft die Grundlage für den aktuellen Lagerbestand.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wwk-kasse-rechnung",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Einen Rechnungsbetrag ermitteln",
+  "materials": [],
+  "help": "Prüfe Warenwert und Versandfreigrenze.",
+  "short_explanation": "6 × 4,99 € = 29,94 €. Die Versandfreigrenze ist überschritten.",
+  "detailed_explanation": "Die Preise enthalten die Umsatzsteuer bereits. Weder zusätzliche Umsatzsteuer noch Versandkosten sind hier aufzuschlagen.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

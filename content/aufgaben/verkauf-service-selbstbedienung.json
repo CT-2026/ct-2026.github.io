@@ -1,0 +1,32 @@
+{
+  "id": "verkauf-service-selbstbedienung",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Beratung bei Selbstbedienung",
+  "materials": [],
+  "help": "Auch in der Selbstbedienung steht der Wunsch der Kundin im Mittelpunkt. Welche Unterstützung erwartet sie vom Verkaufspersonal?",
+  "short_explanation": "Auch in einer Selbstbedienungsabteilung wird eine Kundin beraten, wenn sie darum bittet. Kundenorientiert ist, sich ihr zuzuwenden und sie zum passenden Wein ausführlich zu beraten.",
+  "detailed_explanation": "Selbstbedienung bedeutet: Die Kunden wählen die Ware selbst aus, eine Beratung ist nicht ständig vorgesehen. Bittet eine Kundin aber um Hilfe, ist sie zu beraten – das stärkt Zufriedenheit und Bindung.\n\nAbweisende Antworten wie der Verweis auf das Etikett, ein Fachgeschäft oder zuerst das Einräumen der Ware vermitteln der Kundin, dass sie stört. Sie verlässt das Geschäft womöglich ohne Kauf.",
+  "error_paths": [
+    {
+      "id": "abweisen",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-4"
+      ],
+      "text": "Die Kundin bittet ausdrücklich um Beratung. Sie abzuweisen oder weiterzuschicken, ist nicht kundenorientiert."
+    },
+    {
+      "id": "ware-zuerst",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Die Kundin hat Vorrang vor dem Einräumen der Ware. Sie soll nicht warten müssen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

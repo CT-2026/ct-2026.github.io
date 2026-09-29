@@ -1,0 +1,17 @@
+{
+  "id": "wiso-prinzip-minimal",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Das Minimalprinzip",
+  "materials": [],
+  "help": "Beim Minimalprinzip steht das angestrebte Ergebnis fest.",
+  "short_explanation": "200 Stehleuchten sind das feste Ziel. Der möglichst günstige Bezug entspricht dem Minimalprinzip.",
+  "detailed_explanation": "Für einen sachgerechten Preisvergleich müssen Qualität, Verwendbarkeit und Lieferbedingungen vergleichbar sein. Ein niedriger Preis allein genügt bei ungleichen Leistungen nicht.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

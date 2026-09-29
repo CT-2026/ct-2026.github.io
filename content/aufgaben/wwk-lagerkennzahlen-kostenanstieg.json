@@ -1,0 +1,26 @@
+{
+  "id": "wwk-lagerkennzahlen-kostenanstieg",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Ursache gestiegener Lagerkosten",
+  "materials": [],
+  "help": "Lagerkosten steigen, wenn mehr oder länger Ware im Lager liegt.",
+  "short_explanation": "Wird der Mindestbestand erhöht, liegt dauerhaft mehr Ware als Sicherheitsreserve im Lager. Das bindet mehr Kapital und Lagerraum – die Lagerkosten steigen.",
+  "detailed_explanation": "Höhere Lagerkosten entstehen, wenn der durchschnittliche Lagerbestand oder die Lagerdauer steigt. Ein höherer Mindestbestand bewirkt genau das.\n\nDie anderen Maßnahmen senken die Lagerkosten eher:\n- geringere Lagerdauer und höhere Umschlagshäufigkeit: Die Ware liegt kürzer im Lager.\n- kleinere Bestellmengen: Der durchschnittliche Lagerbestand sinkt.\n- Kauf auf Abruf: Die Ware wird erst bei Bedarf geliefert und lagert nicht im eigenen Haus.",
+  "error_paths": [
+    {
+      "id": "kostensenkend",
+      "choice_ids": [
+        "choice-2",
+        "choice-3",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Diese Veränderung verringert den Lagerbestand oder die Lagerdauer. Sie senkt die Lagerkosten eher, statt sie zu erhöhen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

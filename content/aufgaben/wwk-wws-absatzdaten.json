@@ -1,0 +1,30 @@
+{
+  "id": "wwk-wws-absatzdaten",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "WWS-Daten für den Wareneinkauf zum Museumsfest",
+  "materials": [],
+  "help": "Für den Einkauf ist wichtig, welche Artikel beim letzten vergleichbaren Anlass wie oft verkauft wurden.",
+  "short_explanation": "Die beste Grundlage für den Einkauf ist der Warenabsatz der letzten Sonntagsöffnung: Er zeigt, welche Artikel bei diesem Anlass in welcher Menge gekauft wurden.",
+  "detailed_explanation": "Für die Einkaufsplanung zählt die Menge, die voraussichtlich verkauft wird. Der Absatz der letzten vergleichbaren Sonntagsöffnung ist dafür der beste Anhaltspunkt – ergänzt um aktuelle Trends.\n\nGewinne, Kassendifferenzen und Provisionen sagen nichts darüber aus, welche Artikel gebraucht werden. Der durchschnittliche Lagerbestand eines ganzen Jahres berücksichtigt den besonderen Anlass nicht.",
+  "error_paths": [
+    {
+      "id": "gewinn-statt-absatz",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Der Gewinn zeigt den wirtschaftlichen Erfolg, aber nicht, welche Artikel in welcher Menge verkauft wurden."
+    },
+    {
+      "id": "jahresdurchschnitt",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Ein Jahresdurchschnitt blendet den besonderen Anlass aus. Für den Sonntag zählt der Absatz der letzten vergleichbaren Öffnung."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

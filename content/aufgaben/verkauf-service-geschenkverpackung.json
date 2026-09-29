@@ -1,0 +1,37 @@
+{
+  "id": "verkauf-service-geschenkverpackung",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Geschenkverpackung",
+  "materials": [
+    {
+      "id": "mat-geschenkkauf-bild",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Unterscheide zwischen dem, was das Gesetz vorschreibt, und dem, was ein Geschäft freiwillig als Service anbietet.",
+  "short_explanation": "Eine besondere Geschenkverpackung ist keine gesetzliche Pflicht. Viele Geschäfte bieten sie aber freiwillig als Serviceleistung an, um Kunden zufriedenzustellen und an sich zu binden.",
+  "detailed_explanation": "Serviceleistungen sind zusätzliche Leistungen neben dem Verkauf der Ware, etwa Geschenkverpackung, Lieferung, Änderungen oder Reparaturen. Sie sind meist freiwillig und dienen der Kundenbindung sowie der Abgrenzung von Mitbewerbern.\n\nDass eine Ware beim Transport geschützt wird oder viele Geschäfte einen Service anbieten, begründet keine Pflicht. Ob der Service kostenlos oder gegen Entgelt angeboten wird, entscheidet das Geschäft selbst.",
+  "error_paths": [
+    {
+      "id": "pflicht-angenommen",
+      "choice_ids": [
+        "choice-1",
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Eine gesetzliche Pflicht zur Geschenkverpackung gibt es nicht. Sie ist ein freiwilliger Service des Geschäfts."
+    },
+    {
+      "id": "falsche-begruendung",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Das Ergebnis stimmt, die Begründung nicht: Mit der Preisauszeichnung hat die fehlende Pflicht nichts zu tun."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

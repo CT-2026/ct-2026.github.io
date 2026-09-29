@@ -1,0 +1,26 @@
+{
+  "id": "verkauf-beratung-auskunft",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Zulässige Kundeninformation",
+  "materials": [],
+  "help": "Kundinnen und Kunden brauchen Angaben zur Ware selbst. Welche Informationen betreffen dagegen interne Geschäftsdaten des Betriebs?",
+  "short_explanation": "Inhaltsstoffe und Materialangaben beschreiben die Ware selbst und helfen der Kundschaft bei der Kaufentscheidung. Sie dürfen und sollen weitergegeben werden. Beschaffungswege, Kalkulation, Einkaufskonditionen und Provisionen sind interne Betriebsdaten.",
+  "detailed_explanation": "Im Verkaufsgespräch geht es um Informationen zur Ware: Material, Inhaltsstoffe, Pflege, Verwendung, Vor- und Nachteile.\n\nNicht nach außen gehören interne Informationen des Betriebs, zum Beispiel:\n- Beschaffungswege und Lieferanten,\n- Kalkulation und Einkaufskonditionen,\n- Provisionen und Vergütungen der Beschäftigten.\n\nSolche Angaben können Mitbewerbern nutzen oder die Verhandlungsposition des Betriebs schwächen. Die Verschwiegenheit über Betriebs- und Geschäftsgeheimnisse gehört zu den Pflichten der Beschäftigten.",
+  "error_paths": [
+    {
+      "id": "interne-daten",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Diese Angabe betrifft interne Geschäftsdaten des Betriebs, nicht die Ware selbst. Sie gehört nicht ins Kundengespräch."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

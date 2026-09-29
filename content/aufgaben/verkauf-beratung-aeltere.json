@@ -1,0 +1,37 @@
+{
+  "id": "verkauf-beratung-aeltere",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Kundenbindung bei Älteren",
+  "materials": [],
+  "help": "Was schätzen ältere Kundinnen und Kunden besonders, wenn sie sich noch nicht entscheiden können?",
+  "short_explanation": "Ältere Kunden schätzen Geduld, Ruhe und persönliche Betreuung. Wer ihnen Zeit lässt und eine Reservierung anbietet, nimmt Druck aus der Entscheidung und baut Vertrauen auf – das bindet sie an das Haus.",
+  "detailed_explanation": "Kundenbindung entsteht durch Vertrauen und gute Erfahrungen. Für ältere Menschen heißt das zum Beispiel:\n- Zeit und Geduld in der Beratung,\n- verständliche Erklärungen ohne Fachchinesisch,\n- Serviceleistungen wie Reservierung, Lieferung oder Sitzgelegenheiten.\n\nDie übrigen Maßnahmen schaden eher: Unaufgeforderte Anrufe wirken aufdringlich und können unzulässig sein. Kunden zur Entscheidung zu drängen, verärgert sie. Die Annahme, Enkel wüssten es besser, ist herablassend. Ein Verweis ins Internet bindet an das Warenhaus nicht besser als ein Besuch im Geschäft.",
+  "error_paths": [
+    {
+      "id": "druck",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Wer unentschlossene Kunden zur Entscheidung drängt, erzeugt Druck statt Vertrauen. Kundenbindung entsteht durch Geduld."
+    },
+    {
+      "id": "herablassend",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Älteren Kunden pauschal weniger Warenkenntnis zu unterstellen, ist herablassend und verärgert sie."
+    },
+    {
+      "id": "aufdringlich",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Unaufgefordert Telefonnummern herauszusuchen und Kunden anzurufen, wirkt aufdringlich. Das schadet dem Vertrauen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

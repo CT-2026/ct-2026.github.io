@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-praesentation-sichtzone",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Die Regalplatzierung beurteilen",
+  "stem": "Ein Geschäft möchte einen neuen Artikel gut sichtbar präsentieren. Welche Platzierung unterstützt dieses Ziel für viele stehende Erwachsene am ehesten?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Verdeckt hinter anderen Artikeln"
+      },
+      {
+        "id": "choice-2",
+        "text": "In ungefährer Augenhöhe mit freier Sicht"
+      },
+      {
+        "id": "choice-3",
+        "text": "Ohne Hinweis im untersten geschlossenen Schrank"
+      },
+      {
+        "id": "choice-4",
+        "text": "Hinter einer Säule außerhalb der Verkaufsfläche"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Gefragt ist die unmittelbare Sichtbarkeit.",
+  "short_explanation": "Eine freie Platzierung ungefähr in Augenhöhe wird häufig leichter wahrgenommen.",
+  "detailed_explanation": "Die passende Höhe hängt auch von Zielgruppe, Barrierefreiheit und Produkt ab. Gute Sichtbarkeit bedeutet nicht, dass ein Artikel für alle Menschen zugleich gut erreichbar ist.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

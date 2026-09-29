@@ -1,0 +1,59 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-haushalt-sparanteil",
+  "revision": "sha256:7b77759588a1738d",
+  "task": {
+    "id": "33",
+    "tag": "Haushaltsplanung",
+    "stem": "Ihre monatlichen Einnahmen betragen 2.000,00 €. Für Miete, Essen, Kfz und sonstige Kosten fallen zusammen 1.700,00 € an. Wie viel Prozent Ihrer gesamten monatlichen Einnahmen können Sie sparen?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10,0 %"
+      },
+      {
+        "id": "B",
+        "text": "12,5 %"
+      },
+      {
+        "id": "C",
+        "text": "15,0 %"
+      },
+      {
+        "id": "D",
+        "text": "17,5 %"
+      },
+      {
+        "id": "E",
+        "text": "20,0 %"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "C, 15,0 %",
+      "explanation": "Von 2.000,00 € Einnahmen bleiben nach 1.700,00 € Ausgaben noch 300,00 € übrig. 300,00 € von 2.000,00 € entsprechen 15,0 %.",
+      "merksatz": "Prozentrechnung im Haushalt: Restbetrag durch Einnahmen teilen und mit 100 multiplizieren.",
+      "wrong": "Wer den Restbetrag oder den Bezugswert falsch bestimmt, kommt auf unzutreffende Prozentsätze.",
+      "detailTitle": "Rechenweg",
+      "detail": [
+        "Einnahmen: 2.000,00 €.",
+        "Ausgaben: 1.700,00 €.",
+        "Sparbetrag: 300,00 €.",
+        "300,00 € / 2.000,00 € × 100 = 15,0 %."
+      ],
+      "topic": "wirtschaft",
+      "ref": "Haushaltsrechnung: Der Sparanteil ergibt sich aus Rücklage geteilt durch Gesamteinnahmen mal 100."
+    },
+    "tags": [
+      "wirtschaftsleistung"
+    ]
+  }
+}

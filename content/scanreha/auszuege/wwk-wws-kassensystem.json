@@ -1,0 +1,165 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-wws-kassensystem",
+  "item": {
+    "id": "itm-zp18-vk-26",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Nutzen eines Kassensystems",
+    "stem_md": "In einer Abteilung des Warenhauses wurde ein modernes, computergestütztes Kassensystem angeschafft. Welcher Grund war ausschlaggebend für diese Entscheidung?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Der Preis für solche modernen Systeme spielt keine Rolle. Die Kosten werden durch Personaleinsparungen wieder ausgeglichen."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Dieses moderne System garantiert die Verringerung der Inventurdifferenzen."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die meisten Warenhäuser verfügen über solche Systeme, also muss sich die Merlin GmbH anschließen."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Dieses System erspart grundsätzlich die Preisauszeichnung in allen Sortimentsbereichen."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Dieses System liefert wertvolle Daten für die Planung und für Entscheidungen."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.wws"
+      ],
+      "primary_topic_id": "topic.lager.wws",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2018-7300-VK",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/items/25",
+        "original_label": "26",
+        "parent_label": null,
+        "scan_file": "H18 VK 7",
+        "printed_page": 7,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK",
+          "source_file": "../ZP-H2018-7300-VK-strukturiert.json",
+          "json_pointer": "/units/25",
+          "original_label": "26",
+          "parent_label": null,
+          "scan_file": "H18 VK 7",
+          "printed_page": 7
+        },
+        "original_scan_reference": "../ZP_Herbst2018_7300 - 0007.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [],
+    "source_key": "ZP-H2018-7300-VK:26"
+  },
+  "document": {
+    "id": "ZP-H2018-7300-VK",
+    "revision": 2,
+    "title": "Zwischenprüfung Herbst 2018",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2018,
+    "year_end": 2018,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../neu%204.json",
+    "upstream_file": "../ZP_Herbst2018_7300 - 0001.tif",
+    "source_notes": [
+      "Originalprüfung Verkäufer/Verkäuferin (AO 2017), Kennziffer 7300.",
+      "Originalscan-Serie: ZP_Herbst2018_7300 - 0001.tif bis ZP_Herbst2018_7300 - 0011.tif; upstream_file verweist auf die Titelseite der Serie.",
+      "Die Aufgaben und Materialien der Herbstprüfung 2018 wurden am 2026-09-13 mit der bereitgestellten TIFF-Serie abgeglichen; festgestellte Übertragungs-, Struktur- und Klassifikationsfehler wurden in Poolrevision 4 korrigiert."
+    ],
+    "original_import_file": "../ZP-H2018-7300-VK-strukturiert.json",
+    "import_json_pointer": "/documents/0"
+  },
+  "solutions": [
+    {
+      "id": "sol-zp18-vk-26",
+      "revision": 1,
+      "item_id": "itm-zp18-vk-26",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "5",
+      "answer": {
+        "choice_ids": [
+          "choice-5"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/solutions/25",
+        "original_label": "26",
+        "parent_label": null,
+        "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+        "printed_page": null,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+          "source_file": "../ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "json_pointer": null,
+          "original_label": "26",
+          "parent_label": null,
+          "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "printed_page": null
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.wws"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "verified_against_supplied_solution_tiff",
+      "valid_as_of": null,
+      "notes": []
+    }
+  ],
+  "answer_solution_id": "sol-zp18-vk-26",
+  "materials": [],
+  "other_materials": [],
+  "prerequisites": []
+}

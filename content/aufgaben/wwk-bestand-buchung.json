@@ -1,0 +1,47 @@
+{
+  "id": "wwk-bestand-buchung",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestand",
+  "variant_group": "wwk.bestand",
+  "title": "Einen Buchbestand berechnen",
+  "stem": "Anfangsbestand: 120 Stück. Zugang: 48 Stück. Verkäufe: 95 Stück. Es gibt keine weiteren Bewegungen. Wie hoch ist der Buchbestand?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "25 Stück"
+      },
+      {
+        "id": "choice-2",
+        "text": "73 Stück"
+      },
+      {
+        "id": "choice-3",
+        "text": "167 Stück"
+      },
+      {
+        "id": "choice-4",
+        "text": "263 Stück"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Zugänge addieren, Abgänge abziehen.",
+  "short_explanation": "120 + 48 − 95 = 73 Stück.",
+  "detailed_explanation": "Der Buchbestand ergibt sich aus dokumentierten Bewegungen. Ob tatsächlich 73 Stück im Lager liegen, zeigt erst die Zählung.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

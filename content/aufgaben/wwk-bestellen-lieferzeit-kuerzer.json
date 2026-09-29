@@ -1,0 +1,37 @@
+{
+  "id": "wwk-bestellen-lieferzeit-kuerzer",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Auswirkung einer kürzeren Lieferzeit",
+  "materials": [
+    {
+      "id": "mat-artikeldatei-nudelpfanne",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Bei kürzerer Lieferzeit muss weniger Ware für die Wartezeit bis zur Lieferung vorrätig sein.",
+  "short_explanation": "Wenn die Lieferung nach 2 statt 5 Tagen eintrifft, muss für die Wartezeit weniger Ware vorrätig sein. Der Meldebestand kann herabgesetzt werden. Es liegt im Durchschnitt weniger Ware im Lager, und die Kapitalbindung sinkt.",
+  "detailed_explanation": "Meldebestand = Mindestbestand + täglicher Absatz × Lieferzeit\n\nSinkt die Lieferzeit, sinkt auch der Meldebestand, und es wird später nachbestellt. Die Folgen:\n- geringerer durchschnittlicher Lagerbestand,\n- weniger gebundenes Kapital,\n- geringere Lagerkosten.\n\nDas Lagerrisiko – etwa durch Verderb oder Veralterung – wird dabei eher kleiner, nicht größer. Der Mindestbestand ist die Reserve für Lieferstörungen; er hängt nicht unmittelbar von der Lieferzeit ab.",
+  "error_paths": [
+    {
+      "id": "meldebestand-erhoehen",
+      "choice_ids": [
+        "choice-1",
+        "choice-3"
+      ],
+      "text": "Bei kürzerer Lieferzeit wird für die Wartezeit weniger Ware gebraucht. Der Meldebestand sinkt, er steigt nicht."
+    },
+    {
+      "id": "lagerrisiko-steigt",
+      "choice_ids": [
+        "choice-2",
+        "choice-5"
+      ],
+      "text": "Weniger Ware im Lager bedeutet weniger Risiko durch Verderb, Schwund oder Veralterung, nicht mehr."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

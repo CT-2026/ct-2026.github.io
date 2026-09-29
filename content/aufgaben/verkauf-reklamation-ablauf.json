@@ -1,0 +1,50 @@
+{
+  "id": "verkauf-reklamation-ablauf",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "reklamation",
+  "variant_group": "verkauf.reklamation",
+  "title": "Einen Vorgang weiterbearbeiten",
+  "stem": "Ordne diesen betrieblichen Ablauf. Die Entscheidung trifft eine zuständige Kollegin erst nach Erfassung der Fakten.",
+  "response": {
+    "type": "ordering",
+    "entries": [
+      {
+        "id": "entry-1",
+        "text": "Anliegen anhören und Fehler klären"
+      },
+      {
+        "id": "entry-2",
+        "text": "Artikel, Kaufdaten und Fehler sachlich dokumentieren"
+      },
+      {
+        "id": "entry-3",
+        "text": "Vorgang an die zuständige Kollegin zur Prüfung geben"
+      },
+      {
+        "id": "entry-4",
+        "text": "Die geprüfte Rückmeldung verständlich mitteilen"
+      }
+    ]
+  },
+  "solution": {
+    "ordered_entry_ids": [
+      "entry-1",
+      "entry-2",
+      "entry-3",
+      "entry-4"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Die zuständige Kollegin benötigt zuerst die dokumentierten Fakten.",
+  "short_explanation": "Erst klären und dokumentieren, dann prüfen lassen und das Ergebnis mitteilen.",
+  "detailed_explanation": "Das ist ein vorgegebener Kommunikationsablauf. Er ersetzt keine Einzelfallprüfung von Käuferrechten und verspricht keine bestimmte Entscheidung.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

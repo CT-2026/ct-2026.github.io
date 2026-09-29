@@ -1,0 +1,50 @@
+{
+  "revision": 1,
+  "source": "scanreha",
+  "materials": [],
+  "id": "verkauf-teamarbeit",
+  "title": "Zusammenarbeit im Team",
+  "overrides": {
+    "stem": "Ein Verkaufsteam plant eine gemeinsame Aktion. Welche zwei Verhaltensweisen unterstützen die Zusammenarbeit?",
+    "response": {
+      "type": "multiple_choice",
+      "required_answers": 2,
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Vereinbarte Aufgaben zuverlässig erledigen und Verzögerungen rechtzeitig melden."
+        },
+        {
+          "id": "choice-2",
+          "text": "Vorschläge der anderen anhören und Kritik sachlich besprechen."
+        },
+        {
+          "id": "choice-3",
+          "text": "Informationen zurückhalten, damit die eigene Arbeit wichtiger wirkt."
+        },
+        {
+          "id": "choice-4",
+          "text": "Aufgaben ohne Absprache an andere Teammitglieder weitergeben."
+        }
+      ]
+    },
+    "solution": {
+      "choice_ids": [
+        "choice-1",
+        "choice-2"
+      ]
+    }
+  },
+  "help": "Gute Zusammenarbeit braucht verlässliche Absprachen und einen offenen, sachlichen Austausch.",
+  "short_explanation": "Zuverlässigkeit macht die Arbeit planbar. Zuhören und sachliche Kritik helfen, Informationen zu teilen und Probleme gemeinsam zu lösen.",
+  "detailed_explanation": "Die erste richtige Antwort zeigt Zuverlässigkeit und rechtzeitige Kommunikation. Die zweite zeigt Kommunikations- und Kritikfähigkeit. Informationen zurückzuhalten oder Zuständigkeiten ohne Absprache zu ändern, erschwert dagegen das gemeinsame Ergebnis.",
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Freitextauftrag in eine geschlossene Mehrfachauswahl überführt. Antwortalternativen und Rückmeldung wurden anhand der ausdrücklich benannten, selbst erarbeiteten ScanReha-Textlösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Die Textlösung ist keine offizielle Musterlösung."
+    ]
+  }
+}

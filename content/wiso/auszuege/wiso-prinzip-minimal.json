@@ -1,0 +1,54 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-prinzip-minimal",
+  "revision": "sha256:9f159b0eac4fb9f5",
+  "task": {
+    "id": "59",
+    "tag": "Minimalprinzip",
+    "stem": "In welchem Fall wird nach dem Minimalprinzip gehandelt?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Für die Mitarbeiter wird ein Pausenraum eingerichtet."
+      },
+      {
+        "id": "B",
+        "text": "Für die Heizperiode werden 10.000 Liter Heizöl gekauft."
+      },
+      {
+        "id": "C",
+        "text": "Für das Warensortiment werden 200 Stehleuchten beim preisgünstigsten Anbieter bestellt."
+      },
+      {
+        "id": "D",
+        "text": "Es wird noch ein Mitarbeiter eingestellt."
+      },
+      {
+        "id": "E",
+        "text": "Es wird ein zusätzlicher Lagerraum angemietet."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "C, 200 Stehleuchten beim preisgünstigsten Anbieter",
+      "explanation": "Beim Minimalprinzip steht das Ziel fest, hier also die Beschaffung von 200 Stehleuchten. Erreicht wird es mit möglichst geringem Mitteleinsatz, also beim preisgünstigsten Anbieter.",
+      "merksatz": "Minimalprinzip: vorgegebenes Ziel, minimaler Mitteleinsatz.",
+      "wrong": "Die anderen Beispiele beschreiben betriebliche Maßnahmen, aber nicht klar das wirtschaftliche Prinzip, ein festes Ziel mit möglichst wenig Aufwand zu erreichen.",
+      "detailTitle": "",
+      "detail": [],
+      "topic": "wirtschaft",
+      "ref": "Wirtschaftliches Prinzip: Beim Minimalprinzip ist das Ziel vorgegeben, der Mitteleinsatz soll minimal sein."
+    },
+    "tags": [
+      "wirtschaftsleistung"
+    ]
+  }
+}

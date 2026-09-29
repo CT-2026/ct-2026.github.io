@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-werbung-erfolg",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "werbung",
+  "variant_group": "verkauf.werbung",
+  "title": "Ein messbares Werbeziel",
+  "stem": "Welches Ziel lässt sich mit einfachen Aufzeichnungen am eindeutigsten prüfen?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Die Aktion soll irgendwie gut sein."
+      },
+      {
+        "id": "choice-2",
+        "text": "In der Aktionswoche sollen mindestens 30 der beworbenen Flaschen verkauft werden."
+      },
+      {
+        "id": "choice-3",
+        "text": "Alle Menschen müssen begeistert sein."
+      },
+      {
+        "id": "choice-4",
+        "text": "Die Werbung soll ohne festgelegten Maßstab besser werden."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Ein prüfbares Ziel braucht eine beobachtbare Größe und einen Zeitraum.",
+  "short_explanation": "Artikelmenge und Aktionswoche sind eindeutig festgelegt.",
+  "detailed_explanation": "Mit Verkaufsaufzeichnungen lässt sich das Erreichen von 30 Stück prüfen. Das belegt allein noch nicht, dass jeder Verkauf durch die Werbung verursacht wurde.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "mat-nachbestellung",
+  "revision": 1,
+  "title": "Fall: Nachbestellung von Trinkflaschen",
+  "kind": "table",
+  "table": {
+    "columns": [
+      {
+        "label": "Angabe",
+        "align": "left"
+      },
+      {
+        "label": "Wert",
+        "align": "left"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Täglicher Absatz",
+          "6 Stück"
+        ]
+      },
+      {
+        "cells": [
+          "Lieferzeit",
+          "4 Tage"
+        ]
+      },
+      {
+        "cells": [
+          "Mindestbestand als Reserve",
+          "8 Stück"
+        ]
+      },
+      {
+        "cells": [
+          "Verfügbarer Bestand",
+          "32 Stück"
+        ]
+      },
+      {
+        "cells": [
+          "Bereits bestellte Menge",
+          "0 Stück"
+        ]
+      },
+      {
+        "cells": [
+          "Zielbestand bei Bestellung",
+          "80 Stück"
+        ]
+      },
+      {
+        "cells": [
+          "Verpackungseinheit",
+          "12 Stück je Karton"
+        ]
+      }
+    ]
+  },
+  "note": "Vereinfachtes Bestellmodell: Meldebestand = Tagesabsatz × Lieferzeit + Mindestbestand. Bestellmenge = Zielbestand − verfügbarer Bestand − bereits bestellte Menge. Abgänge während der Lieferzeit werden in der Zielbestandsformel nicht zusätzlich angesetzt.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

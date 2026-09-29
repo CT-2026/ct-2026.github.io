@@ -1,0 +1,47 @@
+{
+  "id": "wwk-lagerkennzahlen-durchschnitt",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "lagerkennzahlen",
+  "variant_group": "wwk.lagerkennzahlen",
+  "title": "Den Durchschnittsbestand berechnen",
+  "stem": "Für eine vereinfachte Rechnung gelten 200 Stück Anfangsbestand und 100 Stück Endbestand. Welcher Durchschnitt ergibt sich aus (Anfangsbestand + Endbestand) ÷ 2?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "50 Stück"
+      },
+      {
+        "id": "choice-2",
+        "text": "100 Stück"
+      },
+      {
+        "id": "choice-3",
+        "text": "150 Stück"
+      },
+      {
+        "id": "choice-4",
+        "text": "300 Stück"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Addiere beide Stichtagsbestände und halbiere die Summe.",
+  "short_explanation": "(200 + 100) ÷ 2 = 150 Stück.",
+  "detailed_explanation": "Diese vereinfachte Methode nutzt zwei Stichtage. Schwankungen innerhalb des Zeitraums bildet sie nicht vollständig ab.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

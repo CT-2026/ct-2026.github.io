@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-gespraech-zuhoeren",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "gespraech",
+  "variant_group": "verkauf.gespraech",
+  "title": "Aktiv zuhören",
+  "stem": "Ein Kunde sagt: „Ich brauche eine Tasche für den Arbeitsweg, mein Laptop soll hinein, aber sie darf nicht schwer sein.“ Welche Reaktion zeigt aktives Zuhören?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Dann kaufen Sie irgendeine große Tasche."
+      },
+      {
+        "id": "choice-2",
+        "text": "Sie suchen also eine leichte Tasche, in die Ihr Laptop sicher passt – habe ich Sie richtig verstanden?"
+      },
+      {
+        "id": "choice-3",
+        "text": "Unsere größte Tasche ist immer die beste."
+      },
+      {
+        "id": "choice-4",
+        "text": "Über das Gewicht reden wir später."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Fasse die wesentlichen Wünsche zusammen und lasse sie bestätigen.",
+  "short_explanation": "Die Antwort greift Laptop und Gewicht auf und prüft das Verständnis.",
+  "detailed_explanation": "Aktives Zuhören heißt nicht, sofort ein Produkt zu empfehlen. Erst werden die Wünsche geklärt; anschließend lassen sich passende Modelle zeigen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

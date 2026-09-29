@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-3-4",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "zusammenarbeit",
+  "variant_group": "verkauf.zusammenarbeit",
+  "title": "Teamkonflikten vorbeugen",
+  "stem": "Wählen Sie drei Maßnahmen, mit denen Konflikten im Team vorgebeugt werden kann.",
+  "materials": [],
+  "requires": [],
+  "help": "Die Ursachen von Missverständnissen früh bearbeiten.",
+  "short_explanation": "Klare Absprachen, frühe sachliche Gespräche und nachvollziehbare Entscheidungen unterstützen die Zusammenarbeit.",
+  "detailed_explanation": "Eine Übergabe benennt Aufgabe, zuständige Person und Termin. Bei Schwierigkeiten helfen konkrete Beobachtungen statt persönlicher Vorwürfe. Gemeinsames Klären bedeutet nicht, jede Entscheidung endlos zu diskutieren, sondern Erwartungen verständlich zu machen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-3.4",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-3.4",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Aufgaben, Zuständigkeiten und Übergaben klar absprechen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Probleme früh und sachlich im passenden Rahmen ansprechen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Entscheidungen nachvollziehbar erklären und Betroffene anhören."
+      },
+      {
+        "id": "choice-4",
+        "text": "Ärger grundsätzlich verschweigen."
+      },
+      {
+        "id": "choice-5",
+        "text": "Beschäftigte vor Kunden miteinander vergleichen und abwerten."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

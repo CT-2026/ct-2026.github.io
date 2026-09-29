@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2873",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.konjunktur",
+  "title": "Absatz und Lager in der Krise",
+  "stem": "In welcher konjunkturellen Phase ist mit einem Absatzstau und hohen Lagerbeständen zu rechnen?",
+  "materials": [],
+  "requires": [],
+  "help": "Die schwächste Phase im Konjunkturmodell betrachten.",
+  "short_explanation": "Der Quellschlüssel ordnet Absatzstau und hohe Lagerbestände dem Tiefstand zu.",
+  "detailed_explanation": "Bei anhaltend schwacher Nachfrage bleibt Ware liegen und Kapazität wird wenig genutzt. Lagerbestände können schon während des Abschwungs steigen; im Phasenmodell ist der Tiefstand die besonders schwache Lage.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2873",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2873",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Tiefstand (Depression)"
+      },
+      {
+        "id": "choice-2",
+        "text": "Abschwung (Rezession)"
+      },
+      {
+        "id": "choice-3",
+        "text": "Aufschwung (Expansion)"
+      },
+      {
+        "id": "choice-4",
+        "text": "Hochkonjunktur (Boom)"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "units": [
+    {
+      "id": "wiso.wirtschaftsbereiche",
+      "area": "wiso",
+      "title": "Wirtschaftsbereiche"
+    },
+    {
+      "id": "wiso.arbeitsschutz-statistik",
+      "area": "wiso",
+      "title": "Arbeitsschutz und Statistik"
+    },
+    {
+      "id": "wiso.haushalt",
+      "area": "wiso",
+      "title": "Haushalt und Prozentrechnung"
+    },
+    {
+      "id": "wiso.ergebnis",
+      "area": "wiso",
+      "title": "Erlöse, Kosten und Ergebnis"
+    },
+    {
+      "id": "wiso.preisbildung",
+      "area": "wiso",
+      "title": "Angebot, Nachfrage und Preise"
+    },
+    {
+      "id": "wiso.prinzip",
+      "area": "wiso",
+      "title": "Wirtschaftlich handeln"
+    },
+    {
+      "id": "wiso.ziele",
+      "area": "wiso",
+      "title": "Unternehmensziele"
+    },
+    {
+      "id": "wiso.ressourcen",
+      "area": "wiso",
+      "title": "Ressourcen und Verpackungen"
+    },
+    {
+      "id": "wwk.warenannahme",
+      "area": "wwk",
+      "title": "Warenannahme"
+    },
+    {
+      "id": "wwk.beschaffung",
+      "area": "wwk",
+      "title": "Einkauf planen und Kaufarten"
+    },
+    {
+      "id": "wwk.rabatt-skonto",
+      "area": "wwk",
+      "title": "Rabatt und Skonto"
+    },
+    {
+      "id": "wwk.bestellen",
+      "area": "wwk",
+      "title": "Nachbestellung planen"
+    },
+    {
+      "id": "wwk.bestand",
+      "area": "wwk",
+      "title": "Lagerbestände führen"
+    },
+    {
+      "id": "wwk.lagerkennzahlen",
+      "area": "wwk",
+      "title": "Lagerkennzahlen"
+    },
+    {
+      "id": "wwk.wws",
+      "area": "wwk",
+      "title": "Warenwirtschaftssystem nutzen"
+    },
+    {
+      "id": "wwk.artikeldaten",
+      "area": "wwk",
+      "title": "Artikeldaten erfassen"
+    },
+    {
+      "id": "wwk.lagerung",
+      "area": "wwk",
+      "title": "Lagerung und Warenpflege"
+    },
+    {
+      "id": "wwk.verkaufspreis",
+      "area": "wwk",
+      "title": "Verkaufspreise kalkulieren"
+    },
+    {
+      "id": "wwk.kosten",
+      "area": "wwk",
+      "title": "Kosten, Umsatzsteuer und Bilanz"
+    },
+    {
+      "id": "wwk.vergleich",
+      "area": "wwk",
+      "title": "Angebote vergleichen"
+    },
+    {
+      "id": "wwk.kasse",
+      "area": "wwk",
+      "title": "Rechnung und Kasse"
+    },
+    {
+      "id": "verkauf.beratung",
+      "area": "verkauf",
+      "title": "Beratung"
+    },
+    {
+      "id": "verkauf.zusammenarbeit",
+      "area": "verkauf",
+      "title": "Zusammenarbeit im Verkauf"
+    },
+    {
+      "id": "verkauf.gespraech",
+      "area": "verkauf",
+      "title": "Gespräche führen"
+    },
+    {
+      "id": "verkauf.nutzen",
+      "area": "verkauf",
+      "title": "Nutzen erklären und Einwände klären"
+    },
+    {
+      "id": "verkauf.service",
+      "area": "verkauf",
+      "title": "Service und Bedienungsformen"
+    },
+    {
+      "id": "verkauf.reklamation",
+      "area": "verkauf",
+      "title": "Reklamationen aufnehmen"
+    },
+    {
+      "id": "verkauf.praesentation",
+      "area": "verkauf",
+      "title": "Waren präsentieren"
+    },
+    {
+      "id": "verkauf.werbung",
+      "area": "verkauf",
+      "title": "Werbemaßnahmen planen"
+    },
+    {
+      "id": "verkauf.aktion",
+      "area": "verkauf",
+      "title": "Eine Verkaufsaktion auswerten"
+    },
+    {
+      "id": "wiso.gueter",
+      "area": "wiso",
+      "title": "Bedürfnisse und Güterarten"
+    },
+    {
+      "id": "wiso.recht",
+      "area": "wiso",
+      "title": "Rechtliche Grundbegriffe"
+    },
+    {
+      "id": "wiso.konjunktur",
+      "area": "wiso",
+      "title": "Konjunkturphasen"
+    }
+  ],
+  "cases": [
+    {
+      "id": "nachbestellung",
+      "title": "Eine Nachbestellung planen",
+      "description": "Meldebestand prüfen, Bestellmenge bestimmen und Verpackungseinheiten berücksichtigen.",
+      "task_ids": [
+        "wwk-bestellen-meldebestand",
+        "wwk-bestellen-menge",
+        "wwk-bestellen-kartons"
+      ]
+    },
+    {
+      "id": "angebotsvergleich",
+      "title": "Zwei Angebote vergleichen",
+      "description": "Stückpreise, Gesamtbezug und begründete Lieferantenwahl für denselben Bedarf.",
+      "task_ids": [
+        "wwk-vergleich-stueck",
+        "wwk-vergleich-gesamt",
+        "wwk-vergleich-entscheidung"
+      ]
+    },
+    {
+      "id": "verkaufsaktion",
+      "title": "Eine Verkaufsaktion auswerten",
+      "description": "Kaufquote, Durchschnittsbon und Aussagekraft der Ergebnisse einschätzen.",
+      "task_ids": [
+        "verkauf-aktion-quote",
+        "verkauf-aktion-bon",
+        "verkauf-aktion-aussage"
+      ]
+    }
+  ]
+}

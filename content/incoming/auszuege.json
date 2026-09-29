@@ -1,0 +1,675 @@
+{
+  "revision": 1,
+  "captured_at": "2026-09-26",
+  "sources": [
+    {
+      "file": "incoming/to-integrate.md",
+      "document": {
+        "titel": "Kaufmann/Kauffrau im Einzelhandel Verkäufer/-in Abschlussprüfung (Teil 1) VERKAUF UND WERBEMASSNAHMEN Probeklausur 1",
+        "datum": "2024-05-21",
+        "hinweise": "In dieser Übungsklausur kannst du 100 Punkte erreichen. Die Aufgaben dieser Übungsklausur orientieren sich am IHK-Prüfungskatalog und ähneln den Aufgaben, die in der „richtigen“ Prüfung gestellt werden können. Mit diesen Aufgaben kannst mit anderen Auszubildenden gemeinsam lernen, deine Ergebnisse vergleichen und Unklarheiten diskutieren. Lade deine Kollegen und Freunde am besten direkt in den Kurs ein.\nViel Erfolg beim Lernen und für die Prüfung!",
+        "aufgaben": [
+          {
+            "nummer": "1.1",
+            "typ": "offene_frage",
+            "fragestellung": "Sie werden an der Kasse eingesetzt. Ein Kunde möchte mit der abgebildeten Karte zahlen.\nNennen Sie drei Vorteile dieses Bezahlsystems.",
+            "punkte": 3,
+            "materialien": [
+              {
+                "typ": "bild",
+                "beschreibung": "Abbildung einer girocard (Bankkarte) mit Kontaktlos-Symbol, Chip, Logo 'färBank', Name 'Pia Pinck', Kontonummer '1234567890', Kartennummer '9876543210' und Gültigkeitsdatum '12/29'."
+              }
+            ]
+          },
+          {
+            "nummer": "1.2",
+            "typ": "offene_frage",
+            "fragestellung": "Der Bezahlterminal fällt aus. Daraufhin beschwert sich der Kunde lautstark, woraufhin auch andere Kunden auf die Situation aufmerksam werden.\nNennen Sie drei Maßnahmen, wie Sie in dieser Situation angemessen reagieren.",
+            "punkte": 6
+          },
+          {
+            "nummer": "1.3",
+            "typ": "offene_frage",
+            "fragestellung": "Nennen Sie drei weitere Zahlungsmöglichkeiten.",
+            "punkte": 3
+          },
+          {
+            "nummer": "1.4",
+            "typ": "offene_frage",
+            "fragestellung": "Geben Sie drei mögliche Gründe für Kassendifferenzen an.",
+            "punkte": 3
+          },
+          {
+            "nummer": "1.5",
+            "typ": "offene_frage",
+            "fragestellung": "Eine Kundin wundert sich, dass Sie Ihr Produkt an der Kasse eingescannt haben und 8,80 EUR abrechnen. Laut Preisschild im Regal beträgt der Preis 7,95 EUR, da es sich um ein Sonderangebot handelt.\nWelchen Preis muss die Kundin zahlen? Begründen Sie Ihre Antwort kurz.",
+            "punkte": 2
+          },
+          {
+            "nummer": "1.6",
+            "typ": "offene_frage",
+            "fragestellung": "Bei der Kassenabrechnung stellen Sie fest, dass die Kasse eine Differenz aufweist. Ihnen liegen die folgenden Daten vor:\n\nIstbestand: 2.120,30 EUR\nEntnahmen: 540,00 EUR\nSollbestand: 2.656,10 EUR\n\nErmitteln Sie unter Angabe des Rechenweges die Kassendifferenz in EUR.",
+            "punkte": 3
+          },
+          {
+            "nummer": "2.1",
+            "typ": "offene_frage",
+            "fragestellung": "Erläutern Sie kurz, worum es sich bei warenbezogenen und kundenbezogenen Verkaufsargumenten handelt.",
+            "punkte": 4
+          },
+          {
+            "nummer": "2.2",
+            "typ": "offene_frage",
+            "fragestellung": "Sie befinden sich in einem Kundengespräch. Vervollständigen Sie die folgende Tabelle, indem Sie zwei Artikel Ihrer Wahl nennen und jeweils ein warenbezogenes und ein kundenbezogenes Verkaufsargument angeben.\n\n| Artikel | warenbezogenes Verkaufsargument | kundenbezogenes Verkaufsargument |\n| --- | --- | --- |\n| | | |\n| | | |",
+            "punkte": 10
+          },
+          {
+            "nummer": "2.3",
+            "typ": "offene_frage",
+            "fragestellung": "Der Kunde fragt Sie, wie die rechtliche Situation ist, wenn ein Elektronik-Artikel nach dem Kauf Mängel aufweist.\nGeben Sie dem Kunden die richtige Auskunft zur Laufzeit der gesetzlichen Gewährleistung, den Rechten des Kunden und darüber, wann er den Mangel anzeigen muss.",
+            "punkte": 6
+          },
+          {
+            "nummer": "2.4",
+            "typ": "offene_frage",
+            "fragestellung": "Nennen Sie drei Artikel, die vom Umtausch ausgeschlossen sind.",
+            "punkte": 3
+          },
+          {
+            "nummer": "2.5",
+            "typ": "offene_frage",
+            "fragestellung": "Schließlich entscheidet sich der Kunde für den Kauf des Produktes. Formulieren Sie eine geeignete Reaktion.",
+            "punkte": 2
+          },
+          {
+            "nummer": "2.6",
+            "typ": "offene_frage",
+            "fragestellung": "Der ursprüngliche Preis betrug 199,00 EUR. Der Kunde erhält einen Rabatt von 10 %, zusätzlich erhält er durch eine Kundenkarte einen Rabatt von 1,5 % auf den reduzierten Preis. Ermitteln Sie den Preis in EUR, den der Kunde zahlen muss. Geben Sie Ihren Rechenweg an.",
+            "punkte": 3
+          },
+          {
+            "nummer": "3.1",
+            "typ": "offene_frage",
+            "fragestellung": "In den Filialen der gutMarkt GmbH können die Kunden ihre leeren Ein- und Mehrweg-Getränkeflaschen zurückgeben. Bei der Rückgabe erhalten sie das beim Kauf einbehaltene Pfand zurück.\nNennen Sie zwei Vorteile dieses Pfandsystems.",
+            "punkte": 2
+          },
+          {
+            "nummer": "3.2",
+            "typ": "offene_frage",
+            "fragestellung": "Geben Sie an, welche Getränke mit dem folgenden Kennzeichen versehen werden und geben Sie die Höhe des Pfands für solche Getränke an.",
+            "punkte": 2,
+            "materialien": [
+              {
+                "typ": "bild",
+                "beschreibung": "Logo der DPG-Kennzeichnung (Deutsche Pfandsystem GmbH), das eine Flasche, eine Dose und einen Pfeil zeigt."
+              }
+            ]
+          },
+          {
+            "nummer": "3.3",
+            "typ": "offene_frage",
+            "fragestellung": "Im Team der gutMarkt-Filiale in Worpswede ist es zu einem Konflikt gekommen. Erläutern Sie anhand von drei Beispielen, wie Konflikte im Team entstehen können.",
+            "punkte": 3
+          },
+          {
+            "nummer": "3.4",
+            "typ": "offene_frage",
+            "fragestellung": "Nennen Sie drei Maßnahmen, mit denen Sie Konflikten im Team vorbeugen können.",
+            "punkte": 3
+          },
+          {
+            "nummer": "4.1",
+            "typ": "offene_frage",
+            "fragestellung": "Die gutMarkt GmbH verfügt über ein breites Sortiment.\nErläutern Sie, was ein breites Sortiment ist.",
+            "punkte": 2
+          },
+          {
+            "nummer": "4.2",
+            "typ": "offene_frage",
+            "fragestellung": "In der Filiale der gutMarkt GmbH befindet sich eine Frischetheke für Wurst- und Käsewaren an.\nNennen Sie einen Vorteil für die Kunden.",
+            "punkte": 2
+          },
+          {
+            "nummer": "4.3",
+            "typ": "offene_frage",
+            "fragestellung": "Sie sind damit beauftragt worden, die Produkte der gutMarkt GmbH mit denen der GeizMarkt AG zu vergleichen.\nGeben Sie drei Möglichkeiten an, um Informationen über Produkte der GeizMarkt AG einzuholen.",
+            "punkte": 3
+          },
+          {
+            "nummer": "4.4",
+            "typ": "offene_frage",
+            "fragestellung": "Vervollständigen Sie das folgende Schema zur Analyse der gutMarkt GmbH im Vergleich zur GeizMarkt AG.\n\n| Wettbewerber | gutMarkt GmbH | GeizMarkt AG |\n| --- | --- | --- |\n| Angebotene Produkte | Lebensmittel, Kleidung, Elektronikartikel, Haushaltswaren, Kosmetika | Lebensmittel |\n| Einzelhandelsform | Warenhaus | Discounter |\n| Sortimentsbreite | | |\n| Sortimentstiefe | | |\n| Vorteil für die Kunden (jeweils einer) | | |",
+            "punkte": 6
+          },
+          {
+            "nummer": "5.1",
+            "typ": "offene_frage",
+            "fragestellung": "Die gutMarkt GmbH plant zum neuen Schuljahr eine Werbekampagne zur Vermarktung von Schulartikeln.\nVervollständigen Sie den Werbeplan mit von Ihnen gewählten Beispielen.\n\n| Fragestellung | Teil des Werbeplans | Beispiel |\n| --- | --- | --- |\n| Wer soll umworben werden? | | |\n| Wo soll die Werbung erfolgen? | | |\n| Wann soll die Werbung durchgeführt werden? | | |\n| Wie soll geworben werden? | | |\n| | | max. 180.000,00 EUR |",
+            "punkte": 10
+          },
+          {
+            "nummer": "5.2",
+            "typ": "offene_frage",
+            "fragestellung": "Nennen Sie zwei Verkaufszonen, die im Einzelhandel anzutreffen sind und nennen Sie jeweils eine Warengruppe, die in der jeweiligen Verkaufszone üblicherweise anzutreffen ist.",
+            "punkte": 4
+          },
+          {
+            "nummer": "5.3",
+            "typ": "offene_frage",
+            "fragestellung": "Entscheiden und begründen Sie, in welcher Verkaufszone die beworbenen Schulartikel platziert werden sollten.",
+            "punkte": 4
+          },
+          {
+            "nummer": "5.4",
+            "typ": "offene_frage",
+            "fragestellung": "Es sollen unter anderem Schultüten zur Einschulung angeboten werden.\nNennen Sie einen Artikel, der im Rahmen einer Verbundplatzierung angeboten werden kann.",
+            "punkte": 3
+          },
+          {
+            "nummer": "5.5",
+            "typ": "offene_frage",
+            "fragestellung": "Erklären Sie, worum es sich bei Renner-Artikeln und bei Penner-Artikeln handelt.",
+            "punkte": 4
+          },
+          {
+            "nummer": "5.6",
+            "typ": "offene_frage",
+            "fragestellung": "Die Werbekampagne hat Kosten von 160.000,00 EUR verursacht. In der Folge ist der Umsatz von zuvor 1.400.000,00 EUR um 15 % gestiegen.\nBeurteilen Sie, ob sich die Werbekampagne gelohnt hat. Geben Sie den Rechenweg an und formulieren Sie eine Antwort.",
+            "punkte": 4
+          }
+        ]
+      }
+    },
+    {
+      "file": "incoming/to-integrate2.md",
+      "url": "https://plakos-akademie.de/pruefungsvorbereitung-verkaeufer-in/",
+      "raw_markdown": "# Übungsaufgaben: Verkäufer/in\n\n## Quelle und Erfassung\n\n- **Quelle:** [Plakos Akademie – Prüfungsvorbereitung Verkäufer/in](https://plakos-akademie.de/pruefungsvorbereitung-verkaeufer-in/)\n- **Quiztitel auf der Seite:** „Einzelhandel IHK Abschlussprüfung Kurztest – Landingpage“\n- **Erfasst am:** 26.09.2026\n- **Erfassungsweg:** Interner Browser, Auslesen der Quizdaten über die CDP-Konsole.\n- **Umfang:** 22 Aufgaben. Die Antwortoptionen stehen in der bei der Erfassung angezeigten Reihenfolge; das Quiz kann Aufgaben und Antworten zufällig sortieren.\n- **Lösungen:** Mit `**fett**` markierte Antworten entsprechen dem im Quellquiz hinterlegten Lösungsschlüssel.\n- **Nutzungsstatus:** Die freie Nutzbarkeit wurde laut Nutzerhinweis bereits nachgewiesen.\n- **Rechtsprüfung:** Auf Wunsch nicht durchgeführt.\n\n## Aufgaben\n\n### 1. [2857]\n\nDie Töpferin Alex bietet Töpferkurse in ihrem Atelier an. Zu welcher Güterart gehören die Töpferkurse?\n\n- Gebrauchsrecht\n- Patent für Innovationen\n- **Dienstleistung**\n- freie Güter\n\n### 2. [2858]\n\nWas ist das Ziel des Minimalprinzips?\n\n- Das vorhandene Material gut ausnutzen und viele Produkte herstellen\n- Möglichst viel Material für eine bestimmte Menge an Produkten verbrauchen\n- **Eine bestimmte Menge an Produkten mit so wenig Material wie möglich herstellen**\n- Mit einer begrenzten Menge an Material so viele Produkte wie möglich herstellen\n\n### 3. [2859]\n\nZu welchen Güterarten zählen Dienstleistungen?\n\n- Produktionsgüter\n- **immaterielle Güter**\n- freie Güter\n- Konsumgüter\n\n### 4. [2860]\n\nBei welchen der folgenden Güterarten handelt es sich um Substitutionsgüter?\n\n- **Süßstoff und Zucker**\n- Auto und Benzin\n- Kühlschrank und Strom\n- Kartoffeln und Salz\n\n### 5. [2861]\n\nDas ökonomische Prinzip wird unter anderem beschrieben durch das …\n\n- Minimaxprinzip\n- Vorteilsprinzip\n- **Maximalprinzip**\n- Optimumsprinzip\n\n### 6. [2862]\n\nWas wird im Individualarbeitsrecht geregelt?\n\n- **Das Verhältnis zwischen Arbeitgeber und Arbeitnehmer.**\n- Das Verhältnis zwischen Auftraggeber und Auftragnehmer.\n- Gesundheitliche Aspekte einer Beschäftigung.\n- Das Verhältnis zwischen Gewerkschaften und Arbeitgeberverbänden.\n\n### 7. [2863]\n\nDas Grundkapital einer Aktiengesellschaft muss mindestens …\n\n- **50.000 Euro betragen.**\n- 25.000 Euro betragen.\n- 1.000.000 Euro betragen.\n- 100.000 Euro betragen.\n\n### 8. [2864]\n\nWelche unternehmerische Kennzahl ist in der Regel höher – Gewinn oder Umsatz?\n\n- Der Gewinn\n- Das ist abhängig vom Steuersatz des jeweiligen Unternehmens\n- **Der Umsatz**\n- Gewinn und Umsatz bezeichnen das Selbe, so sind beide gleich hoch.\n\n### 9. [2865]\n\nWas ist ein Gewohnheitsrecht?\n\n- Es ist kein Recht im eigentlichen Sinn, sondern nur eine gesellschaftliche Vereinbarung.\n- Ein geschriebenes Recht, das nach einer andauernden Anwendung Gesetz wird.\n- Ein Recht, das mit nicht mit Gesetzen gleichberechtigt ist.\n- **Ein ungeschriebenes Recht, das nicht durch Gesetzgebung zustande kommt.**\n\n### 10. [2866]\n\nWas ist ein Bedürfnis?\n\n- ein Mangel an Bedarf\n- der Bedarf eines Menschen\n- ein Mangel an Nachfrage\n- **ein Mangelempfinden, das es zu überwinden gilt**\n\n### 11. [2867]\n\nWie kann sich eine Preiserhöhung bei Regenjacken (mittleres Preissegment) auswirken?\n\n- Die Nachfrage bleibt gleich.\n- **Die Nachfrage geht zurück.**\n- Das Angebot wird vergrößert.\n- Die Nachfrage steigt.\n\n### 12. [2868]\n\nEin Unternehmen vermietet Equipment für Konferenzräume. Welcher Geschäftsfall wird auf dem Konto Sonstige Forderungen gebucht?\n\n- Das Unternehmen erhält die Miete für Dezember und Januar schon Anfang Dezember.\n- Das Unternehmen erhält die Miete für Januar und Februar erst Ende Januar.\n- Das Unternehmen zahlt die Dezember- und Januarmiete für seine Geschäftsräume schon im Dezember.\n- **Das Unternehmen erhält die Miete für Dezember und Januar erst im Januar.**\n\n### 13. [2869]\n\nWelcher Geschäftsfall führt in einer Bilanz zu einer Aktiv-Passiv-Mehrung?\n\n- Ein Kunde bezahlt eine Rechnung per Banküberweisung.\n- Ein Tintendrucker wird gegen Barzahlung gekauft.\n- **Ein Kauf eines Firmenwagens auf Ziel.**\n- Eine Hypothek wird durch Banküberweisung getilgt.\n\n### 14. [2870]\n\nWelche der folgenden Bilanzgleichungen ist falsch?\n\n- Summe Aktiva = Summe Passiva\n- **Anlagevermögen – Umlaufvermögen = Eigenkapital – Fremdkapital**\n- Bilanzsumme Aktiva – Anlagevermögen = Umlaufvermögen\n- Bilanzsumme – Eigenkapital = Fremdkapital\n\n### 15. [2871]\n\nIn welcher konjunkturellen Phase ist mit einem hohen Preisniveau zu rechnen?\n\n- Abschwung (Rezession)\n- Aufschwung (Expansion)\n- **Hochkonjunktur (Boom)**\n- Tiefstand (Depression)\n\n### 16. [2872]\n\nIn welcher konjunkturellen Phase ist mit einer Abnahme des Steueraufkommens durch sinkende Gewinne zu rechnen?\n\n- Hochkonjunktur (Boom)\n- Aufschwung (Expansion)\n- Tiefstand (Depression)\n- **Abschwung (Rezession)**\n\n### 17. [2873]\n\nIn welcher konjunkturellen Phase ist mit einem Absatzstau und hohen Lagerbeständen zu rechnen?\n\n- **Tiefstand (Depression)**\n- Abschwung (Rezession)\n- Aufschwung (Expansion)\n- Hochkonjunktur (Boom)\n\n### 18. [2874]\n\nWas trifft für die Rechtsfähigkeit einer juristischen Person zu?\n\n- Die Rechtsfähigkeit ist die Fähigkeit zum voll gültigen Abschluss von Rechtsgeschäften.\n- Die Rechtsfähigkeit beginnt mit der Gründung.\n- **Die Rechtsfähigkeit beginnt mit der Eintragung in das Register.**\n- Die Rechtsfähigkeit beginnt mit der Geschäftsfähigkeit.\n\n### 19. [2875]\n\nWer ist keine juristische Person?\n\n- eine GmbH\n- ein gemeinnütziger Verein\n- die IHK\n- **ein Richter**\n\n### 20. [2876]\n\nWas ist der dispositive Faktor?\n\n- die Betriebsmittelerweiterung eines Unternehmens\n- die Ware eines Unternehmens\n- **die Unternehmensleitung**\n- die Bedingungen des Standortes eines Unternehmens\n\n### 21. [2877]\n\nBei welchem der unten stehenden Güterpaare handelt es sich um Substitutionsgüter?\n\n- Druckbleistift / Mine\n- **Lieferwagen eines inländischen Herstellers / Lieferwagen eines ausländisches Herstellers**\n- Warenregal / Waren\n- Handy / Ladekabel fürs Handy\n\n### 22. [2878]\n\nBei welcher der folgenden Tätigkeiten handelt es sich um kaufmännische Steuerung und Kontrolle?\n\n- Erfassung einer Kundenbestellung\n- **Auswertung der Inventur**\n- Bearbeitung einer Kundenreklamation\n- Unterbreitung eines Angebots an einen Kunden\n",
+      "tasks": [
+        {
+          "id": "2857",
+          "stem": "Die Töpferin Alex bietet Töpferkurse in ihrem Atelier an. Zu welcher Güterart gehören die Töpferkurse?",
+          "choices": [
+            {
+              "text": "Gebrauchsrecht",
+              "correct": false
+            },
+            {
+              "text": "Patent für Innovationen",
+              "correct": false
+            },
+            {
+              "text": "Dienstleistung",
+              "correct": true
+            },
+            {
+              "text": "freie Güter",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2858",
+          "stem": "Was ist das Ziel des Minimalprinzips?",
+          "choices": [
+            {
+              "text": "Das vorhandene Material gut ausnutzen und viele Produkte herstellen",
+              "correct": false
+            },
+            {
+              "text": "Möglichst viel Material für eine bestimmte Menge an Produkten verbrauchen",
+              "correct": false
+            },
+            {
+              "text": "Eine bestimmte Menge an Produkten mit so wenig Material wie möglich herstellen",
+              "correct": true
+            },
+            {
+              "text": "Mit einer begrenzten Menge an Material so viele Produkte wie möglich herstellen",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2859",
+          "stem": "Zu welchen Güterarten zählen Dienstleistungen?",
+          "choices": [
+            {
+              "text": "Produktionsgüter",
+              "correct": false
+            },
+            {
+              "text": "immaterielle Güter",
+              "correct": true
+            },
+            {
+              "text": "freie Güter",
+              "correct": false
+            },
+            {
+              "text": "Konsumgüter",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2860",
+          "stem": "Bei welchen der folgenden Güterarten handelt es sich um Substitutionsgüter?",
+          "choices": [
+            {
+              "text": "Süßstoff und Zucker",
+              "correct": true
+            },
+            {
+              "text": "Auto und Benzin",
+              "correct": false
+            },
+            {
+              "text": "Kühlschrank und Strom",
+              "correct": false
+            },
+            {
+              "text": "Kartoffeln und Salz",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2861",
+          "stem": "Das ökonomische Prinzip wird unter anderem beschrieben durch das …",
+          "choices": [
+            {
+              "text": "Minimaxprinzip",
+              "correct": false
+            },
+            {
+              "text": "Vorteilsprinzip",
+              "correct": false
+            },
+            {
+              "text": "Maximalprinzip",
+              "correct": true
+            },
+            {
+              "text": "Optimumsprinzip",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2862",
+          "stem": "Was wird im Individualarbeitsrecht geregelt?",
+          "choices": [
+            {
+              "text": "Das Verhältnis zwischen Arbeitgeber und Arbeitnehmer.",
+              "correct": true
+            },
+            {
+              "text": "Das Verhältnis zwischen Auftraggeber und Auftragnehmer.",
+              "correct": false
+            },
+            {
+              "text": "Gesundheitliche Aspekte einer Beschäftigung.",
+              "correct": false
+            },
+            {
+              "text": "Das Verhältnis zwischen Gewerkschaften und Arbeitgeberverbänden.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2863",
+          "stem": "Das Grundkapital einer Aktiengesellschaft muss mindestens …",
+          "choices": [
+            {
+              "text": "50.000 Euro betragen.",
+              "correct": true
+            },
+            {
+              "text": "25.000 Euro betragen.",
+              "correct": false
+            },
+            {
+              "text": "1.000.000 Euro betragen.",
+              "correct": false
+            },
+            {
+              "text": "100.000 Euro betragen.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2864",
+          "stem": "Welche unternehmerische Kennzahl ist in der Regel höher – Gewinn oder Umsatz?",
+          "choices": [
+            {
+              "text": "Der Gewinn",
+              "correct": false
+            },
+            {
+              "text": "Das ist abhängig vom Steuersatz des jeweiligen Unternehmens",
+              "correct": false
+            },
+            {
+              "text": "Der Umsatz",
+              "correct": true
+            },
+            {
+              "text": "Gewinn und Umsatz bezeichnen das Selbe, so sind beide gleich hoch.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2865",
+          "stem": "Was ist ein Gewohnheitsrecht?",
+          "choices": [
+            {
+              "text": "Es ist kein Recht im eigentlichen Sinn, sondern nur eine gesellschaftliche Vereinbarung.",
+              "correct": false
+            },
+            {
+              "text": "Ein geschriebenes Recht, das nach einer andauernden Anwendung Gesetz wird.",
+              "correct": false
+            },
+            {
+              "text": "Ein Recht, das mit nicht mit Gesetzen gleichberechtigt ist.",
+              "correct": false
+            },
+            {
+              "text": "Ein ungeschriebenes Recht, das nicht durch Gesetzgebung zustande kommt.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "2866",
+          "stem": "Was ist ein Bedürfnis?",
+          "choices": [
+            {
+              "text": "ein Mangel an Bedarf",
+              "correct": false
+            },
+            {
+              "text": "der Bedarf eines Menschen",
+              "correct": false
+            },
+            {
+              "text": "ein Mangel an Nachfrage",
+              "correct": false
+            },
+            {
+              "text": "ein Mangelempfinden, das es zu überwinden gilt",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "2867",
+          "stem": "Wie kann sich eine Preiserhöhung bei Regenjacken (mittleres Preissegment) auswirken?",
+          "choices": [
+            {
+              "text": "Die Nachfrage bleibt gleich.",
+              "correct": false
+            },
+            {
+              "text": "Die Nachfrage geht zurück.",
+              "correct": true
+            },
+            {
+              "text": "Das Angebot wird vergrößert.",
+              "correct": false
+            },
+            {
+              "text": "Die Nachfrage steigt.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2868",
+          "stem": "Ein Unternehmen vermietet Equipment für Konferenzräume. Welcher Geschäftsfall wird auf dem Konto Sonstige Forderungen gebucht?",
+          "choices": [
+            {
+              "text": "Das Unternehmen erhält die Miete für Dezember und Januar schon Anfang Dezember.",
+              "correct": false
+            },
+            {
+              "text": "Das Unternehmen erhält die Miete für Januar und Februar erst Ende Januar.",
+              "correct": false
+            },
+            {
+              "text": "Das Unternehmen zahlt die Dezember- und Januarmiete für seine Geschäftsräume schon im Dezember.",
+              "correct": false
+            },
+            {
+              "text": "Das Unternehmen erhält die Miete für Dezember und Januar erst im Januar.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "2869",
+          "stem": "Welcher Geschäftsfall führt in einer Bilanz zu einer Aktiv-Passiv-Mehrung?",
+          "choices": [
+            {
+              "text": "Ein Kunde bezahlt eine Rechnung per Banküberweisung.",
+              "correct": false
+            },
+            {
+              "text": "Ein Tintendrucker wird gegen Barzahlung gekauft.",
+              "correct": false
+            },
+            {
+              "text": "Ein Kauf eines Firmenwagens auf Ziel.",
+              "correct": true
+            },
+            {
+              "text": "Eine Hypothek wird durch Banküberweisung getilgt.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2870",
+          "stem": "Welche der folgenden Bilanzgleichungen ist falsch?",
+          "choices": [
+            {
+              "text": "Summe Aktiva = Summe Passiva",
+              "correct": false
+            },
+            {
+              "text": "Anlagevermögen – Umlaufvermögen = Eigenkapital – Fremdkapital",
+              "correct": true
+            },
+            {
+              "text": "Bilanzsumme Aktiva – Anlagevermögen = Umlaufvermögen",
+              "correct": false
+            },
+            {
+              "text": "Bilanzsumme – Eigenkapital = Fremdkapital",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2871",
+          "stem": "In welcher konjunkturellen Phase ist mit einem hohen Preisniveau zu rechnen?",
+          "choices": [
+            {
+              "text": "Abschwung (Rezession)",
+              "correct": false
+            },
+            {
+              "text": "Aufschwung (Expansion)",
+              "correct": false
+            },
+            {
+              "text": "Hochkonjunktur (Boom)",
+              "correct": true
+            },
+            {
+              "text": "Tiefstand (Depression)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2872",
+          "stem": "In welcher konjunkturellen Phase ist mit einer Abnahme des Steueraufkommens durch sinkende Gewinne zu rechnen?",
+          "choices": [
+            {
+              "text": "Hochkonjunktur (Boom)",
+              "correct": false
+            },
+            {
+              "text": "Aufschwung (Expansion)",
+              "correct": false
+            },
+            {
+              "text": "Tiefstand (Depression)",
+              "correct": false
+            },
+            {
+              "text": "Abschwung (Rezession)",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "2873",
+          "stem": "In welcher konjunkturellen Phase ist mit einem Absatzstau und hohen Lagerbeständen zu rechnen?",
+          "choices": [
+            {
+              "text": "Tiefstand (Depression)",
+              "correct": true
+            },
+            {
+              "text": "Abschwung (Rezession)",
+              "correct": false
+            },
+            {
+              "text": "Aufschwung (Expansion)",
+              "correct": false
+            },
+            {
+              "text": "Hochkonjunktur (Boom)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2874",
+          "stem": "Was trifft für die Rechtsfähigkeit einer juristischen Person zu?",
+          "choices": [
+            {
+              "text": "Die Rechtsfähigkeit ist die Fähigkeit zum voll gültigen Abschluss von Rechtsgeschäften.",
+              "correct": false
+            },
+            {
+              "text": "Die Rechtsfähigkeit beginnt mit der Gründung.",
+              "correct": false
+            },
+            {
+              "text": "Die Rechtsfähigkeit beginnt mit der Eintragung in das Register.",
+              "correct": true
+            },
+            {
+              "text": "Die Rechtsfähigkeit beginnt mit der Geschäftsfähigkeit.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2875",
+          "stem": "Wer ist keine juristische Person?",
+          "choices": [
+            {
+              "text": "eine GmbH",
+              "correct": false
+            },
+            {
+              "text": "ein gemeinnütziger Verein",
+              "correct": false
+            },
+            {
+              "text": "die IHK",
+              "correct": false
+            },
+            {
+              "text": "ein Richter",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "2876",
+          "stem": "Was ist der dispositive Faktor?",
+          "choices": [
+            {
+              "text": "die Betriebsmittelerweiterung eines Unternehmens",
+              "correct": false
+            },
+            {
+              "text": "die Ware eines Unternehmens",
+              "correct": false
+            },
+            {
+              "text": "die Unternehmensleitung",
+              "correct": true
+            },
+            {
+              "text": "die Bedingungen des Standortes eines Unternehmens",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2877",
+          "stem": "Bei welchem der unten stehenden Güterpaare handelt es sich um Substitutionsgüter?",
+          "choices": [
+            {
+              "text": "Druckbleistift / Mine",
+              "correct": false
+            },
+            {
+              "text": "Lieferwagen eines inländischen Herstellers / Lieferwagen eines ausländisches Herstellers",
+              "correct": true
+            },
+            {
+              "text": "Warenregal / Waren",
+              "correct": false
+            },
+            {
+              "text": "Handy / Ladekabel fürs Handy",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "2878",
+          "stem": "Bei welcher der folgenden Tätigkeiten handelt es sich um kaufmännische Steuerung und Kontrolle?",
+          "choices": [
+            {
+              "text": "Erfassung einer Kundenbestellung",
+              "correct": false
+            },
+            {
+              "text": "Auswertung der Inventur",
+              "correct": true
+            },
+            {
+              "text": "Bearbeitung einer Kundenreklamation",
+              "correct": false
+            },
+            {
+              "text": "Unterbreitung eines Angebots an einen Kunden",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

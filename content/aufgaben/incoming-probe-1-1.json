@@ -1,0 +1,68 @@
+{
+  "id": "incoming-probe-1-1",
+  "revision": 2,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Vorteile der Kartenzahlung",
+  "stem": "Sie werden an der Kasse eingesetzt. Ein Kunde möchte mit der beschriebenen girocard zahlen.\nWählen Sie drei Vorteile dieses Bezahlsystems.",
+  "materials": [
+    {
+      "id": "mat-incoming-probe-1-1",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "An Bargeld, Wechselgeld und den Zahlungsnachweis denken.",
+  "short_explanation": "Kartenzahlung verringert den Bargeldbedarf, vermeidet Wechselgeld beim Zahlungsvorgang und hinterlässt einen Kontobeleg.",
+  "detailed_explanation": "Die girocard ermöglicht die Zahlung über das zugehörige Konto. Ein Kontoauszug erleichtert die Zuordnung von Ausgaben. Terminalstörungen bleiben möglich; Händler können Gebühren tragen. Kontaktloses Bezahlen ist eine Bedienform der Karte.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.1",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.1",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Der Kunde muss für den Einkauf kein Bargeld mitführen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Beim Bezahlvorgang entfällt das Herausgeben von Wechselgeld."
+      },
+      {
+        "id": "choice-3",
+        "text": "Die Zahlung erscheint auf dem Kontoauszug und ist nachvollziehbar."
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine Kartenzahlung funktioniert immer, auch bei ausgefallenem Terminal."
+      },
+      {
+        "id": "choice-5",
+        "text": "Kartenzahlungen sind für Händler grundsätzlich kostenlos."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

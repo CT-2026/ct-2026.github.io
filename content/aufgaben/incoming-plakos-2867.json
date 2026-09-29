@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2867",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.preisbildung",
+  "title": "Preisänderung bei Regenjacken",
+  "stem": "Wie kann sich eine Preiserhöhung bei Regenjacken (mittleres Preissegment) auswirken?",
+  "materials": [],
+  "requires": [],
+  "help": "Überlegen, wie ein höherer Preis die Kaufbereitschaft beeinflusst.",
+  "short_explanation": "Bei höherem Preis geht die nachgefragte Menge im üblichen Nachfragemodell zurück.",
+  "detailed_explanation": "Wenn sonstige Bedingungen gleich bleiben, wird der Kauf für einen Teil der Kunden weniger attraktiv. Wetter, Einkommen oder Modetrends können die Nachfrage zusätzlich beeinflussen.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2867",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2867",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Die Nachfrage bleibt gleich."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Nachfrage geht zurück."
+      },
+      {
+        "id": "choice-3",
+        "text": "Das Angebot wird vergrößert."
+      },
+      {
+        "id": "choice-4",
+        "text": "Die Nachfrage steigt."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  }
+}

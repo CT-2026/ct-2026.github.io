@@ -1,0 +1,54 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-wegeunfall-heilkosten",
+  "revision": "sha256:857dfed250490d51",
+  "task": {
+    "id": "46",
+    "tag": "Wegeunfall",
+    "stem": "Herr Binz hat auf dem direkten Weg zur Arbeit einen Unfall und verletzt sich. Welche Versicherung kommt letztlich für die Heilkosten auf?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Die gesetzliche Krankenversicherung"
+      },
+      {
+        "id": "B",
+        "text": "Die private Krankenversicherung"
+      },
+      {
+        "id": "C",
+        "text": "Die gesetzliche Unfallversicherung"
+      },
+      {
+        "id": "D",
+        "text": "Die private Unfallversicherung"
+      },
+      {
+        "id": "E",
+        "text": "Die private Lebensversicherung"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "topic": "sozial",
+    "content": {
+      "solution": "C, die gesetzliche Unfallversicherung",
+      "explanation": "Ein Unfall auf dem direkten Weg zur Arbeit ist ein Wegeunfall. Für die Heilkosten ist deshalb die gesetzliche Unfallversicherung über den zuständigen Unfallversicherungsträger zuständig.",
+      "merksatz": "Direkter Arbeitsweg = gesetzliche Unfallversicherung.",
+      "wrong": "Krankenversicherung, private Unfallversicherung und Lebensversicherung sind hier nicht die vorrangig zuständigen Träger des Wegeunfalls.",
+      "detailTitle": "",
+      "detail": [],
+      "topic": "sozial",
+      "ref": "Gesetzliche Unfallversicherung: Wegeunfälle auf dem direkten Arbeitsweg sind versicherte Unfälle."
+    },
+    "tags": [
+      "sozialversicherung"
+    ]
+  }
+}

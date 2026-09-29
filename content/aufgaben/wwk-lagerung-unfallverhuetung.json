@@ -1,0 +1,32 @@
+{
+  "id": "wwk-lagerung-unfallverhuetung",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Unfallverhütung im Lager",
+  "materials": [],
+  "help": "Welche Maßnahme macht die Arbeit im Lager sicherer, statt ein Risiko einzugehen?",
+  "short_explanation": "Sicherheitsmesser mit automatischem Klingeneinzug verringern Schnittverletzungen beim Öffnen von Kartons. Diese technische Schutzmaßnahme entspricht den Regeln der Unfallverhütung.",
+  "detailed_explanation": "Die übrigen Antworten beschreiben Gefahren:\n- **Paletten hochkant abstellen:** Sie können umkippen und Menschen verletzen. Paletten werden flach gestapelt.\n- **Gänge zustellen:** Verkehrs- und Fluchtwege müssen frei bleiben.\n- **Keine Schulungen:** Unterweisungen sind für alle Beschäftigten regelmäßig nötig, auch für erfahrene. Gerade Routine führt zu Leichtsinn.\n- **Keine Sicherheitsschuhe:** Schutzausrüstung wird unabhängig vom Wetter getragen, wenn die Tätigkeit sie verlangt.\n\n**Merksatz:** Gefahren werden beseitigt, nicht in Kauf genommen.",
+  "error_paths": [
+    {
+      "id": "gefahr-in-kauf",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-5"
+      ],
+      "text": "Diese Maßnahme spart Platz oder ist bequemer, schafft aber eine Unfallgefahr. Das widerspricht der Unfallverhütung."
+    },
+    {
+      "id": "erfahrung-ersetzt-schulung",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Auch erfahrene Beschäftigte werden regelmäßig unterwiesen. Routine schützt nicht vor Unfällen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

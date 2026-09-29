@@ -1,0 +1,55 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-ressourcen-recycling",
+  "revision": "sha256:208af1b511f28801",
+  "task": {
+    "id": "79",
+    "tag": "Wiederverwertung",
+    "stem": "Die Brauer Logistics GmbH möchte zum Umweltschutz beitragen. Bei welcher Maßnahme handelt es sich um Wiederverwertung?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Das in Containern gesammelte Altglas wird eingeschmolzen und zur Herstellung neuer Flaschen verwendet."
+      },
+      {
+        "id": "B",
+        "text": "Leere Batterien werden vom Elektronik-Fachhändler zurückgenommen und danach als Sondermüll gelagert."
+      },
+      {
+        "id": "C",
+        "text": "Getränke mit abgelaufenem MHD (Mindesthaltbarkeitsdatum) werden zum halben Preis an die Mitarbeiter verkauft."
+      },
+      {
+        "id": "D",
+        "text": "Transportpaletten werden vom Lieferer zurückgenommen und wieder eingesetzt."
+      },
+      {
+        "id": "E",
+        "text": "Die leeren Milchflaschen werden von der Molkerei zurückgenommen und nach der Reinigung entsorgt."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "A, Das in Containern gesammelte Altglas wird eingeschmolzen und zur Herstellung neuer Flaschen verwendet.",
+      "explanation": "Altglas wird eingeschmolzen und zur Herstellung neuer Flaschen verwendet. Damit wird der Stoff erneut verwertet.",
+      "merksatz": "Wiederverwertung nutzt den Stoff erneut; Mehrweg und Abfallvermeidung sind davon zu unterscheiden.",
+      "wrong": "Sondermülllagerung ist keine Wiederverwertung. Mitarbeiterverkauf, Mehrwegpaletten und wiederverwendete Flaschen vermeiden eher Abfall, statt den Stoff neu zu verwerten.",
+      "detailTitle": "",
+      "detail": null,
+      "topic": "wirtschaft",
+      "ref": "Kreislaufwirtschaft: Wiederverwertung bedeutet stoffliche Verwertung, etwa Einschmelzen von Altglas zu neuen Flaschen."
+    },
+    "tags": [
+      "kreislaufwirtschaft",
+      "wiederverwertung"
+    ]
+  }
+}

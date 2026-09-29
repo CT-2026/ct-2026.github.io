@@ -1,0 +1,18 @@
+{
+  "id": "mat-wws-maxikauf",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-21cf0f73-6b87-51fc-892b-1491b36c1be6",
+    "excerpt": "wwk-wws-zugriff"
+  },
+  "overrides": {
+    "title": "Warenwirtschaftssystem im Warenhaus"
+  },
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Titel „Die Maxikauf GmbH arbeitet mit einem Warenwirtschaftssystem (WWS).“ durch einen kurzen Sachtitel ersetzt, weil er den Materialtext wörtlich wiederholte. Der Text ist unverändert."
+    ]
+  }
+}

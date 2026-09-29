@@ -1,0 +1,35 @@
+{
+  "id": "wwk-lagerkennzahlen-lagerkosten",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Lagerdauer und Lagerkosten",
+  "materials": [
+    {
+      "id": "mat-rechnung-herrenhemden",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Überlege, was es kostet, wenn Ware lange im Lager liegt: Platz, Versicherung, Pflege und gebundenes Kapital.",
+  "short_explanation": "Je länger die Hemden auf Lager liegen, desto höher werden die Lagerkosten: Lagerraum, Versicherung, Pflege und das gebundene Kapital verursachen fortlaufend Kosten.",
+  "detailed_explanation": "Lagerdauer, Umschlagshäufigkeit und Lagerkosten hängen zusammen:\n- **Hohe Lagerdauer:** Die Ware bindet lange Kapital und Lagerplatz, das Risiko von Schwund, Veralterung und Preisabschlägen steigt – die Lagerkosten steigen.\n- **Umschlagshäufigkeit:** Sie sinkt, wenn die Ware länger liegt, denn Umschlagshäufigkeit und Lagerdauer verhalten sich gegenläufig.\n- **Umsatz:** Eine lange Lagerdauer ist gerade ein Zeichen für schleppenden Verkauf. Den Umsatz erhöht sie nicht.\n\n**Merksatz:** Kurze Lagerdauer = geringe Lagerkosten und hohe Umschlagshäufigkeit.",
+  "error_paths": [
+    {
+      "id": "richtung-vertauscht",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Richtung ist vertauscht: Kurze Lagerdauer senkt die Lagerkosten, lange Lagerdauer erhöht sie."
+    },
+    {
+      "id": "umschlag-gegenlaeufig",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Umschlagshäufigkeit und Lagerdauer verhalten sich gegenläufig. Liegt Ware länger, schlägt sie sich seltener um."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

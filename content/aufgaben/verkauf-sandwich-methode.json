@@ -1,0 +1,36 @@
+{
+  "id": "verkauf-sandwich-methode",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Sandwich-Methode anwenden",
+  "materials": [],
+  "help": "Bei der Sandwich-Methode liegt der Preis in der Mitte – wie der Belag zwischen zwei Brotscheiben. Davor und danach steht jeweils ein Vorteil des Produkts.",
+  "short_explanation": "Bei der Sandwich-Methode steht der Preis zwischen zwei Vorteilen: Vorteil – Preis – weiterer Vorteil. Das trifft nur auf die Ansprache zu, die zuerst den 3-fach optischen Zoom nennt, dann den Preis und danach das enthaltene Zubehör.",
+  "detailed_explanation": "Die Sandwich-Methode ist eine Technik, den Preis im Verkaufsgespräch zu nennen:\n- zuerst ein Vorteil oder Nutzen des Produkts,\n- dann der Preis,\n- danach ein weiterer Vorteil.\n\nSo verbindet die Kundin oder der Kunde den Preis mit einer Leistung, und der Preis steht nicht allein. In der richtigen Antwort sind das der 3-fach optische Zoom, der Preis von 399,90 € und das mitgelieferte Zubehör (Software, Video- und USB-Kabel).",
+  "error_paths": [
+    {
+      "id": "preis-zuerst",
+      "choice_ids": ["choice-1"],
+      "text": "Hier steht der Preis am Anfang, danach folgt nur ein Vorteil. Bei der Sandwich-Methode steht der Preis in der Mitte, umgeben von zwei Vorteilen."
+    },
+    {
+      "id": "preisvergleich",
+      "choice_ids": ["choice-2"],
+      "text": "Der Vergleich mit der Preisempfehlung betont nur den Preis. Es fehlen Vorteile des Produkts vor und nach der Preisnennung."
+    },
+    {
+      "id": "behauptung-statt-vorteil",
+      "choice_ids": ["choice-3"],
+      "text": "„Besonders preiswert“ ist kein Vorteil des Produkts, und der Preis steht am Ende. Es fehlen die beiden Vorteile um den Preis herum."
+    },
+    {
+      "id": "nur-preis",
+      "choice_ids": ["choice-5"],
+      "text": "Diese Ansprache stellt nur den Preis heraus. Ein Vorteil des Produkts fehlt ganz."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "wwk-kasse-sollbestand",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Den Kassenbestand abstimmen",
+  "stem": "Anfangswechselgeld: 150 €. Bareinnahmen: 420 €. Dokumentierte Barauszahlung: 35 €. Kartenzahlungen: 280 €. Wie hoch ist der erwartete Bargeldbestand?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "255 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "535 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "570 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "815 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Nur Bargeldbewegungen verändern die Geldscheine und Münzen in der Kasse.",
+  "short_explanation": "150 + 420 − 35 = 535 € Bargeld.",
+  "detailed_explanation": "Kartenzahlungen erhöhen den Bargeldbestand nicht. Der errechnete Sollbestand wird mit dem gezählten Istbestand verglichen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

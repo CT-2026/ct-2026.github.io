@@ -1,0 +1,36 @@
+{
+  "id": "wwk-bestellen-lieferzeit-laenger",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Lieferverzug bei Fitnessbändern",
+  "materials": [
+    {
+      "id": "mat-lagerdaten-fitnessbaender",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Meldebestand = Mindestbestand + täglicher Absatz × Lieferzeit. Was ändert sich, wenn die Lieferzeit um 2 Tage steigt?",
+  "short_explanation": "Bei 8 verkauften Fitnessbändern pro Tag werden in 2 zusätzlichen Liefertagen 16 Bänder mehr verkauft. Damit die Ware bis zur Lieferung reicht, muss früher bestellt werden – der Meldebestand steigt von 40 auf 56, also um 16 Stück.",
+  "detailed_explanation": "Rechnung mit den Lagerdaten:\n- bisher: 16 + 8 × 3 = 40 Stück Meldebestand\n- neu: 16 + 8 × 5 = 56 Stück Meldebestand\n- Unterschied: 56 − 40 = 16 Stück\n\nDer Mindestbestand ist die Reserve für Unvorhergesehenes. Die längere Lieferzeit ist bekannt und wird über den Meldebestand berücksichtigt. Den Lieferer zu wechseln oder zu kündigen, sichert die Verkaufsbereitschaft nicht sofort. Die Lagerdauer ist eine Kennzahl, die sich aus den Verkäufen ergibt, und keine Stellgröße.",
+  "error_paths": [
+    {
+      "id": "mindestbestand-statt-melde",
+      "choice_ids": [
+        "choice-1",
+        "choice-4"
+      ],
+      "text": "Die längere Lieferzeit ist bekannt und planbar. Sie wird über den Meldebestand berücksichtigt; der Mindestbestand bleibt die Reserve für Unvorhergesehenes."
+    },
+    {
+      "id": "lagerdauer",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Die Lagerdauer ergibt sich aus Lagerbestand und Absatz. Man kann sie nicht direkt festlegen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "wiso-ziele-zuordnen",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Unternehmensziele unterscheiden",
+  "materials": [],
+  "help": "Ordne nach dem ausdrücklich genannten Hauptzweck.",
+  "short_explanation": "Umsatz und Gewinn: ökonomisch. Ressourcenschonung: ökologisch. Unterstützung von Beschäftigten: sozial.",
+  "detailed_explanation": "Maßnahmen können mehrere Wirkungen haben. Hier entscheidet der ausdrücklich genannte Zweck. Regionale Herkunft allein würde noch keine geringere Umweltbelastung beweisen.",
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Für die geschlossene Web-Fassung präzisiert; Änderungen stehen in overrides."
+    ],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  },
+  "overrides": {
+    "stem": "Ordne die Ziele ihrer Kategorie zu. Kategorien dürfen mehrfach verwendet werden.",
+    "response": {
+      "type": "matching",
+      "targets": [
+        {
+          "id": "t1",
+          "text": "Den Gewinn erhöhen"
+        },
+        {
+          "id": "t2",
+          "text": "Den Stromverbrauch zur Ressourcenschonung senken"
+        },
+        {
+          "id": "t3",
+          "text": "Beschäftigte durch einen Betriebskindergarten unterstützen"
+        },
+        {
+          "id": "t4",
+          "text": "Den Umsatz steigern"
+        }
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ökonomisch"
+        },
+        {
+          "id": "b",
+          "text": "Ökologisch"
+        },
+        {
+          "id": "c",
+          "text": "Sozial"
+        }
+      ],
+      "reuse_choices": true
+    },
+    "solution": {
+      "matches": [
+        {
+          "target_id": "t1",
+          "choice_id": "a"
+        },
+        {
+          "target_id": "t2",
+          "choice_id": "b"
+        },
+        {
+          "target_id": "t3",
+          "choice_id": "c"
+        },
+        {
+          "target_id": "t4",
+          "choice_id": "a"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "incoming-probe-2-5",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "beratung",
+  "variant_group": "verkauf.beratung",
+  "title": "Kaufentscheidung aufnehmen",
+  "stem": "Der Kunde entscheidet sich für den Kauf des Produktes. Welche Reaktion ist geeignet?",
+  "materials": [],
+  "requires": [],
+  "help": "Bestätigung und nächsten Schritt verbinden.",
+  "short_explanation": "Die Reaktion bestätigt die Entscheidung und führt freundlich zum Abschluss.",
+  "detailed_explanation": "Nach der Entscheidung hilft ein konkreter nächster Schritt. Eine kurze Frage zu offenen Anliegen ermöglicht Klärung, ohne den Kunden wieder in eine unnötige Auswahl zu drängen oder Zusatzkäufe zu erzwingen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.5",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.5",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "„Gern. Ich bereite den Artikel für Sie vor. Möchten Sie noch etwas zur Handhabung wissen?“"
+      },
+      {
+        "id": "choice-2",
+        "text": "„Sind Sie sicher? Vielleicht gefällt Ihnen gleich noch etwas ganz anderes.“"
+      },
+      {
+        "id": "choice-3",
+        "text": "„Endlich haben Sie sich entschieden.“"
+      },
+      {
+        "id": "choice-4",
+        "text": "„Dann müssen Sie auf jeden Fall noch unser teuerstes Zubehör kaufen.“"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "verkauf-gespraech-rechthaberisch",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Verhalten bei rechthaberischer Kundin",
+  "materials": [
+    {
+      "id": "mat-geschenkkauf-bild",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Die Kundin soll sich ernst genommen fühlen. Welches Verhalten vermeidet einen Streit?",
+  "short_explanation": "Auch bei einer rechthaberischen Kundin ist eine aufgeschlossene Haltung angemessen: ruhig zuhören, ihre Meinung ernst nehmen und sachlich beraten. Das unterstützt einen freundlichen Gesprächsverlauf.",
+  "detailed_explanation": "Schwierige Kundentypen verlangen Ruhe und Geduld. Bei rechthaberischen Kunden hilft:\n- zuhören und ausreden lassen,\n- Verständnis zeigen und Zustimmung dort äußern, wo die Kundin recht hat,\n- eigene Vorschläge als Angebot formulieren, nicht als Belehrung.\n\nWer der Kundin ihre Grenzen aufzeigt, sie belehrt, ironisch wird oder sie ignoriert, verschärft den Konflikt und verliert sie als Kundin.",
+  "error_paths": [
+    {
+      "id": "konfrontation",
+      "choice_ids": [
+        "choice-1",
+        "choice-5"
+      ],
+      "text": "Belehren oder Widersprechen führt zum Streit. Die Kundin fühlt sich nicht ernst genommen."
+    },
+    {
+      "id": "abwertend",
+      "choice_ids": [
+        "choice-2",
+        "choice-4"
+      ],
+      "text": "Ironie oder Nichtbeachtung kränken die Kundin. Sie wird das Geschäft verärgert verlassen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

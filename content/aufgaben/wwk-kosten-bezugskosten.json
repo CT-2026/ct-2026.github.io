@@ -1,0 +1,26 @@
+{
+  "id": "wwk-kosten-bezugskosten",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Bezugskosten erkennen",
+  "materials": [],
+  "help": "Bezugskosten entstehen, damit die Ware in den Betrieb kommt.",
+  "short_explanation": "Bezugskosten fallen an, um die Ware zu beschaffen und anzuliefern, etwa Fracht, Verpackung und Transportversicherung. Anlieferkosten im Wareneinkauf gehören deshalb dazu.",
+  "detailed_explanation": "Bezugskalkulation:\n- Listeneinkaufspreis\n- − Liefererrabatt\n- = Zieleinkaufspreis\n- − Liefererskonto\n- = Bareinkaufspreis\n- + Bezugskosten (Fracht, Porto, Verpackung, Transportversicherung)\n- = Bezugspreis\n\nPersonal, Miete für Lagerräume, Werbung und Abfallentsorgung entstehen durch den laufenden Geschäftsbetrieb. Sie sind Handlungskosten und werden erst bei der Verkaufskalkulation berücksichtigt.",
+  "error_paths": [
+    {
+      "id": "handlungskosten",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Diese Kosten entstehen durch den laufenden Geschäftsbetrieb. Sie gehören zu den Handlungskosten, nicht zu den Bezugskosten."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

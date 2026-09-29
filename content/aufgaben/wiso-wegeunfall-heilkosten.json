@@ -1,0 +1,73 @@
+{
+  "id": "wiso-wegeunfall-heilkosten",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Heilkosten nach einem Wegeunfall",
+  "materials": [],
+  "help": "Der Unfall passiert auf dem direkten Weg zur Arbeit. Solche Wegeunfälle sind genauso versichert wie Unfälle bei der Arbeit selbst. Welche Versicherung ist dafür gesetzlich zuständig?",
+  "short_explanation": "Ein Unfall auf dem direkten Weg zur Arbeit ist ein Wegeunfall. Er ist in der gesetzlichen Unfallversicherung versichert. Deshalb trägt sie die Kosten der Heilbehandlung – nicht die Krankenversicherung.",
+  "detailed_explanation": "Rechtlich zählt der Wegeunfall zu den Arbeitsunfällen: Versichert ist auch das Zurücklegen des unmittelbaren Weges nach und von dem Ort der Tätigkeit (§ 8 Abs. 2 Nr. 1 SGB VII). Beschäftigte sind kraft Gesetzes versichert (§ 2 Abs. 1 Nr. 1 SGB VII); eine eigene Versicherung müssen sie dafür nicht abschließen.\n\nNach einem solchen Unfall haben Versicherte Anspruch auf Heilbehandlung durch die gesetzliche Unfallversicherung (§ 26 SGB VII). Träger sind die Berufsgenossenschaften und die Unfallkassen.\n\nDie gesetzliche Krankenversicherung leistet nicht, wenn die Behandlung Folge eines Arbeitsunfalls ist; dazu gehört auch der Wegeunfall (§ 11 Abs. 5 SGB V).\n\n**Merksatz:** Direkter Arbeitsweg = gesetzliche Unfallversicherung.",
+  "error_paths": [
+    {
+      "id": "krankenkasse-zustaendig",
+      "choice_ids": [
+        "A"
+      ],
+      "text": "Die gesetzliche Krankenversicherung zahlt nicht, wenn die Behandlung Folge eines Arbeits- oder Wegeunfalls ist. Diese Kosten trägt die gesetzliche Unfallversicherung."
+    },
+    {
+      "id": "private-krankenversicherung",
+      "choice_ids": [
+        "B"
+      ],
+      "text": "Auf die Krankenversicherung kommt es hier nicht an: Als Beschäftigter ist Herr Binz auf dem Arbeitsweg gesetzlich unfallversichert. Dafür muss er selbst keine Versicherung abschließen."
+    },
+    {
+      "id": "private-unfallversicherung",
+      "choice_ids": [
+        "D"
+      ],
+      "text": "Eine private Unfallversicherung schließt man freiwillig ab. Für einen Wegeunfall ist die gesetzliche Unfallversicherung zuständig, also die Berufsgenossenschaft oder die Unfallkasse."
+    },
+    {
+      "id": "lebensversicherung",
+      "choice_ids": [
+        "E"
+      ],
+      "text": "Eine Lebensversicherung sichert vor allem Hinterbliebene oder das Alter ab. Heilkosten nach einem Unfall übernimmt sie nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Kurze Erklärung, Merksatz und Abgrenzungen knüpfen an die Lösungserläuterung des bisherigen Web-Bestands an; Hilfe, Fehlwege und Rechtsgrundlagen wurden für die Web-Fassung ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal",
+      "date": "2026-09-26",
+      "text": "Direkter Abgleich mit den amtlichen Fassungen: § 2 Abs. 1 Nr. 1 SGB VII (Beschäftigte), § 8 Abs. 2 Nr. 1 SGB VII (unmittelbarer Arbeitsweg), § 26 Abs. 1 SGB VII (Heilbehandlung) und § 11 Abs. 5 SGB V (Ausschluss von Leistungen für Folgen eines Arbeitsunfalls). Die Aussagen zur beschriebenen Situation stimmen mit dem Gesetzeswortlaut überein.",
+      "sources": [
+        {
+          "title": "§ 8 SGB VII – Arbeitsunfall",
+          "url": "https://www.gesetze-im-internet.de/sgb_7/__8.html"
+        },
+        {
+          "title": "§ 2 SGB VII – Versicherung kraft Gesetzes",
+          "url": "https://www.gesetze-im-internet.de/sgb_7/__2.html"
+        },
+        {
+          "title": "§ 26 SGB VII – Grundsatz",
+          "url": "https://www.gesetze-im-internet.de/sgb_7/__26.html"
+        },
+        {
+          "title": "§ 11 SGB V – Leistungsarten",
+          "url": "https://www.gesetze-im-internet.de/sgb_5/__11.html"
+        }
+      ]
+    }
+  ]
+}

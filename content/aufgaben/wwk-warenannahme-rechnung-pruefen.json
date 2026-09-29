@@ -1,0 +1,57 @@
+{
+  "id": "wwk-warenannahme-rechnung-pruefen",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Wareneingang anhand Bestellung und Rechnung prüfen",
+  "materials": [
+    {
+      "id": "mat-messebestellung-hinweis",
+      "placement": "before_stem"
+    },
+    {
+      "id": "mat-messebestellung-farben",
+      "placement": "before_stem"
+    },
+    {
+      "id": "mat-rechnung-farben",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Vergleiche Position für Position: Artikelnummer, Bezeichnung, Farbe, Menge und Preis. Prüfe außerdem das Lieferdatum gegen die vereinbarte Lieferzeit.",
+  "short_explanation": "Bestellt wurde das Metallic-Effekt-Spray in Gold (Artikel 18501), geliefert und berechnet wurde Silber (Artikel 18500). Die gelieferte Ware weicht in der Art von der Bestellung ab. Das ist ein Mangel, der festgehalten und beim Lieferer beanstandet werden muss.",
+  "detailed_explanation": "Prüfung des Wareneingangs anhand der Belege:\n- **Lieferzeit:** Bestellt am 4. November mit 2 Wochen Lieferzeit, eingetroffen am 15. November – also rechtzeitig.\n- **Versandkosten:** Laut Bestellung wird frei Haus geliefert; Versandkosten sind deshalb nicht zu berechnen.\n- **Gesamtpreise:** 150 × 6,90 € = 1.035,00 €, 100 × 5,40 € = 540,00 €, 100 × 7,20 € = 720,00 € – alle Beträge stimmen.\n- **Textil-Farben:** Die neue Artikelnummer 14959 wurde beim Messebesuch angekündigt. Bezeichnung, Menge und Preis stimmen; eine geänderte Nummer allein ist kein Mangel.\n- **Metallic-Effekt-Spray:** Gold war bestellt, Silber wurde geliefert. Hier stimmt die Ware selbst nicht.\n\n**Merksatz:** Bei der Wareneingangsprüfung zählt, ob Art, Menge und Beschaffenheit der Ware der Bestellung entsprechen.",
+  "error_paths": [
+    {
+      "id": "lieferzeit-falsch-gerechnet",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Lieferzeit wurde eingehalten: Bestellung am 4. November, 2 Wochen Lieferzeit, Eingang am 15. November."
+    },
+    {
+      "id": "versandkosten-trotz-frei-haus",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "In der Bestellung ist „frei Haus“ vereinbart. Der Lieferer trägt die Versandkosten, sie gehören nicht auf die Rechnung."
+    },
+    {
+      "id": "gesamtpreise-nicht-nachgerechnet",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Rechne nach: Menge mal Einzelpreis ergibt bei allen drei Positionen genau den ausgewiesenen Gesamtpreis."
+    },
+    {
+      "id": "artikelnummer-als-mangel",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Die Änderung der Artikelnummer wurde beim Messebesuch angekündigt. Geliefert wurde dieselbe Ware; eine neue Nummer ist kein Mangel an der Ware."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

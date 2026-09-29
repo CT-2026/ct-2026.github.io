@@ -1,0 +1,47 @@
+{
+  "id": "wiso-wirtschaftsbereiche-verkauf",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.wirtschaftsbereiche",
+  "title": "Tätigkeit im Fachgeschäft",
+  "stem": "Ein Fahrradgeschäft kauft fertige Fahrräder ein und verkauft sie an Kundinnen und Kunden. Welcher Wirtschaftsbereich ist mit dieser Tätigkeit gemeint?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Urproduktion"
+      },
+      {
+        "id": "choice-2",
+        "text": "Verarbeitung"
+      },
+      {
+        "id": "choice-3",
+        "text": "Güterverteilung"
+      },
+      {
+        "id": "choice-4",
+        "text": "Private Nutzung"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Das Geschäft stellt die Fahrräder in dieser Situation nicht selbst her.",
+  "short_explanation": "Der Verkauf bereits hergestellter Fahrräder ist Güterverteilung.",
+  "detailed_explanation": "Urproduktion gewinnt Naturprodukte. Verarbeitung stellt Waren her oder bearbeitet sie. Beim beschriebenen Einkauf und Weiterverkauf ist das Fahrradgeschäft als Händler tätig. Eine mögliche Werkstatt ist hier nicht Gegenstand der Frage.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-1-6",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Kassendifferenz berechnen",
+  "stem": "Bei der Kassenabrechnung liegen folgende Daten vor:\n- Istbestand: 2.120,30 EUR\n- Entnahmen: 540,00 EUR\n- Sollbestand: 2.656,10 EUR\nWelcher Rechenweg mit Ergebnis ermittelt die Kassendifferenz?",
+  "materials": [],
+  "requires": [],
+  "help": "Vorhandenes Bargeld und Entnahmen gemeinsam dem Soll gegenüberstellen.",
+  "short_explanation": "2.120,30 EUR + 540,00 EUR − 2.656,10 EUR = +4,20 EUR Kassenüberschuss.",
+  "detailed_explanation": "Der Vergleich berücksichtigt das noch vorhandene Bargeld und die Entnahmen. Zusammen sind 2.660,30 EUR nachgewiesen. Gegenüber dem angegebenen Soll von 2.656,10 EUR ergibt sich ein Plus von 4,20 EUR.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.6",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.6",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "2.120,30 + 540,00 − 2.656,10 = +4,20 EUR; Kassenüberschuss."
+      },
+      {
+        "id": "choice-2",
+        "text": "2.120,30 − 2.656,10 = −535,80 EUR; Kassenfehlbetrag."
+      },
+      {
+        "id": "choice-3",
+        "text": "2.120,30 − 540,00 − 2.656,10 = −1.075,80 EUR; Kassenfehlbetrag."
+      },
+      {
+        "id": "choice-4",
+        "text": "2.656,10 − 2.120,30 − 540,00 = −4,20 EUR; Kassenfehlbetrag."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "checks": [
+    {
+      "kind": "arithmetic",
+      "date": "2026-09-26",
+      "text": "(212.030 + 54.000 - 265.610) Cent = 420 Cent Überschuss."
+    }
+  ]
+}

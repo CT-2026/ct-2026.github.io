@@ -1,0 +1,15 @@
+{
+  "id": "wwk-beschaffung-aufgaben-zuordnen",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Aufgaben im Beschaffungsprozess zuordnen",
+  "reuse_choices": false,
+  "materials": [],
+  "help": "Ordne jeder Aufgabe den Arbeitsschritt zu, der in diese Phase der Beschaffung gehört. Drei Tätigkeiten bleiben übrig.",
+  "short_explanation": "Zum Wareneinkauf gehört die Bestellung aufgrund der Bedarfsermittlung. Bei der Wareneingangskontrolle werden Art und Beschaffenheit der Ware geprüft. Bei der Rechnungsbearbeitung wird die Rechnung mit dem Lieferschein verglichen.",
+  "detailed_explanation": "Der Beschaffungsprozess läuft in dieser Folge ab:\n- **Wareneinkauf:** Bedarf ermitteln und Ware bestellen.\n- **Wareneingangskontrolle:** Menge, Art und Beschaffenheit der gelieferten Ware prüfen.\n- **Rechnungsbearbeitung:** Rechnung mit Lieferschein und Bestellung vergleichen, dann bezahlen.\n\nDie übrigen Tätigkeiten gehören in andere Bereiche: Der Vergleich von Arbeitszeit und Personaleinsatzplan betrifft die Personalplanung, die Soll-Ist-Differenz des Warenbestands die Inventur und der Lagerplan die Lagerorganisation.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

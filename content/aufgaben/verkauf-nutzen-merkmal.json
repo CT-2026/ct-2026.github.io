@@ -1,0 +1,69 @@
+{
+  "id": "verkauf-nutzen-merkmal",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "nutzen",
+  "variant_group": "verkauf.nutzen",
+  "title": "Vom Merkmal zum Nutzen",
+  "stem": "Ordne jedes Produktmerkmal dem unmittelbar passenden Kundennutzen zu.",
+  "response": {
+    "type": "matching",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Empfindliches Gerät wird beim Tragen besser gepolstert"
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Tasche kann ohne Schultergurt genutzt werden"
+      },
+      {
+        "id": "choice-3",
+        "text": "Leichter Spritzregen dringt weniger schnell durch das Material"
+      }
+    ],
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Gepolstertes Laptopfach"
+      },
+      {
+        "id": "target-2",
+        "text": "Abnehmbarer Schultergurt"
+      },
+      {
+        "id": "target-3",
+        "text": "Wasserabweisendes Außenmaterial"
+      }
+    ],
+    "reuse_choices": true
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      }
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Beschreibe, was das Merkmal in der Nutzung ermöglicht.",
+  "short_explanation": "Ein Merkmal ist eine Eigenschaft. Der Nutzen beschreibt ihre Bedeutung im Alltag.",
+  "detailed_explanation": "Wasserabweisend bedeutet nicht automatisch wasserdicht. Ein Nutzenargument darf die zugesicherte Produkteigenschaft nicht übertreiben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

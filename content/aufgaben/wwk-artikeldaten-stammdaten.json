@@ -1,0 +1,49 @@
+{
+  "id": "wwk-artikeldaten-stammdaten",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Artikelstammdaten und Liefererstammdaten unterscheiden",
+  "reuse_choices": true,
+  "materials": [],
+  "help": "Bei jeder Angabe unterscheiden: Beschreibt sie den Artikel oder den Lieferer?",
+  "short_explanation": "Artikelbezeichnung, GTIN und Bruttoverkaufspreis beschreiben den Artikel und gehören zu den Artikelstammdaten. Adresse und Lieferernummer beschreiben den Lieferer und gehören zu den Liefererstammdaten.",
+  "detailed_explanation": "Ein Warenwirtschaftssystem trennt verschiedene Stammdateien:\n- **Artikelstammdaten:** Artikelnummer, Artikelbezeichnung, GTIN, Warengruppe, Einkaufs- und Verkaufspreis, Melde- und Mindestbestand.\n- **Liefererstammdaten:** Lieferernummer, Name und Adresse, Ansprechpartner, Liefer- und Zahlungsbedingungen.\n\nStammdaten ändern sich selten. Davon zu unterscheiden sind **Bewegungsdaten** wie Wareneingänge und Verkäufe, die laufend neu entstehen.",
+  "error_paths": [
+    {
+      "id": "lieferer-als-artikel",
+      "matches": [
+        {
+          "target_id": "target-1",
+          "choice_id": "choice-1"
+        },
+        {
+          "target_id": "target-5",
+          "choice_id": "choice-1"
+        }
+      ],
+      "text": "Adresse und Lieferernummer beschreiben den Lieferer. Sie werden in den Liefererstammdaten gespeichert."
+    },
+    {
+      "id": "artikel-als-lieferer",
+      "matches": [
+        {
+          "target_id": "target-2",
+          "choice_id": "choice-2"
+        },
+        {
+          "target_id": "target-3",
+          "choice_id": "choice-2"
+        },
+        {
+          "target_id": "target-4",
+          "choice_id": "choice-2"
+        }
+      ],
+      "text": "Bezeichnung, GTIN und Verkaufspreis beschreiben den Artikel selbst. Sie gehören in die Artikelstammdaten."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

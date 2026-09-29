@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2876",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ziele",
+  "title": "Dispositiver Faktor",
+  "stem": "Was ist der dispositive Faktor?",
+  "materials": [],
+  "requires": [],
+  "help": "Wer entscheidet über den Einsatz der Mittel?",
+  "short_explanation": "Der dispositive Faktor ist die Unternehmensleitung.",
+  "detailed_explanation": "Sie plant, organisiert und kontrolliert den Einsatz der übrigen betrieblichen Faktoren. Ware und Betriebsmittel sind Gegenstände beziehungsweise Mittel des Leistungsprozesses; die Leitung koordiniert deren Einsatz.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2876",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2876",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "die Betriebsmittelerweiterung eines Unternehmens"
+      },
+      {
+        "id": "choice-2",
+        "text": "die Ware eines Unternehmens"
+      },
+      {
+        "id": "choice-3",
+        "text": "die Unternehmensleitung"
+      },
+      {
+        "id": "choice-4",
+        "text": "die Bedingungen des Standortes eines Unternehmens"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

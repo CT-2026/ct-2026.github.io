@@ -1,0 +1,98 @@
+{
+  "id": "incoming-probe-2-3",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "reklamation",
+  "variant_group": "verkauf.reklamation",
+  "title": "Mängel nach dem Kauf",
+  "stem": "Ein Kunde fragt nach einem Elektronik-Artikel mit Mängeln nach dem Kauf. Ordnen Sie die Aussagen zu Laufzeit der gesetzlichen Gewährleistung, Kundenrechten und Mängelanzeige zu.",
+  "materials": [],
+  "requires": [],
+  "help": "Frist, Abhilfe und Mitteilung sind drei unterschiedliche Fragen.",
+  "short_explanation": "Bei neuer Ware gilt regelmäßig eine zweijährige Verjährungsfrist ab Ablieferung. Zunächst steht die Nacherfüllung im Vordergrund.",
+  "detailed_explanation": "Gewährleistung betrifft die Verantwortung des Verkäufers für Mängel. Nacherfüllung bedeutet Reparatur oder Ersatzlieferung; weitere Rechte setzen die jeweiligen Voraussetzungen voraus. Eine freiwillige Herstellergarantie ist davon zu unterscheiden. Eine zeitnahe Meldung erleichtert die Bearbeitung; eine pauschale sofortige Rügepflicht gilt für den privaten Käufer nicht.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.3",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.3",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Auskunft in eine Zuordnung von Frist, Rechten und Mängelanzeige überführt; notwendige Antwortbezüge in den Zuordnungszielen benannt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal_waiver",
+      "date": "2026-09-26",
+      "text": "Rechtsabgleich auf ausdrückliche Nutzeranweisung vom 26.09.2026 ausgesetzt; keine abgeschlossene Rechtsprüfung behauptet."
+    }
+  ],
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Regelmäßige Verjährungsfrist bei neuer Ware"
+      },
+      {
+        "id": "target-2",
+        "text": "Vorrangige Abhilfe"
+      },
+      {
+        "id": "target-3",
+        "text": "Weitere mögliche Rechte"
+      },
+      {
+        "id": "target-4",
+        "text": "Mängelanzeige durch privaten Käufer"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Zwei Jahre ab Ablieferung."
+      },
+      {
+        "id": "choice-2",
+        "text": "Nacherfüllung durch Reparatur oder Ersatzlieferung."
+      },
+      {
+        "id": "choice-3",
+        "text": "Unter den jeweiligen Voraussetzungen Minderung, Rücktritt oder Schadensersatz."
+      },
+      {
+        "id": "choice-4",
+        "text": "Mangel möglichst zeitnah mitteilen; keine allgemeine Pflicht zur sofortigen Untersuchung und Rüge."
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-4"
+      }
+    ]
+  }
+}

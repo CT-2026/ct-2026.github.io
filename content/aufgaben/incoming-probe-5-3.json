@@ -1,0 +1,56 @@
+{
+  "id": "incoming-probe-5-3",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Schulartikel platzieren",
+  "stem": "In welcher Verkaufszone sollten die beworbenen Schulartikel platziert werden? Wählen Sie die passende Entscheidung mit Begründung.",
+  "materials": [],
+  "requires": [],
+  "help": "Werbeaussage und Auffindbarkeit im Laden verbinden.",
+  "short_explanation": "Eine gut sichtbare Aktionsfläche macht das saisonale Angebot auffindbar und bündelt passende Artikel.",
+  "detailed_explanation": "Die Werbung weckt eine Erwartung, die im Verkaufsraum schnell erfüllt werden sollte. Zusammenhängende Platzierung erleichtert die Auswahl von Heften, Stiften und weiteren Schulartikeln. Wege bleiben frei; die Fläche muss gepflegt und nachgefüllt werden.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.3",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.3",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Auf einer gut sichtbaren Aktionsfläche, damit Kunden das beworbene Schulstartangebot zusammenhängend finden."
+      },
+      {
+        "id": "choice-2",
+        "text": "Ausschließlich in einer unbeschilderten Ecke, damit möglichst wenige Kunden die Ware sehen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Nur im Lager, damit die Ware nicht nachgefüllt werden muss."
+      },
+      {
+        "id": "choice-4",
+        "text": "Vor einem blockierten Durchgang, damit jeder Kunde stehen bleiben muss."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

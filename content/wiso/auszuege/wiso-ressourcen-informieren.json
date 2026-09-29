@@ -1,0 +1,55 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-ressourcen-informieren",
+  "revision": "sha256:bcf8ff6cee7ed625",
+  "task": {
+    "id": "110",
+    "tag": "Umweltverhalten",
+    "stem": "Durch welche Maßnahme können Kunden gezielt zu einem bewusst umweltfreundlichen Verhalten angeregt werden?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Getränke werden in Einwegflaschen besonders preisgünstig angeboten."
+      },
+      {
+        "id": "B",
+        "text": "Sammelcontainer für Umverpackungen stehen nur im Hof."
+      },
+      {
+        "id": "C",
+        "text": "Schreibblöcke werden im verschweißten 5er-Pack angeboten."
+      },
+      {
+        "id": "D",
+        "text": "Artikel mit dem blauen Umweltzeichen werden in der Bückzone platziert."
+      },
+      {
+        "id": "E",
+        "text": "Kunden werden über die Wiederverwendbarkeit und Wiederverwertbarkeit von Verpackungsmaterial informiert."
+      }
+    ],
+    "correct": [
+      "E"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "E, Information über Wiederverwendbarkeit und Wiederverwertbarkeit von Verpackungsmaterial",
+      "explanation": "Wer Kunden direkt über Wiederverwendung und Recycling informiert, fördert bewusst umweltfreundliches Verhalten am wirksamsten.",
+      "merksatz": "Umweltbewusstes Verhalten wird vor allem durch klare Orientierung und konkrete Information unterstützt.",
+      "wrong": "Einwegangebote, schwer erreichbare Sammelstellen, zusätzliche Verpackung und unauffällige Platzierung wirken eher gegen bewusst umweltfreundliches Verhalten als dafür.",
+      "detailTitle": "",
+      "detail": null,
+      "topic": "wirtschaft",
+      "ref": "Verbraucherinformation und Kreislaufwirtschaft: Umweltfreundliches Verhalten wird besonders durch Hinweise zur Wiederverwendbarkeit und Wiederverwertbarkeit gefördert."
+    },
+    "tags": [
+      "kreislaufwirtschaft",
+      "wiederverwertung"
+    ]
+  }
+}

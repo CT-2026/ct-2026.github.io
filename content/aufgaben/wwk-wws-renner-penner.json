@@ -1,0 +1,35 @@
+{
+  "id": "wwk-wws-renner-penner",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Renner- und Pennerliste verwenden",
+  "materials": [
+    {
+      "id": "mat-wws-maxikauf",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "„Renner“ und „Penner“ sind umgangssprachliche Begriffe für Artikel mit besonders hohen und besonders niedrigen Verkaufszahlen.",
+  "short_explanation": "Die Renner- und Pennerliste zeigt, welche Artikel sich besonders gut (Renner) und welche sich schlecht (Penner) verkaufen. So lässt sich das Sortiment gezielt anpassen.",
+  "detailed_explanation": "Die Liste wertet die Verkaufsdaten des Warenwirtschaftssystems aus:\n- **Renner:** Artikel mit hohem Absatz – hier ist auf ausreichenden Bestand und gute Platzierung zu achten.\n- **Penner (Ladenhüter):** Artikel mit geringem Absatz – sie werden eventuell reduziert, umplatziert oder aus dem Sortiment genommen.\n\nZum Mindesthaltbarkeitsdatum oder zum Zustand der Ware sagt die Liste nichts. Bestellvorschläge ergeben sich aus Bestand und Meldebestand, nicht aus dieser Liste.",
+  "error_paths": [
+    {
+      "id": "mhd",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Das Mindesthaltbarkeitsdatum ist ein anderes Thema. Die Liste bewertet ausschließlich die Verkaufszahlen."
+    },
+    {
+      "id": "bestellvorschlag",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Bestellvorschläge entstehen, wenn der Meldebestand erreicht wird. Die Renner- und Pennerliste zeigt dagegen, wie gut sich Artikel verkaufen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

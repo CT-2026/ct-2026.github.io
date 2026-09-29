@@ -1,0 +1,138 @@
+{
+  "description": "Fachgliederung des Prüfungstrainers. Die sieben Unterthemen der Wirtschafts- und Sozialkunde entsprechen den bisherigen Themen der WiSo-App.",
+  "areas": [
+    {
+      "id": "wiso",
+      "title": "Wirtschafts- und Sozialkunde",
+      "short_title": "WiSo",
+      "subtopics": [
+        {
+          "id": "ausbildung",
+          "title": "Ausbildungsrecht"
+        },
+        {
+          "id": "arbeit",
+          "title": "Tarifrecht und Arbeitsrecht"
+        },
+        {
+          "id": "schutz",
+          "title": "Schutzrechte und Arbeitsschutz"
+        },
+        {
+          "id": "inst",
+          "title": "Institutionen und Zuständigkeiten"
+        },
+        {
+          "id": "sozial",
+          "title": "Sozialversicherung und Leistungen"
+        },
+        {
+          "id": "politik",
+          "title": "Grundbegriffe aus Politik und Wirtschaftsordnung"
+        },
+        {
+          "id": "wirtschaft",
+          "title": "Wirtschaft, Verbraucher und Konjunktur"
+        }
+      ]
+    },
+    {
+      "id": "wwk",
+      "title": "Warenwirtschaft und Kalkulation",
+      "short_title": "Warenwirtschaft",
+      "subtopics": [
+        {
+          "id": "warenannahme",
+          "title": "Warenannahme"
+        },
+        {
+          "id": "rabatt-skonto",
+          "title": "Rabatt und Skonto"
+        },
+        {
+          "id": "bestellen",
+          "title": "Nachbestellung planen"
+        },
+        {
+          "id": "bestand",
+          "title": "Lagerbestände führen"
+        },
+        {
+          "id": "lagerkennzahlen",
+          "title": "Lagerkennzahlen"
+        },
+        {
+          "id": "verkaufspreis",
+          "title": "Verkaufspreise kalkulieren"
+        },
+        {
+          "id": "vergleich",
+          "title": "Angebote vergleichen"
+        },
+        {
+          "id": "kasse",
+          "title": "Rechnung und Kasse"
+        },
+        {
+          "id": "wws",
+          "title": "Warenwirtschaftssystem und Artikeldaten"
+        },
+        {
+          "id": "beschaffung",
+          "title": "Einkauf und Beschaffung"
+        },
+        {
+          "id": "lagerung",
+          "title": "Lagerung und Warenpflege"
+        },
+        {
+          "id": "kosten",
+          "title": "Kosten und Kalkulationsgrundlagen"
+        }
+      ]
+    },
+    {
+      "id": "verkauf",
+      "title": "Verkauf und Werbemaßnahmen",
+      "short_title": "Verkauf",
+      "subtopics": [
+        {
+          "id": "beratung",
+          "title": "Beratung"
+        },
+        {
+          "id": "zusammenarbeit",
+          "title": "Zusammenarbeit im Verkauf"
+        },
+        {
+          "id": "gespraech",
+          "title": "Gespräche führen"
+        },
+        {
+          "id": "nutzen",
+          "title": "Nutzen erklären und Einwände klären"
+        },
+        {
+          "id": "reklamation",
+          "title": "Reklamationen aufnehmen"
+        },
+        {
+          "id": "praesentation",
+          "title": "Waren präsentieren"
+        },
+        {
+          "id": "werbung",
+          "title": "Werbemaßnahmen planen"
+        },
+        {
+          "id": "aktion",
+          "title": "Eine Verkaufsaktion auswerten"
+        },
+        {
+          "id": "service",
+          "title": "Service und Bedienungsformen"
+        }
+      ]
+    }
+  ]
+}

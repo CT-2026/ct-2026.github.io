@@ -1,0 +1,32 @@
+{
+  "id": "verkauf-gespraech-ladenschluss",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Verhalten vor Geschäftsschluss",
+  "materials": [],
+  "help": "Der Kunde ist noch vor Geschäftsschluss gekommen und hat ein konkretes Anliegen. Welche Reaktion berücksichtigt sein Anliegen?",
+  "short_explanation": "Wer vor Geschäftsschluss kommt, wird genauso freundlich und vollständig beraten wie jeder andere Kunde. Zeitdruck oder Abwimmeln verärgern ihn und kosten Umsatz und Vertrauen.",
+  "detailed_explanation": "Kurz vor Ladenschluss gilt:\n- Kunden, die sich noch im Geschäft befinden, werden bedient und beraten.\n- Der Kunde soll nicht spüren, dass die Zeit knapp ist; Hektik wirkt unfreundlich.\n- Ein Hinweis auf den Geschäftsschluss oder die Bitte, morgen wiederzukommen, wirkt abweisend.\n\nEine Reservierung kann eine Serviceleistung sein, wenn der Kunde sie wünscht. Als Ersatz für die Beratung ist sie nicht geeignet.",
+  "error_paths": [
+    {
+      "id": "abwimmeln",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-5"
+      ],
+      "text": "Hier wird der Kunde auf später vertröstet. Das wirkt abweisend, obwohl er rechtzeitig gekommen ist."
+    },
+    {
+      "id": "kurzform",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Eine verkürzte Beratung lässt den Kunden spüren, dass er stört. Er wird genauso gründlich beraten wie andere."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

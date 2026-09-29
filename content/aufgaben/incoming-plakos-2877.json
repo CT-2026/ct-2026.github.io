@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2877",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.gueter",
+  "title": "Lieferwagen als Güterpaar",
+  "stem": "Bei welchem der unten stehenden Güterpaare handelt es sich um Substitutionsgüter?",
+  "materials": [],
+  "requires": [],
+  "help": "Austauschbarkeit und Ergänzung unterscheiden.",
+  "short_explanation": "Lieferwagen verschiedener Hersteller können sich für denselben Transportzweck ersetzen.",
+  "detailed_explanation": "Entscheidend ist ihre alternative Verwendung. Dagegen ergänzen sich Druckbleistift und Mine oder Handy und Ladekabel. Der Herkunftsort der Hersteller ist für den Begriff der Substitution nicht entscheidend.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2877",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2877",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Druckbleistift / Mine"
+      },
+      {
+        "id": "choice-2",
+        "text": "Lieferwagen eines inländischen Herstellers / Lieferwagen eines ausländisches Herstellers"
+      },
+      {
+        "id": "choice-3",
+        "text": "Warenregal / Waren"
+      },
+      {
+        "id": "choice-4",
+        "text": "Handy / Ladekabel fürs Handy"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  }
+}

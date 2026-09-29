@@ -1,0 +1,31 @@
+{
+  "id": "wwk-kosten-lagerkosten",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Folge gesunkener Lagerkosten",
+  "materials": [],
+  "help": "Zu welcher Kostengruppe gehören die Lagerkosten im Kalkulationsschema?",
+  "short_explanation": "Lagerkosten sind ein Teil der Handlungskosten. Sinken die Lagerkosten, sinken damit auch die Handlungskosten insgesamt.",
+  "detailed_explanation": "Handlungskosten umfassen alle Kosten des Geschäftsbetriebs, zum Beispiel Personal, Miete, Energie, Werbung, Versicherungen – und eben die Lagerkosten.\n\nDie anderen Antworten verwechseln Ursache und Folge oder nennen andere Kostenarten:\n- Möglichkeiten zum Großeinkauf oder zu Preisvorteilen hängen von Lieferern und Lagerplatz ab, nicht von gesunkenen Kosten.\n- Verpackungskosten sind eine eigene Kostenart.\n- Eine günstigere Lagerversicherung könnte eine Ursache für gesunkene Lagerkosten sein. Als Folge ergibt sie sich daraus aber nicht.",
+  "error_paths": [
+    {
+      "id": "ursache-folge",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Eine niedrigere Versicherungsprämie kann eine Ursache für gesunkene Lagerkosten sein. Gefragt ist aber nach der Folge."
+    },
+    {
+      "id": "einkaufsmoeglichkeiten",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Gesunkene Lagerkosten schränken den Einkauf nicht ein. Mit Großeinkäufen und Preisvorteilen haben sie hier nichts zu tun."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

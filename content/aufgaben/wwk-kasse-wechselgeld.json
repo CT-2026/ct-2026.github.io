@@ -1,0 +1,47 @@
+{
+  "id": "wwk-kasse-wechselgeld",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Wechselgeld herausgeben",
+  "stem": "Der Rechnungsbetrag beträgt 29,94 €. Der Kunde bezahlt bar mit 50,00 €. Wie viel Wechselgeld erhält er?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "19,06 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "20,06 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "20,94 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "79,94 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Ziehe den Rechnungsbetrag vom erhaltenen Betrag ab.",
+  "short_explanation": "50,00 € − 29,94 € = 20,06 €.",
+  "detailed_explanation": "Zur Kontrolle kann man ergänzen: 29,94 € + 0,06 € = 30,00 € und weitere 20,00 € ergeben 50,00 €.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

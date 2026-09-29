@@ -1,0 +1,43 @@
+{
+  "id": "wwk-warenannahme-eingangsschein",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Wareneingangsmeldung auswerten",
+  "materials": [
+    {
+      "id": "mat-wareneingangsschein-trikots",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Suche im Wareneingangsschein die Felder „Bestellmenge“ und „Liefermenge“ und vergleiche sie.",
+  "short_explanation": "Laut Wareneingangsschein wurden 50 Trikots bestellt, geliefert wurden 45. Die Liefermenge liegt also unter der Bestellmenge.",
+  "detailed_explanation": "Der Wareneingangsschein hält fest, was bestellt und was tatsächlich geliefert wurde:\n- Bestellmenge: 50 Stück\n- Liefermenge: 45 Stück\n\nEs fehlen 5 Trikots. Die übrigen Aussagen lassen sich dem Beleg nicht entnehmen: 6548 ist die Belegnummer, nicht die Artikelnummer; die Artikelnummer lautet 0648. Angaben zu Größen oder zu versteckten Mängeln enthält der Schein nicht – versteckte Mängel zeigen sich ohnehin erst später.",
+  "error_paths": [
+    {
+      "id": "mengen-vertauscht",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Lies die beiden Felder noch einmal: Bestellt wurden 50 Stück, geliefert 45. Die Liefermenge ist kleiner."
+    },
+    {
+      "id": "belegnummer-als-artikel",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "6548 ist die Belegnummer des Wareneingangsscheins. Die Artikelnummer der Trikots ist 0648."
+    },
+    {
+      "id": "nicht-im-beleg",
+      "choice_ids": [
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Zu Größen oder verborgenen Fehlern enthält der Wareneingangsschein keine Angaben. Entnehmen lässt sich nur der Mengenvergleich."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

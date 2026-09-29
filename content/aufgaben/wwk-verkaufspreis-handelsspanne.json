@@ -1,0 +1,47 @@
+{
+  "id": "wwk-verkaufspreis-handelsspanne",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "verkaufspreis",
+  "variant_group": "wwk.verkaufspreis",
+  "title": "Die Handelsspanne berechnen",
+  "stem": "Nettoverkaufspreis: 50,00 €. Bezugspreis netto: 35,00 €. Wie groß ist die Handelsspanne in Prozent des Nettoverkaufspreises?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "15 %"
+      },
+      {
+        "id": "choice-2",
+        "text": "30 %"
+      },
+      {
+        "id": "choice-3",
+        "text": "42,86 %"
+      },
+      {
+        "id": "choice-4",
+        "text": "70 %"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Beziehe die Differenz auf den ausdrücklich genannten Verkaufspreis.",
+  "short_explanation": "(50 − 35) ÷ 50 × 100 = 30 %.",
+  "detailed_explanation": "Die Differenz beträgt 15 €. Bezogen auf den Bezugspreis wären es rund 42,86 % Kalkulationszuschlag; gefragt ist aber die Handelsspanne. Die 15 € sind noch nicht der Gewinn, denn weitere Kosten sind zu decken.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

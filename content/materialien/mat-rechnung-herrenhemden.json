@@ -1,0 +1,13 @@
+{
+  "id": "mat-rechnung-herrenhemden",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-d1d9d654-6a97-5320-ab55-ffdefb05dfc9",
+    "excerpt": "wwk-lagerkennzahlen-lagerkosten"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

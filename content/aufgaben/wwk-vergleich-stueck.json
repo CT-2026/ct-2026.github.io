@@ -1,0 +1,52 @@
+{
+  "id": "wwk-vergleich-stueck",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "vergleich",
+  "variant_group": "wwk.vergleich",
+  "title": "Packungs- und Stückpreise vergleichen",
+  "stem": "Welcher Anbieter hat vor Versandkosten den niedrigeren Nettopreis pro Stück?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "A: 6,00 € pro Stück"
+      },
+      {
+        "id": "choice-2",
+        "text": "A: 9,00 € pro Stück, günstiger als B"
+      },
+      {
+        "id": "choice-3",
+        "text": "B: 8,50 € pro Stück"
+      },
+      {
+        "id": "choice-4",
+        "text": "B: 68,00 € pro Stück"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-angebotsvergleich",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Teile den Packungspreis durch die enthaltene Stückzahl.",
+  "short_explanation": "A: 54 ÷ 6 = 9,00 €. B: 68 ÷ 8 = 8,50 €. B ist vor Versand günstiger.",
+  "detailed_explanation": "Packungspreise sind wegen unterschiedlicher Stückzahlen nicht direkt vergleichbar. Erst der Preis je gleicher Einheit ermöglicht den Vergleich.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

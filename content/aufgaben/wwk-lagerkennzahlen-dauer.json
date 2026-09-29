@@ -1,0 +1,47 @@
+{
+  "id": "wwk-lagerkennzahlen-dauer",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "lagerkennzahlen",
+  "variant_group": "wwk.lagerkennzahlen",
+  "title": "Die Lagerdauer berechnen",
+  "stem": "Ein Artikel schlägt sich rechnerisch 6-mal pro Jahr um. Verwende für diese Aufgabe ein Jahr mit 360 Tagen. Wie lang ist die durchschnittliche Lagerdauer?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "6 Tage"
+      },
+      {
+        "id": "choice-2",
+        "text": "30 Tage"
+      },
+      {
+        "id": "choice-3",
+        "text": "60 Tage"
+      },
+      {
+        "id": "choice-4",
+        "text": "360 Tage"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Teile die vorgegebenen Jahrestage durch die Umschlagshäufigkeit.",
+  "short_explanation": "360 ÷ 6 = 60 Tage.",
+  "detailed_explanation": "Die 360 Tage sind eine ausdrücklich vorgegebene Rechenkonvention. Ein höherer Umschlag würde bei gleicher Konvention eine kürzere Lagerdauer ergeben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

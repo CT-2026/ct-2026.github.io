@@ -1,0 +1,40 @@
+{
+  "id": "wwk-bestand-inventurdifferenz",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Inventurdifferenz erklären",
+  "materials": [
+    {
+      "id": "mat-artikeldatei-gourmet",
+      "placement": "before_stem"
+    },
+    {
+      "id": "mat-inventur-gourmet",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Laut Artikeldatei liegt der Soll-Bestand bei 160 Paketen, gezählt wurden 80. Welche Antwort erklärt genau 80 Pakete zu viel im System?",
+  "short_explanation": "Im System stehen 160 Pakete, tatsächlich vorhanden sind 80. Wurde die Lieferung von 80 Paketen am 09.10. doppelt erfasst, stehen genau 80 Pakete zu viel im System. Das erklärt die Differenz.",
+  "detailed_explanation": "Prüfe jede Erklärung daraufhin, ob sie einen um 80 Pakete zu hohen Soll-Bestand verursacht:\n- **Lieferung doppelt erfasst:** 80 Pakete zu viel gebucht – passt genau.\n- **Zugang als Abgang gebucht:** Der Soll-Bestand wäre zu niedrig, nicht zu hoch.\n- **Zugang nicht erfasst:** Auch dann wäre der Soll-Bestand zu niedrig.\n- **Mehrlieferung erfasst:** Wurde sie richtig gebucht, stimmen Soll und Ist überein.\n- **Zu viel gezählt:** Dann wäre der Ist-Bestand höher, nicht niedriger.\n\nDie Artikeldatei weist am 09.10. einen Zugang von 160 Paketen aus. Das entspricht einer doppelt gebuchten Lieferung von 80 Paketen.",
+  "error_paths": [
+    {
+      "id": "soll-zu-niedrig",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Dieser Fehler würde den Soll-Bestand verringern. Hier ist er aber um 80 Pakete höher als der Ist-Bestand."
+    },
+    {
+      "id": "zaehlfehler",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Wären zu viele Pakete gezählt worden, läge der Ist-Bestand über dem wahren Bestand. Hier liegt er deutlich darunter."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

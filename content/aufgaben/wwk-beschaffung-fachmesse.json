@@ -1,0 +1,31 @@
+{
+  "id": "wwk-beschaffung-fachmesse",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Vorteile eines Fachmessebesuchs",
+  "materials": [],
+  "help": "Auf einer Fachmesse stellen Hersteller und Großhändler ihre Neuheiten für den Handel aus.",
+  "short_explanation": "Eine Fachmesse richtet sich an Fachbesucher aus Handel und Industrie. Sie bietet an einem Ort einen Überblick über Neuheiten und Trends als Grundlage für die Sortimentsplanung.",
+  "detailed_explanation": "Auf Fachmessen präsentieren Hersteller und Großhändler ihr Angebot vor allem dem Fachhandel. Vorteile für den Einzelhandel:\n- viele Anbieter, Neuheiten und Trends an einem Ort,\n- Ware kann angesehen, angefasst und verglichen werden,\n- persönliche Gespräche mit Lieferern und neue Kontakte.\n\nEndverbraucher sind auf Fachmessen in der Regel nicht vertreten; Käuferverhalten lässt sich dort deshalb nicht beobachten, und eigene Ware wird nicht an Konsumenten verkauft. Messekonditionen sind oft günstig, aber nicht „stets“. Die eigenen Bezugspreise ergeben sich aus den Angeboten der Lieferer und der eigenen Kalkulation.",
+  "error_paths": [
+    {
+      "id": "verbraucher-auf-fachmesse",
+      "choice_ids": [
+        "choice-1",
+        "choice-2"
+      ],
+      "text": "Fachmessen richten sich an Fachbesucher aus Handel und Industrie. Endverbraucher sind dort in der Regel nicht anwesend."
+    },
+    {
+      "id": "immer-guenstiger",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Messeangebote können günstig sein, garantiert ist das aber nicht. Das Wort „stets“ macht die Aussage falsch."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

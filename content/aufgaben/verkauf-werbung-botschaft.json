@@ -1,0 +1,49 @@
+{
+  "id": "verkauf-werbung-botschaft",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "werbung",
+  "variant_group": "verkauf.werbung",
+  "title": "Eine klare Aktionsbotschaft",
+  "stem": "Welche zwei Angaben helfen, eine befristete Aktion konkret zu verstehen?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Welche Artikel zur Aktion gehören"
+      },
+      {
+        "id": "choice-2",
+        "text": "Ein unbelegtes Versprechen wie „weltweit garantiert am billigsten“"
+      },
+      {
+        "id": "choice-3",
+        "text": "Der genaue Aktionszeitraum"
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine unleserlich kleine Beschreibung ohne Produktbezug"
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Die Botschaft soll klar machen, was wann angeboten wird.",
+  "short_explanation": "Artikelbezug und Zeitraum machen den Inhalt der Aktion verständlich.",
+  "detailed_explanation": "Konkrete Informationen sind hilfreicher als unüberprüfbare Superlative. Diese Übung behandelt Verständlichkeit und Belegbarkeit, keine vollständige rechtliche Anzeigenprüfung.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

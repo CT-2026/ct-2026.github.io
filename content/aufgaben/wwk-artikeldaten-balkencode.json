@@ -1,0 +1,36 @@
+{
+  "id": "wwk-artikeldaten-balkencode",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Balkencode lesen",
+  "materials": [
+    {
+      "id": "mat-regaletikett-parfum",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Eine 13-stellige GTIN besteht aus Präfix, Unternehmensnummer, Artikelnummer und Prüfziffer. Welche Antwort passt dazu?",
+  "short_explanation": "Der Balkencode enthält die GTIN des Artikels. Aus ihr lässt sich unter anderem die Nummer des Herstellers bzw. Markeninhabers ablesen. Preise, Abteilungen oder Daten zur Herstellung enthält sie nicht.",
+  "detailed_explanation": "Aufbau einer 13-stelligen GTIN:\n- Präfix der nationalen GS1-Organisation (häufig als „Länderkennzeichen“ bezeichnet),\n- Nummer des Unternehmens, das den Artikel kennzeichnet – meist der Hersteller,\n- individuelle Artikelnummer,\n- Prüfziffer.\n\nDer Preis steht auf dem Etikett in Klarschrift und im Warenwirtschaftssystem, nicht im Code. Verkaufsabteilung, Umschlagshäufigkeit und Herstellungsdatum sind ebenfalls nicht verschlüsselt.",
+  "error_paths": [
+    {
+      "id": "preis-im-code",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Der Preis ist im Warenwirtschaftssystem gespeichert und steht in Klarschrift auf dem Etikett. Im Strichcode ist er nicht enthalten."
+    },
+    {
+      "id": "betriebsdaten",
+      "choice_ids": [
+        "choice-2",
+        "choice-4"
+      ],
+      "text": "Abteilung und Umschlagshäufigkeit sind interne Daten des Warenhauses. Die GTIN wird vom Hersteller vergeben und enthält sie nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

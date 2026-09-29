@@ -1,0 +1,13 @@
+{
+  "id": "mat-rechnung-farben",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-aed31fdf-cd8b-5f5a-8540-935daddbf9d4",
+    "excerpt": "wwk-warenannahme-rechnung-pruefen"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

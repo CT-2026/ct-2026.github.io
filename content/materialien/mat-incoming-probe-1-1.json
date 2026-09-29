@@ -1,0 +1,24 @@
+{
+  "id": "mat-incoming-probe-1-1",
+  "revision": 2,
+  "title": "Merkmale der girocard",
+  "kind": "text",
+  "text": "Die beschriebene girocard (Bankkarte) hat folgende Merkmale: Kontaktlos-Symbol, Chip, Logo „färBank“, Name „Pia Pinck“, Kontonummer „1234567890“, Kartennummer „9876543210“ und Gültigkeitsdatum „12/29“.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.1-bild",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.1-bild",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Gelieferte Bildbeschreibung als Textmaterial eingebunden."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt.",
+      "Die Eingangsdatei enthält eine Bildbeschreibung, keine Bilddatei."
+    ]
+  }
+}

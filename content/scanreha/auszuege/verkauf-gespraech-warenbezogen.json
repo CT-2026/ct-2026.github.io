@@ -1,0 +1,224 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-gespraech-warenbezogen",
+  "item": {
+    "id": "itm-zp19-vk-08",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Verkaufsgespräch einleiten",
+    "stem_md": "Eine Kundin betrachtet interessiert eine Leder-Sporttasche. Wie beginnen Sie das Verkaufsgespräch nach einer Begrüßung sinnvoll?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "„Darf ich Ihnen etwas zeigen?“"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "„Diese Tasche ist aus hochwertigem Leder, ...“"
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "„Weitere Taschen finden Sie auch in dem Regal dort drüben.“"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "„Soll es diese Tasche sein?“"
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "„Suchen Sie etwas Bestimmtes?“"
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp19-vk-01",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+      },
+      {
+        "material_id": "mat-zp19-vk-03",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Zugehöriges Szenario."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.kontakt"
+      ],
+      "primary_topic_id": "topic.verkauf.kontakt",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/7",
+        "original_label": "8",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif",
+        "printed_page": 3,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "8",
+          "parent_label": null,
+          "scan_file": "Page 3",
+          "printed_page": 3
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [],
+    "source_key": "ZP-H2019-7300-VK:8"
+  },
+  "document": {
+    "id": "ZP-H2019-7300-VK",
+    "revision": 1,
+    "title": "Zwischenprüfung Herbst 2019",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2019,
+    "year_end": 2019,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Vollständige Erfassung aus den Originalscans ZP_Herbst2019_VK-AO2017-7300 - 0022.tif bis 0033.tif.",
+      "Vor der Integration wurden die 45 Aufgaben, die 17 Materialien und ihre Seitenzuordnung gegen die bereitgestellten TIFF-Originale abgeglichen.",
+      "Belegte Übertragungsfehler bei Aufgabe 15, Aufgabe 32 sowie den Bildbeschreibungen der Kundenumfrage und der Stehleitern wurden korrigiert.",
+      "Sieben bildabhängige Materialien erhalten Originalausschnitte als PNG-Assets."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-62a1fe3a-e15c-56f5-8e91-cb4395001b02",
+      "revision": 1,
+      "item_id": "itm-zp19-vk-08",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "2",
+      "answer": {
+        "choice_ids": [
+          "choice-2"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/7",
+        "original_label": "8",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif",
+        "printed_page": 3,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "8",
+          "parent_label": null,
+          "scan_file": "Page 3",
+          "printed_page": 3
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif"
+      },
+      "content_topic_ids": [
+        "topic.verkauf.kontakt"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Fachliche Herleitung: Wenn eine Kundin eine Ware bereits interessiert betrachtet, erfolgt die Kontaktaufnahme nach den Regeln der Verkaufslehre im Einzelhandel warenbezogen (Anknüpfen an die betrachtete Ware: „Diese Tasche ist aus hochwertigem Leder, ...“); allgemeine Floskeln wie „Suchen Sie etwas Bestimmtes?“ ignorieren das erkennbare Wareninteresse."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-62a1fe3a-e15c-56f5-8e91-cb4395001b02",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp19-vk-01",
+      "title": "Unternehmensbeschreibung Merlin GmbH",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+    },
+    {
+      "material_id": "mat-zp19-vk-03",
+      "title": "Sportwoche im Warenhaus",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Zugehöriges Szenario."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-zp19-vk-03",
+      "revision": 2,
+      "title": "Sportwoche im Warenhaus",
+      "kind": "scenario",
+      "content_md": "Ihr Warenhaus plant eine Sonderveranstaltung. Im Rahmen einer „Sportwoche“ sollen auf einer Sonderfläche saisonbezogene Sportartikel preisgünstig angeboten werden.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/materials/2",
+        "original_label": "Situation zur 8. bis 10. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif",
+        "printed_page": 3,
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0024.tif"
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ]
+}

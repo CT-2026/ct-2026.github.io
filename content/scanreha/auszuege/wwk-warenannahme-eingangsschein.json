@@ -1,0 +1,272 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-warenannahme-eingangsschein",
+  "item": {
+    "id": "itm-2a2eaa61-589c-559e-adfb-41aa8b61b1ec",
+    "revision": 2,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Wareneingangsmeldung auswerten",
+    "stem_md": "Sie haben bei der Freizeitartikel OHG Trikots bestellt, die zwischenzeitlich geliefert wurden. Die abgebildete Wareneingangsmeldung liegt Ihnen zur Kontrolle vor. Welche Information können Sie dieser Meldung entnehmen?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die Bestellmenge liegt unter der Liefermenge."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Die Liefermenge liegt unter der Bestellmenge."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Anstelle des Artikels 0648 wurde der Artikel 6548 geliefert."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Es liegt ein versteckter Mangel vor."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Die bestellten Größen wurden nicht eingehalten."
+        }
+      ],
+      "entries": [],
+      "targets": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-4db277e3-0c9f-5900-8805-acaf9d843699",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "OCR-Materialverweis und fachliche Erforderlichkeit im Fragestamm"
+      }
+    ],
+    "classification": {
+      "topic_ids": [],
+      "primary_topic_id": null,
+      "methods": [],
+      "competencies": [],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-23"
+    },
+    "sources": [
+      {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/item_candidates.jsonl",
+        "source_line": 224,
+        "json_pointer": "/scan_sources/0",
+        "original_label": "16. Aufgabe",
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_147.png",
+        "printed_page": 6,
+        "original_source": {
+          "page_id": "page-0147",
+          "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_147.png",
+          "working_scan_copy": "../input/seite_147.png",
+          "visible_printed_page": "6",
+          "page_type": "task_page",
+          "document_marker": "S22 VK WK 6",
+          "document_boundary_before": false,
+          "source_region": {
+            "page_id": "page-0147",
+            "box_2d": [
+              308,
+              52,
+              556,
+              919
+            ]
+          }
+        },
+        "candidate_id": "block-0025-p0145-p0150/task-006",
+        "occurrence_keys": [
+          "block-0025-p0145-p0150/task-006"
+        ]
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Poolrevision 19: Aufgabentitel als knappe Themenüberschrift ohne überlieferte Nummer und abgeschnittenen Fragetext redaktionell gefasst; Fragestamm unverändert."
+    ],
+    "source_key": "OCR2-PREPARATION-2026-09-23:block-0025-p0145-p0150/task-006",
+    "import_metadata": {
+      "candidate_id": "block-0025-p0145-p0150/task-006",
+      "occurrence_keys": [
+        "block-0025-p0145-p0150/task-006"
+      ],
+      "match_basis": {
+        "same_stem_pool_ids": [],
+        "similar_stem_pool_comparisons": [],
+        "full_answer_structure_matches": [],
+        "decision": "vollständige Antwortstruktur und erforderliche Materialien abgeglichen; kein identischer Pooltreffer"
+      },
+      "issues": [],
+      "ready_for_integration": true,
+      "source_additions": [],
+      "solution_status": "structured"
+    }
+  },
+  "document": {
+    "id": "OCR2-PREPARATION-2026-09-23",
+    "revision": 2,
+    "title": "Gemischte Aufgabensammlung",
+    "role": "unknown",
+    "exam_kind": "unknown",
+    "year_start": null,
+    "year_end": null,
+    "season": null,
+    "source_subject": "Verkauf, Warenwirtschaft und Wirtschafts- und Sozialkunde",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "imports/ocr2-preparation-2026-09-23/preparation.zip",
+    "upstream_file": null,
+    "source_notes": [
+      "Herkunftscontainer der gemischten Scan-Sammlung, kein behauptetes einzelnes Prüfungsdokument.",
+      "Prüfungsmarker und sämtliche Scanvorkommen bleiben an den Entitäten erhalten. Prüfungsart und Jahr werden nicht allein aus Kennungen abgeleitet.",
+      "Importierte Prüfvermerke sind Angaben der Vorbereitung; keine erneute Prüfung der Originalscans oder fachlichen Lösungsgültigkeit.",
+      "Poolrevision 19: lesbare Anzeige von Sammlung und Fächern; ZIP-Dateiname bleibt ausschließlich Importherkunft."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-2a2eaa61-589c-559e-adfb-41aa8b61b1ec",
+      "revision": 2,
+      "item_id": "itm-2a2eaa61-589c-559e-adfb-41aa8b61b1ec",
+      "item_revision": 2,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "2",
+      "answer": {
+        "choice_ids": [
+          "choice-2"
+        ]
+      },
+      "source": {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/item_candidates.jsonl",
+        "source_line": 224,
+        "json_pointer": "/solution",
+        "original_label": "16. Aufgabe",
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_171.png",
+        "printed_page": null,
+        "original_source": {
+          "scan_references": [
+            "C:\\Users\\SYSTEM-C\\Desktop\\gpt\\google-drive\\ChatGPT - Codex\\input\\seite_171.png"
+          ],
+          "exam": "S22_WWK",
+          "provenance": "official_printed_explanation"
+        }
+      },
+      "content_topic_ids": [],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Als gedruckte offizielle Lösung in der Vorbereitung überliefert; keine neue Prüfung am Originalscan oder fachliche Neubewertung."
+      ],
+      "import_metadata": {
+        "status": "structured",
+        "kind": "answer_key",
+        "provenance": "official_printed_explanation",
+        "content_md": "2",
+        "answer": {
+          "choice_ids": [
+            "choice-2"
+          ]
+        },
+        "exam": "S22_WWK",
+        "source": [
+          "C:\\Users\\SYSTEM-C\\Desktop\\gpt\\google-drive\\ChatGPT - Codex\\input\\seite_171.png"
+        ]
+      }
+    }
+  ],
+  "answer_solution_id": "sol-2a2eaa61-589c-559e-adfb-41aa8b61b1ec",
+  "materials": [
+    {
+      "id": "mat-4db277e3-0c9f-5900-8805-acaf9d843699",
+      "revision": 2,
+      "title": "Wareneingangsschein",
+      "kind": "form",
+      "content_md": "| Wareneingangsschein | | | | Datum: | 5. April 2022 | Beleg-Nr.: | 6548 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Lieferer:** | Freizeitartikel OHG<br>99089 Erfurt | | | **Bestell-Nr.** | 256 | **Bestellmenge:** | 50 Stück |\n| **Versandart:** | DHL | | | **Verpackungsart:** | Pakete | **Liefermenge:** | 45 Stück |\n| | | | | **Lieferschein-Nr.:** | 3452 | | |\n| **Warenart:** | Trikots | | | **Art.-Nr.:** | 0648 | | |",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "OCR2-PREPARATION-2026-09-23",
+        "source_file": "imports/ocr2-preparation-2026-09-23/material_candidates.jsonl",
+        "source_line": 71,
+        "json_pointer": "/scan_sources/0",
+        "original_label": null,
+        "parent_label": null,
+        "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_147.png",
+        "printed_page": 6,
+        "original_source": {
+          "page_id": "page-0147",
+          "scan_file": "C:/Users/SYSTEM-C/Desktop/gpt/google-drive/ChatGPT - Codex/input/seite_147.png",
+          "working_scan_copy": "../input/seite_147.png",
+          "visible_printed_page": "6",
+          "page_type": "task_page",
+          "document_marker": "S22 VK WK 6",
+          "document_boundary_before": false,
+          "source_region": {
+            "page_id": "page-0147",
+            "box_2d": [
+              356,
+              51,
+              471,
+              931
+            ]
+          }
+        },
+        "candidate_id": "block-0025-p0145-p0150/mat-003",
+        "occurrence_keys": [
+          "block-0025-p0145-p0150/mat-003"
+        ]
+      },
+      "additional_sources": [],
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 21: Materialtitel aus vorhandenem Inhalt und Herkunft als kurzer Sachtitel gefasst."
+      ],
+      "import_metadata": {
+        "candidate_id": "block-0025-p0145-p0150/mat-003",
+        "occurrence_keys": [
+          "block-0025-p0145-p0150/mat-003"
+        ],
+        "kind": "form",
+        "visual_decision": "text_sufficient",
+        "issues": [],
+        "ready_for_integration": true
+      }
+    }
+  ],
+  "other_materials": [],
+  "prerequisites": []
+}

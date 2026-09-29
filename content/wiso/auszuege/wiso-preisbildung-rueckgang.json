@@ -1,0 +1,55 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-preisbildung-rueckgang",
+  "revision": "sha256:404be5d473b14343",
+  "task": {
+    "id": "67",
+    "tag": "Preisbildung",
+    "stem": "Unter welcher Voraussetzung besteht die Tendenz, dass die Preise fallen?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Die Nachfrage und das Angebot bleiben gleich."
+      },
+      {
+        "id": "B",
+        "text": "Die Nachfrage steigt stärker als das Angebot."
+      },
+      {
+        "id": "C",
+        "text": "Die Nachfrage steigt bei gleichbleibendem Angebot."
+      },
+      {
+        "id": "D",
+        "text": "Die Nachfrage steigt bei sinkendem Angebot."
+      },
+      {
+        "id": "E",
+        "text": "Die Nachfrage sinkt stärker als das Angebot."
+      }
+    ],
+    "correct": [
+      "E"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "E, Die Nachfrage sinkt stärker als das Angebot.",
+      "explanation": "Bei sinkender Nachfrage und nicht entsprechend sinkendem Angebot nimmt der Absatzdruck zu. Dadurch besteht die Tendenz zu fallenden Preisen.",
+      "merksatz": "Sinkt die Nachfrage stärker als das Angebot, entsteht Preisdruck nach unten.",
+      "wrong": "Gleichbleibende Nachfrage und gleichbleibendes Angebot erzeugen keinen solchen Druck. Steigende Nachfrage wirkt eher preissteigernd, besonders bei gleichbleibendem oder sinkendem Angebot.",
+      "detailTitle": "",
+      "detail": null,
+      "topic": "wirtschaft",
+      "ref": "Marktmechanismus: Preise fallen tendenziell, wenn die Nachfrage stärker sinkt als das Angebot."
+    },
+    "tags": [
+      "markt",
+      "preisbildung"
+    ]
+  }
+}

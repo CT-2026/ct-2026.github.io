@@ -1,0 +1,13 @@
+{
+  "id": "mat-messebesuch-artikelnummer",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-52030ec9-0c66-56e0-bbf9-a937838af075",
+    "excerpt": "wwk-artikeldaten-artikelnummer"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2857",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.gueter",
+  "title": "Töpferkurse einordnen",
+  "stem": "Die Töpferin Alex bietet Töpferkurse in ihrem Atelier an. Zu welcher Güterart gehören die Töpferkurse?",
+  "materials": [],
+  "requires": [],
+  "help": "Die angebotene Tätigkeit betrachten.",
+  "short_explanation": "Ein Töpferkurs ist eine Dienstleistung.",
+  "detailed_explanation": "Bezahlt wird die Anleitung und Betreuung. Das Ergebnis kann ein körperlicher Gegenstand sein; das Kursangebot selbst besteht in einer Tätigkeit.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2857",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2857",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Gebrauchsrecht"
+      },
+      {
+        "id": "choice-2",
+        "text": "Patent für Innovationen"
+      },
+      {
+        "id": "choice-3",
+        "text": "Dienstleistung"
+      },
+      {
+        "id": "choice-4",
+        "text": "freie Güter"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

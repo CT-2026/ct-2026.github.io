@@ -1,0 +1,47 @@
+{
+  "id": "wwk-bestand-differenz",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestand",
+  "variant_group": "wwk.bestand",
+  "title": "Eine Bestandsdifferenz erkennen",
+  "stem": "Laut Warenwirtschaft sind 73 Stück vorhanden. Gezählt werden 70 Stück. Welche Aussage stimmt?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Es gibt einen Mehrbestand von 3 Stück."
+      },
+      {
+        "id": "choice-2",
+        "text": "Es gibt einen Fehlbestand von 3 Stück."
+      },
+      {
+        "id": "choice-3",
+        "text": "Es fehlen sicher 73 Stück."
+      },
+      {
+        "id": "choice-4",
+        "text": "Die Differenz beweist einen Diebstahl."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Vergleiche den gezählten Istbestand mit dem Buchbestand.",
+  "short_explanation": "70 − 73 = −3: Es fehlen gegenüber dem Buchbestand drei Stück.",
+  "detailed_explanation": "Die Differenz nennt noch keine Ursache. Zählfehler, falsche Buchungen oder tatsächliche Verluste müssen sachlich geprüft werden.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

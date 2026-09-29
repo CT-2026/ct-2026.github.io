@@ -1,0 +1,66 @@
+{
+  "id": "wwk-bezugspreis-rabatt-skonto",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Bezugspreis mit Rabatt und Skonto",
+  "overrides": {
+    "stem": "Sie planen den Einkauf von Sweatshirts für die Sportabteilung. Ihnen liegen 2 Angebote vor (siehe Tabelle). Ermitteln Sie den Bezugspreis in Euro für ein Sweatshirt „Beta“ aus Angebot B. Wählen Sie das richtige Ergebnis aus.",
+    "response": {
+      "type": "single_choice",
+      "shuffle": false,
+      "choices": [
+        { "id": "choice-1", "text": "13,81 €" },
+        { "id": "choice-2", "text": "14,83 €" },
+        { "id": "choice-3", "text": "14,85 €" },
+        { "id": "choice-4", "text": "15,15 €" },
+        { "id": "choice-5", "text": "15,63 €" }
+      ]
+    },
+    "solution": {
+      "choice_ids": ["choice-3"]
+    }
+  },
+  "materials": [
+    { "id": "mat-angebote-sweatshirts", "placement": "before_stem" }
+  ],
+  "help": "Rechne in zwei Schritten: Ziehe zuerst 5 % Rabatt vom Listenpreis ab. Ziehe danach 2 % Skonto vom verbleibenden Betrag ab.",
+  "short_explanation": "Zuerst wird der Rabatt vom Listenpreis abgezogen, danach der Skonto vom verbleibenden Betrag: 15,95 € − 0,80 € = 15,15 €; 15,15 € − 0,30 € = 14,85 €. Bezugskosten fallen nicht an. Der Bezugspreis beträgt also 14,85 €.",
+  "detailed_explanation": "Schema der Bezugskalkulation für Angebot B:\n- Listeneinkaufspreis: 15,95 €\n- − Liefererrabatt 5 %: 0,80 €\n- = Zieleinkaufspreis: 15,15 €\n- − Liefererskonto 2 %: 0,30 €\n- = Bareinkaufspreis: 14,85 €\n- + Bezugskosten: keine angegeben\n- = Bezugspreis: 14,85 €\n\nZur Kontrolle mit Angebot A: 17,80 € − 20 % Rabatt (3,56 €) = 14,24 €; 14,24 € − 3 % Skonto (0,43 €) = 13,81 €. Das ist der Wert in der Tabelle.",
+  "error_paths": [
+    {
+      "id": "angebot-a-abgelesen",
+      "choice_ids": ["choice-1"],
+      "text": "13,81 € ist der Bezugspreis aus Angebot A. Gefragt ist das Sweatshirt „Beta“ aus Angebot B."
+    },
+    {
+      "id": "prozentsaetze-addiert",
+      "choice_ids": ["choice-2"],
+      "text": "Hier wurden Rabatt und Skonto zusammengezählt (7 %) und beide vom Listenpreis abgezogen. Der Skonto wird aber vom Zieleinkaufspreis berechnet, also vom Preis nach Abzug des Rabatts."
+    },
+    {
+      "id": "skonto-vergessen",
+      "choice_ids": ["choice-4"],
+      "text": "15,15 € ist erst der Zieleinkaufspreis nach Abzug des Rabatts. Der Skonto von 2 % fehlt noch."
+    },
+    {
+      "id": "rabatt-vergessen",
+      "choice_ids": ["choice-5"],
+      "text": "Hier fehlt der Rabatt von 5 %: 15,95 € abzüglich 2 % Skonto ergibt 15,63 €. Zuerst wird der Rabatt abgezogen."
+    }
+  ],
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Freie Betragseingabe in eine Auswahl aus fünf Ergebnissen umgewandelt; die richtige Auswahl entspricht dem gebundenen ScanReha-Lösungswert 14,85 €.",
+      "Die vier falschen Ergebnisse folgen aus definierten Fehlwegen: Angebot A abgelesen, Rabatt und Skonto addiert, Skonto vergessen, Rabatt vergessen. Die Ergebnisse stehen in aufsteigender Reihenfolge und werden nicht gemischt.",
+      "„nebenstehenden“ durch einen Verweis auf die Tabelle ersetzt, den Rahmen aus dem Situationsmaterial (Wareneinkauf der Sportabteilung) in den Aufgabentext übernommen und eine Auswahlanweisung ergänzt."
+    ]
+  },
+  "checks": [
+    {
+      "kind": "arithmetic",
+      "date": "2026-09-25",
+      "text": "Richtiges Ergebnis und alle falschen Ergebnisse aus den Tabellenwerten nachgerechnet (kaufmännisch auf Cent gerundet); automatisierte Prüfung in test/content.test.js."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "incoming-plakos-2863",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "politik",
+  "variant_group": "wiso.recht",
+  "title": "Grundkapital einer AG",
+  "stem": "Das Grundkapital einer Aktiengesellschaft muss mindestens …",
+  "materials": [],
+  "requires": [],
+  "help": "Grundkapital und laufende Geschäftszahlen auseinanderhalten.",
+  "short_explanation": "Der Lösungsschlüssel nennt 50.000 EUR als Mindestgrundkapital der AG.",
+  "detailed_explanation": "Das Grundkapital ist eine Größe der Rechtsform. Es ist von Umsatz, Gewinn und dem aktuellen Kontostand zu unterscheiden. Die Antwort fragt nach dem Mindestbetrag, nicht nach einem üblichen Kapitalbestand.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2863",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2863",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal_waiver",
+      "date": "2026-09-26",
+      "text": "Rechtsabgleich auf ausdrückliche Nutzeranweisung vom 26.09.2026 ausgesetzt; keine abgeschlossene Rechtsprüfung behauptet."
+    }
+  ],
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "50.000 Euro betragen."
+      },
+      {
+        "id": "choice-2",
+        "text": "25.000 Euro betragen."
+      },
+      {
+        "id": "choice-3",
+        "text": "1.000.000 Euro betragen."
+      },
+      {
+        "id": "choice-4",
+        "text": "100.000 Euro betragen."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

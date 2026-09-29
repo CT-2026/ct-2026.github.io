@@ -1,0 +1,216 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-service-geschenkverpackung",
+  "item": {
+    "id": "itm-zp18-vk-23",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Geschenkverpackung",
+    "stem_md": "Die Kundin entscheidet sich für ein Bild und wünscht eine Geschenkverpackung. Sind Sie gesetzlich dazu verpflichtet, Waren auf Wunsch des Kunden als Geschenk besonders zu verpacken?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Ja, weil das Bild sonst beschädigt werden könnte"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Nein, sonst müsste der Preis inklusive Verpackung ausgewiesen sein."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Ja, weil viele Geschäfte den Kunden diesen Service anbieten"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Ja, weil Sie gesetzlich verpflichtet sind, die Geschenkverpackungskosten zu tragen"
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Nein, aber die Geschenkverpackung gehört in vielen Fällen zum Kundenservice der Geschäfte."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp18-vk-06",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Szenario."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "primary_topic_id": "topic.verkauf.beratung",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2018-7300-VK",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/items/22",
+        "original_label": "23",
+        "parent_label": null,
+        "scan_file": "H18 VK 6",
+        "printed_page": 6,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK",
+          "source_file": "../ZP-H2018-7300-VK-strukturiert.json",
+          "json_pointer": "/units/22",
+          "original_label": "23",
+          "parent_label": null,
+          "scan_file": "H18 VK 6",
+          "printed_page": 6
+        },
+        "original_scan_reference": "../ZP_Herbst2018_7300 - 0006.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [],
+    "source_key": "ZP-H2018-7300-VK:23"
+  },
+  "document": {
+    "id": "ZP-H2018-7300-VK",
+    "revision": 2,
+    "title": "Zwischenprüfung Herbst 2018",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2018,
+    "year_end": 2018,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../neu%204.json",
+    "upstream_file": "../ZP_Herbst2018_7300 - 0001.tif",
+    "source_notes": [
+      "Originalprüfung Verkäufer/Verkäuferin (AO 2017), Kennziffer 7300.",
+      "Originalscan-Serie: ZP_Herbst2018_7300 - 0001.tif bis ZP_Herbst2018_7300 - 0011.tif; upstream_file verweist auf die Titelseite der Serie.",
+      "Die Aufgaben und Materialien der Herbstprüfung 2018 wurden am 2026-09-13 mit der bereitgestellten TIFF-Serie abgeglichen; festgestellte Übertragungs-, Struktur- und Klassifikationsfehler wurden in Poolrevision 4 korrigiert."
+    ],
+    "original_import_file": "../ZP-H2018-7300-VK-strukturiert.json",
+    "import_json_pointer": "/documents/0"
+  },
+  "solutions": [
+    {
+      "id": "sol-zp18-vk-23",
+      "revision": 1,
+      "item_id": "itm-zp18-vk-23",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "5",
+      "answer": {
+        "choice_ids": [
+          "choice-5"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/solutions/22",
+        "original_label": "23",
+        "parent_label": null,
+        "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+        "printed_page": null,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+          "source_file": "../ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "json_pointer": null,
+          "original_label": "23",
+          "parent_label": null,
+          "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "printed_page": null
+        }
+      },
+      "content_topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "verified_against_supplied_solution_tiff",
+      "valid_as_of": null,
+      "notes": []
+    }
+  ],
+  "answer_solution_id": "sol-zp18-vk-23",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp18-vk-06",
+      "title": "Geschenkkauf in der Einrichtungsabteilung",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Szenario."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-zp18-vk-06",
+      "revision": 2,
+      "title": "Geschenkkauf in der Einrichtungsabteilung",
+      "kind": "scenario",
+      "content_md": "In der Einrichtungsabteilung spricht Sie eine Kundin an. Die Kundin wünscht ein Bild als Geschenk für ihre Eltern.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "ZP-H2018-7300-VK",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/materials/5",
+        "original_label": "Situation zur 21. bis 23. Aufgabe",
+        "parent_label": null,
+        "scan_file": "H18 VK 6",
+        "printed_page": 6,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK",
+          "source_file": "../ZP-H2018-7300-VK-strukturiert.json",
+          "json_pointer": "/contexts/5",
+          "original_label": "Situation zur 21. bis 23. Aufgabe",
+          "parent_label": null,
+          "scan_file": "H18 VK 6",
+          "printed_page": 6
+        },
+        "original_scan_reference": "../ZP_Herbst2018_7300 - 0006.tif"
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ]
+}

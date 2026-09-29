@@ -1,0 +1,24 @@
+{
+  "id": "wwk-bestellen-mindestbestand",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Mindestbestand erklären",
+  "materials": [],
+  "help": "Der Mindestbestand ist eine Reserve. Wann soll sie spätestens noch vorhanden sein?",
+  "short_explanation": "Der Mindestbestand (eiserner Bestand) ist die Sicherheitsreserve, die beim Eintreffen der neuen Lieferung noch im Lager sein soll. Er fängt Lieferverzögerungen und unerwartete Mehrverkäufe auf.",
+  "detailed_explanation": "Die drei wichtigen Bestandsgrößen:\n- **Mindestbestand:** Sicherheitsreserve; sie soll nur im Notfall angegriffen werden.\n- **Meldebestand:** Bei diesem Bestand wird nachbestellt: Mindestbestand + Tagesabsatz × Lieferzeit.\n- **Höchstbestand:** Diese Menge soll wegen Platz und Kapitalbindung nicht überschritten werden.\n\nMit Mindestliefermengen des Lieferanten, der Regalbestückung oder der Verbundplatzierung hat der Mindestbestand nichts zu tun.",
+  "error_paths": [
+    {
+      "id": "liefermenge",
+      "choice_ids": [
+        "choice-2",
+        "choice-5"
+      ],
+      "text": "Wie viel der Lieferant mindestens liefert, regelt der Kaufvertrag. Der Mindestbestand ist dagegen die eigene Reserve im Lager."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-nachlaesse-zuordnen",
+  "item": {
+    "id": "itm-ba07f738-42df-5290-b08e-123c5fbefa7c",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Nachlassarten zuordnen",
+    "stem_md": "Die Elektro AG gewährt der Maxikauf GmbH unterschiedliche Nachlässe. Ordnen Sie den Nachlässen **Bonus**, **Skonto** und **Mengenrabatt** jeweils eine der 6 Erklärungen zu.",
+    "response": {
+      "type": "matching",
+      "required_answers": 3,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Nachlass bei Bestellung größerer Stückzahlen"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Nachlass bei langjähriger Geschäftsbeziehung"
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Nachlass aufgrund vorzeitiger Bezahlung einer Rechnung innerhalb einer festgelegten Frist"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Nachlass, der nachträglich bei Erreichen einer vereinbarten Umsatzhöhe gewährt wird"
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Nachlass bei Bestellung von Teilmengen auf Abruf"
+        },
+        {
+          "id": "choice-6",
+          "original_label": "6",
+          "text_md": "Nachlass für wiederverwendbare und umweltfreundliche Produkte"
+        }
+      ],
+      "entries": [],
+      "targets": [
+        {
+          "id": "target-1",
+          "text_md": "Bonus"
+        },
+        {
+          "id": "target-2",
+          "text_md": "Skonto"
+        },
+        {
+          "id": "target-3",
+          "text_md": "Mengenrabatt"
+        }
+      ],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [],
+    "classification": {
+      "topic_ids": [
+        "topic.kalkulation.rabatt",
+        "topic.beschaffung.skonto"
+      ],
+      "primary_topic_id": "topic.kalkulation.rabatt",
+      "methods": [],
+      "competencies": [
+        "match"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/tasks/23",
+        "original_label": "24",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift entfernt.",
+      "Anweisung zur Übertragung in den Lösungsbogen entfernt; Zuordnungsziele und Antwortmöglichkeiten separat erfasst.",
+      "Die Aufgabenfassung stammt aus der bereitgestellten OCR-Datei; die zugehörige Prüfungsseite ist im derzeit eingebundenen TIFF-Ordner nicht vorhanden."
+    ],
+    "source_key": "AP-WS2024-7300-WWK:24"
+  },
+  "document": {
+    "id": "AP-WS2024-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2024/25 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2024,
+    "year_end": 2025,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../check-and-integrate-in-canonical.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Die Aufgaben 1 bis 22 wurden mit den im bereitgestellten TIFF-Ordner vorhandenen Prüfungsseiten 2 bis 5 abgeglichen.",
+      "Die Aufgaben 23 bis 26 sind vollständig in der bereitgestellten OCR-Datei enthalten; die zugehörige Prüfungsseite ist im derzeit eingebundenen TIFF-Ordner nicht vorhanden.",
+      "Handschriftliche Eintragungen auf den Scans wurden nicht als Aufgabeninhalt oder Lösung übernommen.",
+      "Lösungsbogenanweisungen wurden in der Pooldarstellung entfernt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-f0f420d6-1489-50ac-b58a-68cf65356a2b",
+      "revision": 1,
+      "item_id": "itm-ba07f738-42df-5290-b08e-123c5fbefa7c",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "| target_id | Nachlass | choice_id | Erklärung |\n|---|---|---|---|\n| target-1 | Bonus | choice-4 | Nachlass, der nachträglich bei Erreichen einer vereinbarten Umsatzhöhe gewährt wird |\n| target-2 | Skonto | choice-3 | Nachlass aufgrund vorzeitiger Bezahlung einer Rechnung innerhalb einer festgelegten Frist |\n| target-3 | Mengenrabatt | choice-1 | Nachlass bei Bestellung größerer Stückzahlen |\n\nUnterscheidungsschema: **Bonus = rückwirkend, umsatzabhängig · Skonto = Zahlungszeitpunkt ·\nMengenrabatt = Bestellmenge.** Die Optionen 2, 5 und 6 bleiben unbesetzt (Treuerabatt,\nAbrufrabatt, kein üblicher Nachlass).",
+      "answer": {
+        "matches": [
+          {
+            "target_id": "target-1",
+            "choice_id": "choice-4"
+          },
+          {
+            "target_id": "target-2",
+            "choice_id": "choice-3"
+          },
+          {
+            "target_id": "target-3",
+            "choice_id": "choice-1"
+          }
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../loesungsvorschlaege-offene-aufgaben.md",
+        "json_pointer": null,
+        "original_label": "24",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 256,
+        "original_source": {
+          "document_id": "AP-WS2024-7300-WWK",
+          "source_file": "../check-and-integrate-in-canonical.json",
+          "json_pointer": "/tasks/23",
+          "original_label": "24",
+          "parent_label": null,
+          "scan_file": null,
+          "printed_page": null
+        }
+      },
+      "content_topic_ids": [
+        "topic.kalkulation.rabatt",
+        "topic.beschaffung.skonto"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 20.09.2026 fachlich geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Vollständige Zuordnung gegen sämtliche target_ids und choice_ids der aktuellen Aufgabenrevision geprüft; Vorschlagszeile 256."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-f0f420d6-1489-50ac-b58a-68cf65356a2b",
+  "materials": [],
+  "other_materials": [],
+  "prerequisites": []
+}

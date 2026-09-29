@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-1-4",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Ursachen von Kassendifferenzen",
+  "stem": "Wählen Sie drei mögliche Gründe für Kassendifferenzen.",
+  "materials": [],
+  "requires": [],
+  "help": "Prüfen, ob Bargeldbewegung und Buchung zusammenpassen.",
+  "short_explanation": "Fehler beim Wechselgeld, nicht erfasste Auszahlungen und eine falsche Zahlungsart können Soll und Ist auseinanderbringen.",
+  "detailed_explanation": "Das Kassensystem berechnet einen erwarteten Bargeldbestand. Eine als bar gebuchte Kartenzahlung erhöht dieses Soll, obwohl kein Bargeld zufließt. Ordnungsgemäß erfasste Entnahmen verändern das Soll passend zum Bargeldabfluss.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.4",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.4",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Wechselgeld wird falsch herausgegeben."
+      },
+      {
+        "id": "choice-2",
+        "text": "Eine Barauszahlung wird nicht erfasst."
+      },
+      {
+        "id": "choice-3",
+        "text": "Eine Kartenzahlung wird versehentlich als Barzahlung gebucht."
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine Entnahme wird in richtiger Höhe vollständig dokumentiert."
+      },
+      {
+        "id": "choice-5",
+        "text": "Der Kassenbestand wird richtig gezählt und mit dem passenden Soll verglichen."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

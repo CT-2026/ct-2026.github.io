@@ -1,0 +1,26 @@
+{
+  "id": "verkauf-service-zahlung",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Zahlungsbezogene Serviceleistung",
+  "materials": [],
+  "help": "Zahlungsbezogen ist ein Service, der dem Kunden das Bezahlen erleichtert.",
+  "short_explanation": "Die Möglichkeit zur Ratenzahlung erleichtert dem Kunden das Bezahlen. Sie ist deshalb eine zahlungsbezogene Serviceleistung.",
+  "detailed_explanation": "Serviceleistungen lassen sich einteilen:\n- **zahlungsbezogen:** Ratenzahlung, Kartenzahlung, Kauf auf Rechnung, Kundenkarte,\n- **warenbezogen:** sicheres Verpacken, Auswahlsendung zur Ansicht, Reparaturen, Montage, Einstellen der Skibindung,\n- **kundenbezogen:** Parkplätze, Kinderbetreuung, Toiletten, Kundenzeitschrift.\n\nEinwickeln, Auswahl zur Ansicht, Reparatur und Einstellen der Bindung betreffen die Ware, nicht die Bezahlung.",
+  "error_paths": [
+    {
+      "id": "warenbezogen",
+      "choice_ids": [
+        "choice-2",
+        "choice-3",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Dieser Service betrifft die Ware selbst – sie wird geschützt, zur Ansicht mitgegeben, repariert oder eingestellt. Mit dem Bezahlen hat er nichts zu tun."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

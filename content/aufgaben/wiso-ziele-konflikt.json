@@ -1,0 +1,47 @@
+{
+  "id": "wiso-ziele-konflikt",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ziele",
+  "title": "Einen Zielkonflikt erkennen",
+  "stem": "Ein Geschäft möchte Kosten kurzfristig senken und gleichzeitig zusätzliche kostenpflichtige Weiterbildungen anbieten. Warum kann das ein Zielkonflikt sein?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Weiterbildung verursacht niemals Kosten."
+      },
+      {
+        "id": "choice-2",
+        "text": "Zusätzliche Weiterbildungskosten erschweren die kurzfristige Kostensenkung."
+      },
+      {
+        "id": "choice-3",
+        "text": "Soziale und wirtschaftliche Ziele schließen sich immer aus."
+      },
+      {
+        "id": "choice-4",
+        "text": "Weiterbildung senkt automatisch alle anderen Kosten."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Betrachte den ausdrücklich genannten kurzen Zeitraum.",
+  "short_explanation": "Zusätzliche Weiterbildung verursacht zunächst Ausgaben.",
+  "detailed_explanation": "Langfristig kann Weiterbildung wirtschaftlich nützen. Ein kurzfristiger Konflikt bedeutet daher nicht, dass beide Ziele grundsätzlich unvereinbar sind.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

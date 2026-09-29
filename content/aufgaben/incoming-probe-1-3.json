@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-1-3",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "kasse",
+  "variant_group": "wwk.kasse",
+  "title": "Weitere Zahlungsmöglichkeiten",
+  "stem": "Wählen Sie drei weitere Zahlungsmöglichkeiten neben der girocard.",
+  "materials": [],
+  "requires": [],
+  "help": "Zahlungsmittel und Warenunterlagen auseinanderhalten.",
+  "short_explanation": "Bargeld, Kreditkarte und Rechnung mit Überweisung sind weitere Zahlungsmöglichkeiten.",
+  "detailed_explanation": "Welche Zahlungsart im Betrieb angeboten wird, hängt von seinen Abläufen ab. Ein Lieferschein dokumentiert die Lieferung, eine Reservierung hält Ware bereit. Beide ersetzen keine Zahlung.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-1.3",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-1.3",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Bargeld"
+      },
+      {
+        "id": "choice-2",
+        "text": "Kreditkarte"
+      },
+      {
+        "id": "choice-3",
+        "text": "Kauf auf Rechnung mit späterer Überweisung"
+      },
+      {
+        "id": "choice-4",
+        "text": "Lieferschein"
+      },
+      {
+        "id": "choice-5",
+        "text": "Artikelreservierung"
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

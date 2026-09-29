@@ -1,0 +1,13 @@
+{
+  "id": "mat-geschenkkauf-bild",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-zp18-vk-06",
+    "excerpt": "verkauf-gespraech-bedarf-geschenk"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

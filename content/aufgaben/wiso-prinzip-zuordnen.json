@@ -1,0 +1,65 @@
+{
+  "id": "wiso-prinzip-zuordnen",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.prinzip",
+  "title": "Die feste Größe erkennen",
+  "stem": "Ordne die Zielsetzungen zu. Eine Antwort darf mehrfach vorkommen.",
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "50 gleiche Kartons so günstig wie möglich beschaffen"
+      },
+      {
+        "id": "t2",
+        "text": "Mit 100 € möglichst viele gleiche Kartons kaufen"
+      },
+      {
+        "id": "t3",
+        "text": "Eine festgelegte Lagerfläche mit möglichst wenig Strom ausreichend beleuchten"
+      }
+    ],
+    "choices": [
+      {
+        "id": "a",
+        "text": "Minimalprinzip"
+      },
+      {
+        "id": "b",
+        "text": "Maximalprinzip"
+      }
+    ],
+    "reuse_choices": true
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "t1",
+        "choice_id": "a"
+      },
+      {
+        "target_id": "t2",
+        "choice_id": "b"
+      },
+      {
+        "target_id": "t3",
+        "choice_id": "a"
+      }
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Steht jeweils das Ergebnis fest oder stehen die Mittel fest?",
+  "short_explanation": "Festes Ergebnis: Minimalprinzip. Feste Mittel: Maximalprinzip.",
+  "detailed_explanation": "Eine feste Kartonzahl beziehungsweise Fläche gibt das Ergebnis vor. Beim Budget von 100 € ist dagegen der Mitteleinsatz fest.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "wiso-wirtschaftsbereiche-holz",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.wirtschaftsbereiche",
+  "title": "Vom Holz zum Möbel",
+  "stem": "Ordne die Tätigkeiten den passenden Wirtschaftsbereichen zu. Ein Bereich kann mehrfach vorkommen.",
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Ein Forstbetrieb erntet Holz."
+      },
+      {
+        "id": "target-2",
+        "text": "Eine Möbelfabrik verarbeitet Holz zu Tischen."
+      },
+      {
+        "id": "target-3",
+        "text": "Ein Möbelhaus verkauft die Tische."
+      },
+      {
+        "id": "target-4",
+        "text": "Ein Großhändler verkauft Möbel an Einzelhändler."
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Urproduktion"
+      },
+      {
+        "id": "choice-2",
+        "text": "Verarbeitung"
+      },
+      {
+        "id": "choice-3",
+        "text": "Güterverteilung"
+      }
+    ],
+    "reuse_choices": true
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-3"
+      }
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Achte auf die Tätigkeit: gewinnen, verarbeiten oder weiterverkaufen.",
+  "short_explanation": "Holzernte gehört zur Urproduktion, Möbelherstellung zur Verarbeitung. Groß- und Einzelhandel gehören beide zur Güterverteilung.",
+  "detailed_explanation": "Entscheidend ist die beschriebene Tätigkeit. Die Möbelfabrik stellt etwas her. Die beiden Händler verteilen bereits hergestellte Waren an ihre Abnehmer. Deshalb darf „Güterverteilung“ zweimal zugeordnet werden.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

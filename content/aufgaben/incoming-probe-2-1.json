@@ -1,0 +1,56 @@
+{
+  "id": "incoming-probe-2-1",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "nutzen",
+  "variant_group": "verkauf.nutzen",
+  "title": "Verkaufsargumente unterscheiden",
+  "stem": "Welche Erläuterung unterscheidet warenbezogene und kundenbezogene Verkaufsargumente richtig?",
+  "materials": [],
+  "requires": [],
+  "help": "Fragen: Was hat die Ware, und was bringt das dem Kunden?",
+  "short_explanation": "Das Merkmal beschreibt die Ware. Der Nutzen verbindet dieses Merkmal mit dem Bedarf des Kunden.",
+  "detailed_explanation": "„Die Jacke hat verschweißte Nähte“ ist ein Warenmerkmal. „Dadurch bleiben Sie bei Ihrem regnerischen Arbeitsweg trockener“ verbindet das Merkmal mit dem konkreten Einsatz. Ein Nutzenargument braucht eine passende und belegbare Produkteigenschaft.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.1",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.1",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Warenbezogene Argumente beschreiben Produkteigenschaften; kundenbezogene Argumente erklären den Nutzen für den jeweiligen Kunden."
+      },
+      {
+        "id": "choice-2",
+        "text": "Warenbezogene Argumente beschreiben die Persönlichkeit des Kunden; kundenbezogene Argumente nur technische Daten."
+      },
+      {
+        "id": "choice-3",
+        "text": "Warenbezogene Argumente sind immer Preise; kundenbezogene Argumente immer Rabatte."
+      },
+      {
+        "id": "choice-4",
+        "text": "Beide Begriffe bezeichnen ausschließlich Werbeslogans."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

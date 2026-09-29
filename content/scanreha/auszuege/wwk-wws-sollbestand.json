@@ -1,0 +1,200 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-wws-sollbestand",
+  "item": {
+    "id": "itm-cd35fec0-f3e7-546d-abe1-d276d2a71b4e",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Artikelgenaue Lagerverwaltung",
+    "stem_md": "Welcher Vorteil ergibt sich aus der artikelgenauen Erfassung für die Lagerverwaltung?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die Güte der Waren kann ständig überprüft werden."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Angaben über den Soll-Bestand sind ständig verfügbar."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die Arbeitszeiten der Mitarbeiter können besser abgestimmt werden."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Inventurdifferenzen werden dadurch verhindert."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Die genauen Tagesumsätze können berechnet werden."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-c2305682-c596-5851-a8ee-4890b0fd6382",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.wws"
+      ],
+      "primary_topic_id": "topic.lager.wws",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/0",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift und reine Scanmarker aus der Pooldarstellung entfernt."
+    ],
+    "source_key": "AP-WS2023-7300-WWK:1"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Warenwirtschaft und Verkäufer / Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Semantisch bereinigte Arbeitsfassung für die Weiterverarbeitung.",
+      "Layoutartefakte, Scanränder und rein typografische Elemente wurden nicht übernommen.",
+      "Offensichtliche OCR-Fehler wurden nur dort korrigiert, wo die Seitenabbildung die Korrektur eindeutig belegt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-2363c1f4-7a1e-53b7-a326-e58e19d88526",
+      "revision": 1,
+      "item_id": "itm-cd35fec0-f3e7-546d-abe1-d276d2a71b4e",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "2",
+      "answer": {
+        "choice_ids": [
+          "choice-2"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/0",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "content_topic_ids": [
+        "topic.lager.wws"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-2363c1f4-7a1e-53b7-a326-e58e19d88526",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+      "title": "Unternehmen Maxikauf",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-c2305682-c596-5851-a8ee-4890b0fd6382",
+      "title": "Artikeldatei Gourmet",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-c2305682-c596-5851-a8ee-4890b0fd6382",
+      "revision": 1,
+      "title": "Artikeldatei Gourmet",
+      "kind": "data_table",
+      "content_md": "Nach der Erfassung des Wareneingangs liegt Ihnen aus dem Warenwirtschaftssystem die abgebildete Artikeldatei für den Monat Oktober vor.\n\n| Feld | Angabe |\n|---|---|\n| Artikelnummer | 04/24785 |\n| Artikelbezeichnung | Fertiggericht „Gourmet“ |\n| Einheit | Paket zu je 10 Stück |\n| Lieferer | Fixe Küche GmbH, Bussardstraße 10, 85166 Gräfelfing |\n| Lieferzeit | 10 Tage |\n| Mindestbestand | 30 Pakete |\n| Höchstbestand | 330 Pakete |\n| Meldebestand | leer |\n\n| Datum | Zugang (Pakete) | Abgang (Pakete) | Bestand (Pakete) |\n|---|---:|---:|---:|\n| 02.10.2023 |  |  | 190 |\n| 09.10.2023 | 160 |  | 350 |\n| 23.10.2023 |  | 30 | 320 |\n| 27.10.2023 |  | 140 | 180 |\n| 30.10.2023 |  | 20 | 160 |",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/contexts/1",
+        "original_label": "C01_03",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ]
+}

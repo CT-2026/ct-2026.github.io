@@ -1,0 +1,38 @@
+{
+  "id": "verkauf-beratung-zusatzverkauf",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Zusatzverkauf",
+  "materials": [],
+  "help": "Bei einem Zusatzverkauf werden ein passender Artikel und sein Nutzen für den gerade gekauften Artikel konkret benannt.",
+  "short_explanation": "Die erste Formulierung nennt einen konkreten Ergänzungsartikel und verbindet ihn mit einem Nutzen für die gekaufte Jacke: Sie bleibt nach dem Waschen wasserabweisend. So entsteht ein überzeugendes Zusatzangebot.",
+  "detailed_explanation": "Merkmale einer guten Ergänzungsempfehlung:\n- **konkret:** Ein bestimmter Artikel wird genannt und am besten gleich gezeigt.\n- **nutzenbezogen:** Der Vorteil für den bereits gekauften Artikel wird deutlich.\n- **als Aussage, nicht als Ja-Nein-Frage:** Das lässt dem Kunden Raum, ohne ihn zu einem schnellen „Nein“ zu verleiten.\n\nAllgemeine Fragen wie „Brauchen Sie sonst noch etwas?“ werden meist mit Nein beantwortet. Der bloße Hinweis auf eine andere Etage überlässt dem Kunden die Suche. Auch die Frage nach der Hose nennt keinen Nutzen und lädt zu einem schnellen „Nein“ ein.",
+  "error_paths": [
+    {
+      "id": "allgemein",
+      "choice_ids": [
+        "choice-2",
+        "choice-4"
+      ],
+      "text": "Allgemeine Fragen nennen keinen konkreten Artikel und keinen Nutzen. Sie werden meist mit „Nein“ beantwortet."
+    },
+    {
+      "id": "ja-nein",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Die Frage nennt zwar einen Artikel, aber keinen Nutzen, und lädt zu einem schnellen „Nein“ ein."
+    },
+    {
+      "id": "verweis",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Ein Hinweis auf eine andere Etage überlässt dem Kunden die Suche. Der Zusatzverkauf gelingt eher mit einem konkreten Artikel und seinem Nutzen."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

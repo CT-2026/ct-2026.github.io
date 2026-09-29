@@ -1,0 +1,13 @@
+{
+  "id": "mat-mitteilung-heizstrahler",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-a57f5831-cd7e-58b7-9840-4596b30505c8",
+    "excerpt": "wwk-beschaffung-liefertermine"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

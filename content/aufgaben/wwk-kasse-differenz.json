@@ -1,0 +1,31 @@
+{
+  "id": "wwk-kasse-differenz",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Ursachen für Kassendifferenzen",
+  "materials": [],
+  "help": "Eine Kassendifferenz liegt vor, wenn das Bargeld in der Kasse nicht zum gebuchten Soll-Betrag passt. Bei welchem Fehler stimmt das Geld nicht mehr?",
+  "short_explanation": "Wer auf 10,00 € statt richtig auf 20,00 € Rückgeld herausgibt, gibt 10,00 € zu viel aus der Kasse. Das Bargeld in der Kasse ist dann geringer als laut Kassenbuchung – eine Kassendifferenz entsteht.",
+  "detailed_explanation": "Eine Kassendifferenz ist der Unterschied zwischen dem Ist-Bestand der Kasse (gezähltes Geld) und dem Soll-Bestand (Wechselgeld + gebuchte Bareinnahmen − Auszahlungen).\n\nPrüfe die Antworten:\n- **Zu viel Rückgeld:** Es fehlt Bargeld – Kassendifferenz.\n- **Zwei statt drei Artikel kassiert:** Der Kunde zahlt genau den gebuchten Betrag. Die Kasse stimmt, aber im Lager fehlt ein Artikel.\n- **Falsche Artikelnummer:** Gezahlt wird der gebuchte Preis, die Kasse stimmt. Die Bestandsdaten sind dagegen falsch.\n- **Umtausch:** Ware gegen gleichwertige Ware – kein Geldfluss.\n- **50,00 € − 23,40 € = 26,60 €:** Das Rückgeld ist richtig.",
+  "error_paths": [
+    {
+      "id": "bestandsfehler",
+      "choice_ids": [
+        "choice-1",
+        "choice-3"
+      ],
+      "text": "Hier zahlt der Kunde genau den gebuchten Betrag, das Geld in der Kasse stimmt also. Falsch sind nur die Bestandsdaten im Lager."
+    },
+    {
+      "id": "richtig-gerechnet",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Rechne nach: 50,00 € − 23,40 € = 26,60 €. Das Rückgeld ist korrekt, eine Differenz entsteht nicht."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

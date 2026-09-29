@@ -1,0 +1,53 @@
+{
+  "id": "mat-angebotsvergleich",
+  "revision": 1,
+  "title": "Fall: 24 gleiche Aufbewahrungsboxen",
+  "kind": "table",
+  "table": {
+    "columns": [
+      {
+        "label": "Angabe",
+        "align": "left"
+      },
+      {
+        "label": "Anbieter A",
+        "align": "left"
+      },
+      {
+        "label": "Anbieter B",
+        "align": "left"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Stück pro Packung",
+          "6",
+          "8"
+        ]
+      },
+      {
+        "cells": [
+          "Preis pro Packung netto",
+          "54,00 €",
+          "68,00 €"
+        ]
+      },
+      {
+        "cells": [
+          "Versand je Bestellung netto",
+          "6,00 €",
+          "12,00 €"
+        ]
+      }
+    ]
+  },
+  "note": "Bedarf: genau 24 Stück. Es können nur volle Packungen bestellt werden. Qualität, Lieferzeit und übrige Bedingungen sind gleich. Keine weiteren Rabatte, Kosten oder offenen Bestellungen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-2-6",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "rabatt-skonto",
+  "variant_group": "wwk.rabatt-skonto",
+  "title": "Zwei Rabatte nacheinander",
+  "stem": "Der ursprüngliche Preis beträgt 199,00 EUR. Der Kunde erhält 10 % Rabatt und zusätzlich durch seine Kundenkarte 1,5 % auf den reduzierten Preis.\nWelcher Rechenweg mit Endpreis ist richtig?",
+  "materials": [],
+  "requires": [],
+  "help": "Den zweiten Rabatt auf den neuen Zwischenpreis anwenden.",
+  "short_explanation": "Nach 10 % Rabatt bleiben 179,10 EUR. Davon werden weitere 1,5 % abgezogen: Endpreis 176,41 EUR.",
+  "detailed_explanation": "Erster Rabatt: 199,00 × 0,10 = 19,90 EUR. Zweiter Rabatt: 179,10 × 0,015 = 2,6865 EUR. Die zweite Prozentbasis ist der bereits reduzierte Preis. Die Rabattsätze werden deshalb nicht einfach addiert.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.6",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.6",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "199,00 × 0,90 × 0,985 = 176,4135; gerundet 176,41 EUR."
+      },
+      {
+        "id": "choice-2",
+        "text": "199,00 × 0,885 = 176,115; gerundet 176,12 EUR."
+      },
+      {
+        "id": "choice-3",
+        "text": "199,00 × 0,90 = 179,10 EUR."
+      },
+      {
+        "id": "choice-4",
+        "text": "199,00 × 0,985 = 196,015; gerundet 196,02 EUR."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "checks": [
+    {
+      "kind": "arithmetic",
+      "date": "2026-09-26",
+      "text": "19.900 Cent × 0,90 × 0,985, auf Cent gerundet = 17.641 Cent."
+    }
+  ]
+}

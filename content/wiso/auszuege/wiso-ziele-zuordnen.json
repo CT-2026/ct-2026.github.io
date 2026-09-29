@@ -1,0 +1,63 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-ziele-zuordnen",
+  "revision": "sha256:d3360b15f366171d",
+  "task": {
+    "id": "60",
+    "tag": "Unternehmensziele",
+    "stem": "Ordnen Sie die Beispiele den Zielkategorien zu. Es gilt: 1 = ökonomisch, 2 = ökologisch, 3 = sozial.\n\n1. Maßnahmen zur Umsatzerhöhung\n2. Solarenergie-Anlagen installieren\n3. Sozialfonds für in Not geratene Mitarbeiter\n4. Maßnahmen zur Gewinnmaximierung\n5. Lieferservice zur Steigerung der Kundenzufriedenheit verbessern\n6. Waren überwiegend von regionalen Lieferanten beziehen\n7. Betriebskindergarten für Mitarbeiterkinder einrichten",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1 - 2 - 3 - 1 - 2 - 3 - 1"
+      },
+      {
+        "id": "B",
+        "text": "1 - 2 - 3 - 1 - 1 - 2 - 3"
+      },
+      {
+        "id": "C",
+        "text": "2 - 1 - 3 - 2 - 1 - 3 - 1"
+      },
+      {
+        "id": "D",
+        "text": "1 - 3 - 2 - 1 - 1 - 2 - 3"
+      },
+      {
+        "id": "E",
+        "text": "3 - 2 - 1 - 3 - 1 - 2 - 3"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "B, 1 - 2 - 3 - 1 - 1 - 2 - 3",
+      "explanation": "Umsatzerhöhung, Gewinnmaximierung und Kundenzufriedenheit sind ökonomische Ziele. Solarenergie und regionale Beschaffung sind ökologische Ziele. Sozialfonds und Betriebskindergarten gehören zu den sozialen Zielen.",
+      "merksatz": "Ökonomisch betrifft Erfolg und Markt, ökologisch die Umwelt, sozial die Interessen von Mitarbeitern und Gesellschaft.",
+      "wrong": "Falsche Folgen entstehen vor allem dann, wenn Kundenzufriedenheit fälschlich als sozial oder regionale Beschaffung nicht als ökologisch eingeordnet wird.",
+      "detailTitle": "Zuordnung",
+      "detail": [
+        "1 = ökonomisch: Maßnahmen zur Umsatzerhöhung.",
+        "2 = ökologisch: Solarenergie-Anlagen installieren.",
+        "3 = sozial: Sozialfonds für Mitarbeiter.",
+        "4 = ökonomisch: Maßnahmen zur Gewinnmaximierung.",
+        "5 = ökonomisch: besserer Lieferservice zur Steigerung der Kundenzufriedenheit.",
+        "6 = ökologisch: regionale Beschaffung.",
+        "7 = sozial: Betriebskindergarten einrichten."
+      ],
+      "topic": "wirtschaft",
+      "ref": "Unternehmensziele: Ökonomische Ziele betreffen Erfolg und Markt, ökologische Ziele Umweltwirkungen, soziale Ziele Mitarbeiter und Gesellschaft."
+    },
+    "tags": [
+      "wirtschaftsleistung",
+      "kreislaufwirtschaft"
+    ]
+  }
+}

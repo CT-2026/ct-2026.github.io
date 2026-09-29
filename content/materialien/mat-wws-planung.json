@@ -1,0 +1,13 @@
+{
+  "id": "mat-wws-planung",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-c0e66a9f-d36b-5118-8983-197cccd107a4",
+    "excerpt": "wwk-wws-abrufbar"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

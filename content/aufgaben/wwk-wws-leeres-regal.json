@@ -1,0 +1,31 @@
+{
+  "id": "wwk-wws-leeres-regal",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Kundenwunsch bei leerem Regal erfüllen",
+  "materials": [],
+  "help": "Der Kundenwunsch soll sofort erfüllt werden. Wo könnte der Artikel noch vorrätig sein?",
+  "short_explanation": "Ein leerer Regalplatz heißt nicht, dass der Artikel ausverkauft ist. Das Warenwirtschaftssystem zeigt, ob noch Ware im Lager ist und für den Kunden geholt werden kann.",
+  "detailed_explanation": "Kundenorientiert handeln heißt, den Wunsch möglichst sofort und selbst zu erfüllen:\n1. Bestand im Warenwirtschaftssystem prüfen.\n2. Ist Ware im Lager, den Artikel holen und das Regal danach auffüllen.\n3. Ist nichts vorrätig, eine Bestellung oder Reservierung anbieten.\n\nDen Kunden selbst suchen zu lassen, ihn weiterzuschicken oder zum Mitbewerber zu verweisen, erfüllt den Wunsch nicht und kostet Umsatz. Der Onlineshop erfüllt den Wunsch nicht sofort; eine garantierte Lieferzeit kann zudem niemand zusagen.",
+  "error_paths": [
+    {
+      "id": "kunde-weiterschicken",
+      "choice_ids": [
+        "choice-1",
+        "choice-5"
+      ],
+      "text": "Damit wird die Aufgabe an den Kunden oder an Kollegen abgegeben. Kundenorientiert ist es, selbst nachzusehen und zu helfen."
+    },
+    {
+      "id": "mitbewerber",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Wer zum Mitbewerber schickt, verliert Umsatz und womöglich den Kunden. Zuerst wird geprüft, ob die Ware im Lager vorrätig ist."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

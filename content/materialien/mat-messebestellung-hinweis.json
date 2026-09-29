@@ -1,0 +1,13 @@
+{
+  "id": "mat-messebestellung-hinweis",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-89d11245-3173-5840-86b6-f247d29248f1",
+    "excerpt": "wwk-warenannahme-rechnung-pruefen"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

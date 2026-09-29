@@ -1,0 +1,44 @@
+{
+  "id": "verkauf-beratung-kundenorientiert",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Kundenorientiertes Verhalten",
+  "materials": [],
+  "help": "Kundenorientiert ist, was dem Kunden hilft – nicht, was dem Verkäufer oder der Verkäuferin nützt.",
+  "short_explanation": "Wer nur eine begrenzte Auswahl vorlegt, erleichtert dem Kunden den Vergleich und die Entscheidung. Das ist kundenorientiert.",
+  "detailed_explanation": "Eine gute Warenvorlage umfasst meist zwei bis drei passende Artikel. Zu viele Artikel überfordern und verzögern die Entscheidung.\n\nDie übrigen Verhaltensweisen gehen am Kunden vorbei:\n- Beim Vorwahlsystem suchen Kunden zunächst selbst aus. Sofort angesprochen zu werden, empfinden viele als aufdringlich.\n- Senioren pauschal auf Sonderangebote hinzuweisen, unterstellt ihnen wenig Geld.\n- Viele Fachbegriffe beeindrucken nicht, sondern überfordern.\n- Einwänden direkt zu widersprechen, nimmt den Kunden nicht ernst.",
+  "error_paths": [
+    {
+      "id": "aufdringlich",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Beim Vorwahlsystem wählen Kunden zunächst selbst aus. Sofort angesprochen zu werden, wirkt auf viele aufdringlich."
+    },
+    {
+      "id": "vorurteil",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Senioren pauschal geringes Einkommen zu unterstellen, ist ein Vorurteil. Kundenorientiert ist, den Bedarf zu erfragen."
+    },
+    {
+      "id": "fachchinesisch",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Viele technische Begriffe überfordern den Kunden. Kundenorientierte Erklärungen sind verständlich."
+    },
+    {
+      "id": "widerspruch",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Einwänden direkt zu widersprechen, nimmt den Kunden nicht ernst. Besser ist es, den Einwand aufzugreifen und zu klären."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

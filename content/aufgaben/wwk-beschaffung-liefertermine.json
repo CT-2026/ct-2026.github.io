@@ -1,0 +1,36 @@
+{
+  "id": "wwk-beschaffung-liefertermine",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Liefertermine bei Engpässen überwachen",
+  "materials": [
+    {
+      "id": "mat-mitteilung-heizstrahler",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Überlege, was im Verkauf passiert, wenn die Heizstrahler im Winter zu spät eintreffen.",
+  "short_explanation": "Kommen die Heizstrahler zu spät, fehlen sie gerade in der Hauptverkaufszeit im Regal. Wer die Liefertermine überwacht, kann rechtzeitig reagieren und die Verkaufsbereitschaft sichern.",
+  "detailed_explanation": "Verkaufsbereitschaft bedeutet: Die Ware ist vorrätig, wenn Kunden sie kaufen wollen. Bei angekündigten Lieferengpässen steigt das Risiko, dass ein Artikel ausgeht.\n\nWer die Liefertermine laufend überwacht, bemerkt Verzögerungen früh und kann handeln – etwa beim Lieferer nachfassen, früher bestellen oder auf einen anderen Lieferer ausweichen.\n\nSachmängel zeigen sich erst an der gelieferten Ware. Skonto und Zahlungsfristen hängen am Rechnungsdatum, nicht am Liefertermin. Zu viel Ware auf Lager droht bei Lieferengpässen gerade nicht.",
+  "error_paths": [
+    {
+      "id": "maengel-statt-termin",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Sachmängel betreffen die gelieferte Ware selbst. Um sie geht es bei der Terminüberwachung nicht."
+    },
+    {
+      "id": "zahlung-statt-lieferung",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Skonto und Zahlungsfristen richten sich nach der Rechnung. Die Überwachung der Liefertermine dient dem Warennachschub."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

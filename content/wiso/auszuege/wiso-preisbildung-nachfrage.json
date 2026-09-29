@@ -1,0 +1,55 @@
+{
+  "excerpt_version": 1,
+  "project": "wiso-web",
+  "note": "Erzeugt durch tools/wiso-auszug.js aus dem bisherigen Web-Bestand. Nicht von Hand bearbeiten.",
+  "source_file": "wiso.html",
+  "legacy_store": "wiso40v2",
+  "web_id": "wiso-preisbildung-nachfrage",
+  "revision": "sha256:9c2b299a13ba43ca",
+  "task": {
+    "id": "39",
+    "tag": "Angebot und Nachfrage",
+    "stem": "In welcher Weise beeinflussen Angebot und Nachfrage den Preis eines Produktes?",
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Eine steigende Nachfrage führt bei sinkendem Angebot zu keiner Preisveränderung."
+      },
+      {
+        "id": "B",
+        "text": "Ein steigendes Angebot führt bei gleichbleibender Nachfrage zu einem steigenden Preis."
+      },
+      {
+        "id": "C",
+        "text": "Ein sinkendes Angebot führt bei gleichbleibender Nachfrage zu einem sinkenden Preis."
+      },
+      {
+        "id": "D",
+        "text": "Eine steigende Nachfrage führt bei gleichbleibendem Angebot zu einem steigenden Preis."
+      },
+      {
+        "id": "E",
+        "text": "Eine sinkende Nachfrage führt bei gleichbleibendem Angebot zu einem steigenden Preis."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "topic": "wirtschaft",
+    "content": {
+      "solution": "D, steigende Nachfrage bei gleichbleibendem Angebot führt zu steigendem Preis",
+      "explanation": "Wenn mehr Marktteilnehmer dasselbe Angebot nachfragen und das Angebot unverändert bleibt, steigt typischerweise der Preis. Das entspricht dem Grundprinzip von Angebot und Nachfrage.",
+      "merksatz": "Mehr Nachfrage bei gleichem Angebot treibt den Preis nach oben.",
+      "wrong": "Mehr Angebot senkt eher den Preis. Weniger Nachfrage oder mehr Angebot führen nicht zu höheren Preisen unter sonst gleichen Bedingungen.",
+      "detailTitle": "",
+      "detail": [],
+      "topic": "wirtschaft",
+      "ref": "Marktmechanismus: Steigt die Nachfrage bei unverändertem Angebot, steigt tendenziell der Preis."
+    },
+    "tags": [
+      "markt",
+      "preisbildung"
+    ]
+  }
+}

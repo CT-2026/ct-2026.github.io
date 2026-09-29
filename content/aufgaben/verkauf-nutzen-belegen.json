@@ -1,0 +1,49 @@
+{
+  "id": "verkauf-nutzen-belegen",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "nutzen",
+  "variant_group": "verkauf.nutzen",
+  "title": "Ein Nutzenargument belegen",
+  "stem": "Welche zwei Aussagen sind sachlich nachvollziehbar, wenn das Produktblatt genau diese Eigenschaften nennt?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Das gepolsterte Fach ist für Geräte bis 14 Zoll angegeben."
+      },
+      {
+        "id": "choice-2",
+        "text": "Die Tasche hält garantiert jede Belastung aus."
+      },
+      {
+        "id": "choice-3",
+        "text": "Der leere Rucksack wiegt laut Produktblatt 650 g."
+      },
+      {
+        "id": "choice-4",
+        "text": "Mit dieser Tasche gehen Sie garantiert nie mehr ungern zur Arbeit."
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Wähle nachprüfbare Angaben statt unbegrenzter Versprechen.",
+  "short_explanation": "Gerätegröße und Eigengewicht sind konkret und anhand der Produktangaben prüfbar.",
+  "detailed_explanation": "Übertriebene Aussagen über jede Belastung oder persönliche Gefühle lassen sich aus diesen Eigenschaften nicht ableiten.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

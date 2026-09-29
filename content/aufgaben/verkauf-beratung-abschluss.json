@@ -1,0 +1,31 @@
+{
+  "id": "verkauf-beratung-abschluss",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Kaufabschluss herbeiführen",
+  "materials": [],
+  "help": "Am Ende der Beratung soll die Kundin sich zwischen den gezeigten Artikeln entscheiden. Welche Frage führt direkt zur Entscheidung?",
+  "short_explanation": "Die Frage „Welchen Artikel wollen Sie nun nehmen?“ fordert die Kundin auf, sich zwischen den vorgelegten Artikeln zu entscheiden. Sie führt direkt zum Kaufabschluss.",
+  "detailed_explanation": "Zum Abschluss eines Verkaufsgesprächs eignen sich:\n- eine Entscheidungsfrage zwischen den vorgelegten Artikeln,\n- eine Zusammenfassung der wichtigsten Vorteile,\n- eine Empfehlung, die sich auf den ermittelten Bedarf stützt.\n\nWeniger geeignet sind: der Hinweis auf eigene Käufe, weil er wenig über den Bedarf der Kundin sagt; immer mehr gleichartige Artikel, weil die Auswahl die Entscheidung erschwert; und viele Alternativfragen hintereinander, weil sie das Gespräch verlängern. Zuhören und bedarfsgerecht argumentieren gehört in die Beratungsphase vor dem Abschluss.",
+  "error_paths": [
+    {
+      "id": "mehr-auswahl",
+      "choice_ids": [
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Mehr Artikel oder immer neue Fragen verlängern die Entscheidung. Zum Abschluss wird die Auswahl eingegrenzt."
+    },
+    {
+      "id": "beratungsphase",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Zuhören und argumentieren gehört zur Beratung. Am Ende des Gesprächs geht es um die Entscheidung."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

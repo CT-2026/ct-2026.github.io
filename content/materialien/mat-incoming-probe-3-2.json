@@ -1,0 +1,24 @@
+{
+  "id": "mat-incoming-probe-3-2",
+  "revision": 2,
+  "title": "Beschreibung des DPG-Kennzeichens",
+  "kind": "text",
+  "text": "Das beschriebene DPG-Kennzeichen (Deutsche Pfandsystem GmbH) zeigt eine Flasche, eine Dose und einen Pfeil.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-3.2-bild",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-3.2-bild",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Gelieferte Bildbeschreibung als Textmaterial eingebunden."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt.",
+      "Die Eingangsdatei enthält eine Bildbeschreibung, keine Bilddatei."
+    ]
+  }
+}

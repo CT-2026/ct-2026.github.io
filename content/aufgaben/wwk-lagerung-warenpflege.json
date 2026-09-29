@@ -1,0 +1,26 @@
+{
+  "id": "wwk-lagerung-warenpflege",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Warenpflege erkennen",
+  "materials": [],
+  "help": "Warenpflege erhält die Qualität der Ware selbst. Welche Tätigkeit schützt die Ware vor Verderb?",
+  "short_explanation": "Zur Warenpflege gehört alles, was die Ware in einwandfreiem Zustand erhält. Bei Tiefkühlkost ist das vor allem die ununterbrochene Kühlkette – sonst verdirbt die Ware.",
+  "detailed_explanation": "Warenpflege umfasst zum Beispiel:\n- richtige Temperatur und Luftfeuchtigkeit, etwa die Kühlkette bei Tiefkühlkost,\n- Schutz vor Licht, Staub und Beschädigung,\n- regelmäßige Kontrolle des Mindesthaltbarkeitsdatums,\n- Reinigen und Ordnen der Ware.\n\nAbgrenzung: Preisschilder anbringen gehört zur Preisauszeichnung, den Fußboden reinigen zur Pflege des Verkaufsraums, die Beleuchtung zur Warenpräsentation und die Vollzähligkeitsprüfung zur Warenannahme.",
+  "error_paths": [
+    {
+      "id": "andere-taetigkeit",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Diese Tätigkeit ist wichtig, erhält aber nicht die Qualität der Ware selbst. Sie gehört zur Preisauszeichnung, zur Raumpflege, zur Warenpräsentation oder zur Warenannahme."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

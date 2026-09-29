@@ -1,0 +1,347 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-artikeldaten-artikelnummer",
+  "item": {
+    "id": "itm-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+    "revision": 2,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Textil-Farben im Warenwirtschaftssystem erfassen",
+    "stem_md": "Die bestellten Textil-Farben sind in der Hobby- und Bastelabteilung im Kern-Sortiment. Diese Artikel sind im Warenwirtschaftssystem gespeichert. Geben Sie dem zuständigen Mitarbeiter für die Datenerfassung die nötige Information, damit diese Artikel im Warenwirtschaftssystem korrekt geführt werden können!",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die neue Artikelnummer 14959 erfordert eine Änderung bei den Stammdaten zu diesem Artikel."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Der Lieferer für diese Textil-Farben muss auf Farben-Welt GmbH geändert werden."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Sämtliche Farb-Packungen aus früheren Lieferungen müssen aus dem Sortiment genommen werden, da die Artikelnummer geändert wurde."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Der Meldebestand der Textil-Farben muss aufgrund der außerordentlichen Messe-Bestellung neu festgelegt werden."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "In der Liefererdatei müssen die Einkaufskonditionen wegen des außerordentlichen Messe-Rabattes geändert werden."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-14ea739b-dfc9-550b-bf0d-c95d180217f3",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-52030ec9-0c66-56e0-bbf9-a937838af075",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Für die Bearbeitung benötigte Angaben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.wws"
+      ],
+      "primary_topic_id": "topic.lager.wws",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/items/0/sources/0",
+        "original_label": "2",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": 2,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=3",
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "2",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": 2,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=3",
+          "original_source": {
+            "document_id": "AP-WS2019-7300-WWK",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "2",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": 2
+          }
+        }
+      },
+      {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/items/249/sources/0",
+        "original_label": "2",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 2,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/1/tasks/1",
+          "original_label": "2",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 2
+        }
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Reine Lösungsbogenmechanik entfernt; fachliche Angaben, Zahlen, Bedingungen und Antwortalternativen erhalten.",
+      "Offensichtliche OCR-Artefakte wurden nur bei eindeutiger Lesbarkeit der bereitgestellten PDF-Seite bereinigt.",
+      "Ursprüngliche Aufgabenüberschrift entfernt.",
+      "Poolrevision 11: to-check2-Herkunft ergänzt; vorhandene kanonische ID beibehalten.",
+      "Poolrevision 20: generische Fach-/Aufgabennummer-Überschrift durch einen Sachtitel ersetzt; Fragestamm unverändert."
+    ],
+    "source_key": "AP-WS2019-7300-WWK:2"
+  },
+  "document": {
+    "id": "AP-WS2019-7300-WWK",
+    "revision": 2,
+    "title": "Abschlussprüfung Winter 2019/20 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2019,
+    "year_end": 2020,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin (AO 2017)",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../sammlung-ro-check-kanonisch.json",
+    "original_import_file": "sammlung-to_check.pdf",
+    "upstream_file": "sammlung-ro-check",
+    "source_notes": [
+      "Herkunft: sammlung-ro-check, PDF-Seiten 2–9.",
+      "Nur im bereitgestellten PDF vollständig lesbare Aufgaben werden als Items übernommen; fehlende oder abgeschnittene Originalaufgaben werden nicht aus dem Lösungsschlüssel rekonstruiert.",
+      "Integriert aus sammlung-ro-check-kanonisch.json; PDF-Angaben sind übernommene Herkunft, keine erneute Prüfung.",
+      "Bereitgestellte Abschlussprüfung Winter 2019/20, Kennziffer 7300, Teil Warenwirtschaft und Kalkulation mit 26 Aufgaben, 60 Minuten Prüfungszeit und 100 Punkten.",
+      "Die strukturierte Extraktion aus to-check2.txt wurde für Aufgaben und antwortrelevante Materialien gegen die bereitgestellten PDF-Seiten 2 bis 8 geprüft.",
+      "Sieben inhaltlich identische Aufgaben (7 bis 11, 16 und 26) wurden mit bereits vorhandenen Poolitems zusammengeführt; ihre zusätzliche Herkunft aus to-check2 bleibt in sources erhalten.",
+      "Lösungsbogenmechanik wurde aus der Pooldarstellung entfernt. Fachliche Angaben, Zahlen, Einheiten, Antwortalternativen und Zeitbezüge bleiben erhalten."
+    ],
+    "supplied_import_file": "../sammlung-ro-check.pdf",
+    "import_json_pointer": "/documents/0",
+    "additional_imports": [
+      {
+        "file": "../to-check2-kanonisch.json",
+        "json_pointer": "/documents/14",
+        "original_document": {
+          "id": "AP-WS2019-7300-WWK",
+          "revision": 1,
+          "title": "Abschlussprüfung Winter 2019/20 – 7300 – Warenwirtschaft und Kalkulation",
+          "role": "exam_tasks",
+          "exam_kind": "abschluss",
+          "year_start": 2019,
+          "year_end": 2020,
+          "season": "winter",
+          "source_subject": "wwk",
+          "source_occupation": "Verkäufer/Verkäuferin",
+          "target_occupation": "Verkäufer/Verkäuferin",
+          "import_file": "../to-check2.txt",
+          "upstream_file": "../to-check2(1).pdf",
+          "source_notes": [
+            "Bereitgestellte Abschlussprüfung Winter 2019/20, Kennziffer 7300, Teil Warenwirtschaft und Kalkulation mit 26 Aufgaben, 60 Minuten Prüfungszeit und 100 Punkten.",
+            "Die strukturierte Extraktion aus to-check2.txt wurde für Aufgaben und antwortrelevante Materialien gegen die bereitgestellten PDF-Seiten 2 bis 8 geprüft.",
+            "Sieben inhaltlich identische Aufgaben (7 bis 11, 16 und 26) wurden mit bereits vorhandenen Poolitems zusammengeführt; ihre zusätzliche Herkunft aus to-check2 bleibt in sources erhalten.",
+            "Lösungsbogenmechanik wurde aus der Pooldarstellung entfernt. Fachliche Angaben, Zahlen, Einheiten, Antwortalternativen und Zeitbezüge bleiben erhalten."
+          ]
+        }
+      }
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+      "revision": 2,
+      "item_id": "itm-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+      "item_revision": 2,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "1",
+      "answer": {
+        "choice_ids": [
+          "choice-1"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-LOESUNGEN",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/solutions/1/source",
+        "original_label": "WWK 2",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": null,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+        "original_source": {
+          "document_id": "AP-WS2019-7300-LOESUNGEN",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "WWK 2",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": null,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+          "original_source": {
+            "document_id": "AP-WS2019-7300-LOESUNGEN",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "WWK 2",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": null
+          }
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.wws"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Aus dem offiziellen Lösungsschlüssel der bereitgestellten PDF transkribiert."
+      ]
+    },
+    {
+      "id": "sol-f79b3102-c454-5983-b4e4-6f5aa642a087",
+      "revision": 2,
+      "item_id": "itm-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+      "item_revision": 2,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "1",
+      "answer": {
+        "choice_ids": [
+          "choice-1"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/solutions/82/source",
+        "original_label": "2",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 9,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+          "source_file": "../to-check2(1).pdf",
+          "json_pointer": null,
+          "original_label": "2",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 9
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.wws"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [],
+      "imported_item_binding": {
+        "item_id": "itm-63bf8196-4fff-5817-9077-87e3e03f8e25",
+        "item_revision": 1
+      }
+    }
+  ],
+  "answer_solution_id": "sol-ce26b07c-b842-5845-b9eb-afffac44a1ba",
+  "materials": [
+    {
+      "id": "mat-52030ec9-0c66-56e0-bbf9-a937838af075",
+      "revision": 2,
+      "title": "Bestellung bei einem Messebesuch",
+      "kind": "scenario",
+      "content_md": "Ihr Abteilungsleiter Herr Schroll unterschreibt bei einem Messebesuch eine Bestellung. Der Verkaufsberater weist darauf hin, dass sich eine Woche später vertriebsbedingt die Artikelnummer des an Position 1 angeführten Artikels ändern wird.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/materials/5/source",
+        "original_label": "Situation zu Aufgabe 1 bis 6",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": 2,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=3",
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "Situation zu Aufgabe 1 bis 6",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": 2,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=3"
+        }
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ],
+  "other_materials": [
+    {
+      "material_id": "mat-14ea739b-dfc9-550b-bf0d-c95d180217f3",
+      "title": "Unternehmensbeschreibung",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": []
+}

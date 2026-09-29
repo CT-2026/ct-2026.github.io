@@ -1,0 +1,390 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-warenannahme-rechnung-pruefen",
+  "item": {
+    "id": "itm-43c01f88-5238-5286-88b1-de965e70485b",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Wareneingang anhand Bestellung und Rechnung prüfen",
+    "stem_md": "Die Artikel sind am 15.11.2019 bei Ihnen eingetroffen und angenommen. Ihr Abteilungsleiter beauftragt Sie, den Wareneingang zu prüfen. Verwenden Sie dazu die Bestellung und Rechnung. Was stellen Sie fest?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die Farben-Welt GmbH hat die Lieferzeit geringfügig überschritten."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Die Farben-Welt GmbH hat vergessen, die angefallenen Versandkosten in Rechnung zu stellen."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die Beträge in der Spalte Gesamtpreis zu den jeweiligen Artikeln wurden falsch berechnet."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Bei der Lieferung der Metallic-Effekt-Sprays liegt ein Sachmangel vor, da statt der bestellten goldenen Farbe Silber geliefert wurde."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Bei den Textil-Farben liegt ein Mangel in der Beschaffenheit vor, da die Artikelnummer auf der Rechnung nicht mit der auf der Bestellung übereinstimmt."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-ffa479dc-74f8-5310-88e6-b08506633de9",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-89d11245-3173-5840-86b6-f247d29248f1",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Für die Bearbeitung benötigte Angabe zur angekündigten Artikelnummernänderung."
+      },
+      {
+        "material_id": "mat-8a5686bd-a9d2-5376-953f-961d7ce3a9fe",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 3,
+        "reason": "Für die Bearbeitung benötigte Bestellung."
+      },
+      {
+        "material_id": "mat-aed31fdf-cd8b-5f5a-8540-935daddbf9d4",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 4,
+        "reason": "Für die Bearbeitung benötigte Rechnung/Lieferschein."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.beschaffung.warenannahme",
+        "topic.recht.maengel"
+      ],
+      "primary_topic_id": "topic.beschaffung.warenannahme",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_verified_scan_transcription",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/items/248/sources/0",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 2,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/1/tasks/0",
+          "original_label": "1",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 2
+        }
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift entfernt.",
+      "Seitenverweis auf die gegenüberliegende Prüfungsseite durch direkte Materialzuordnung ersetzt."
+    ],
+    "source_key": "AP-WS2019-7300-WWK:1"
+  },
+  "document": {
+    "id": "AP-WS2019-7300-WWK",
+    "revision": 2,
+    "title": "Abschlussprüfung Winter 2019/20 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2019,
+    "year_end": 2020,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin (AO 2017)",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../sammlung-ro-check-kanonisch.json",
+    "original_import_file": "sammlung-to_check.pdf",
+    "upstream_file": "sammlung-ro-check",
+    "source_notes": [
+      "Herkunft: sammlung-ro-check, PDF-Seiten 2–9.",
+      "Nur im bereitgestellten PDF vollständig lesbare Aufgaben werden als Items übernommen; fehlende oder abgeschnittene Originalaufgaben werden nicht aus dem Lösungsschlüssel rekonstruiert.",
+      "Integriert aus sammlung-ro-check-kanonisch.json; PDF-Angaben sind übernommene Herkunft, keine erneute Prüfung.",
+      "Bereitgestellte Abschlussprüfung Winter 2019/20, Kennziffer 7300, Teil Warenwirtschaft und Kalkulation mit 26 Aufgaben, 60 Minuten Prüfungszeit und 100 Punkten.",
+      "Die strukturierte Extraktion aus to-check2.txt wurde für Aufgaben und antwortrelevante Materialien gegen die bereitgestellten PDF-Seiten 2 bis 8 geprüft.",
+      "Sieben inhaltlich identische Aufgaben (7 bis 11, 16 und 26) wurden mit bereits vorhandenen Poolitems zusammengeführt; ihre zusätzliche Herkunft aus to-check2 bleibt in sources erhalten.",
+      "Lösungsbogenmechanik wurde aus der Pooldarstellung entfernt. Fachliche Angaben, Zahlen, Einheiten, Antwortalternativen und Zeitbezüge bleiben erhalten."
+    ],
+    "supplied_import_file": "../sammlung-ro-check.pdf",
+    "import_json_pointer": "/documents/0",
+    "additional_imports": [
+      {
+        "file": "../to-check2-kanonisch.json",
+        "json_pointer": "/documents/14",
+        "original_document": {
+          "id": "AP-WS2019-7300-WWK",
+          "revision": 1,
+          "title": "Abschlussprüfung Winter 2019/20 – 7300 – Warenwirtschaft und Kalkulation",
+          "role": "exam_tasks",
+          "exam_kind": "abschluss",
+          "year_start": 2019,
+          "year_end": 2020,
+          "season": "winter",
+          "source_subject": "wwk",
+          "source_occupation": "Verkäufer/Verkäuferin",
+          "target_occupation": "Verkäufer/Verkäuferin",
+          "import_file": "../to-check2.txt",
+          "upstream_file": "../to-check2(1).pdf",
+          "source_notes": [
+            "Bereitgestellte Abschlussprüfung Winter 2019/20, Kennziffer 7300, Teil Warenwirtschaft und Kalkulation mit 26 Aufgaben, 60 Minuten Prüfungszeit und 100 Punkten.",
+            "Die strukturierte Extraktion aus to-check2.txt wurde für Aufgaben und antwortrelevante Materialien gegen die bereitgestellten PDF-Seiten 2 bis 8 geprüft.",
+            "Sieben inhaltlich identische Aufgaben (7 bis 11, 16 und 26) wurden mit bereits vorhandenen Poolitems zusammengeführt; ihre zusätzliche Herkunft aus to-check2 bleibt in sources erhalten.",
+            "Lösungsbogenmechanik wurde aus der Pooldarstellung entfernt. Fachliche Angaben, Zahlen, Einheiten, Antwortalternativen und Zeitbezüge bleiben erhalten."
+          ]
+        }
+      }
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-0bb2ca49-1ddf-596d-98a9-a5c2aa1590f0",
+      "revision": 1,
+      "item_id": "itm-43c01f88-5238-5286-88b1-de965e70485b",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "4",
+      "answer": {
+        "choice_ids": [
+          "choice-4"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/solutions/81/source",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 9,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+          "source_file": "../to-check2(1).pdf",
+          "json_pointer": null,
+          "original_label": "1",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 9
+        }
+      },
+      "content_topic_ids": [
+        "topic.beschaffung.warenannahme",
+        "topic.recht.maengel"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": []
+    },
+    {
+      "id": "sol-70f0b7e5-2d21-5d69-8950-c8c999b854c7",
+      "revision": 2,
+      "item_id": "itm-43c01f88-5238-5286-88b1-de965e70485b",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "4",
+      "answer": {
+        "choice_ids": [
+          "choice-4"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-LOESUNGEN",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/solutions/0/source",
+        "original_label": "WWK 1",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": null,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+        "original_source": {
+          "document_id": "AP-WS2019-7300-LOESUNGEN",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "WWK 1",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": null,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+          "original_source": {
+            "document_id": "AP-WS2019-7300-LOESUNGEN",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "WWK 1",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": null
+          }
+        }
+      },
+      "content_topic_ids": [],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Aus dem offiziellen Lösungsschlüssel der bereitgestellten PDF transkribiert.",
+        "Die Originalaufgabe ist im bereitgestellten PDF nicht vollständig und zuverlässig rekonstruierbar; aus dem Lösungsschlüssel wurde keine Aufgabe erzeugt.",
+        "Poolrevision 11: zuvor fehlende Originalaufgabe über to-check2 ergänzt bzw. zugeordnet; Schlüssel stimmt mit der neuen Überlieferung überein. Frühere Fehlstellenangabe beschreibt den Importstand 10."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-0bb2ca49-1ddf-596d-98a9-a5c2aa1590f0",
+  "materials": [
+    {
+      "id": "mat-89d11245-3173-5840-86b6-f247d29248f1",
+      "revision": 2,
+      "title": "Messebestellung",
+      "kind": "scenario",
+      "content_md": "Ihr Abteilungsleiter Herr Schroll unterschreibt bei einem Messebesuch eine Bestellung. Der Verkaufsberater weist darauf hin, dass sich eine Woche später vertriebsbedingt die Artikelnummer des an Position 1 aufgeführten Artikels ändern wird.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/materials/78/source",
+        "original_label": "Situation zur 1. bis 6. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 2,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/1/materials/1",
+          "original_label": "Situation zur 1. bis 6. Aufgabe",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 2
+        }
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Seitenverweis auf die gegenüberliegende Prüfungsseite für die eigenständige Pooldarstellung entfernt.",
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    },
+    {
+      "id": "mat-8a5686bd-a9d2-5376-953f-961d7ce3a9fe",
+      "revision": 1,
+      "title": "Messe-Bestellung der Farben-Welt GmbH",
+      "kind": "form",
+      "content_md": "### Messe-Bestellung\n\n**Kunden-Nr.:** 11008  \n**Lieferant:** Farben-Welt GmbH, Ackerstraße 1, 28219 Bremen  \n**Besteller:** Warenhaus Maxikauf GmbH  \n**Datum/Unterschrift:** 4. November 2019, Heiner Schroll\n\n| Artikel-Nr. | Artikel-Bezeichnung | Menge | Einzelpreis | Gesamtpreis |\n|---|---|---:|---:|---:|\n| 12959 | Textil-Farben, AZO-frei, 100-g-Packung, sortiert | 150 | 6,90 € | 1.035,00 € |\n| 18501 | Metallic-Effekt-Spray, 300-g-Dose, gold | 100 | 5,40 € | 540,00 € |\n| 13210 | Glas-Farben, 150-g-Dose, sortierte Farben | 100 | 7,20 € | 720,00 € |\n\n**Lieferzeit:** 2 Wochen  \n**Messerabatt:** 5 %  \n**Besondere Versandvorschriften im Formular:** frei Haus / Paketversand (Paketdienst); Express- und Bahnstation  \nAlle Katalogpreise zzgl. Mehrwertsteuer (Inland). Belieferung nur von Großhändlern und Wiederverkäufern; Mindestbestellwert 500,00 €.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/materials/79/source",
+        "original_label": "Bestellung zur 1. bis 6. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 3,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/2/materials/0",
+          "original_label": "Bestellung zur 1. bis 6. Aufgabe",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 3
+        }
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Formularlayout in eine lesbare Tabelle überführt; Werte und Bedingungen erhalten."
+      ]
+    },
+    {
+      "id": "mat-aed31fdf-cd8b-5f5a-8540-935daddbf9d4",
+      "revision": 1,
+      "title": "Rechnung/Lieferschein der Farben-Welt GmbH",
+      "kind": "data_table",
+      "content_md": "### Rechnung/Lieferschein\n\n**Farben-Welt GmbH**, Import von Farben und Effektware, Ackerstraße 1, 28219 Bremen  \n**Empfänger:** Warenhaus Maxikauf GmbH, Abteilung Hobby-/Bastelbedarf, Zeil 30, 60313 Frankfurt am Main  \n**Re.-Nr.:** 0105192 · **Kdn.-Nr.:** 11008 · **Datum:** 14.11.2019\n\n| Artikel-Nr. | Artikel-Bezeichnung | Menge | Einzelpreis | Gesamtpreis |\n|---|---|---:|---:|---:|\n| 14959* | Textil-Farben, AZO-frei, 100-g-Packung, sortiert | 150 | 6,90 € | 1.035,00 € |\n| 18500 | Metallic-Effekt-Spray, 300-g-Dose, silber | 100 | 5,40 € | 540,00 € |\n| 13210 | Glas-Farben, 150-g-Dose, sortierte Farben | 100 | 7,20 € | 720,00 € |\n\n*Achtung: geänderte Artikelnummer.*\n\n| Rechnungsbestandteil | Betrag |\n|---|---:|\n| Warenwert | 2.295,00 € |\n| ./. 5 % Rabatt | 114,75 € |\n| Zwischensumme | 2.180,25 € |\n| + 19 % Umsatzsteuer | 414,25 € |\n| Rechnungsbetrag | 2.594,50 € |\n\n**Zahlungsbedingung:** 2,5 % Skonto bei Zahlung innerhalb von 10 Tagen oder nach 30 Tagen ohne Abzug.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/materials/80/source",
+        "original_label": "Rechnung zur 1. bis 6. Aufgabe",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 3,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/2/materials/1",
+          "original_label": "Rechnung zur 1. bis 6. Aufgabe",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 3
+        }
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Formularlayout in Tabellenform übertragen; Rechenwerte und Zahlungsbedingung erhalten."
+      ]
+    }
+  ],
+  "other_materials": [
+    {
+      "material_id": "mat-ffa479dc-74f8-5310-88e6-b08506633de9",
+      "title": "Unternehmensbeschreibung Maxikauf GmbH – Winter 2019/20",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": []
+}

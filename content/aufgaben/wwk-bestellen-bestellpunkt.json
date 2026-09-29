@@ -1,0 +1,30 @@
+{
+  "id": "wwk-bestellen-bestellpunkt",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Bestellpunktverfahren",
+  "materials": [],
+  "help": "Beim Bestellpunktverfahren gibt es für jeden Artikel eine Bestandsgrenze. Was passiert, wenn sie erreicht wird?",
+  "short_explanation": "Beim Bestellpunktverfahren wird für jeden Artikel ein Meldebestand festgelegt. Erreicht der Bestand diese Grenze, löst das Warenwirtschaftssystem die Bestellung automatisch aus oder schlägt sie vor.",
+  "detailed_explanation": "Meldebestand = Mindestbestand + (täglicher Absatz × Lieferzeit in Tagen)\n\nDie Bestellung wird genau dann ausgelöst, wenn noch so viel Ware vorhanden ist, wie bis zum Eintreffen der Lieferung verkauft wird – plus die Sicherheitsreserve.\n\nGrenzen des Verfahrens:\n- Es garantiert keinen Umsatzzuwachs.\n- Präsenzlücken bleiben möglich, etwa bei Lieferverzögerungen, plötzlicher Mehrnachfrage oder falschen Bestandsbuchungen.\n- Nicht jeder Artikel eignet sich, zum Beispiel Saison- oder Aktionsware. Eine Bestellabteilung bleibt nötig.\n- Den günstigsten Lieferer wählt das Verfahren nicht aus.",
+  "error_paths": [
+    {
+      "id": "keine-luecken",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Präsenzlücken bleiben möglich, etwa bei Lieferverzögerungen oder falschen Bestandsbuchungen. Das Verfahren verringert sie nur."
+    },
+    {
+      "id": "alle-artikel",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Saison-, Mode- oder Aktionsware lässt sich nicht nach festen Meldebeständen bestellen. Die Bestellabteilung wird dadurch nicht überflüssig."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

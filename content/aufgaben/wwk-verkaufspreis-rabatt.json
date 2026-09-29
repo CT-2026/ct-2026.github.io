@@ -1,0 +1,47 @@
+{
+  "id": "wwk-verkaufspreis-rabatt",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "verkaufspreis",
+  "variant_group": "wwk.verkaufspreis",
+  "title": "Einen Aktionspreis berechnen",
+  "stem": "Ein Artikel kostet regulär 80,00 € brutto. Der Kunde erhält 15 % Preisnachlass. Wie hoch ist der zu zahlende Preis?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "12,00 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "65,00 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "68,00 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "92,00 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Nach dem Nachlass bleiben 85 % des Ausgangspreises.",
+  "short_explanation": "80,00 € × 0,85 = 68,00 €.",
+  "detailed_explanation": "15 % von 80,00 € sind 12,00 €. Dies ist der Nachlassbetrag. Zu zahlen sind 80,00 € − 12,00 € = 68,00 €.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

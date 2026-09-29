@@ -1,0 +1,38 @@
+{
+  "id": "wwk-lagerung-farbabweichung",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Sporthosen mit Farbabweichungen behandeln",
+  "materials": [],
+  "help": "Die Hosen sind nur leicht fehlerhaft, und den Fehler hat das eigene Haus verursacht. Wie lässt sich trotzdem noch Umsatz erzielen?",
+  "short_explanation": "Leicht farbabweichende Hosen sind noch verkaufsfähig, aber nicht mehr zum vollen Preis. Getrennt präsentiert und im Preis reduziert, lassen sie sich noch verkaufen – das bringt Umsatz und ist ehrlich gegenüber den Kunden.",
+  "detailed_explanation": "Bei Ware mit kleinen Fehlern sind folgende Gesichtspunkte abzuwägen:\n- **Verkaufsfähigkeit:** Leichte Farbabweichungen stören den Gebrauch nicht.\n- **Ehrlichkeit:** Kunden sollen erkennen, dass die Ware nicht einwandfrei ist. Ein eigener Warenträger und ein reduzierter Preis machen das deutlich.\n- **Wirtschaftlichkeit:** Ein reduzierter Preis bringt mehr ein als Vernichten oder Verschenken.\n\nDer Lieferer kann nicht in Anspruch genommen werden, weil der Schaden durch falsche Lagerung im eigenen Haus entstanden ist. Die Hosen unverändert zum vollen Preis anzubieten, führt zu Reklamationen und Ärger.",
+  "error_paths": [
+    {
+      "id": "nichts-tun",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Kunden müssen fehlerhafte Ware zum vollen Preis nicht hinnehmen. Das führt zu Reklamationen und schadet dem Ansehen des Hauses."
+    },
+    {
+      "id": "lieferer-verantwortlich",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Den Schaden hat die falsche Lagerung im eigenen Haus verursacht. Der Lieferer ist dafür nicht verantwortlich."
+    },
+    {
+      "id": "wertvernichtung",
+      "choice_ids": [
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Die Hosen sind noch verkaufsfähig. Vernichten oder Verschenken verschenkt Umsatz, den ein reduzierter Preis noch bringen kann."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

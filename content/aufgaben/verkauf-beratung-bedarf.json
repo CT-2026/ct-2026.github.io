@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-beratung-bedarf",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "beratung",
+  "variant_group": "verkauf.beratung",
+  "title": "Bedarf im Gespräch klären",
+  "stem": "Eine Kundin sucht einen Rucksack für tägliche Fahrten mit dem Fahrrad. Welche Frage klärt ihren Bedarf am besten?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Welche Dinge möchten Sie täglich darin mitnehmen?"
+      },
+      {
+        "id": "choice-2",
+        "text": "Möchten Sie sofort den teuersten Rucksack kaufen?"
+      },
+      {
+        "id": "choice-3",
+        "text": "Sie wollen doch bestimmt nur ein schwarzes Modell?"
+      },
+      {
+        "id": "choice-4",
+        "text": "Warum haben Sie noch keinen Rucksack gekauft?"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Eine offene Frage lässt die Kundin ihre Anforderungen selbst beschreiben.",
+  "short_explanation": "Die Frage nach dem täglichen Inhalt klärt den benötigten Platz und hilft bei einer passenden Empfehlung.",
+  "detailed_explanation": "Eine Bedarfsfrage richtet sich auf die Nutzung. Aus der Antwort können weitere Fragen folgen, etwa zum Laptopfach oder zum Regenschutz. Preisannahmen, suggestive Fragen und Vorwürfe liefern diese Informationen nicht.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für den kleinen Startbestand; keine übernommene Prüfungsaufgabe."
+    ]
+  }
+}

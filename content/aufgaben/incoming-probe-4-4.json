@@ -1,0 +1,110 @@
+{
+  "id": "incoming-probe-4-4",
+  "revision": 2,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Zwei Sortimente vergleichen",
+  "stem": "Vergleichen Sie die gutMarkt GmbH mit der GeizMarkt AG:\n- gutMarkt GmbH: Warenhaus; Lebensmittel, Kleidung, Elektronikartikel, Haushaltswaren, Kosmetika.\n- GeizMarkt AG: Discounter; Lebensmittel.\nOrdnen Sie Sortimentsbreite, Sortimentstiefe und jeweils einen Kundenvorteil zu.",
+  "materials": [],
+  "requires": [],
+  "help": "Breite zählt Warengruppen, Tiefe deren Varianten.",
+  "short_explanation": "Das Warenhaus hat hier mehr Warengruppen. Für die Tiefe braucht man Angaben zu den Varianten innerhalb dieser Gruppen.",
+  "detailed_explanation": "Viele Warengruppen erlauben Einkäufe aus verschiedenen Bereichen an einem Ort. Ein Discounter setzt typischerweise auf ein übersichtliches Angebot und günstige Preise. Wie viele Varianten die konkreten Unternehmen führen, geht aus diesen Angaben allein nicht hervor.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-4.4",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-4.4",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Vergleichstabelle in sechs Zuordnungsfelder mit Antwortmöglichkeiten überführt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "gutMarkt: Sortimentsbreite"
+      },
+      {
+        "id": "target-2",
+        "text": "GeizMarkt: Sortimentsbreite im Vergleich"
+      },
+      {
+        "id": "target-3",
+        "text": "gutMarkt: Sortimentstiefe aus den Angaben"
+      },
+      {
+        "id": "target-4",
+        "text": "GeizMarkt: Sortimentstiefe aus den Angaben"
+      },
+      {
+        "id": "target-5",
+        "text": "gutMarkt: ein Kundenvorteil"
+      },
+      {
+        "id": "target-6",
+        "text": "GeizMarkt: ein typischer Kundenvorteil"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Breit: viele verschiedene Warengruppen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Schmaler: hier auf Lebensmittel begrenzt."
+      },
+      {
+        "id": "choice-3",
+        "text": "Aus der bloßen Aufzählung der Warengruppen nicht bestimmbar."
+      },
+      {
+        "id": "choice-4",
+        "text": "Verschiedene Einkaufsbedürfnisse an einem Ort decken."
+      },
+      {
+        "id": "choice-5",
+        "text": "Preisorientiert aus einem übersichtlichen Angebot einkaufen."
+      }
+    ],
+    "reuse_choices": true
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-5",
+        "choice_id": "choice-4"
+      },
+      {
+        "target_id": "target-6",
+        "choice_id": "choice-5"
+      }
+    ]
+  }
+}

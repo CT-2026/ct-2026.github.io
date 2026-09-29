@@ -1,0 +1,47 @@
+{
+  "id": "wiso-ergebnis-kosten",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ergebnis",
+  "title": "Eine Kostenänderung einordnen",
+  "stem": "Ein Geschäft erzielt 30.000 € Erlöse bei 26.000 € Gesamtkosten. Bei unveränderten Erlösen sinken die Kosten um 1.200 €. Wie hoch ist der neue Gewinn?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "2.800 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "4.000 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "5.200 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "7.200 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Die Ersparnis erhöht bei gleichen Erlösen den Gewinn.",
+  "short_explanation": "Die neuen Kosten betragen 24.800 €. Der Gewinn beträgt 5.200 €.",
+  "detailed_explanation": "Vorher betrug der Gewinn 4.000 €. Hinzu kommen 1.200 € eingesparte Kosten; eine zusätzliche Erlösänderung ist nicht angegeben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

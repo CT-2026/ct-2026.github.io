@@ -1,0 +1,26 @@
+{
+  "id": "verkauf-beratung-kundenorientierung-massnahmen",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Maßnahmen zur Kundenorientierung",
+  "materials": [],
+  "help": "Kundenorientierung verbessert den Umgang mit der Kundschaft. Welche Maßnahme dient vor allem der Gesundheit der Beschäftigten?",
+  "short_explanation": "Verkaufstraining, Farbberatung, Rollenspiele und Testkäufe verbessern den Umgang mit der Kundschaft. Eine Schulung zur Ergonomie am Arbeitsplatz dient dagegen dem Gesundheitsschutz der Beschäftigten.",
+  "detailed_explanation": "Kundenorientierung bedeutet, Wünsche und Bedürfnisse der Kundschaft in den Mittelpunkt zu stellen. Dazu dienen etwa:\n- Verkaufstrainings, zum Beispiel zu Alternativangeboten,\n- Fachschulungen wie eine Farbberatung,\n- Rollenspiele zur Gesprächsführung,\n- Testkäufe, die Stärken und Schwächen im Kundenkontakt zeigen.\n\nEine Ergonomie-Schulung ist sinnvoll, aber sie schützt die Gesundheit der Beschäftigten. Mit der Kundschaft hat sie nichts zu tun.",
+  "error_paths": [
+    {
+      "id": "kundenorientiert",
+      "choice_ids": [
+        "choice-1",
+        "choice-2",
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Diese Maßnahme verbessert den Umgang mit der Kundschaft und dient damit der Kundenorientierung. Gesucht ist die Maßnahme, die das nicht tut."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

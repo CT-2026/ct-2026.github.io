@@ -1,0 +1,47 @@
+{
+  "id": "wwk-lagerkennzahlen-umschlag",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "lagerkennzahlen",
+  "variant_group": "wwk.lagerkennzahlen",
+  "title": "Die Umschlagshäufigkeit bestimmen",
+  "stem": "Jahresabsatz: 900 Stück. Durchschnittlicher Bestand desselben Artikels: 150 Stück. Wie hoch ist die Umschlagshäufigkeit?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "0,17-mal"
+      },
+      {
+        "id": "choice-2",
+        "text": "6-mal"
+      },
+      {
+        "id": "choice-3",
+        "text": "750-mal"
+      },
+      {
+        "id": "choice-4",
+        "text": "1.050-mal"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Teile den Jahresabsatz durch den Durchschnittsbestand in derselben Einheit.",
+  "short_explanation": "900 ÷ 150 = 6 Umschläge pro Jahr.",
+  "detailed_explanation": "Die Kennzahl beschreibt, wie oft der durchschnittliche Bestand rechnerisch im Jahr umgesetzt wird. Mengen und Wertgrößen dürfen nicht miteinander vermischt werden.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

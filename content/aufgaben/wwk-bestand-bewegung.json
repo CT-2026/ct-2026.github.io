@@ -1,0 +1,77 @@
+{
+  "id": "wwk-bestand-bewegung",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestand",
+  "variant_group": "wwk.bestand",
+  "title": "Bestandsbewegungen zuordnen",
+  "stem": "Ordne die Vorgänge ihrer Wirkung auf den verkaufsfähigen Lagerbestand zu. Jede Antwort darf mehrfach vorkommen.",
+  "response": {
+    "type": "matching",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Bestand steigt"
+      },
+      {
+        "id": "choice-2",
+        "text": "Bestand sinkt"
+      },
+      {
+        "id": "choice-3",
+        "text": "Bestand bleibt gleich"
+      }
+    ],
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Einwandfreie Lieferung wird eingelagert"
+      },
+      {
+        "id": "target-2",
+        "text": "Ein Artikel wird verkauft und mitgenommen"
+      },
+      {
+        "id": "target-3",
+        "text": "Ein Lagerartikel wird als beschädigt ausgesondert"
+      },
+      {
+        "id": "target-4",
+        "text": "Ein unveränderter Artikel wird nur umgeräumt"
+      }
+    ],
+    "reuse_choices": true
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-3"
+      }
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Betrachte, ob verkaufsfähige Ware hinzukommt oder wegfällt.",
+  "short_explanation": "Lieferung erhöht den Bestand. Verkauf und Aussonderung mindern ihn. Umräumen verändert nur den Lagerort.",
+  "detailed_explanation": "Die Frage bezieht sich auf verkaufsfähige Ware. Ein beschädigter Artikel kann körperlich noch vorhanden sein, zählt nach der Aussonderung aber nicht mehr dazu.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "incoming-probe-4-3",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "werbung",
+  "variant_group": "verkauf.werbung",
+  "title": "Wettbewerbsinformationen sammeln",
+  "stem": "Sie sollen die Produkte der gutMarkt GmbH mit denen der GeizMarkt AG vergleichen. Wählen Sie drei geeignete Möglichkeiten, Informationen über Produkte der GeizMarkt AG einzuholen.",
+  "materials": [],
+  "requires": [],
+  "help": "Öffentlich zugängliche Produktinformationen nutzen.",
+  "short_explanation": "Filialbeobachtung, Website und Prospekte liefern unmittelbar zugängliche Informationen über das Angebot.",
+  "detailed_explanation": "Für einen sinnvollen Vergleich werden Produkt, Packungsgröße, Preis und Angebotszeitraum festgehalten. Unterschiedliche Mengen werden auf eine gemeinsame Einheit gebracht. Ein einzelner Aktionspreis beschreibt nicht automatisch das dauerhafte Preisniveau.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-4.3",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-4.3",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Das öffentlich zugängliche Sortiment in einer Filiale ansehen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Website und Onlineshop des Wettbewerbers auswerten."
+      },
+      {
+        "id": "choice-3",
+        "text": "Öffentliche Prospekte und Werbeanzeigen vergleichen."
+      },
+      {
+        "id": "choice-4",
+        "text": "Produkteigenschaften ausschließlich aus unbelegten Gerüchten übernehmen."
+      },
+      {
+        "id": "choice-5",
+        "text": "Preise aus verschiedenen Packungsgrößen ohne Umrechnung gleichsetzen."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

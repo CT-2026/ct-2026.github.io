@@ -1,0 +1,56 @@
+{
+  "id": "incoming-probe-5-4",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Verbundplatzierung zur Einschulung",
+  "stem": "Schultüten sollen zur Einschulung angeboten werden. Welcher Artikel eignet sich für eine Verbundplatzierung?",
+  "materials": [],
+  "requires": [],
+  "help": "An den gemeinsamen Anlass und die gemeinsame Verwendung denken.",
+  "short_explanation": "Buntstifte ergänzen eine Schultüte im gleichen Verwendungszusammenhang.",
+  "detailed_explanation": "Eine Verbundplatzierung zeigt Artikel, die gemeinsam gebraucht werden. Der Zusammenhang erleichtert die Orientierung und kann an einen ergänzenden Bedarf erinnern. Die Ergänzung soll zur konkreten Einkaufssituation passen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.4",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.4",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Buntstifte zum Befüllen der Schultüte."
+      },
+      {
+        "id": "choice-2",
+        "text": "Motoröl für einen Ölwechsel."
+      },
+      {
+        "id": "choice-3",
+        "text": "Streusalz für den Winterdienst."
+      },
+      {
+        "id": "choice-4",
+        "text": "Ersatzfilter für eine Dunstabzugshaube."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1"
+    ]
+  }
+}

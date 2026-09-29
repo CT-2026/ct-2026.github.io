@@ -1,0 +1,194 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-beratung-zusatzverkauf",
+  "item": {
+    "id": "itm-zp19-vk-23",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Zusatzverkauf",
+    "stem_md": "Nach Ihrer Beratung kauft ein Kunde eine Outdoorjacke. Mit welcher Formulierung erreichen Sie am besten einen Zusatz-/Ergänzungsverkauf?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "„Mit diesem Spray können Sie die Jacke nach dem Waschen neu imprägnieren!“"
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "„Brauchen Sie sonst noch etwas?“"
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "„Möchten Sie vielleicht noch die passende Hose dazu?“"
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "„Was könnte ich Ihnen noch zu Ihrer Jacke anbieten?“"
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "„Im Erdgeschoss finden Sie auch noch Pflegeprodukte!“"
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp19-vk-01",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "primary_topic_id": "topic.verkauf.beratung",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+        "json_pointer": "/items/22",
+        "original_label": "23",
+        "parent_label": null,
+        "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0028.tif",
+        "printed_page": 7,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "scan",
+          "json_pointer": null,
+          "original_label": "23",
+          "parent_label": null,
+          "scan_file": "Page 7",
+          "printed_page": 7
+        },
+        "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0028.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [],
+    "source_key": "ZP-H2019-7300-VK:23"
+  },
+  "document": {
+    "id": "ZP-H2019-7300-VK",
+    "revision": 1,
+    "title": "Zwischenprüfung Herbst 2019",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2019,
+    "year_end": 2019,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Vollständige Erfassung aus den Originalscans ZP_Herbst2019_VK-AO2017-7300 - 0022.tif bis 0033.tif.",
+      "Vor der Integration wurden die 45 Aufgaben, die 17 Materialien und ihre Seitenzuordnung gegen die bereitgestellten TIFF-Originale abgeglichen.",
+      "Belegte Übertragungsfehler bei Aufgabe 15, Aufgabe 32 sowie den Bildbeschreibungen der Kundenumfrage und der Stehleitern wurden korrigiert.",
+      "Sieben bildabhängige Materialien erhalten Originalausschnitte als PNG-Assets."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-81d37e50-6454-5945-ae4a-01ba072d0fab",
+      "revision": 1,
+      "item_id": "itm-zp19-vk-23",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "**Antwort 1:** Der Ergänzungsartikel wird konkret benannt und mit einem Nutzen für den bereits gekauften Artikel verknüpft. Die Ja/Nein-Fragen 2 und 3 und die unbestimmten Formulierungen 4 und 5 führen seltener zum Zusatzverkauf.",
+      "answer": {
+        "choice_ids": [
+          "choice-1"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2019-7300-VK",
+        "source_file": "../loesungsvorschlaege-offene-aufgaben.md",
+        "json_pointer": null,
+        "original_label": "23",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 45,
+        "original_source": {
+          "document_id": "ZP-H2019-7300-VK",
+          "source_file": "../ZP_Herbst2019_VK-AO2017-7300.json",
+          "json_pointer": "/items/22",
+          "original_label": "23",
+          "parent_label": null,
+          "scan_file": "../ZP_Herbst2019_VK-AO2017-7300 - 0028.tif",
+          "printed_page": 7,
+          "original_source": {
+            "document_id": "ZP-H2019-7300-VK",
+            "source_file": "scan",
+            "json_pointer": null,
+            "original_label": "23",
+            "parent_label": null,
+            "scan_file": "Page 7",
+            "printed_page": 7
+          },
+          "original_scan_reference": "../ZP_Herbst2019_VK-AO2017-7300 - 0028.tif"
+        }
+      },
+      "content_topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 20.09.2026 fachlich geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Auswahl-ID und Begründung gegen die aktuelle Aufgabenrevision geprüft; Vorschlagszeile 45."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-81d37e50-6454-5945-ae4a-01ba072d0fab",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp19-vk-01",
+      "title": "Unternehmensbeschreibung Merlin GmbH",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Unternehmensrahmen für die Prüfungsaufgaben."
+    }
+  ],
+  "prerequisites": []
+}

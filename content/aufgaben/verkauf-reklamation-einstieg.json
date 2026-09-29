@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-reklamation-einstieg",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "reklamation",
+  "variant_group": "verkauf.reklamation",
+  "title": "Auf eine Beschwerde reagieren",
+  "stem": "Eine Kundin schildert verärgert, dass der Reißverschluss ihrer Tasche klemmt. Was ist ein geeigneter erster Schritt?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Die Kundin sofort unterbrechen."
+      },
+      {
+        "id": "choice-2",
+        "text": "Ruhig zuhören und den geschilderten Fehler konkret erfragen."
+      },
+      {
+        "id": "choice-3",
+        "text": "Ohne Prüfung jede Verantwortung ablehnen."
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine Auszahlung versprechen, bevor Zuständigkeit und Vorgang geklärt sind."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Zunächst müssen Anliegen und Sachverhalt verstanden werden.",
+  "short_explanation": "Ruhiges Zuhören und gezielte Rückfragen ermöglichen eine sachliche Bearbeitung.",
+  "detailed_explanation": "Die Aufgabe betrifft die Gesprächsführung. Über einen konkreten rechtlichen Anspruch oder eine bestimmte Abhilfe wird damit noch nicht entschieden.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

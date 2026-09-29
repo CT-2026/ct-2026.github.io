@@ -1,0 +1,216 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "verkauf-beratung-warenvorlage",
+  "item": {
+    "id": "itm-zp18-vk-14",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Grundregeln beim Vorlegen der Ware",
+    "stem_md": "Beim Vorlegen der Ware beachten Sie bestimmte Grundregeln. Welches Verhalten entspricht einer solchen Grundregel?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Sie legen die Ware immer unter Angabe des Preises vor."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Sie legen die Ware in der mittleren Preislage zuerst vor."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Sie legen die Ware in der niedrigsten Preislage zuerst vor."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Sie legen die Ware immer so vor, dass der Kunde das Preisschild nicht sieht."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Sie legen die Ware in der obersten Preislage zuerst vor."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-zp18-vk-03",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Szenario."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "primary_topic_id": "topic.verkauf.beratung",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2025-01-01"
+    },
+    "sources": [
+      {
+        "document_id": "ZP-H2018-7300-VK",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/items/13",
+        "original_label": "14",
+        "parent_label": null,
+        "scan_file": "H18 VK 5",
+        "printed_page": 5,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK",
+          "source_file": "../ZP-H2018-7300-VK-strukturiert.json",
+          "json_pointer": "/units/13",
+          "original_label": "14",
+          "parent_label": null,
+          "scan_file": "H18 VK 5",
+          "printed_page": 5
+        },
+        "original_scan_reference": "../ZP_Herbst2018_7300 - 0005.tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [],
+    "source_key": "ZP-H2018-7300-VK:14"
+  },
+  "document": {
+    "id": "ZP-H2018-7300-VK",
+    "revision": 2,
+    "title": "Zwischenprüfung Herbst 2018",
+    "role": "exam_tasks",
+    "exam_kind": "zwischen",
+    "year_start": 2018,
+    "year_end": 2018,
+    "season": "autumn",
+    "source_subject": null,
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../neu%204.json",
+    "upstream_file": "../ZP_Herbst2018_7300 - 0001.tif",
+    "source_notes": [
+      "Originalprüfung Verkäufer/Verkäuferin (AO 2017), Kennziffer 7300.",
+      "Originalscan-Serie: ZP_Herbst2018_7300 - 0001.tif bis ZP_Herbst2018_7300 - 0011.tif; upstream_file verweist auf die Titelseite der Serie.",
+      "Die Aufgaben und Materialien der Herbstprüfung 2018 wurden am 2026-09-13 mit der bereitgestellten TIFF-Serie abgeglichen; festgestellte Übertragungs-, Struktur- und Klassifikationsfehler wurden in Poolrevision 4 korrigiert."
+    ],
+    "original_import_file": "../ZP-H2018-7300-VK-strukturiert.json",
+    "import_json_pointer": "/documents/0"
+  },
+  "solutions": [
+    {
+      "id": "sol-zp18-vk-14",
+      "revision": 1,
+      "item_id": "itm-zp18-vk-14",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "2",
+      "answer": {
+        "choice_ids": [
+          "choice-2"
+        ]
+      },
+      "source": {
+        "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/solutions/13",
+        "original_label": "14",
+        "parent_label": null,
+        "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+        "printed_page": null,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK-LOESUNGEN",
+          "source_file": "../ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "json_pointer": null,
+          "original_label": "14",
+          "parent_label": null,
+          "scan_file": "ZP_Herbst2018_7300_AO-2017-Lösungen.tif",
+          "printed_page": null
+        }
+      },
+      "content_topic_ids": [
+        "topic.verkauf.beratung"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "verified_against_supplied_solution_tiff",
+      "valid_as_of": null,
+      "notes": []
+    }
+  ],
+  "answer_solution_id": "sol-zp18-vk-14",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-zp18-vk-03",
+      "title": "Verkauf in der Parfümerieabteilung",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Szenario."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-zp18-vk-03",
+      "revision": 2,
+      "title": "Verkauf in der Parfümerieabteilung",
+      "kind": "scenario",
+      "content_md": "In der Kosmetik-/Parfümerieabteilung des Warenhauses soll Parfüm in der Verkaufsform Bedienung verkauft werden. Sie sind für die Beratung und die Warenpräsentation zuständig.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "ZP-H2018-7300-VK",
+        "source_file": "../neu%204.json",
+        "json_pointer": "/materials/2",
+        "original_label": "Situation zur 13. bis 18. Aufgabe",
+        "parent_label": null,
+        "scan_file": "H18 VK 4",
+        "printed_page": 4,
+        "original_source": {
+          "document_id": "ZP-H2018-7300-VK",
+          "source_file": "../ZP-H2018-7300-VK-strukturiert.json",
+          "json_pointer": "/contexts/2",
+          "original_label": "Situation zur 13. bis 18. Aufgabe",
+          "parent_label": null,
+          "scan_file": "H18 VK 4",
+          "printed_page": 4
+        },
+        "original_scan_reference": "../ZP_Herbst2018_7300 - 0004.tif"
+      },
+      "assets": [],
+      "representation": "text_transcription",
+      "editorial_notes": [
+        "Poolrevision 22: Sichtbaren Titel oder Materialtext nach Oberflächenaudit bereinigt; Herkunft und Asset unverändert."
+      ]
+    }
+  ]
+}

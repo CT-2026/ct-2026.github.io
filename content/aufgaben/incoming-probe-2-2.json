@@ -1,0 +1,90 @@
+{
+  "id": "incoming-probe-2-2",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "nutzen",
+  "variant_group": "verkauf.nutzen",
+  "title": "Argumente zu zwei Artikeln",
+  "stem": "Ordnen Sie für die beiden Artikel jeweils das warenbezogene und das kundenbezogene Verkaufsargument zu.",
+  "materials": [],
+  "requires": [],
+  "help": "Die Formulierung auf Eigenschaft oder konkreten Kundennutzen prüfen.",
+  "short_explanation": "Warenmerkmale beschreiben den Artikel; Nutzenargumente übersetzen sie in einen Vorteil für den Kunden.",
+  "detailed_explanation": "Beim Rucksack wird ein Ausstattungsmerkmal mit dem Transport des Notebooks verbunden. Bei der Flasche verbindet sich die isolierende Konstruktion mit der gewünschten Getränketemperatur unterwegs. So entsteht aus Produktwissen ein passendes Verkaufsargument.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.2",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.2",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Freie Artikelwahl und offene Tabelle durch Zuordnung von Argumenten zu zwei vorgegebenen Artikeln ersetzt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Rucksack: warenbezogen"
+      },
+      {
+        "id": "target-2",
+        "text": "Rucksack: kundenbezogen"
+      },
+      {
+        "id": "target-3",
+        "text": "Trinkflasche: warenbezogen"
+      },
+      {
+        "id": "target-4",
+        "text": "Trinkflasche: kundenbezogen"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Der Rucksack hat ein gepolstertes Notebookfach."
+      },
+      {
+        "id": "choice-2",
+        "text": "Ihr Notebook lässt sich auf dem Arbeitsweg geschützt im eigenen Fach transportieren."
+      },
+      {
+        "id": "choice-3",
+        "text": "Die Flasche ist doppelwandig isoliert."
+      },
+      {
+        "id": "choice-4",
+        "text": "Ihr Getränk bleibt unterwegs länger auf der gewünschten Temperatur."
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      },
+      {
+        "target_id": "target-3",
+        "choice_id": "choice-3"
+      },
+      {
+        "target_id": "target-4",
+        "choice_id": "choice-4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-kosten-lagerkosten",
+  "item": {
+    "id": "itm-7b56444f-0521-5844-9ea4-aae37a479fa4",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Folge gesunkener Lagerkosten",
+    "stem_md": "Die Lagerkosten für die Artikelgruppe Outdoor konnten gesenkt werden. Stellen Sie fest, welche Folge das hat.",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die Handlungskosten sinken."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Die Möglichkeit des Großeinkaufs sinkt."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die Möglichkeit zur Ausnutzung von Preisvorteilen sinkt."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Die Verpackungskosten sinken."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Der Beitrag für die Lagerversicherung sinkt."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.lagerkennzahlen"
+      ],
+      "primary_topic_id": "topic.lager.lagerkennzahlen",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_verified_scan_transcription",
+      "status": "initial",
+      "date": "2026-09-14"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../check-and-integrate-in-canonical.json",
+        "json_pointer": "/tasks/5",
+        "original_label": "6",
+        "parent_label": null,
+        "scan_file": "../../AP-WS-2024--7300-WWK - 0008.tif",
+        "printed_page": 3
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift entfernt."
+    ],
+    "source_key": "AP-WS2024-7300-WWK:6"
+  },
+  "document": {
+    "id": "AP-WS2024-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2024/25 – 7300 – Warenwirtschaft und Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2024,
+    "year_end": 2025,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": "Verkäufer/Verkäuferin",
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../check-and-integrate-in-canonical.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Die Aufgaben 1 bis 22 wurden mit den im bereitgestellten TIFF-Ordner vorhandenen Prüfungsseiten 2 bis 5 abgeglichen.",
+      "Die Aufgaben 23 bis 26 sind vollständig in der bereitgestellten OCR-Datei enthalten; die zugehörige Prüfungsseite ist im derzeit eingebundenen TIFF-Ordner nicht vorhanden.",
+      "Handschriftliche Eintragungen auf den Scans wurden nicht als Aufgabeninhalt oder Lösung übernommen.",
+      "Lösungsbogenanweisungen wurden in der Pooldarstellung entfernt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-6725ba83-732e-5fb3-a85d-9dfea784dabb",
+      "revision": 1,
+      "item_id": "itm-7b56444f-0521-5844-9ea4-aae37a479fa4",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "**Antwort 1:** Die Lagerkosten sind Teil der Handlungskosten; sinken sie, sinken auch die Handlungskosten insgesamt. Die übrigen Größen sind Ursachen oder unabhängige Kostenarten.",
+      "answer": {
+        "choice_ids": [
+          "choice-1"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2024-7300-WWK",
+        "source_file": "../loesungsvorschlaege-offene-aufgaben.md",
+        "json_pointer": null,
+        "original_label": "6",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "source_line": 66,
+        "original_source": {
+          "document_id": "AP-WS2024-7300-WWK",
+          "source_file": "../check-and-integrate-in-canonical.json",
+          "json_pointer": "/tasks/5",
+          "original_label": "6",
+          "parent_label": null,
+          "scan_file": "../../AP-WS-2024--7300-WWK - 0008.tif",
+          "printed_page": 3
+        }
+      },
+      "content_topic_ids": [
+        "topic.lager.lagerkennzahlen"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und am 20.09.2026 fachlich geprüft; kein überlieferter oder offizieller Lösungsschlüssel.",
+        "Auswahl-ID und Begründung gegen die aktuelle Aufgabenrevision geprüft; Vorschlagszeile 66."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-6725ba83-732e-5fb3-a85d-9dfea784dabb",
+  "materials": [],
+  "other_materials": [],
+  "prerequisites": []
+}

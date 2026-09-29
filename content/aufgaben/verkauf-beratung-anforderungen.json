@@ -1,0 +1,36 @@
+{
+  "id": "verkauf-beratung-anforderungen",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Verkaufsberater Anforderungen zuordnen",
+  "reuse_choices": false,
+  "materials": [],
+  "help": "Ordne jede Anforderung dem Bereich zu, zu dem sie am deutlichsten gehört: Aussehen, Handeln, Körperausdruck, Reden oder Wissen.",
+  "short_explanation": "Eine sichere Ausdrucksweise gehört zur Sprache, ein gepflegtes Äußeres zum Erscheinungsbild und Hilfsbereitschaft zum Verhalten. Blickkontakt ist Teil der Körpersprache, eine gute Beratung setzt Fachwissen voraus.",
+  "detailed_explanation": "Anforderungen an das Verkaufspersonal:\n- **Erscheinungsbild:** gepflegtes Äußeres, angemessene Kleidung.\n- **Verhalten:** Hilfsbereitschaft, Freundlichkeit, Zuverlässigkeit.\n- **Körpersprache:** Blickkontakt, offene Haltung, freundliche Mimik.\n- **Sprache:** sichere, verständliche Ausdrucksweise, höflicher Ton.\n- **Fachwissen:** kompetente Beratung zur Ware.\n\nJedes Merkmal wird genau einmal verwendet.",
+  "error_paths": [
+    {
+      "id": "koerpersprache-sprache",
+      "matches": [
+        {
+          "target_id": "target-4",
+          "choice_id": "choice-4"
+        },
+        {
+          "target_id": "target-1",
+          "choice_id": "choice-3"
+        }
+      ],
+      "text": "Blickkontakt ist nonverbal und gehört zur Körpersprache. Die sichere Ausdrucksweise betrifft die gesprochene Sprache."
+    }
+  ],
+  "origin": {
+    "kind": "adapted",
+    "changes": [
+      "Lauf 5: Kennziffern-Verweis durch eine zur digitalen Zuordnung passende Arbeitsanweisung ersetzt; Antwortalternativen und Lösung unverändert."
+    ]
+  },
+  "overrides": {
+    "stem": "Bei Ihren Verkaufstätigkeiten haben Sie festgestellt, dass Kunden bestimmte Anforderungen an den Verkaufsberater stellen. Ordnen Sie jeder Anforderung das passende Merkmal zu. Verwenden Sie jedes der **5** Merkmale genau einmal."
+  }
+}

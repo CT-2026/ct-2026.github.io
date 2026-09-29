@@ -1,0 +1,50 @@
+{
+  "id": "verkauf-gespraech-ablauf",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "gespraech",
+  "variant_group": "verkauf.gespraech",
+  "title": "Ein Beratungsgespräch strukturieren",
+  "stem": "Ordne die Schritte für dieses Gespräch: Der Bedarf ist noch unbekannt; die Kaufentscheidung soll erst nach der Beratung erfolgen.",
+  "response": {
+    "type": "ordering",
+    "entries": [
+      {
+        "id": "entry-1",
+        "text": "Kontakt aufnehmen und begrüßen"
+      },
+      {
+        "id": "entry-2",
+        "text": "Bedarf und Einsatz erfragen"
+      },
+      {
+        "id": "entry-3",
+        "text": "Passende Produkte zeigen und begründen"
+      },
+      {
+        "id": "entry-4",
+        "text": "Offene Fragen klären und Kaufentscheidung erfragen"
+      }
+    ]
+  },
+  "solution": {
+    "ordered_entry_ids": [
+      "entry-1",
+      "entry-2",
+      "entry-3",
+      "entry-4"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Vor der Produktempfehlung muss der Bedarf bekannt sein.",
+  "short_explanation": "Kontakt → Bedarf → passende Empfehlung → Klärung und Entscheidung.",
+  "detailed_explanation": "Die Schritte sind ein Grundablauf. Im Gespräch können Rückfragen nötig sein; hier sind die Voraussetzungen ausdrücklich vorgegeben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

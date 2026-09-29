@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2861",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.prinzip",
+  "title": "Ökonomisches Prinzip",
+  "stem": "Das ökonomische Prinzip wird unter anderem beschrieben durch das …",
+  "materials": [],
+  "requires": [],
+  "help": "Beim Maximalprinzip stehen die Mittel fest.",
+  "short_explanation": "Das Maximalprinzip ist eine Ausprägung des ökonomischen Prinzips.",
+  "detailed_explanation": "Bei gegebenen Mitteln wird ein möglichst großes Ergebnis angestrebt. Mit einer festgelegten Menge Material sollen beispielsweise möglichst viele nutzbare Produkte entstehen.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2861",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2861",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Minimaxprinzip"
+      },
+      {
+        "id": "choice-2",
+        "text": "Vorteilsprinzip"
+      },
+      {
+        "id": "choice-3",
+        "text": "Maximalprinzip"
+      },
+      {
+        "id": "choice-4",
+        "text": "Optimumsprinzip"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-bestellen-bestellpunkt",
+  "item": {
+    "id": "itm-6531e8c1-a4e6-5af4-8542-a84ec107d150",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Bestellpunktverfahren",
+    "stem_md": "Das Warenhaus Maxikauf GmbH arbeitet mit einem geschlossenen Warenwirtschaftssystem (WWS). Es ermöglicht bei vielen Artikeln die Bestellung nach dem Bestellpunktverfahren. Welchen Vorteil bringt diese Art der Bestellung für das Warenhaus?",
+    "response": {
+      "type": "single_choice",
+      "required_answers": 1,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Dieses System sichert einen kontinuierlichen Umsatzzuwachs."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Durch dieses System kommt es nicht mehr zu Präsenzlücken."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Dieses System kann in Zukunft problemlos für alle Artikel des Warenhauses eingesetzt werden und macht somit die Bestellabteilung überflüssig."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Durch dieses System wird bei Erreichen des Meldebestandes die Bestellung automatisch ausgelöst."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Durch dieses System wird der günstigste Lieferer vor Ort ausgewählt, dadurch reduzieren sich die Transportkosten."
+        }
+      ],
+      "entries": [],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.lager.bestellpunkt"
+      ],
+      "primary_topic_id": "topic.lager.bestellpunkt",
+      "methods": [],
+      "competencies": [
+        "identify"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/3",
+        "original_label": "4",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift und reine Scanmarker aus der Pooldarstellung entfernt."
+    ],
+    "source_key": "AP-WS2023-7300-WWK:4"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Warenwirtschaft und Verkäufer / Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Semantisch bereinigte Arbeitsfassung für die Weiterverarbeitung.",
+      "Layoutartefakte, Scanränder und rein typografische Elemente wurden nicht übernommen.",
+      "Offensichtliche OCR-Fehler wurden nur dort korrigiert, wo die Seitenabbildung die Korrektur eindeutig belegt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-48d311e2-2b6a-5645-b983-0167548b3b41",
+      "revision": 1,
+      "item_id": "itm-6531e8c1-a4e6-5af4-8542-a84ec107d150",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "4",
+      "answer": {
+        "choice_ids": [
+          "choice-4"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/3",
+        "original_label": "4",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "content_topic_ids": [
+        "topic.lager.bestellpunkt"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-48d311e2-2b6a-5645-b983-0167548b3b41",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+      "title": "Unternehmen Maxikauf",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+      "title": "Wareneinkauf für die Sportabteilung",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+      "revision": 1,
+      "title": "Wareneinkauf für die Sportabteilung",
+      "kind": "scenario",
+      "content_md": "Sie sind in der Sportabteilung tätig und planen den Wareneinkauf von Sweatshirts.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/contexts/3",
+        "original_label": "C04_10",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ]
+}

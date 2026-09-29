@@ -1,0 +1,17 @@
+{
+  "id": "wiso-ressourcen-informieren",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Über Verpackungen informieren",
+  "materials": [],
+  "help": "Hilfreich sind verständliche Informationen zu konkreten Handlungen.",
+  "short_explanation": "Hinweise zu Wiederverwendung und Wiederverwertung zeigen sinnvolle Handlungsmöglichkeiten.",
+  "detailed_explanation": "Schwer auffindbare Rückgabestellen oder zusätzliche Verpackungen erleichtern umweltbewusstes Handeln nicht. Informationen sind dennoch keine Garantie für das Verhalten jedes Einzelnen.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

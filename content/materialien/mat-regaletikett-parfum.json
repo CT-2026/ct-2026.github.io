@@ -1,0 +1,13 @@
+{
+  "id": "mat-regaletikett-parfum",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-zp18-vk-04",
+    "excerpt": "wwk-artikeldaten-balkencode"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

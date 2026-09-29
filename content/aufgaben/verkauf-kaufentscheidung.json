@@ -1,0 +1,47 @@
+{
+  "id": "verkauf-kaufentscheidung",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Kaufentscheidung herbeiführen",
+  "materials": [],
+  "help": "Die Kundin braucht eine Entscheidungshilfe. Welche Aussage bezieht sich auf das, wofür sie den Rucksack braucht?",
+  "short_explanation": "Die passende Formulierung gibt eine klare Empfehlung und begründet sie mit dem Zweck, für den die Kundin den Rucksack braucht. Das hilft einer unentschlossenen Kundin am meisten.",
+  "detailed_explanation": "Hat die Kundin die Auswahl auf wenige Artikel eingegrenzt, steht sie kurz vor der Kaufentscheidung. Jetzt helfen:\n- eine klare Empfehlung,\n- eine Begründung mit dem Nutzen für die Kundin, zum Beispiel mit ihrem Verwendungszweck,\n- ein Bezug auf die Wünsche, die sie in der Bedarfsermittlung genannt hat.\n\nWenig hilfreich sind Aussagen, die die Entscheidung offenlassen („Es kommt auf Ihren Geschmack an.“), und Aussagen, die nur die eigene Meinung wiedergeben.",
+  "error_paths": [
+    {
+      "id": "gleichwertig",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Wenn beide Rucksäcke gleichwertig sind, hat die Kundin keinen Grund, sich für einen zu entscheiden. Ihre Unsicherheit bleibt."
+    },
+    {
+      "id": "entscheidung-zurueckgegeben",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Damit wird die Entscheidung an die Kundin zurückgegeben. Sie ist aber gerade unentschlossen und braucht eine begründete Empfehlung."
+    },
+    {
+      "id": "eigener-geschmack",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Der persönliche Geschmack der beratenden Person sagt nichts darüber, ob der Rucksack zum Bedarf der Kundin passt. Eine Empfehlung sollte sich am Nutzen für die Kundin orientieren."
+    },
+    {
+      "id": "verkaufszahlen",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Viele verkaufte Rucksäcke zeigen nicht, dass dieses Modell für den Zweck der Kundin geeignet ist. Überzeugender ist ein Nutzen für sie selbst."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Lösung nach dem offiziellen Lösungsschlüssel der Zwischenprüfung Herbst 2018; in ScanReha gegen die gelieferte Lösungsvorlage geprüft."
+    ]
+  }
+}

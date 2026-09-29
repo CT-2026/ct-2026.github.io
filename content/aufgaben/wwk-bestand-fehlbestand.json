@@ -1,0 +1,32 @@
+{
+  "id": "wwk-bestand-fehlbestand",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Folgen eines Fehlbestands",
+  "materials": [],
+  "help": "Das System glaubt, es seien 160 Pakete vorhanden. Tatsächlich sind es nur 80. Was passiert beim Nachbestellen?",
+  "short_explanation": "Weil das System 80 Pakete zu viel annimmt, meldet es den Meldebestand zu spät. Die Nachbestellung kommt verspätet, und der Artikel kann ausgehen – es kann zu Verkaufsstockungen kommen.",
+  "detailed_explanation": "Ein zu hoher Soll-Bestand ist tückisch: Das Warenwirtschaftssystem erkennt ihn nicht. Es rechnet weiter mit 160 Paketen und löst die Bestellung erst aus, wenn der gebuchte Bestand den Meldebestand erreicht. In Wirklichkeit ist dann längst weniger Ware vorhanden.\n\nDeshalb muss der Soll-Bestand nach der Inventur auf den Ist-Bestand berichtigt werden. Automatisch korrigiert das System weder den Bestand noch die Bestellmenge.",
+  "error_paths": [
+    {
+      "id": "keine-stockung",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Das Gegenteil trifft zu: Der zu hohe Soll-Bestand verzögert die Nachbestellung. Ware kann deshalb ausgehen."
+    },
+    {
+      "id": "automatisch",
+      "choice_ids": [
+        "choice-2",
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Das System kennt nur den gebuchten Bestand und bemerkt die Differenz nicht. Sie muss nach der Inventur von Hand berichtigt werden."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

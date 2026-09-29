@@ -1,0 +1,13 @@
+{
+  "id": "mat-bilanz-maxikauf",
+  "revision": 1,
+  "source": {
+    "project": "scanreha",
+    "id": "mat-3cb4e8aa-7ee7-5d87-aa8c-fc57af32324d",
+    "excerpt": "wwk-kosten-bilanz"
+  },
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

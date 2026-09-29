@@ -1,0 +1,37 @@
+{
+  "id": "wwk-skonto-begriff",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Skonto erklären",
+  "materials": [],
+  "help": "Skonto hängt mit dem Zeitpunkt der Zahlung zusammen, nicht mit der Menge oder der Dauer der Geschäftsbeziehung.",
+  "short_explanation": "Skonto ist ein Preisnachlass für schnelles Bezahlen: Wer die Rechnung innerhalb der vereinbarten Skontofrist begleicht, darf einen festgelegten Prozentsatz abziehen.",
+  "detailed_explanation": "Die wichtigsten Nachlassarten im Überblick:\n- **Skonto:** Nachlass für Zahlung innerhalb einer vereinbarten Frist, z. B. „2 % Skonto bei Zahlung innerhalb von 10 Tagen“.\n- **Mengenrabatt:** Nachlass für große Bestellmengen.\n- **Treuerabatt:** Nachlass für langjährige Kundschaft.\n- **Bonus:** nachträglich gewährter Nachlass, wenn ein vereinbarter Jahresumsatz erreicht wird.\n\nDie Skontofrist beginnt mit der Rechnung. Wann bestellt wurde, spielt dafür keine Rolle.",
+  "error_paths": [
+    {
+      "id": "mengenrabatt",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Ein Nachlass für große Stückzahlen ist ein Mengenrabatt, kein Skonto."
+    },
+    {
+      "id": "bestellung-statt-zahlung",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Entscheidend für Skonto ist, wann die Rechnung bezahlt wird – nicht, wann bestellt wird."
+    },
+    {
+      "id": "bonus",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Ein Nachlass, der am Jahresende rückwirkend gewährt wird, ist ein Bonus."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

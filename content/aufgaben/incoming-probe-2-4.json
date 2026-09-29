@@ -1,0 +1,71 @@
+{
+  "id": "incoming-probe-2-4",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "reklamation",
+  "variant_group": "verkauf.reklamation",
+  "title": "Umtausch ausschließen",
+  "stem": "Welche drei Artikel können von einem freiwilligen Umtausch wegen Nichtgefallens ausgeschlossen werden?",
+  "materials": [],
+  "requires": [],
+  "help": "Freiwillige Rücknahme und Mängelrechte auseinanderhalten.",
+  "short_explanation": "Bei einem freiwilligen Umtausch kann der Betrieb etwa Sonderanfertigungen, geöffnete Hygieneartikel und verderbliche Lebensmittel ausschließen.",
+  "detailed_explanation": "Ein Umtausch wegen Nichtgefallens und die Rechte bei einem Mangel sind verschieden. Bedingungen einer freiwilligen Rücknahme beseitigen gesetzliche Mängelrechte nicht. Für die Auswahl ist deshalb maßgeblich, welche Aussagen einen freiwilligen Umtausch betreffen.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-2.4",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-2.4",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Offene Antwort in geschlossene Auswahl überführt; Antwortalternativen und Übungslösung redaktionell erstellt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "legal": true,
+  "checks": [
+    {
+      "kind": "legal_waiver",
+      "date": "2026-09-26",
+      "text": "Rechtsabgleich auf ausdrückliche Nutzeranweisung vom 26.09.2026 ausgesetzt; keine abgeschlossene Rechtsprüfung behauptet."
+    }
+  ],
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Nach Kundenwunsch angefertigte Ware."
+      },
+      {
+        "id": "choice-2",
+        "text": "Geöffnete Hygieneartikel."
+      },
+      {
+        "id": "choice-3",
+        "text": "Schnell verderbliche Lebensmittel."
+      },
+      {
+        "id": "choice-4",
+        "text": "Jede mangelhafte Ware, sodass alle gesetzlichen Mängelrechte entfallen."
+      },
+      {
+        "id": "choice-5",
+        "text": "Jede Ware mit Kassenbon, sodass alle gesetzlichen Mängelrechte entfallen."
+      }
+    ],
+    "required_answers": 3
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-2",
+      "choice-3"
+    ]
+  }
+}

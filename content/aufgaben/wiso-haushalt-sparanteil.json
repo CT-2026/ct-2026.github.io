@@ -1,0 +1,17 @@
+{
+  "id": "wiso-haushalt-sparanteil",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Den Sparanteil ermitteln",
+  "materials": [],
+  "help": "Berechne den Restbetrag und teile ihn durch die gesamten Einnahmen.",
+  "short_explanation": "2.000 € − 1.700 € = 300 €. Das sind 15 % der Einnahmen.",
+  "detailed_explanation": "Der Grundwert ist das Einkommen: 300 ÷ 2.000 × 100 = 15. Die Ausgaben sind hier nicht der Bezugswert.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

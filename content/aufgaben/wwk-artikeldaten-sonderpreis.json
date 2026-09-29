@@ -1,0 +1,31 @@
+{
+  "id": "wwk-artikeldaten-sonderpreis",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Sonderpreise im Warenwirtschaftssystem erfassen",
+  "materials": [],
+  "help": "An der Kasse wird der Preis über den Strichcode aus dem System gelesen. Was muss sich für die Aktion ändern?",
+  "short_explanation": "Für die Aktion sollen an der Kasse Sonderpreise gelten. Weil die Kasse den Preis über den Strichcode aus dem Warenwirtschaftssystem abruft, müssen die neuen Preise dort für den Aktionszeitraum eingegeben werden.",
+  "detailed_explanation": "Die Scannerkasse liest nur die GTIN des Artikels. Den Preis holt sie aus dem Warenwirtschaftssystem. Damit Kundinnen und Kunden den Sonderpreis bezahlen, muss er für den Aktionszeitraum im System hinterlegt sein.\n\nAndere Angaben des Artikels – Artikelnummer, Bezeichnung, Lieferer, GTIN – bleiben gleich. Die Reihenfolge der Ziffern im Strichcode ändert sich nie. Umschlagshäufigkeit und Soll-Bestand ändern sich erst durch die Verkäufe; sie werden vom System berechnet und nicht von Hand eingegeben.",
+  "error_paths": [
+    {
+      "id": "gtin-aendert-sich",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die GTIN ist eine feste Artikelnummer und enthält keinen Preis. Sie ändert sich durch eine Preisaktion nicht."
+    },
+    {
+      "id": "berechnete-werte",
+      "choice_ids": [
+        "choice-4",
+        "choice-5"
+      ],
+      "text": "Umschlagshäufigkeit und Soll-Bestand berechnet das System aus den Verkäufen. Sie werden nicht vorab von Hand eingegeben."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

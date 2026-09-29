@@ -1,0 +1,70 @@
+{
+  "id": "incoming-probe-5-2",
+  "revision": 1,
+  "area": "verkauf",
+  "subtopic": "praesentation",
+  "variant_group": "verkauf.praesentation",
+  "title": "Verkaufszonen und Warengruppen",
+  "stem": "Ordnen Sie den zwei Verkaufszonen jeweils eine dort übliche Warengruppe zu.",
+  "materials": [],
+  "requires": [],
+  "help": "Auf spontane Kleinkäufe und saisonale Angebote achten.",
+  "short_explanation": "An der Kasse werden häufig kleine Impulsartikel angeboten; eine Aktionsfläche zeigt wechselnde saisonale Ware.",
+  "detailed_explanation": "Die Platzierung verbindet Einkaufsweg und Bedarf. Kleine Süßwaren passen zu kurzen Warte- und Entscheidungszeiten an der Kasse. Saisonartikel können auf einer gesonderten Aktionsfläche als zusammenhängendes Angebot präsentiert werden.",
+  "origin": {
+    "kind": "adapted",
+    "source": {
+      "project": "incoming",
+      "id": "probeklausur-5.2",
+      "revision": 1,
+      "key": "incoming/to-integrate.md#probeklausur-5.2",
+      "document": "incoming/to-integrate.md"
+    },
+    "changes": [
+      "Freie Nennung zweier Zonen und Warengruppen in Zuordnung zu zwei vorgegebenen Verkaufszonen überführt."
+    ],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "matching",
+    "targets": [
+      {
+        "id": "target-1",
+        "text": "Kassenzone"
+      },
+      {
+        "id": "target-2",
+        "text": "Aktionszone"
+      }
+    ],
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Kleine Süßwaren und Kaugummi."
+      },
+      {
+        "id": "choice-2",
+        "text": "Saisonale Schulartikel zum Schulstart."
+      },
+      {
+        "id": "choice-3",
+        "text": "Schwere Paletten mit Baustoffen im Kassenweg."
+      }
+    ],
+    "reuse_choices": false
+  },
+  "solution": {
+    "matches": [
+      {
+        "target_id": "target-1",
+        "choice_id": "choice-1"
+      },
+      {
+        "target_id": "target-2",
+        "choice_id": "choice-2"
+      }
+    ]
+  }
+}

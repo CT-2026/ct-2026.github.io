@@ -1,0 +1,54 @@
+{
+  "id": "incoming-plakos-2864",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ergebnis",
+  "title": "Umsatz und Gewinn",
+  "stem": "Welche unternehmerische Kennzahl ist in der Regel höher – Gewinn oder Umsatz?",
+  "materials": [],
+  "requires": [],
+  "help": "Den Kostenabzug berücksichtigen.",
+  "short_explanation": "Der Umsatz ist in der Regel höher, weil für den Gewinn die Kosten abgezogen werden.",
+  "detailed_explanation": "Im einfachen Handelsbeispiel ergeben 10.000 EUR Umsatz abzüglich 8.000 EUR Kosten einen Gewinn von 2.000 EUR. Umsatz beschreibt die Erlöse aus Verkäufen; Gewinn beschreibt den verbleibenden Erfolg.",
+  "origin": {
+    "kind": "adopted",
+    "source": {
+      "project": "incoming",
+      "id": "2864",
+      "revision": 1,
+      "key": "incoming/to-integrate2.md#2864",
+      "document": "incoming/to-integrate2.md"
+    },
+    "changes": [],
+    "notes": [
+      "Quelle und ursprüngliche Aufgabenfassung: content/incoming/auszuege.json. Erklärungen und Hilfen redaktionell ergänzt."
+    ]
+  },
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Der Gewinn"
+      },
+      {
+        "id": "choice-2",
+        "text": "Das ist abhängig vom Steuersatz des jeweiligen Unternehmens"
+      },
+      {
+        "id": "choice-3",
+        "text": "Der Umsatz"
+      },
+      {
+        "id": "choice-4",
+        "text": "Gewinn und Umsatz bezeichnen das Selbe, so sind beide gleich hoch."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  }
+}

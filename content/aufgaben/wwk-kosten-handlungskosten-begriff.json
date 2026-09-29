@@ -1,0 +1,32 @@
+{
+  "id": "wwk-kosten-handlungskosten-begriff",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Handlungskosten richtig erklären",
+  "materials": [],
+  "help": "Denke an die Kosten, die jeden Monat anfallen, damit das Geschäft geöffnet sein kann.",
+  "short_explanation": "Handlungskosten entstehen durch das Betreiben des Unternehmens, etwa für Personal, Miete, Energie und Werbung. Sie werden im Kalkulationsschema auf den Bezugspreis aufgeschlagen.",
+  "detailed_explanation": "Kalkulationsschema im Einzelhandel:\n- Bezugspreis\n- + Handlungskosten\n- = Selbstkostenpreis\n- + Gewinn\n- = Nettoverkaufspreis\n- + Umsatzsteuer\n- = Bruttoverkaufspreis\n\nDaraus folgt: Handlungskosten stecken nicht im Bezugspreis, sie enthalten weder Gewinn noch Umsatzsteuer, und ein Liefererrabatt senkt den Bezugspreis, nicht die Handlungskosten.",
+  "error_paths": [
+    {
+      "id": "schema-verwechselt",
+      "choice_ids": [
+        "choice-2",
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Im Kalkulationsschema stehen Bezugspreis, Handlungskosten, Gewinn und Umsatzsteuer nacheinander. Die Handlungskosten enthalten die anderen Posten nicht."
+    },
+    {
+      "id": "rabatt",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Ein Liefererrabatt senkt den Einkaufs- und damit den Bezugspreis. Die Handlungskosten bleiben davon unberührt."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

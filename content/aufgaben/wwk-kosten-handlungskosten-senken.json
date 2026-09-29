@@ -1,0 +1,32 @@
+{
+  "id": "wwk-kosten-handlungskosten-senken",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Handlungskosten senken",
+  "materials": [],
+  "help": "Handlungskosten entstehen durch den Betrieb des Geschäfts, etwa für Personal, Miete und Energie. Welche Antwort betrifft eine solche Kostenart?",
+  "short_explanation": "Stromkosten gehören zu den Handlungskosten – den Kosten, die durch das Betreiben des Geschäfts entstehen. Ein günstigerer Stromanbieter senkt sie direkt.",
+  "detailed_explanation": "Im Kalkulationsschema wirken die Maßnahmen an verschiedenen Stellen:\n- **Skonto, Liefererrabatt:** senken den Bezugspreis (Einkaufsseite).\n- **Lieferung frei Haus:** Bezugskosten fallen weg, ebenfalls auf der Einkaufsseite.\n- **Geringerer Gewinnzuschlag:** senkt den Verkaufspreis, nicht die Kosten.\n- **Günstigerer Strom:** senkt die Energiekosten und damit die Handlungskosten.\n\nZu den Handlungskosten zählen unter anderem Personalkosten, Miete, Energie, Werbung, Versicherungen und Abschreibungen.",
+  "error_paths": [
+    {
+      "id": "bezugspreis",
+      "choice_ids": [
+        "choice-1",
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Diese Maßnahme betrifft den Einkauf. Sie senkt den Bezugspreis, nicht die Handlungskosten."
+    },
+    {
+      "id": "gewinn",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Ein niedrigerer Gewinnzuschlag verringert den Verkaufspreis. Die Kosten des Geschäfts bleiben gleich."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

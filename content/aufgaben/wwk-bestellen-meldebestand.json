@@ -1,0 +1,52 @@
+{
+  "id": "wwk-bestellen-meldebestand",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestellen",
+  "variant_group": "wwk.bestellen",
+  "title": "Den Bestellzeitpunkt erkennen",
+  "stem": "Bei welchem Bestand muss nach dem angegebenen Modell spätestens nachbestellt werden?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "8 Stück"
+      },
+      {
+        "id": "choice-2",
+        "text": "24 Stück"
+      },
+      {
+        "id": "choice-3",
+        "text": "32 Stück"
+      },
+      {
+        "id": "choice-4",
+        "text": "80 Stück"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-nachbestellung",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Zum Bedarf während der Lieferzeit kommt die Reserve hinzu.",
+  "short_explanation": "6 × 4 + 8 = 32 Stück Meldebestand.",
+  "detailed_explanation": "Während der Lieferzeit werden 24 Stück benötigt. 8 Stück Reserve kommen hinzu. Der aktuelle Bestand erreicht bereits den Meldebestand; die Bestellung wird jetzt ausgelöst.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

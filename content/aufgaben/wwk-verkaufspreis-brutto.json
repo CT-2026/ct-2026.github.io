@@ -1,0 +1,47 @@
+{
+  "id": "wwk-verkaufspreis-brutto",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "verkaufspreis",
+  "variant_group": "wwk.verkaufspreis",
+  "title": "Vom Netto- zum Bruttopreis",
+  "stem": "Der Nettoverkaufspreis beträgt 40,00 €. Für die Rechnung ist ein Umsatzsteuersatz von 19 % vorgegeben. Welcher Bruttopreis ergibt sich?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "32,40 €"
+      },
+      {
+        "id": "choice-2",
+        "text": "40,19 €"
+      },
+      {
+        "id": "choice-3",
+        "text": "47,60 €"
+      },
+      {
+        "id": "choice-4",
+        "text": "59,00 €"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Zum Nettopreis kommen 19 % dieses Nettopreises hinzu.",
+  "short_explanation": "40,00 € × 1,19 = 47,60 €.",
+  "detailed_explanation": "Die Steuer beträgt 7,60 €. Der vorgegebene Satz wird hier als Rechengröße verwendet; aus der Aufgabe folgt keine steuerliche Einordnung eines konkreten Produkts.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

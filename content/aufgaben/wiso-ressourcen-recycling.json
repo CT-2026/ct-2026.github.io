@@ -1,0 +1,17 @@
+{
+  "id": "wiso-ressourcen-recycling",
+  "revision": 1,
+  "source": "wiso-web",
+  "title": "Stofflich wiederverwerten",
+  "materials": [],
+  "help": "Beim Recycling wird der Stoff für ein neues Produkt aufbereitet.",
+  "short_explanation": "Altglas einschmelzen und zu neuen Flaschen verarbeiten ist stoffliche Wiederverwertung.",
+  "detailed_explanation": "Eine intakte Palette erneut einzusetzen ist Wiederverwendung. Beim Einschmelzen wird dagegen der Stoff neu verarbeitet. Bloßes Lagern oder Entsorgen ist keine stoffliche Wiederverwertung.",
+  "origin": {
+    "kind": "adopted",
+    "changes": [],
+    "notes": [
+      "Gezielte Übernahme aus dem bisherigen Web-Bestand; Hilfen und Rückmeldungen redaktionell bearbeitet."
+    ]
+  }
+}

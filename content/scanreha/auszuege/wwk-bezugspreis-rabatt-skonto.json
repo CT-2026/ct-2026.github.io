@@ -1,0 +1,214 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-bezugspreis-rabatt-skonto",
+  "item": {
+    "id": "itm-636759c2-bb90-4fa3-913f-c2efafe3ac6a",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Bezugspreis mit Rabatt und Skonto",
+    "stem_md": "Sie erhalten die nebenstehenden 2 Angebote über Sweatshirts. Ermitteln Sie den Bezugspreis in Euro für ein Sweatshirt „Beta“ aus Angebot B.",
+    "response": {
+      "type": "numeric",
+      "required_answers": 1,
+      "choices": [],
+      "entries": [],
+      "unit": "EUR",
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-07d9cfd8-80ae-455b-a97e-334994e71af4",
+        "necessity": "required",
+        "placement": "before_stem",
+        "order": 3,
+        "reason": "Tabelle, Abbildung oder Auszug für die eigenständige Bearbeitung."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.kalkulation.bezugspreis",
+        "topic.beschaffung.skonto",
+        "topic.kalkulation.rabatt"
+      ],
+      "primary_topic_id": "topic.kalkulation.bezugspreis",
+      "methods": [
+        {
+          "term_id": "method.prozent.mehrstufig",
+          "role": "target"
+        }
+      ],
+      "competencies": [
+        "calculate"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/5",
+        "original_label": "6",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift und reine Scanmarker aus der Pooldarstellung entfernt.",
+      "Benötigtes Material separat zugeordnet; Verweise auf ursprüngliche Aufgabennummern angepasst, soweit vorhanden."
+    ],
+    "source_key": "AP-WS2023-7300-WWK:6"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Warenwirtschaft und Verkäufer / Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Semantisch bereinigte Arbeitsfassung für die Weiterverarbeitung.",
+      "Layoutartefakte, Scanränder und rein typografische Elemente wurden nicht übernommen.",
+      "Offensichtliche OCR-Fehler wurden nur dort korrigiert, wo die Seitenabbildung die Korrektur eindeutig belegt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-a1c1728a-b5d7-5312-9b06-f3e63682a8e8",
+      "revision": 1,
+      "item_id": "itm-636759c2-bb90-4fa3-913f-c2efafe3ac6a",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "14,85",
+      "answer": {
+        "value": "14.85",
+        "unit": "EUR",
+        "tolerance": null
+      },
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/5",
+        "original_label": "6",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "content_topic_ids": [
+        "topic.kalkulation.bezugspreis",
+        "topic.beschaffung.skonto",
+        "topic.kalkulation.rabatt"
+      ],
+      "content_method_ids": [
+        "method.prozent.mehrstufig"
+      ],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-a1c1728a-b5d7-5312-9b06-f3e63682a8e8",
+  "materials": [
+    {
+      "id": "mat-07d9cfd8-80ae-455b-a97e-334994e71af4",
+      "revision": 1,
+      "title": "Angebote für Sweatshirts Alpha und Beta",
+      "kind": "data_table",
+      "content_md": "|  | Angebot A | Angebot B |\n|---|---:|---:|\n| Artikel | Sweatshirt „Alpha“ | Sweatshirt „Beta“ |\n| Listenpreis | 17,80 € | 15,95 € |\n| Rabatt | 20 % | 5 % |\n| Skonto | 3 % | 2 % |\n| Bezugspreis | 13,81 € | ? |",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/5",
+        "original_label": "6",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ],
+  "other_materials": [
+    {
+      "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+      "title": "Unternehmen Maxikauf",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+      "title": "Wareneinkauf für die Sportabteilung",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-de6cf12a-7155-5c0f-beb6-3724b6318420",
+      "revision": 1,
+      "title": "Wareneinkauf für die Sportabteilung",
+      "kind": "scenario",
+      "content_md": "Sie sind in der Sportabteilung tätig und planen den Wareneinkauf von Sweatshirts.",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/contexts/3",
+        "original_label": "C04_10",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ]
+}

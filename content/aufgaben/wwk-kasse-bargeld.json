@@ -1,0 +1,14 @@
+{
+  "id": "wwk-kasse-bargeld",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Ablauf Bargeld kassieren",
+  "materials": [],
+  "help": "Beim Bargeld gilt: erst den Preis erfassen und nennen, dann das Geld annehmen, prüfen und Rückgeld geben. Das Geld des Kunden kommt erst danach in die Kasse.",
+  "short_explanation": "Der Preis wird erfasst und genannt. Dann wird das Geld angenommen, der Betrag genannt und die Echtheit der Scheine geprüft. Danach wird das Rückgeld vorgezählt, das Geld in die Kasse gelegt, die Kasse geschlossen und die Ware mit dem Bon übergeben.",
+  "detailed_explanation": "Kassieranweisung für Bargeld:\n1. Preis an der Kasse erfassen.\n2. Zu zahlenden Betrag laut und deutlich nennen.\n3. Bargeld entgegennehmen und die empfangene Summe laut nennen.\n4. Geldscheine auf Echtheit prüfen.\n5. Rückgeld entnehmen und dem Kunden laut vorzählen.\n6. Geld des Kunden in die Kasse legen und die Kasse schließen.\n7. Ware und Kassenbon übergeben.\n\nDer gegebene Schein bleibt sichtbar liegen, bis das Rückgeld vorgezählt ist. So lässt sich bei Unklarheiten („Ich habe Ihnen doch 50 € gegeben“) sofort nachprüfen, welcher Schein übergeben wurde.",
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

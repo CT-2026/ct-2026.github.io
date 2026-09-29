@@ -1,0 +1,38 @@
+{
+  "id": "wwk-kosten-preisuntergrenze",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Verlustfreie Preisuntergrenze für Fußballschuhe",
+  "materials": [],
+  "help": "Ohne Verlust verkauft, wer alle Kosten deckt. Welche Stufe im Kalkulationsschema enthält alle Kosten? Und was muss der Kunde zusätzlich immer bezahlen?",
+  "short_explanation": "Verlust entsteht, sobald der Preis die Selbstkosten (Bezugspreis + Handlungskosten) nicht mehr deckt. Da der Kunde einen Bruttopreis zahlt, liegt die Untergrenze beim Selbstkostenpreis zuzüglich Umsatzsteuer.",
+  "detailed_explanation": "Kalkulationsschema:\n- Bezugspreis + Handlungskosten = **Selbstkostenpreis**\n- + Gewinn = Nettoverkaufspreis\n- + Umsatzsteuer = Bruttoverkaufspreis\n\nBei einem Preisnachlass kann der Händler höchstens auf seinen Gewinn verzichten. Deckt der Preis die Selbstkosten gerade noch, entsteht weder Gewinn noch Verlust. Die Umsatzsteuer muss der Händler immer an das Finanzamt abführen, sie muss also im Preis enthalten sein.\n\nBeim Bezugspreis blieben die Handlungskosten ungedeckt. Ein Nettoverkaufspreis zuzüglich Umsatzsteuer enthält noch den vollen Gewinn und ist deshalb keine Untergrenze.",
+  "error_paths": [
+    {
+      "id": "ohne-umsatzsteuer",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Umsatzsteuer muss der Händler an das Finanzamt abführen. Ein Preis ohne sie führt zu einem Verlust in Höhe der Steuer."
+    },
+    {
+      "id": "bezugspreis",
+      "choice_ids": [
+        "choice-3",
+        "choice-4"
+      ],
+      "text": "Beim Bezugspreis sind die Handlungskosten wie Personal, Miete und Energie nicht gedeckt. Das bedeutet Verlust."
+    },
+    {
+      "id": "mit-gewinn",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Der Nettoverkaufspreis enthält noch den vollen Gewinn. Auf ihn kann beim Preisnachlass verzichtet werden, er ist also keine Untergrenze."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "wiso-ziele-sozial",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.ziele",
+  "title": "Soziale Ziele auswählen",
+  "stem": "Welche zwei Maßnahmen verfolgen ausdrücklich soziale Ziele für Beschäftigte?",
+  "response": {
+    "type": "multiple_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Ein Hilfsfonds für Beschäftigte in akuten Notlagen"
+      },
+      {
+        "id": "choice-2",
+        "text": "Eine Aktion ausschließlich zur Umsatzsteigerung"
+      },
+      {
+        "id": "choice-3",
+        "text": "Verlässliche Betreuung für Kinder von Beschäftigten"
+      },
+      {
+        "id": "choice-4",
+        "text": "Eine Preiserhöhung ausschließlich zur Gewinnsteigerung"
+      }
+    ],
+    "required_answers": 2
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-1",
+      "choice-3"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Soziale Ziele betreffen hier Lebens- und Arbeitsbedingungen.",
+  "short_explanation": "Hilfsfonds und Kinderbetreuung unterstützen Beschäftigte unmittelbar.",
+  "detailed_explanation": "Die anderen Maßnahmen nennen ausdrücklich Umsatz oder Gewinn als Hauptzweck. Auch soziale Maßnahmen können wirtschaftliche Vorteile haben.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

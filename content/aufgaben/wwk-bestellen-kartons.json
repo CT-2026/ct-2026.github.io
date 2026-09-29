@@ -1,0 +1,52 @@
+{
+  "id": "wwk-bestellen-kartons",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestellen",
+  "variant_group": "wwk.bestellen",
+  "title": "In Verpackungseinheiten bestellen",
+  "stem": "Du sollst den verfügbaren Bestand nach der angegebenen Formel auf den Zielbestand ergänzen. Wie viele volle Kartons sind zu bestellen?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "3 Kartons"
+      },
+      {
+        "id": "choice-2",
+        "text": "4 Kartons"
+      },
+      {
+        "id": "choice-3",
+        "text": "6 Kartons"
+      },
+      {
+        "id": "choice-4",
+        "text": "12 Kartons"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-nachbestellung",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Bestimme die fehlende Stückzahl und teile sie durch 12.",
+  "short_explanation": "(80 − 32) ÷ 12 = 4 Kartons.",
+  "detailed_explanation": "Vier Kartons enthalten 48 Stück. Bei der Bestellung muss die Einheit „Karton“ von der Einheit „Stück“ unterschieden werden.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "wwk-lagerkennzahlen-lagerdauer-begriff",
+  "revision": 1,
+  "source": "scanreha",
+  "title": "Lagerdauer erklären",
+  "materials": [],
+  "help": "Die Lagerdauer beschreibt, wie lange ein Artikel im Betrieb liegt, bevor er verkauft wird.",
+  "short_explanation": "Die Lagerdauer ist die Zeit vom Eingang eines Artikels im Lager bis zu seinem Verkauf. Je länger ein Artikel liegt, desto länger ist Kapital gebunden und desto höher sind die Lagerkosten.",
+  "detailed_explanation": "Die Lagerdauer beginnt mit dem Wareneingang und endet mit dem Verkauf. Als durchschnittliche Lagerdauer wird sie meist aus der Umschlagshäufigkeit berechnet:\n\ndurchschnittliche Lagerdauer = 360 Tage ÷ Umschlagshäufigkeit\n\nAbgrenzung:\n- Die Zeit von der Rechnung bis zur Zahlung ist das Zahlungsziel.\n- Die Zeit vom Meldebestand bis zur Lieferung ist die Lieferzeit (Beschaffungszeit).\n- Die Zeit ab der Bestellung umfasst auch die Lieferzeit, in der die Ware noch gar nicht im Lager ist.\n- Die Lagerdauer betrifft alle Lagerorte, nicht nur das Reservelager.",
+  "error_paths": [
+    {
+      "id": "zahlungsziel",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die Zeit vom Rechnungseingang bis zur Bezahlung ist das Zahlungsziel. Mit der Lagerdauer hat sie nichts zu tun."
+    },
+    {
+      "id": "lieferzeit",
+      "choice_ids": [
+        "choice-2"
+      ],
+      "text": "Vom Erreichen des Meldebestands bis zur Lieferung vergeht die Lieferzeit. In dieser Zeit liegt der neue Artikel noch gar nicht im Lager."
+    },
+    {
+      "id": "ab-bestellung",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Ab der Bestellung gerechnet wäre die Lieferzeit mitgezählt. Die Lagerdauer beginnt erst mit dem Wareneingang."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

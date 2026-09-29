@@ -1,0 +1,52 @@
+{
+  "id": "wwk-bestellen-menge",
+  "revision": 1,
+  "area": "wwk",
+  "subtopic": "bestellen",
+  "variant_group": "wwk.bestellen",
+  "title": "Die Bestellmenge bestimmen",
+  "stem": "Wie viele Stück sind nach der angegebenen Zielbestandsformel zu bestellen?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "24 Stück"
+      },
+      {
+        "id": "choice-2",
+        "text": "32 Stück"
+      },
+      {
+        "id": "choice-3",
+        "text": "48 Stück"
+      },
+      {
+        "id": "choice-4",
+        "text": "80 Stück"
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-3"
+    ]
+  },
+  "materials": [
+    {
+      "id": "mat-nachbestellung",
+      "placement": "before_stem"
+    }
+  ],
+  "requires": [],
+  "help": "Ergänze den vorhandenen Bestand auf 80 Stück; es gibt keine offene Bestellung.",
+  "short_explanation": "80 − 32 − 0 = 48 Stück.",
+  "detailed_explanation": "Bestellt wird nur die fehlende Menge. Der Zielbestand ist nicht selbst die Bestellmenge. Die Modellformel berücksichtigt bereits klar, welche Größen einfließen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive betriebliche Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

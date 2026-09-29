@@ -1,0 +1,56 @@
+{
+  "id": "wiso-unfallstatistik-auswerten",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Unfallstatistik auswerten",
+  "materials": [
+    {
+      "id": "mat-unfallstatistik-uv",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Jede Aussage einzeln an genau einer Zeile der Tabelle prüfen. Maßgeblich sind die Spalten „Vorjahr“ und „Aktuelles Jahr“: Ist der Wert im aktuellen Jahr größer, hat er zugenommen.",
+  "short_explanation": "Richtig sind zwei Aussagen: Im Vorjahr gab es mehr meldepflichtige Wegeunfälle (223.973 gegenüber 188.452), und die tödlichen Wegeunfälle haben zugenommen (von 367 auf 394).",
+  "detailed_explanation": "Vorgehen beim Auswerten einer Statistik:\n- Zuerst die Überschriften der Zeilen und Spalten lesen.\n- Für jede Aussage die passende Zeile suchen.\n- Vorjahr und aktuelles Jahr vergleichen. Das Vorzeichen in der Spalte „Veränderung in %“ zeigt, ob ein Wert gestiegen (+) oder gesunken (−) ist.\n\nIn dieser Statistik sind alle meldepflichtigen Unfälle zurückgegangen. Bei den tödlichen Unfällen sind nur die Wegeunfälle gestiegen, und zwar um 27. Die tödlichen Arbeitsunfälle sind um 21 gesunken. Deshalb haben die tödlichen Unfälle insgesamt leicht zugenommen, nämlich um 6.",
+  "error_paths": [
+    {
+      "id": "arbeitsunfaelle-gesunken",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Die meldepflichtigen Arbeitsunfälle haben abgenommen: von 954.459 im Vorjahr auf 919.025 im aktuellen Jahr."
+    },
+    {
+      "id": "toedliche-arbeitsunfaelle-gesunken",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Die tödlichen Arbeitsunfälle haben abgenommen: von 519 auf 498 (− 4,05 %)."
+    },
+    {
+      "id": "toedliche-unfaelle-gestiegen",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Die tödlichen Unfälle zusammen haben leicht zugenommen: von 886 auf 892 (+ 0,68 %). Das Vorzeichen in der letzten Spalte beachten."
+    },
+    {
+      "id": "vergleich-umgedreht",
+      "choice_ids": [
+        "choice-6"
+      ],
+      "text": "Im Vorjahr gab es mehr meldepflichtige Unfälle als im aktuellen Jahr: 1.178.432 gegenüber 1.107.477. Die Aussage dreht den Vergleich um."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  },
+  "checks": [
+    {
+      "kind": "content",
+      "date": "2026-09-25",
+      "text": "Lösung (Aussagen 2 und 4) und alle Zahlenangaben der Rückmeldungen an den Tabellenwerten nachgerechnet; automatisierte Prüfung in test/content.test.js."
+    }
+  ]
+}

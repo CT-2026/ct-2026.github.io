@@ -1,0 +1,49 @@
+{
+  "id": "wwk-wws-zugriff",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Vorteil des Warenwirtschaftssystems für Mitarbeitende",
+  "materials": [
+    {
+      "id": "mat-wws-maxikauf",
+      "placement": "before_stem"
+    }
+  ],
+  "help": "Ein Warenwirtschaftssystem verbindet die Daten aus Einkauf, Lager und Verkauf in einem System.",
+  "short_explanation": "Das Warenwirtschaftssystem führt die Daten aus Einkauf, Lager und Verkauf zusammen. Beschäftigte können darin nachsehen, ob ein Artikel vorrätig, bestellt oder schon verkauft ist.",
+  "detailed_explanation": "Vorteile des Warenwirtschaftssystems für die tägliche Arbeit:\n- schneller Zugriff auf Bestände, Bestellungen und Liefertermine,\n- verlässliche Auskunft für Kundinnen und Kunden,\n- weniger Nachfragen bei Kollegen und im Lager.\n\nDas System schließt aber nicht jeden Fehler aus. An der Kasse kann weiterhin falsch kassiert werden, und Mängel an der Ware erkennt nur, wer sie prüft. Personenbezogene Daten von Kolleginnen und Kollegen sind geschützt und nicht für alle zugänglich. Die Absatzzahlen von Mitbewerbern sind Geschäftsgeheimnisse und stehen nicht zur Verfügung.",
+  "error_paths": [
+    {
+      "id": "fehler-ausgeschlossen",
+      "choice_ids": [
+        "choice-1"
+      ],
+      "text": "Ein Warenwirtschaftssystem kann Kassierfehler verringern, aber nicht ausschließen – etwa beim Herausgeben von Wechselgeld."
+    },
+    {
+      "id": "personaldaten",
+      "choice_ids": [
+        "choice-3"
+      ],
+      "text": "Personenbezogene Daten von Beschäftigten sind geschützt. Sie sind kein allgemein abrufbarer Vorteil des Systems."
+    },
+    {
+      "id": "mitbewerber",
+      "choice_ids": [
+        "choice-4"
+      ],
+      "text": "Warenwirtschaftssysteme verschiedener Unternehmen sind nicht miteinander verbunden. Absatzzahlen von Mitbewerbern sind deren Geschäftsgeheimnis."
+    },
+    {
+      "id": "maengelpruefung",
+      "choice_ids": [
+        "choice-5"
+      ],
+      "text": "Mängel an der Ware erkennt nur, wer sie prüft. Das System erfasst Mengen und Werte, nicht die Beschaffenheit."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

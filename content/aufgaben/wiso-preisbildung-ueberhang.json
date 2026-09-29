@@ -1,0 +1,47 @@
+{
+  "id": "wiso-preisbildung-ueberhang",
+  "revision": 1,
+  "area": "wiso",
+  "subtopic": "wirtschaft",
+  "variant_group": "wiso.preisbildung",
+  "title": "Ein Angebotsüberhang",
+  "stem": "Zum aktuellen Preis werden 120 gleichartige Artikel angeboten, aber nur 80 nachgefragt. Welche Aussage passt?",
+  "response": {
+    "type": "single_choice",
+    "choices": [
+      {
+        "id": "choice-1",
+        "text": "Es fehlen 40 Artikel."
+      },
+      {
+        "id": "choice-2",
+        "text": "Es besteht ein Angebotsüberhang von 40 Artikeln."
+      },
+      {
+        "id": "choice-3",
+        "text": "Die Nachfrage übersteigt das Angebot um 200 Artikel."
+      },
+      {
+        "id": "choice-4",
+        "text": "Angebot und Nachfrage sind ausgeglichen."
+      }
+    ]
+  },
+  "solution": {
+    "choice_ids": [
+      "choice-2"
+    ]
+  },
+  "materials": [],
+  "requires": [],
+  "help": "Vergleiche angebotene und nachgefragte Menge.",
+  "short_explanation": "120 − 80 = 40 Artikel Angebotsüberhang.",
+  "detailed_explanation": "Daraus kann Preisdruck nach unten entstehen. Eine konkrete Preisänderung lässt sich aus den Mengen allein nicht berechnen.",
+  "origin": {
+    "kind": "authored",
+    "changes": [],
+    "notes": [
+      "Eigene Übungsaufgabe für Etappe 6; fiktive Angaben, kein offizieller Prüfungsschlüssel."
+    ]
+  }
+}

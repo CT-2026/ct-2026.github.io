@@ -1,0 +1,209 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wiso-wirtschaftsbereiche",
+  "item": {
+    "id": "itm-f1e2d3c4-0001-4000-8000-000000000001",
+    "revision": 4,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Wirtschaftsbereiche",
+    "stem_md": "Ordnen Sie 3 der insgesamt 6 Tätigkeiten den Wirtschaftsbereichen zu.",
+    "response": {
+      "type": "matching",
+      "required_answers": 3,
+      "choices": [
+        {
+          "id": "choice-1",
+          "original_label": "1",
+          "text_md": "Die Krankenkasse zahlt Mutterschaftsgeld."
+        },
+        {
+          "id": "choice-2",
+          "original_label": "2",
+          "text_md": "Ein Juwelier verkauft ein Armband."
+        },
+        {
+          "id": "choice-3",
+          "original_label": "3",
+          "text_md": "Die Polizei führt eine Verkehrskontrolle durch."
+        },
+        {
+          "id": "choice-4",
+          "original_label": "4",
+          "text_md": "Ein Urlauber bucht ein Zimmer im Hotel."
+        },
+        {
+          "id": "choice-5",
+          "original_label": "5",
+          "text_md": "Ein Landwirt erntet Gemüse."
+        },
+        {
+          "id": "choice-6",
+          "original_label": "6",
+          "text_md": "Ein Bäcker backt Brot und Brötchen."
+        }
+      ],
+      "entries": [],
+      "targets": [
+        {
+          "id": "target-1",
+          "text_md": "Urproduktion"
+        },
+        {
+          "id": "target-2",
+          "text_md": "Verarbeitung"
+        },
+        {
+          "id": "target-3",
+          "text_md": "Güterverteilung"
+        }
+      ],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-a1b2c3d4-0001-4000-8000-000000000001",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Ursprungskontext"
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.wirtschaft.wirtschaftsbereiche"
+      ],
+      "primary_topic_id": "topic.wirtschaft.wirtschaftsbereiche",
+      "methods": [],
+      "competencies": [
+        "match"
+      ],
+      "basis": "editorial_reading_of_verified_scan_transcription",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "WS-2023-VK-WI",
+        "source_file": "../WS-2023-VK-WI-strukturiert.json",
+        "json_pointer": "/units/0",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": "../../WS-2023-VK-WI - 0021.tif",
+        "printed_page": 2,
+        "original_scan_reference": "../WS-2023-VK-WI - 0021(1).tif"
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "temporal_sensitivity": "stable_for_historical_exercise",
+    "difficulty": {
+      "level": null,
+      "basis": "unrated"
+    },
+    "estimated_minutes": null,
+    "points": null,
+    "duplicate_family_id": null,
+    "scenario_group_id": null,
+    "editorial_changes": [
+      "Satz „Übertragen Sie anschließend Ihre senkrecht angeordneten Lösungsziffern in dieser Reihenfolge von links nach rechts in den Lösungsbogen!“ ersatzlos gestrichen.",
+      "Papiermechanik aus Arbeitsanweisung entfernt und auf fachliche Zuordnung reduziert."
+    ],
+    "source_key": "WS-2023-VK-WI:1"
+  },
+  "document": {
+    "id": "WS-2023-VK-WI",
+    "revision": 3,
+    "title": "Winter 2023/24 – VK WI – Aufgaben 1 bis 31, Seiten 2 bis 8",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wiso",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "occupation_basis": "Zielpool durch Nutzer vorgegeben; die Berufsbezeichnung der Originalprüfung wurde aus den vorliegenden Innenseiten nicht als Dokumentmetadatum abgeleitet.",
+    "import_file": "../WS-2023-VK-WI-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Direkte strukturierte Transkription der sieben bereitgestellten TIFF-Seiten 2 bis 8.",
+      "Die bereitgestellten Seiten enthalten die fortlaufenden Aufgaben 1 bis 31; Seite 8 endet anschließend mit dem Hinweis „PRÜFUNGSZEIT – NICHT BESTANDTEIL DER PRÜFUNG!“.",
+      "Eine Titelseite beziehungsweise Seite 1 liegt nicht vor. Die Original-Berufsbezeichnung wird deshalb nicht aus den Innenseiten ergänzt; source_occupation bleibt null. Die Prüfungsart ist entsprechend den übrigen Dokumenten derselben Prüfungsserie als Abschlussprüfung eingeordnet.",
+      "Reine Lösungsbogenmechanik wurde in der Poolfassung nur dort entfernt oder neutralisiert, wo dies in editorial_changes dokumentiert ist.",
+      "Bei Aufgabe 29 ist die Optionsziffer 4 und bei Aufgabe 31 die Optionsziffer 2 durch Lochungen verdeckt; beide Ziffern wurden aus der lückenlosen Reihenfolge der sichtbaren Antwortpositionen rekonstruiert."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-0e1076a4-4829-5617-8774-c6cd819aac84",
+      "revision": 1,
+      "item_id": "itm-f1e2d3c4-0001-4000-8000-000000000001",
+      "item_revision": 4,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "5;6;2",
+      "answer": {
+        "matches": [
+          {
+            "target_id": "target-1",
+            "choice_id": "choice-5"
+          },
+          {
+            "target_id": "target-2",
+            "choice_id": "choice-6"
+          },
+          {
+            "target_id": "target-3",
+            "choice_id": "choice-2"
+          }
+        ]
+      },
+      "source": {
+        "document_id": "WS-2023-VK-WI",
+        "source_file": "../WS-2023-VK-WI-strukturiert.json",
+        "json_pointer": "/units/0",
+        "original_label": "1",
+        "parent_label": null,
+        "scan_file": "../../WS-2023-VK-WI - 0021.tif",
+        "printed_page": 2,
+        "original_scan_reference": "../WS-2023-VK-WI - 0021(1).tif"
+      },
+      "content_topic_ids": [
+        "topic.wirtschaft.wirtschaftsbereiche"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "authored",
+      "review_status": "reviewed",
+      "valid_as_of": null,
+      "notes": [
+        "Lösung anhand der kanonischen Aufgabenfassung und der erforderlichen Materialien selbst erarbeitet und in diesem Lauf erneut geprüft; kein überlieferter oder offizieller Lösungsschlüssel."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-0e1076a4-4829-5617-8774-c6cd819aac84",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-a1b2c3d4-0001-4000-8000-000000000001",
+      "title": "Unternehmensbeschreibung",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Ursprungskontext"
+    }
+  ],
+  "prerequisites": []
+}

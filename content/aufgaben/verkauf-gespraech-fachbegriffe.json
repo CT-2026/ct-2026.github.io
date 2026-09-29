@@ -1,0 +1,32 @@
+{
+  "id": "verkauf-gespraech-fachbegriffe",
+  "revision": 2,
+  "source": "scanreha",
+  "title": "Verhalten beim Verkaufsgespräch",
+  "materials": [],
+  "help": "Welche Antwort hilft dem Kunden, die Ware zu verstehen?",
+  "short_explanation": "Fachbegriffe gehören zur fachkundigen Beratung, müssen aber erklärt werden. Eine verständliche Erklärung macht dem Kunden deutlich, was die Begriffe für ihn bedeuten.",
+  "detailed_explanation": "Sprache im Verkaufsgespräch:\n- deutlich und in angemessener Lautstärke sprechen,\n- Fachbegriffe verwenden und in verständliche Worte übersetzen,\n- den Kunden zu Wort kommen lassen und zuhören,\n- nicht zu viel und nicht zu wenig reden.\n\nWer zu laut oder zu leise spricht, ständig redet oder schweigt, erschwert das Gespräch und verfehlt die Bedürfnisse des Kunden.",
+  "error_paths": [
+    {
+      "id": "lautstaerke",
+      "choice_ids": [
+        "choice-1",
+        "choice-4"
+      ],
+      "text": "Zu laut wirkt aufdringlich, zu leise schwer verständlich. Angemessen und deutlich zu sprechen, erleichtert das Gespräch."
+    },
+    {
+      "id": "redeanteil",
+      "choice_ids": [
+        "choice-2",
+        "choice-3"
+      ],
+      "text": "Ein Verkaufsgespräch lebt vom Wechsel aus Fragen, Zuhören und Erklären. Dauerreden oder Schweigen verfehlt den Bedarf des Kunden."
+    }
+  ],
+  "origin": {
+    "kind": "adopted",
+    "changes": []
+  }
+}

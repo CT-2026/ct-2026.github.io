@@ -1,0 +1,301 @@
+{
+  "excerpt_version": 1,
+  "project": "scanreha",
+  "note": "Erzeugt durch tools/scanreha-auszug.js. Unveränderte Auszüge aus dem ScanReha-Pool; frühere Fassungen (previous_versions) sind weggelassen. Nicht von Hand bearbeiten.",
+  "pool": {
+    "pool_id": "scanreha-verkaeufer",
+    "revision": 22,
+    "updated_on": "2026-09-24"
+  },
+  "web_id": "wwk-warenannahme-ordnen",
+  "item": {
+    "id": "itm-46e9a390-4f06-56ec-bc44-f01a3fbd26fc",
+    "revision": 1,
+    "node_kind": "task",
+    "parent_item_id": null,
+    "title": "Warenannahme ordnen",
+    "stem_md": "Im Zusammenhang mit der Warenannahme der Hemden fallen verschiedene Aufgaben an. Bringen Sie die folgenden Tätigkeiten bei der Warenannahme in die richtige Reihenfolge!",
+    "response": {
+      "type": "ordering",
+      "required_answers": 5,
+      "choices": [],
+      "entries": [
+        {
+          "id": "entry-1",
+          "text_md": "Sie prüfen die Empfängeranschrift."
+        },
+        {
+          "id": "entry-2",
+          "text_md": "Sie unterschreiben die Warenbegleitpapiere."
+        },
+        {
+          "id": "entry-3",
+          "text_md": "Sie erfassen den Wareneingang im Warenwirtschaftssystem."
+        },
+        {
+          "id": "entry-4",
+          "text_md": "Sie prüfen die Anzahl und die äußere Beschaffenheit der Packstücke."
+        },
+        {
+          "id": "entry-5",
+          "text_md": "Sie lagern die Hemden ein."
+        }
+      ],
+      "unit": null,
+      "decimal_places": null,
+      "rounding_rule": null
+    },
+    "materials": [
+      {
+        "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+        "necessity": "original_frame",
+        "placement": "before_stem",
+        "order": 1,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      },
+      {
+        "material_id": "mat-d1d9d654-6a97-5320-ab55-ffdefb05dfc9",
+        "necessity": "supporting",
+        "placement": "before_stem",
+        "order": 2,
+        "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+      }
+    ],
+    "classification": {
+      "topic_ids": [
+        "topic.beschaffung.warenannahme"
+      ],
+      "primary_topic_id": "topic.beschaffung.warenannahme",
+      "methods": [],
+      "competencies": [
+        "order"
+      ],
+      "basis": "editorial_reading_of_supplied_source",
+      "status": "initial",
+      "date": "2026-09-13"
+    },
+    "sources": [
+      {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/units/12",
+        "original_label": "13",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/overview/existing_task_bindings/0",
+        "original_label": "9",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null,
+        "original_source": {
+          "source_key": "AP-WS2019-7300-WWK:9",
+          "existing_item_id": "itm-46e9a390-4f06-56ec-bc44-f01a3fbd26fc",
+          "existing_revision": 1
+        },
+        "source_note": "Zusätzliche Herkunft laut gelieferter Gleichheitszuordnung; keine neue Prüfung der PDF-Originalaufgabe."
+      },
+      {
+        "document_id": "AP-WS2019-7300-WWK",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/items/12/sources/1",
+        "original_label": "9",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 5,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK",
+          "source_file": "../to-check2.txt",
+          "json_pointer": "/pages/4/tasks/0",
+          "original_label": "9",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 5
+        }
+      }
+    ],
+    "readiness": {
+      "content": "complete_in_supplied_text",
+      "material": "complete_in_supplied_text",
+      "current_validity": "not_assessed"
+    },
+    "editorial_changes": [
+      "Ursprüngliche Aufgabenüberschrift und reine Scanmarker aus der Pooldarstellung entfernt.",
+      "Übertragung in den ursprünglichen Lösungsbogen entfernt; Reihenfolgeelemente separat erfasst.",
+      "Poolrevision 10: zusätzliche Prüfungsherkunft aus sammlung-ro-check-kanonisch.json ergänzt; Inhalt, Antwort-IDs und Materialien unverändert, Inhaltsrevision bleibt erhalten.",
+      "Zusätzliche belegte Herkunft aus to-check2 (Abschlussprüfung Winter 2019/20) ergänzt; vorhandene Item-Identität beibehalten.",
+      "Poolrevision 11: to-check2-Herkunft ergänzt; vorhandene kanonische ID beibehalten."
+    ],
+    "source_key": "AP-WS2023-7300-WWK:13"
+  },
+  "document": {
+    "id": "AP-WS2023-7300-WWK",
+    "revision": 1,
+    "title": "Abschlussprüfung Winter 2023/24 – 7300 – Warenwirtschaft und Verkäufer / Kalkulation",
+    "role": "exam_tasks",
+    "exam_kind": "abschluss",
+    "year_start": 2023,
+    "year_end": 2024,
+    "season": "winter",
+    "source_subject": "wwk",
+    "source_occupation": null,
+    "target_occupation": "Verkäufer/Verkäuferin",
+    "import_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+    "upstream_file": null,
+    "source_notes": [
+      "Semantisch bereinigte Arbeitsfassung für die Weiterverarbeitung.",
+      "Layoutartefakte, Scanränder und rein typografische Elemente wurden nicht übernommen.",
+      "Offensichtliche OCR-Fehler wurden nur dort korrigiert, wo die Seitenabbildung die Korrektur eindeutig belegt."
+    ]
+  },
+  "solutions": [
+    {
+      "id": "sol-80beb078-d9ba-53b5-9268-61211ab1f8f4",
+      "revision": 1,
+      "item_id": "itm-46e9a390-4f06-56ec-bc44-f01a3fbd26fc",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "1;3;4;2;5",
+      "answer": {
+        "ordered_entry_ids": [
+          "entry-1",
+          "entry-4",
+          "entry-2",
+          "entry-3",
+          "entry-5"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+        "source_file": "../to-check2-kanonisch.json",
+        "json_pointer": "/solutions/89/source",
+        "original_label": "9",
+        "parent_label": null,
+        "scan_file": "../to-check2(1).pdf",
+        "printed_page": 9,
+        "original_source": {
+          "document_id": "AP-WS2019-7300-WWK-LOESUNGEN",
+          "source_file": "../to-check2(1).pdf",
+          "json_pointer": null,
+          "original_label": "9",
+          "parent_label": null,
+          "scan_file": "../to-check2(1).pdf",
+          "printed_page": 9
+        }
+      },
+      "content_topic_ids": [
+        "topic.beschaffung.warenannahme"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": []
+    },
+    {
+      "id": "sol-975b5682-246c-531f-b900-6f116e59f009",
+      "revision": 1,
+      "item_id": "itm-46e9a390-4f06-56ec-bc44-f01a3fbd26fc",
+      "item_revision": 1,
+      "link_state": "linked",
+      "kind": "answer_key",
+      "content_md": "1;3;4;2;5",
+      "answer": {
+        "ordered_entry_ids": [
+          "entry-1",
+          "entry-4",
+          "entry-2",
+          "entry-3",
+          "entry-5"
+        ]
+      },
+      "source": {
+        "document_id": "AP-WS2019-7300-LOESUNGEN",
+        "source_file": "../sammlung-ro-check-kanonisch.json",
+        "json_pointer": "/solutions/8/source",
+        "original_label": "WWK 9",
+        "parent_label": null,
+        "scan_file": "../sammlung-ro-check.pdf",
+        "printed_page": null,
+        "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+        "original_source": {
+          "document_id": "AP-WS2019-7300-LOESUNGEN",
+          "source_file": "../sammlung-ro-check.pdf",
+          "json_pointer": null,
+          "original_label": "WWK 9",
+          "parent_label": null,
+          "scan_file": "../sammlung-ro-check.pdf",
+          "printed_page": null,
+          "original_scan_reference": "sammlung-ro-check.pdf#page=1",
+          "original_source": {
+            "document_id": "AP-WS2019-7300-LOESUNGEN",
+            "source_file": "../sammlung-to_check.pdf",
+            "json_pointer": null,
+            "original_label": "WWK 9",
+            "parent_label": null,
+            "scan_file": "../sammlung-to_check.pdf",
+            "printed_page": null
+          }
+        }
+      },
+      "content_topic_ids": [
+        "topic.beschaffung.warenannahme"
+      ],
+      "content_method_ids": [],
+      "section_labels": [],
+      "provenance": "official_solution_key",
+      "review_status": "not_assessed",
+      "valid_as_of": null,
+      "notes": [
+        "Aus dem offiziellen Lösungsschlüssel der bereitgestellten PDF transkribiert."
+      ]
+    }
+  ],
+  "answer_solution_id": "sol-80beb078-d9ba-53b5-9268-61211ab1f8f4",
+  "materials": [],
+  "other_materials": [
+    {
+      "material_id": "mat-e0ec3a77-6787-55b5-887b-03684781e811",
+      "title": "Unternehmen Maxikauf",
+      "necessity": "original_frame",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    },
+    {
+      "material_id": "mat-d1d9d654-6a97-5320-ab55-ffdefb05dfc9",
+      "title": "Rechnung über 250 Herrenhemden",
+      "necessity": "supporting",
+      "placement": "before_stem",
+      "reason": "Erhaltener Ursprungskontext; nicht automatisch ausgeben."
+    }
+  ],
+  "prerequisites": [],
+  "supporting_materials": [
+    {
+      "id": "mat-d1d9d654-6a97-5320-ab55-ffdefb05dfc9",
+      "revision": 1,
+      "title": "Rechnung über 250 Herrenhemden",
+      "kind": "data_table",
+      "content_md": "Mit der Lieferung von Herrenhemden erhalten Sie die auszugsweise abgebildete Rechnung.\n\n### Rechnung\n\n| Artikel-Nr. | Bezeichnung | Menge | Einzelpreis | Gesamtpreis |\n|---|---|---:|---:|---:|\n| 43287644 | Herrenhemd | 250 Stück | 12,00 € | 3.000,00 € |\n|  | ./. 10 % Rabatt |  |  | 300,00 € |\n|  |  |  |  | 2.700,00 € |\n|  | + Verpackung und Versand |  |  | 35,00 € |\n|  | Netto |  |  | 2.735,00 € |\n|  | + 19 % Umsatzsteuer |  |  | 519,65 € |\n|  | Brutto |  |  | 3.254,65 € |",
+      "parent_material_id": null,
+      "requires": [],
+      "source": {
+        "document_id": "AP-WS2023-7300-WWK",
+        "source_file": "../AP-WS2023-7300-WWK-strukturiert.json",
+        "json_pointer": "/contexts/4",
+        "original_label": "C11_15",
+        "parent_label": null,
+        "scan_file": null,
+        "printed_page": null
+      },
+      "assets": [],
+      "representation": "text_transcription"
+    }
+  ]
+}
